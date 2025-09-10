@@ -1,0 +1,50 @@
+on:
+  schedule:
+    - cron: '30 4 * * *'  # rebuild daily at 4:30 UTC
+  workflow_dispatch:
+
+name: sync
+
+jobs:
+  sync:
+    runs-on: [ubuntu-latest]
+    permissions:
+      # for commit changes
+      contents: write
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+      with:
+        submodules: true
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c # v5.0.0
+      with:
+        python-version: "3.12"
+
+    - name: install hcli
+      run: |
+        git clone https://github.com/HexRaysSA/ida-hcli.git ${{ runner.temp }}/ida-hcli
+        cd ${{ runner.temp }}/ida-hcli && git checkout plugin-manager && cd -
+        pip install --editable ${{ runner.temp }}/ida-hcli
+
+    - name: snapshot repo
+      run: |
+          python -m hcli.main plugin --repo github repo snapshot > plugin-repository.json
+          cat plugin-repository.json
+          git diff plugin-repository.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        HCLI_DISABLE_UPDATES: 1
+        TTY_COMPATIBLE: 0
+        TTY_INTERACTIVE: 0
+
+    - name: commit
+      run: |
+        git config --global user.email "bot@example.com"
+        git config --global user.name "Hex-Rays (GH Action)"
+        git add plugin-repository.json
+        git commit -m "sync plugin-repository.json" || echo "no changes"
+
+    - name: push
+      uses: ad-m/github-push-action@master
