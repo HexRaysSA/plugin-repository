@@ -43,10 +43,10 @@
                     },
                     "name": "IPyIDA",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "c75d9e8258646193cf9602d6dee62340e8c6d7718e95a535748ad2469fc317df",
                     "url": "https://codeload.github.com/ida-community-plugins/hcli-ipyida/legacy.zip/7c24619d8993d1155705f804d5761694951e418a",
@@ -92,10 +92,10 @@
                     },
                     "name": "IPyIDA",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "c75d9e8258646193cf9602d6dee62340e8c6d7718e95a535748ad2469fc317df",
                     "url": "https://codeload.github.com/ida-community-plugins/hcli-ipyida/legacy.zip/7c24619d8993d1155705f804d5761694951e418a",
@@ -146,10 +146,10 @@
                     },
                     "name": "bookmark-hints",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -193,10 +193,10 @@
                     },
                     "name": "bookmark-hints",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -247,10 +247,10 @@
                     },
                     "name": "colorize-calls",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -294,10 +294,10 @@
                     },
                     "name": "colorize-calls",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -348,10 +348,10 @@
                     },
                     "name": "extensible-hints",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -395,10 +395,10 @@
                     },
                     "name": "extensible-hints",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -449,10 +449,10 @@
                     },
                     "name": "hint-calls",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -496,10 +496,10 @@
                     },
                     "name": "hint-calls",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -550,10 +550,10 @@
                     },
                     "name": "navband-visited",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -597,10 +597,10 @@
                     },
                     "name": "navband-visited",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -653,10 +653,10 @@
                     },
                     "name": "oplog",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -702,10 +702,10 @@
                     },
                     "name": "oplog",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -756,10 +756,10 @@
                     },
                     "name": "tag-func",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
@@ -803,14 +803,141 @@
                     },
                     "name": "tag-func",
                     "platforms": [
-                        "windows-x86_64",
+                        "linux-x86_64",
                         "macos-aarch64",
                         "macos-x86_64",
-                        "linux-x86_64"
+                        "windows-x86_64"
                     ],
                     "sha256": "09d27d40f7622186c7201fe40d48dc8fa6075e311fa5e49b827b4d1e57d024de",
                     "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/6c2402539762e32ecd15fa0d80244922979adb04",
                     "version": "v0.1.1"
+                }
+            ]
+        }
+    },
+    {
+        "name": "vt-ida-plugin",
+        "versions": {
+            "1.0.0": [
+                {
+                    "ida_versions": ">=8",
+                    "metadata": {
+                        "IDAMetadataDescriptorVersion": 2,
+                        "plugin": {
+                            "authors": [
+                                {
+                                    "email": "gerardofn@google.com",
+                                    "name": "Gerardo Fernandez"
+                                }
+                            ],
+                            "categories": [
+                                "ui-ux-and-visualization",
+                                "integration-with-third-parties-interoperability"
+                            ],
+                            "description": "Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.",
+                            "entryPoint": "vt.py",
+                            "idaVersions": ">=8",
+                            "keywords": [
+                                "virustotal",
+                                "vt",
+                                "code-similarity",
+                                "code-insight"
+                            ],
+                            "license": "Apache 2.0",
+                            "logoPath": null,
+                            "maintainers": [
+                                {
+                                    "email": "wballenthin@hex-rays.com",
+                                    "name": "Willi Ballenthin"
+                                }
+                            ],
+                            "name": "vt-ida-plugin",
+                            "platforms": [
+                                "linux-x86_64",
+                                "macos-aarch64",
+                                "macos-x86_64",
+                                "windows-x86_64"
+                            ],
+                            "pythonDependencies": [
+                                "requests"
+                            ],
+                            "urls": {
+                                "homepage": null,
+                                "repository": "https://github.com/ida-community-plugins/vt-ida-plugin"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "name": "vt-ida-plugin",
+                    "platforms": [
+                        "linux-x86_64",
+                        "macos-aarch64",
+                        "macos-x86_64",
+                        "windows-x86_64"
+                    ],
+                    "sha256": "9b821178ba758e3bb2aac7adf30f4cab3a3255ec1036cc5501308590126cc696",
+                    "url": "https://codeload.github.com/ida-community-plugins/vt-ida-plugin/legacy.zip/ffdc0085276feb444fbda78806f936e0568354d4",
+                    "version": "1.0.0"
+                },
+                {
+                    "ida_versions": ">=8",
+                    "metadata": {
+                        "IDAMetadataDescriptorVersion": 2,
+                        "plugin": {
+                            "authors": [
+                                {
+                                    "email": "gerardofn@google.com",
+                                    "name": "Gerardo Fernandez"
+                                }
+                            ],
+                            "categories": [
+                                "ui-ux-and-visualization",
+                                "integration-with-third-parties-interoperability"
+                            ],
+                            "description": "Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.",
+                            "entryPoint": "vt.py",
+                            "idaVersions": ">=8",
+                            "keywords": [
+                                "virustotal",
+                                "vt",
+                                "code-similarity",
+                                "code-insight"
+                            ],
+                            "license": "Apache 2.0",
+                            "logoPath": null,
+                            "maintainers": [
+                                {
+                                    "email": "wballenthin@hex-rays.com",
+                                    "name": "Willi Ballenthin"
+                                }
+                            ],
+                            "name": "vt-ida-plugin",
+                            "platforms": [
+                                "linux-x86_64",
+                                "macos-aarch64",
+                                "macos-x86_64",
+                                "windows-x86_64"
+                            ],
+                            "pythonDependencies": [
+                                "requests"
+                            ],
+                            "urls": {
+                                "homepage": null,
+                                "repository": "https://github.com/ida-community-plugins/vt-ida-plugin"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "name": "vt-ida-plugin",
+                    "platforms": [
+                        "linux-x86_64",
+                        "macos-aarch64",
+                        "macos-x86_64",
+                        "windows-x86_64"
+                    ],
+                    "sha256": "9b821178ba758e3bb2aac7adf30f4cab3a3255ec1036cc5501308590126cc696",
+                    "url": "https://codeload.github.com/ida-community-plugins/vt-ida-plugin/legacy.zip/ffdc0085276feb444fbda78806f936e0568354d4",
+                    "version": "1.0.0"
                 }
             ]
         }
