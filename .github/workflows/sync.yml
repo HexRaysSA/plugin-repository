@@ -17,20 +17,14 @@ jobs:
       with:
         submodules: true
 
-    - name: Set up Python 3.12
-      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c # v5.0.0
+    - name: Setup uv
+      uses: astral-sh/setup-uv@v6
       with:
-        python-version: "3.12"
-
-    - name: install hcli
-      run: |
-        git clone https://github.com/HexRaysSA/ida-hcli.git ${{ runner.temp }}/ida-hcli
-        cd ${{ runner.temp }}/ida-hcli && git checkout plugin-manager && cd -
-        pip install --editable ${{ runner.temp }}/ida-hcli
+        enable-cache: false
 
     - name: snapshot repo
       run: |
-          python -m hcli.main plugin --repo github repo snapshot > plugin-repository.json
+          uvx --from ida-hcli hcli plugin --repo github repo snapshot > plugin-repository.json
           cat plugin-repository.json
           git diff plugin-repository.json
       env:
