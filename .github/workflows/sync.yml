@@ -24,7 +24,7 @@ jobs:
 
     - name: snapshot repo
       run: |
-          uvx --from ida-hcli hcli plugin --repo github repo snapshot > plugin-repository.json
+          uvx --from ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt repo snapshot > plugin-repository.json
           cat plugin-repository.json
           git diff plugin-repository.json
       env:
