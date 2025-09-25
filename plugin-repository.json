@@ -1063,8 +1063,208 @@
                                 "version": "1.0.0"
                             }
                         },
+                        "sha256": "077140a13818301bf3dfa17797f8c0e35ae85554ac336a8725768c1ffa5e5651",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/426afe644286a662ec1e17e58171ea7066186528"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
                         "sha256": "cef5418b4521380c2bcd0f123b8e7162f3261581c6cfd665d4ba3c6e27d9d0b6",
                         "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/78cc05d9463d3962c524e171978d24280e403b47"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "38e418f39684ee4a81a06dfbc29a68c0073502f6e55b8c02ecc7598200920ca6",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/bde3dbbf9bbfcf9705d71fca847127c7dbb68656"
                     },
                     {
                         "metadata": {
@@ -1465,8 +1665,208 @@
                                 "version": "2.0.0"
                             }
                         },
+                        "sha256": "077140a13818301bf3dfa17797f8c0e35ae85554ac336a8725768c1ffa5e5651",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/426afe644286a662ec1e17e58171ea7066186528"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "2.0.0"
+                            }
+                        },
                         "sha256": "cef5418b4521380c2bcd0f123b8e7162f3261581c6cfd665d4ba3c6e27d9d0b6",
                         "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/78cc05d9463d3962c524e171978d24280e403b47"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "2.0.0"
+                            }
+                        },
+                        "sha256": "38e418f39684ee4a81a06dfbc29a68c0073502f6e55b8c02ecc7598200920ca6",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/bde3dbbf9bbfcf9705d71fca847127c7dbb68656"
                     },
                     {
                         "metadata": {
@@ -1869,8 +2269,212 @@
                                 "version": "3.0.0"
                             }
                         },
+                        "sha256": "077140a13818301bf3dfa17797f8c0e35ae85554ac336a8725768c1ffa5e5651",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/426afe644286a662ec1e17e58171ea7066186528"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "packaging==25.0"
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "3.0.0"
+                            }
+                        },
                         "sha256": "cef5418b4521380c2bcd0f123b8e7162f3261581c6cfd665d4ba3c6e27d9d0b6",
                         "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/78cc05d9463d3962c524e171978d24280e403b47"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "packaging==25.0"
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "3.0.0"
+                            }
+                        },
+                        "sha256": "38e418f39684ee4a81a06dfbc29a68c0073502f6e55b8c02ecc7598200920ca6",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/bde3dbbf9bbfcf9705d71fca847127c7dbb68656"
                     },
                     {
                         "metadata": {
@@ -2277,8 +2881,208 @@
                                 "version": "4.0.0"
                             }
                         },
+                        "sha256": "077140a13818301bf3dfa17797f8c0e35ae85554ac336a8725768c1ffa5e5651",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/426afe644286a662ec1e17e58171ea7066186528"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin with inline dependencies",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": "inline",
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "4.0.0"
+                            }
+                        },
                         "sha256": "cef5418b4521380c2bcd0f123b8e7162f3261581c6cfd665d4ba3c6e27d9d0b6",
                         "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/78cc05d9463d3962c524e171978d24280e403b47"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "an IDAPython source plugin with inline dependencies",
+                                "entryPoint": "plugin1.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "plugin1",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": "inline",
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "4.0.0"
+                            }
+                        },
+                        "sha256": "38e418f39684ee4a81a06dfbc29a68c0073502f6e55b8c02ecc7598200920ca6",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/bde3dbbf9bbfcf9705d71fca847127c7dbb68656"
                     },
                     {
                         "metadata": {
@@ -2827,8 +3631,88 @@
                                 "version": "1.0.0"
                             }
                         },
+                        "sha256": "077140a13818301bf3dfa17797f8c0e35ae85554ac336a8725768c1ffa5e5651",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/426afe644286a662ec1e17e58171ea7066186528"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": null,
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
                         "sha256": "cef5418b4521380c2bcd0f123b8e7162f3261581c6cfd665d4ba3c6e27d9d0b6",
                         "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/78cc05d9463d3962c524e171978d24280e403b47"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": null,
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-hcli"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "38e418f39684ee4a81a06dfbc29a68c0073502f6e55b8c02ecc7598200920ca6",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-hcli/legacy.zip/bde3dbbf9bbfcf9705d71fca847127c7dbb68656"
                     },
                     {
                         "metadata": {
