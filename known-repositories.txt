@@ -3,3 +3,4 @@ HexRays-plugin-contributions/capa
 HexRays-plugin-contributions/comida
 HexRays-plugin-contributions/deREferencing
 HexRays-plugin-contributions/ida_ifl
+williballenthin/idawilli
