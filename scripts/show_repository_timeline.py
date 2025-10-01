@@ -3,13 +3,12 @@
 # requires-python = ">=3.8"
 # dependencies = [
 #     "GitPython>=3.1.0",
-#     "rich>=13.0.0",
 # ]
 # ///
-"""Analyze changes to the IDA Pro plugin repository over time.
+"""Generate a Markdown timeline of IDA Pro plugin repository changes.
 
-This script examines git commits by the Hex-Rays bot and reports changes
-to plugins, versions, and metadata in a human-readable format.
+This script examines git commits that modify the plugin repository JSON file
+and generates a Markdown document showing the timeline of changes.
 """
 
 import json
@@ -19,13 +18,9 @@ from typing import Dict, List, Set, Tuple, Any, Optional
 
 try:
     import git
-    from rich.console import Console
-    from rich.text import Text
 except ImportError:
-    print("Error: Required libraries are missing. Install with: pip install GitPython rich")
+    print("Error: GitPython library is required. Install with: pip install GitPython")
     sys.exit(1)
-
-console = Console()
 
 
 def get_time_group(commit_date: datetime, now: datetime) -> str:
@@ -218,29 +213,36 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
     old_names = set(old_plugins.keys())
     new_names = set(new_plugins.keys())
 
-def format_change_line(symbol: str, symbol_color: str, plugin_name: str, details: str, plugin_url: str = "") -> str:
-    """Format a change line using Rich colors and links.
+def format_change_line(symbol: str, symbol_type: str, plugin_name: str, details: str, plugin_url: str = "") -> str:
+    """Format a change line using Markdown syntax.
 
     Args:
         symbol: The +, -, or ~ symbol
-        symbol_color: Color for the symbol
+        symbol_type: Type of change (add, remove, modify)
         plugin_name: Name of the plugin
         details: Additional details about the change
         plugin_url: URL to the plugin repository
 
     Returns:
-        Formatted string with Rich markup and links
+        Formatted string with Markdown syntax
     """
-    # Use Rich markup syntax for more reliable coloring
-    colored_symbol = f"[{symbol_color}]{symbol}[/{symbol_color}]"
+    # Use subtle Unicode symbols for different change types
+    if symbol_type == "add":
+        emoji_symbol = "(+)"
+    elif symbol_type == "remove":
+        emoji_symbol = "(−)"  # En dash (U+2212), not hyphen
+    elif symbol_type == "modify":
+        emoji_symbol = "(~)"
+    else:
+        emoji_symbol = f"({symbol})"
 
     # Make plugin name a link if URL provided
     if plugin_url:
-        colored_plugin = f"[link={plugin_url}][blue]{plugin_name}[/blue][/link]"
+        formatted_plugin = f"[**{plugin_name}**]({plugin_url})"
     else:
-        colored_plugin = f"[blue]{plugin_name}[/blue]"
+        formatted_plugin = f"**{plugin_name}**"
 
-    # Handle details with gray repository info
+    # Handle details with repository info
     if details and "(" in details and ")" in details:
         # Extract parts before, within, and after parentheses
         before_paren = details[:details.find("(")]
@@ -253,16 +255,16 @@ def format_change_line(symbol: str, symbol_color: str, plugin_name: str, details
         repo_url = f"https://github.com/{paren_content}" if paren_content else ""
 
         if repo_url:
-            colored_repo = f"[bright_black]([/bright_black][link={repo_url}][bright_black]{paren_content}[/bright_black][/link][bright_black])[/bright_black]"
+            formatted_repo = f"([{paren_content}]({repo_url}))"
         else:
-            colored_repo = f"[bright_black]({paren_content})[/bright_black]"
+            formatted_repo = f"({paren_content})"
 
-        return f"{colored_symbol} {colored_plugin}{before_paren}{colored_repo}{after_paren}"
+        return f"- {emoji_symbol} {formatted_plugin}{before_paren}{formatted_repo}{after_paren}"
     else:
         if details:
-            return f"{colored_symbol} {colored_plugin}{details}"
+            return f"- {emoji_symbol} {formatted_plugin}{details}"
         else:
-            return f"{colored_symbol} {colored_plugin}"
+            return f"- {emoji_symbol} {formatted_plugin}"
 
 
 def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[str]:
@@ -294,16 +296,16 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
         host_short = clean_github_url(plugin['host'])
         details = f" ({host_short})"
         plugin_url = plugin['host']
-        changes.append(format_change_line("+", "green", name, details, plugin_url))
+        changes.append(format_change_line("+", "add", name, details, plugin_url))
 
-        # Add version list on separate indented lines
+        # Add version list as nested Markdown list
         for version in versions:
-            changes.append(f"    [default]{version}[/default]")
+            changes.append(f"  - {version}")
 
     # Removed plugins
     removed_plugins = old_names - new_names
     for name in sorted(removed_plugins):
-        changes.append(format_change_line("-", "red", name, "", ""))
+        changes.append(format_change_line("-", "remove", name, "", ""))
 
     # Modified plugins
     common_plugins = old_names & new_names
@@ -393,42 +395,40 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
             host_short = clean_github_url(new_plugin['host'])
             details = f" ({host_short})"
             plugin_url = new_plugin['host']
-            changes.append(format_change_line("~", "yellow", name, details, plugin_url))
+            changes.append(format_change_line("~", "modify", name, details, plugin_url))
 
             # Add non-version-specific changes first
             for change in plugin_changes:
-                changes.append(f"   {change}")
+                changes.append(f"  - {change}")
 
             # Add version-specific changes grouped by version
             for version in sorted(version_changes.keys(), reverse=True):  # Newest first
-                changes.append(f"    [default]{version}[/default]")
+                changes.append(f"  - **{version}**")
                 for change in version_changes[version]:
-                    changes.append(f"      {change}")
+                    changes.append(f"    - {change}")
 
     return changes
 
 
 def analyze_repository_timeline(repo_path: str = '.'):
-    """Analyze the complete timeline of plugin repository changes.
+    """Generate a Markdown timeline of plugin repository changes.
 
     Args:
         repo_path: Path to the Git repository
     """
-    console.print("IDA Pro Plugin Repository Change Timeline", style="bold")
-    console.print("=" * 60)
+    print("# Timeline: IDA Pro plugin repository")
+    print()
 
     try:
         repo = git.Repo(repo_path)
     except git.exc.InvalidGitRepositoryError:
-        console.print(f"Error: '{repo_path}' is not a valid Git repository", style="red")
+        print(f"**Error:** '{repo_path}' is not a valid Git repository")
         return
 
     commits = get_json_modifying_commits(repo)
     if not commits:
-        console.print("No commits found that modify plugin-repository.json.")
+        print("No commits found that modify plugin-repository.json.")
         return
-
-    console.print(f"Found {len(commits)} commits that modify plugin-repository.json.\n")
 
     # Group commits by time periods
     grouped_commits = group_commits_by_time(commits)
@@ -450,8 +450,8 @@ def analyze_repository_timeline(repo_path: str = '.'):
     commit_data_map = {commit[0]: commit for commit in all_commits_data}
 
     for group_name, group_commits in grouped_commits.items():
-        console.print(group_name, style="bold yellow")
-        console.print("-" * len(group_name))
+        print(f"## {group_name}")
+        print()
 
         for commit_hash, commit_datetime, date_string, message, author in group_commits:
             commit_data = commit_data_map[commit_hash]
@@ -460,31 +460,31 @@ def analyze_repository_timeline(repo_path: str = '.'):
             # Extract author name (without email)
             author_name = author.split('<')[0].strip()
 
-            # Format with only the commit hash colored blue and linked to GitHub
+            # Format commit line with Markdown link
             commit_url = f"https://github.com/HexRaysSA/plugin-repository/commit/{commit_hash}"
-            commit_line = f"[default]{date_string}[/default] - [link={commit_url}][blue]{commit_hash[:8]}[/blue][/link] - [default]{author_name}: {message}[/default]"
-            console.print(commit_line)
+            print(f"### {date_string} - [{commit_hash[:8]}]({commit_url}) - {author_name}: {message}")
+            print()
 
             if current_data is None:
-                console.print("   ! Could not read plugin-repository.json at this commit", style="red")
-                console.print()
+                print("⚠️ Could not read plugin-repository.json at this commit")
+                print()
                 continue
 
             if changes:
                 for change in changes:
-                    console.print(f"   {change}")
+                    print(change)
+                print()
             else:
                 # Check if this is the first commit (no previous data to compare)
                 is_first = all(c[6] == [] for c in all_commits_data if c[1] < commit_datetime)
                 if is_first and current_data:
                     plugins = extract_plugin_info(current_data)
-                    console.print(f"   Initial repository with {len(plugins)} plugins", style="cyan")
+                    print(f"Initial repository with **{len(plugins)}** plugins")
                 else:
-                    console.print("   No plugin changes detected", style="white")
+                    print("No plugin changes detected")
+                print()
 
-            console.print()
-
-        console.print()
+        print()
 
 
 if __name__ == "__main__":
