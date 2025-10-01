@@ -112,6 +112,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/HexRays-plugin-contributions/ida_ifl"
@@ -172,6 +173,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -222,6 +224,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -319,6 +322,7 @@
                                 "pythonDependencies": [
                                     "flare-capa==9.2.1"
                                 ],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/HexRays-plugin-contributions/capa"
@@ -379,6 +383,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -429,6 +434,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -518,6 +524,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/HexRays-plugin-contributions/comida"
@@ -616,6 +623,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/HexRays-plugin-contributions/deREferencing"
@@ -676,6 +684,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -726,6 +735,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -786,6 +796,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -836,6 +847,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -896,6 +908,7 @@
                                 "pythonDependencies": [
                                     "pydantic>=2"
                                 ],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -948,6 +961,7 @@
                                 "pythonDependencies": [
                                     "pydantic>=2"
                                 ],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -1008,6 +1022,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -1058,6 +1073,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/williballenthin/idawilli"
@@ -1150,6 +1166,7 @@
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
+                                "settings": [],
                                 "urls": {
                                     "homepage": null,
                                     "repository": "https://github.com/HexRays-plugin-contributions/xray"
