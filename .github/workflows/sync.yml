@@ -38,7 +38,16 @@ jobs:
         git config --global user.email "bot@example.com"
         git config --global user.name "Hex-Rays (GH Action)"
         git add plugin-repository.json
-        git commit -m "sync plugin-repository.json" || echo "no changes"
+
+        # Generate commit messages with changes summary
+        SUBJECT=$(uv run scripts/summarize_changes.py --short 2>/dev/null || echo "sync plugin-repository.json")
+        BODY=$(uv run scripts/summarize_changes.py 2>/dev/null || echo "")
+
+        if [ -n "$BODY" ]; then
+          git commit -m "$SUBJECT" -m "$BODY" || echo "no changes"
+        else
+          git commit -m "$SUBJECT" || echo "no changes"
+        fi
 
     - name: push
       uses: ad-m/github-push-action@master
