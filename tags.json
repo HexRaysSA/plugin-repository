@@ -1,0 +1,230 @@
+[
+  {
+    "host": "https://github.com/illera88/Ponce",
+    "name": "Ponce",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/harlamism/IdaClu",
+    "name": "IdaClu",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/binarly-io/efiXplorer",
+    "name": "efiXplorer",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/cellebrite-labs/ida_kcpp",
+    "name": "ida_kcpp",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/danigargu/deREferencing",
+    "name": "deREferencing",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/atredispartners/aidapal",
+    "name": "aidapal",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/FelixBer/FindFunc",
+    "name": "FindFunc",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/keystone-engine/keypatch",
+    "name": "keypatch",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/gaasedelen/lighthouse",
+    "name": "lighthouse",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/airbus-cert/ttddbg",
+    "name": "ttddbg",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/gaasedelen/lucid",
+    "name": "lucid",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/gaasedelen/tenet",
+    "name": "tenet",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/interruptlabs/heimdallr-ida",
+    "name": "heimdallr-ida",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/thalium/symless",
+    "name": "symless",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/CheckPointSW/Karta",
+    "name": "Karta",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/mandiant/SimplifyGraph",
+    "name": "SimplifyGraph",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/Cisco-Talos/DynDataResolver",
+    "name": "DynDataResolver",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/danigargu/heap-viewer",
+    "name": "heap-viewer",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/0rganizers/nmips",
+    "name": "nmips",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/IDArlingTeam/IDArling",
+    "name": "IDArling",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/Jinmo/idapkg",
+    "name": "idapkg",
+    "tag": "plugin_contest_2024",
+    "applied_at": "2025-02-17T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/binarly-io/idalib",
+    "name": "idalib",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/KasperskyLab/hrtng",
+    "name": "hrtng",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/Accenture/VulFi",
+    "name": "VulFi",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/cellebrite-labs/LabSync",
+    "name": "LabSync",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/alexander-pick/shannon_modem_loader",
+    "name": "shannon_modem_loader",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/Accenture/FirmLoader",
+    "name": "FirmLoader",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/atredispartners/aidapal",
+    "name": "aidapal",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/Unknown-Cyber-Inc/ida",
+    "name": "ida",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/milankovo/navcolor",
+    "name": "navcolor",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/gaasedelen/lucid",
+    "name": "lucid",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/joydo/d810",
+    "name": "d810",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/gaasedelen/tenet",
+    "name": "tenet",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/danielplohmann/idascope",
+    "name": "idascope",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/argp/iBoot64helper",
+    "name": "iBoot64helper",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/gdelugre/ida-arm-system-highlight",
+    "name": "ida-arm-system-highlight",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/strazzere/golang_loader_assist",
+    "name": "golang_loader_assist",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  },
+  {
+    "host": "https://github.com/tmr232/IDABuddy",
+    "name": "IDABuddy",
+    "tag": "favourite",
+    "applied_at": "2025-10-06T14:10:00Z"
+  }
+]
