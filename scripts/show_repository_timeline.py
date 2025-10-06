@@ -14,7 +14,7 @@ and generates a Markdown document showing the timeline of changes.
 import json
 import sys
 from datetime import datetime, timedelta
-from typing import Dict, List, Set, Tuple, Any, Optional
+from typing import Dict, List, Optional, Tuple
 
 try:
     import git
@@ -49,7 +49,9 @@ def get_time_group(commit_date: datetime, now: datetime) -> str:
         return "Over a year ago"
 
 
-def group_commits_by_time(commits: List[Tuple[str, datetime, str, str, str]]) -> Dict[str, List[Tuple[str, datetime, str, str, str]]]:
+def group_commits_by_time(
+    commits: List[Tuple[str, datetime, str, str, str]],
+) -> Dict[str, List[Tuple[str, datetime, str, str, str]]]:
     """Group commits by time periods.
 
     Args:
@@ -75,7 +77,7 @@ def group_commits_by_time(commits: List[Tuple[str, datetime, str, str, str]]) ->
         "Within the last month",
         "Within the last three months",
         "Within the last year",
-        "Over a year ago"
+        "Over a year ago",
     ]
 
     for group_name in group_order:
@@ -99,7 +101,9 @@ def clean_github_url(url: str) -> str:
     return url
 
 
-def get_json_modifying_commits(repo: git.Repo) -> List[Tuple[str, datetime, str, str, str]]:
+def get_json_modifying_commits(
+    repo: git.Repo,
+) -> List[Tuple[str, datetime, str, str, str]]:
     """Get all commits that modify plugin-repository.json in reverse chronological order.
 
     Args:
@@ -111,18 +115,20 @@ def get_json_modifying_commits(repo: git.Repo) -> List[Tuple[str, datetime, str,
     commits = []
 
     # Get all commits that modify the plugin-repository.json file
-    for commit in repo.iter_commits(paths='plugin-repository.json'):
+    for commit in repo.iter_commits(paths="plugin-repository.json"):
         commit_hash = commit.hexsha
         commit_datetime = commit.committed_datetime
-        date_string = commit_datetime.strftime('%Y-%m-%d %H:%M:%S')
-        message = commit.message.strip().split('\n')[0]  # Take only first line
+        date_string = commit_datetime.strftime("%Y-%m-%d %H:%M:%S")
+        message = commit.message.strip().split("\n")[0]  # Take only first line
         author = f"{commit.author.name} <{commit.author.email}>"
         commits.append((commit_hash, commit_datetime, date_string, message, author))
 
     return commits
 
 
-def get_file_content_at_commit(repo: git.Repo, commit_hash: str, file_path: str) -> Optional[Dict]:
+def get_file_content_at_commit(
+    repo: git.Repo, commit_hash: str, file_path: str
+) -> Optional[Dict]:
     """Get the content of a file at a specific commit.
 
     Args:
@@ -136,7 +142,7 @@ def get_file_content_at_commit(repo: git.Repo, commit_hash: str, file_path: str)
     try:
         commit = repo.commit(commit_hash)
         blob = commit.tree / file_path
-        content = blob.data_stream.read().decode('utf-8')
+        content = blob.data_stream.read().decode("utf-8")
         return json.loads(content)
     except (KeyError, json.JSONDecodeError, UnicodeDecodeError):
         return None
@@ -152,41 +158,45 @@ def extract_plugin_info(data: Dict) -> Dict[str, Dict]:
         Dictionary mapping plugin names to their info
     """
     plugins = {}
-    if not data or 'plugins' not in data:
+    if not data or "plugins" not in data:
         return plugins
 
-    for plugin in data['plugins']:
-        name = plugin['name']
+    for plugin in data["plugins"]:
+        name = plugin["name"]
         plugins[name] = {
-            'host': plugin['host'],
-            'versions': set(plugin['versions'].keys()) if 'versions' in plugin else set(),
-            'version_details': {}
+            "host": plugin["host"],
+            "versions": set(plugin["versions"].keys())
+            if "versions" in plugin
+            else set(),
+            "version_details": {},
         }
 
         # Extract detailed info for each version to detect metadata changes
-        if 'versions' in plugin and plugin['versions']:
-            for version, releases in plugin['versions'].items():
+        if "versions" in plugin and plugin["versions"]:
+            for version, releases in plugin["versions"].items():
                 if releases and isinstance(releases, list):
                     release_info = releases[0]  # Take first release of this version
 
                     # Create a hash of the version content to detect changes
                     version_hash = hash(json.dumps(release_info, sort_keys=True))
-                    plugins[name]['version_details'][version] = {
-                        'hash': version_hash,
-                        'has_metadata': bool(release_info.get('metadata')),
-                        'sha256': release_info.get('sha256', ''),
-                        'url': release_info.get('url', '')
+                    plugins[name]["version_details"][version] = {
+                        "hash": version_hash,
+                        "has_metadata": bool(release_info.get("metadata")),
+                        "sha256": release_info.get("sha256", ""),
+                        "url": release_info.get("url", ""),
                     }
 
                     # Also store metadata for detailed comparison
-                    if release_info.get('metadata'):
-                        metadata = release_info['metadata'].get('plugin', {})
-                        plugins[name]['version_details'][version]['metadata'] = {
-                            'description': metadata.get('description', ''),
-                            'authors': [a.get('name', '') for a in metadata.get('authors', [])],
-                            'categories': metadata.get('categories', []),
-                            'license': metadata.get('license', ''),
-                            'platforms': metadata.get('platforms', [])
+                    if release_info.get("metadata"):
+                        metadata = release_info["metadata"].get("plugin", {})
+                        plugins[name]["version_details"][version]["metadata"] = {
+                            "description": metadata.get("description", ""),
+                            "authors": [
+                                a.get("name", "") for a in metadata.get("authors", [])
+                            ],
+                            "categories": metadata.get("categories", []),
+                            "license": metadata.get("license", ""),
+                            "platforms": metadata.get("platforms", []),
                         }
 
     return plugins
@@ -213,7 +223,10 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
     old_names = set(old_plugins.keys())
     new_names = set(new_plugins.keys())
 
-def format_change_line(symbol: str, symbol_type: str, plugin_name: str, details: str, plugin_url: str = "") -> str:
+
+def format_change_line(
+    symbol: str, symbol_type: str, plugin_name: str, details: str, plugin_url: str = ""
+) -> str:
     """Format a change line using Markdown syntax.
 
     Args:
@@ -245,10 +258,12 @@ def format_change_line(symbol: str, symbol_type: str, plugin_name: str, details:
     # Handle details with repository info
     if details and "(" in details and ")" in details:
         # Extract parts before, within, and after parentheses
-        before_paren = details[:details.find("(")]
+        before_paren = details[: details.find("(")]
         paren_start = details.find("(")
         paren_end = details.find(")", paren_start) + 1
-        paren_content = details[paren_start+1:paren_end-1]  # Remove parentheses for URL construction
+        paren_content = details[
+            paren_start + 1 : paren_end - 1
+        ]  # Remove parentheses for URL construction
         after_paren = details[paren_end:]
 
         # Create repository URL from the cleaned content
@@ -292,10 +307,10 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
     added_plugins = new_names - old_names
     for name in sorted(added_plugins):
         plugin = new_plugins[name]
-        versions = sorted(plugin['versions'], reverse=True)  # Greatest to least
-        host_short = clean_github_url(plugin['host'])
+        versions = sorted(plugin["versions"], reverse=True)  # Greatest to least
+        host_short = clean_github_url(plugin["host"])
         details = f" ({host_short})"
-        plugin_url = plugin['host']
+        plugin_url = plugin["host"]
         changes.append(format_change_line("+", "add", name, details, plugin_url))
 
         # Add version list as nested Markdown list
@@ -316,22 +331,26 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
         plugin_changes = []
 
         # Version changes
-        old_versions = old_plugin['versions']
-        new_versions = new_plugin['versions']
+        old_versions = old_plugin["versions"]
+        new_versions = new_plugin["versions"]
 
         added_versions = new_versions - old_versions
         removed_versions = old_versions - new_versions
 
         if added_versions:
-            plugin_changes.append(f"added version(s): {', '.join(sorted(added_versions))}")
+            plugin_changes.append(
+                f"added version(s): {', '.join(sorted(added_versions))}"
+            )
 
         if removed_versions:
-            plugin_changes.append(f"removed version(s): {', '.join(sorted(removed_versions))}")
+            plugin_changes.append(
+                f"removed version(s): {', '.join(sorted(removed_versions))}"
+            )
 
         # Host changes
-        if old_plugin['host'] != new_plugin['host']:
-            old_host_short = clean_github_url(old_plugin['host'])
-            new_host_short = clean_github_url(new_plugin['host'])
+        if old_plugin["host"] != new_plugin["host"]:
+            old_host_short = clean_github_url(old_plugin["host"])
+            new_host_short = clean_github_url(new_plugin["host"])
             plugin_changes.append(f"host changed: {old_host_short} → {new_host_short}")
 
         # Version detail changes (metadata, hashes, URLs) - group by version
@@ -339,45 +358,57 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
         version_changes = {}  # Dict to group changes by version
 
         for version in sorted(common_versions):
-            old_details = old_plugin['version_details'].get(version, {})
-            new_details = new_plugin['version_details'].get(version, {})
+            old_details = old_plugin["version_details"].get(version, {})
+            new_details = new_plugin["version_details"].get(version, {})
 
             version_specific_changes = []
 
             # Check if the version content changed (different hash)
-            if old_details.get('hash') != new_details.get('hash'):
+            if old_details.get("hash") != new_details.get("hash"):
                 # Check if metadata was added
-                if not old_details.get('has_metadata') and new_details.get('has_metadata'):
+                if not old_details.get("has_metadata") and new_details.get(
+                    "has_metadata"
+                ):
                     version_specific_changes.append("metadata added")
-                elif old_details.get('has_metadata') and not new_details.get('has_metadata'):
+                elif old_details.get("has_metadata") and not new_details.get(
+                    "has_metadata"
+                ):
                     version_specific_changes.append("metadata removed")
-                elif old_details.get('has_metadata') and new_details.get('has_metadata'):
+                elif old_details.get("has_metadata") and new_details.get(
+                    "has_metadata"
+                ):
                     # Both have metadata, check what changed
-                    old_meta = old_details.get('metadata', {})
-                    new_meta = new_details.get('metadata', {})
+                    old_meta = old_details.get("metadata", {})
+                    new_meta = new_details.get("metadata", {})
 
                     if old_meta != new_meta:
                         meta_changes = []
-                        if old_meta.get('description') != new_meta.get('description'):
+                        if old_meta.get("description") != new_meta.get("description"):
                             meta_changes.append("description")
-                        if old_meta.get('authors') != new_meta.get('authors'):
+                        if old_meta.get("authors") != new_meta.get("authors"):
                             meta_changes.append("authors")
-                        if old_meta.get('license') != new_meta.get('license'):
+                        if old_meta.get("license") != new_meta.get("license"):
                             meta_changes.append("license")
-                        if set(old_meta.get('platforms', [])) != set(new_meta.get('platforms', [])):
+                        if set(old_meta.get("platforms", [])) != set(
+                            new_meta.get("platforms", [])
+                        ):
                             meta_changes.append("platforms")
-                        if set(old_meta.get('categories', [])) != set(new_meta.get('categories', [])):
+                        if set(old_meta.get("categories", [])) != set(
+                            new_meta.get("categories", [])
+                        ):
                             meta_changes.append("categories")
 
                         if meta_changes:
-                            version_specific_changes.append(f"metadata updated ({', '.join(meta_changes)})")
+                            version_specific_changes.append(
+                                f"metadata updated ({', '.join(meta_changes)})"
+                            )
 
                 # Check SHA256 changes
-                if old_details.get('sha256') != new_details.get('sha256'):
+                if old_details.get("sha256") != new_details.get("sha256"):
                     version_specific_changes.append("archive contents changed")
 
                 # Check URL changes
-                if old_details.get('url') != new_details.get('url'):
+                if old_details.get("url") != new_details.get("url"):
                     version_specific_changes.append("download URL changed")
 
             if version_specific_changes:
@@ -385,16 +416,20 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
 
         # Add other non-version-specific changes
         if added_versions:
-            plugin_changes.append(f"added version(s): {', '.join(sorted(added_versions))}")
+            plugin_changes.append(
+                f"added version(s): {', '.join(sorted(added_versions))}"
+            )
 
         if removed_versions:
-            plugin_changes.append(f"removed version(s): {', '.join(sorted(removed_versions))}")
+            plugin_changes.append(
+                f"removed version(s): {', '.join(sorted(removed_versions))}"
+            )
 
         # Output format: plugin -> version -> changes
         if version_changes or plugin_changes:
-            host_short = clean_github_url(new_plugin['host'])
+            host_short = clean_github_url(new_plugin["host"])
             details = f" ({host_short})"
-            plugin_url = new_plugin['host']
+            plugin_url = new_plugin["host"]
             changes.append(format_change_line("~", "modify", name, details, plugin_url))
 
             # Add non-version-specific changes first
@@ -410,7 +445,7 @@ def compare_plugins(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[
     return changes
 
 
-def analyze_repository_timeline(repo_path: str = '.'):
+def analyze_repository_timeline(repo_path: str = "."):
     """Generate a Markdown timeline of plugin repository changes.
 
     Args:
@@ -439,10 +474,22 @@ def analyze_repository_timeline(repo_path: str = '.'):
 
     # First, collect all data (process oldest to newest for comparison)
     for commit_hash, commit_datetime, date_string, message, author in reversed(commits):
-        current_data = get_file_content_at_commit(repo, commit_hash, 'plugin-repository.json')
+        current_data = get_file_content_at_commit(
+            repo, commit_hash, "plugin-repository.json"
+        )
         changes = compare_plugins(prev_data, current_data) if current_data else []
 
-        all_commits_data.append((commit_hash, commit_datetime, date_string, message, author, current_data, changes))
+        all_commits_data.append(
+            (
+                commit_hash,
+                commit_datetime,
+                date_string,
+                message,
+                author,
+                current_data,
+                changes,
+            )
+        )
         prev_data = current_data
 
     # Now display by time groups (newest first)
@@ -458,11 +505,15 @@ def analyze_repository_timeline(repo_path: str = '.'):
             _, _, _, _, _, current_data, changes = commit_data
 
             # Extract author name (without email)
-            author_name = author.split('<')[0].strip()
+            author_name = author.split("<")[0].strip()
 
             # Format commit line with Markdown link
-            commit_url = f"https://github.com/HexRaysSA/plugin-repository/commit/{commit_hash}"
-            print(f"### {date_string} - [{commit_hash[:8]}]({commit_url}) - {author_name}: {message}")
+            commit_url = (
+                f"https://github.com/HexRaysSA/plugin-repository/commit/{commit_hash}"
+            )
+            print(
+                f"### {date_string} - [{commit_hash[:8]}]({commit_url}) - {author_name}: {message}"
+            )
             print()
 
             if current_data is None:
@@ -476,7 +527,9 @@ def analyze_repository_timeline(repo_path: str = '.'):
                 print()
             else:
                 # Check if this is the first commit (no previous data to compare)
-                is_first = all(c[6] == [] for c in all_commits_data if c[1] < commit_datetime)
+                is_first = all(
+                    c[6] == [] for c in all_commits_data if c[1] < commit_datetime
+                )
                 if is_first and current_data:
                     plugins = extract_plugin_info(current_data)
                     print(f"Initial repository with **{len(plugins)}** plugins")
@@ -489,7 +542,7 @@ def analyze_repository_timeline(repo_path: str = '.'):
 
 if __name__ == "__main__":
     try:
-        repo_path = sys.argv[1] if len(sys.argv) > 1 else '.'
+        repo_path = sys.argv[1] if len(sys.argv) > 1 else "."
         analyze_repository_timeline(repo_path)
     except git.exc.GitError as e:
         print(f"Git error: {e}", file=sys.stderr)

@@ -19,7 +19,10 @@ from typing import Dict, List, Optional
 try:
     import git
 except ImportError:
-    print("Error: GitPython library is required. Install with: pip install GitPython", file=sys.stderr)
+    print(
+        "Error: GitPython library is required. Install with: pip install GitPython",
+        file=sys.stderr,
+    )
     sys.exit(1)
 
 
@@ -47,44 +50,50 @@ def extract_plugin_info(data: Dict) -> Dict[str, Dict]:
         Dictionary mapping plugin names to their info
     """
     plugins = {}
-    if not data or 'plugins' not in data:
+    if not data or "plugins" not in data:
         return plugins
 
-    for plugin in data['plugins']:
-        name = plugin['name']
+    for plugin in data["plugins"]:
+        name = plugin["name"]
         plugins[name] = {
-            'host': plugin['host'],
-            'versions': set(plugin['versions'].keys()) if 'versions' in plugin else set(),
-            'version_details': {}
+            "host": plugin["host"],
+            "versions": set(plugin["versions"].keys())
+            if "versions" in plugin
+            else set(),
+            "version_details": {},
         }
 
-        if 'versions' in plugin and plugin['versions']:
-            for version, releases in plugin['versions'].items():
+        if "versions" in plugin and plugin["versions"]:
+            for version, releases in plugin["versions"].items():
                 if releases and isinstance(releases, list):
                     release_info = releases[0]
 
                     version_hash = hash(json.dumps(release_info, sort_keys=True))
-                    plugins[name]['version_details'][version] = {
-                        'hash': version_hash,
-                        'has_metadata': bool(release_info.get('metadata')),
-                        'sha256': release_info.get('sha256', ''),
-                        'url': release_info.get('url', '')
+                    plugins[name]["version_details"][version] = {
+                        "hash": version_hash,
+                        "has_metadata": bool(release_info.get("metadata")),
+                        "sha256": release_info.get("sha256", ""),
+                        "url": release_info.get("url", ""),
                     }
 
-                    if release_info.get('metadata'):
-                        metadata = release_info['metadata'].get('plugin', {})
-                        plugins[name]['version_details'][version]['metadata'] = {
-                            'description': metadata.get('description', ''),
-                            'authors': [a.get('name', '') for a in metadata.get('authors', [])],
-                            'categories': metadata.get('categories', []),
-                            'license': metadata.get('license', ''),
-                            'platforms': metadata.get('platforms', [])
+                    if release_info.get("metadata"):
+                        metadata = release_info["metadata"].get("plugin", {})
+                        plugins[name]["version_details"][version]["metadata"] = {
+                            "description": metadata.get("description", ""),
+                            "authors": [
+                                a.get("name", "") for a in metadata.get("authors", [])
+                            ],
+                            "categories": metadata.get("categories", []),
+                            "license": metadata.get("license", ""),
+                            "platforms": metadata.get("platforms", []),
                         }
 
     return plugins
 
 
-def format_change_line(symbol: str, symbol_type: str, plugin_name: str, details: str, plugin_url: str = "") -> str:
+def format_change_line(
+    symbol: str, symbol_type: str, plugin_name: str, details: str, plugin_url: str = ""
+) -> str:
     """Format a change line using Markdown syntax.
 
     Args:
@@ -112,10 +121,10 @@ def format_change_line(symbol: str, symbol_type: str, plugin_name: str, details:
         formatted_plugin = f"**{plugin_name}**"
 
     if details and "(" in details and ")" in details:
-        before_paren = details[:details.find("(")]
+        before_paren = details[: details.find("(")]
         paren_start = details.find("(")
         paren_end = details.find(")", paren_start) + 1
-        paren_content = details[paren_start+1:paren_end-1]
+        paren_content = details[paren_start + 1 : paren_end - 1]
         after_paren = details[paren_end:]
 
         repo_url = f"https://github.com/{paren_content}" if paren_content else ""
@@ -145,10 +154,10 @@ def get_file_at_ref(repo: git.Repo, ref: str, file_path: str) -> Optional[Dict]:
         Parsed JSON content or None if file doesn't exist
     """
     try:
-        if ref == ':0:':
-            content = repo.git.show(f':0:{file_path}')
+        if ref == ":0:":
+            content = repo.git.show(f":0:{file_path}")
         else:
-            content = repo.git.show(f'{ref}:{file_path}')
+            content = repo.git.show(f"{ref}:{file_path}")
         return json.loads(content)
     except (git.exc.GitCommandError, json.JSONDecodeError, UnicodeDecodeError):
         return None
@@ -165,11 +174,11 @@ def count_changes(old_data: Optional[Dict], new_data: Optional[Dict]) -> Dict[st
         Dictionary with change counts
     """
     counts = {
-        'plugins_added': 0,
-        'plugins_removed': 0,
-        'releases_added': 0,
-        'releases_removed': 0,
-        'releases_changed': 0
+        "plugins_added": 0,
+        "plugins_removed": 0,
+        "releases_added": 0,
+        "releases_removed": 0,
+        "releases_changed": 0,
     }
 
     if old_data is None and new_data is None:
@@ -181,41 +190,43 @@ def count_changes(old_data: Optional[Dict], new_data: Optional[Dict]) -> Dict[st
     old_names = set(old_plugins.keys())
     new_names = set(new_plugins.keys())
 
-    counts['plugins_added'] = len(new_names - old_names)
-    counts['plugins_removed'] = len(old_names - new_names)
+    counts["plugins_added"] = len(new_names - old_names)
+    counts["plugins_removed"] = len(old_names - new_names)
 
     for name in new_names - old_names:
-        counts['releases_added'] += len(new_plugins[name]['versions'])
+        counts["releases_added"] += len(new_plugins[name]["versions"])
 
     for name in old_names - new_names:
-        counts['releases_removed'] += len(old_plugins[name]['versions'])
+        counts["releases_removed"] += len(old_plugins[name]["versions"])
 
     common_plugins = old_names & new_names
     for name in common_plugins:
         old_plugin = old_plugins[name]
         new_plugin = new_plugins[name]
 
-        old_versions = old_plugin['versions']
-        new_versions = new_plugin['versions']
+        old_versions = old_plugin["versions"]
+        new_versions = new_plugin["versions"]
 
         added_versions = new_versions - old_versions
         removed_versions = old_versions - new_versions
 
-        counts['releases_added'] += len(added_versions)
-        counts['releases_removed'] += len(removed_versions)
+        counts["releases_added"] += len(added_versions)
+        counts["releases_removed"] += len(removed_versions)
 
         common_versions = old_versions & new_versions
         for version in common_versions:
-            old_details = old_plugin['version_details'].get(version, {})
-            new_details = new_plugin['version_details'].get(version, {})
+            old_details = old_plugin["version_details"].get(version, {})
+            new_details = new_plugin["version_details"].get(version, {})
 
-            if old_details.get('hash') != new_details.get('hash'):
-                counts['releases_changed'] += 1
+            if old_details.get("hash") != new_details.get("hash"):
+                counts["releases_changed"] += 1
 
     return counts
 
 
-def compare_plugins_for_message(old_data: Optional[Dict], new_data: Optional[Dict]) -> List[str]:
+def compare_plugins_for_message(
+    old_data: Optional[Dict], new_data: Optional[Dict]
+) -> List[str]:
     """Compare plugin data and generate change descriptions for commit message.
 
     Args:
@@ -241,8 +252,8 @@ def compare_plugins_for_message(old_data: Optional[Dict], new_data: Optional[Dic
     new_plugin_entries = []
     for name in sorted(added_plugins):
         plugin = new_plugins[name]
-        versions = sorted(plugin['versions'], reverse=True)
-        plugin_url = plugin['host']
+        versions = sorted(plugin["versions"], reverse=True)
+        plugin_url = plugin["host"]
         version_list = ", ".join(versions)
         new_plugin_entries.append(f"- [{name}]({plugin_url}) ({version_list})")
 
@@ -253,12 +264,12 @@ def compare_plugins_for_message(old_data: Optional[Dict], new_data: Optional[Dic
         old_plugin = old_plugins[name]
         new_plugin = new_plugins[name]
 
-        old_versions = old_plugin['versions']
-        new_versions = new_plugin['versions']
+        old_versions = old_plugin["versions"]
+        new_versions = new_plugin["versions"]
         added_versions = new_versions - old_versions
 
         if added_versions:
-            plugin_url = new_plugin['host']
+            plugin_url = new_plugin["host"]
             version_list = ", ".join(sorted(added_versions, reverse=True))
             new_release_entries.append(f"- [{name}]({plugin_url}): {version_list}")
 
@@ -269,17 +280,19 @@ def compare_plugins_for_message(old_data: Optional[Dict], new_data: Optional[Dic
         new_plugin = new_plugins[name]
 
         plugin_changes = []
-        plugin_url = new_plugin['host']
+        plugin_url = new_plugin["host"]
 
-        old_versions = old_plugin['versions']
-        new_versions = new_plugin['versions']
+        old_versions = old_plugin["versions"]
+        new_versions = new_plugin["versions"]
         removed_versions = old_versions - new_versions
 
         # Host changes
-        if old_plugin['host'] != new_plugin['host']:
-            old_host_short = clean_github_url(old_plugin['host'])
-            new_host_short = clean_github_url(new_plugin['host'])
-            plugin_changes.append(f"  - host changed: {old_host_short} → {new_host_short}")
+        if old_plugin["host"] != new_plugin["host"]:
+            old_host_short = clean_github_url(old_plugin["host"])
+            new_host_short = clean_github_url(new_plugin["host"])
+            plugin_changes.append(
+                f"  - host changed: {old_host_short} → {new_host_short}"
+            )
 
         # Removed versions
         if removed_versions:
@@ -291,40 +304,52 @@ def compare_plugins_for_message(old_data: Optional[Dict], new_data: Optional[Dic
         version_changes = {}
 
         for version in sorted(common_versions):
-            old_details = old_plugin['version_details'].get(version, {})
-            new_details = new_plugin['version_details'].get(version, {})
+            old_details = old_plugin["version_details"].get(version, {})
+            new_details = new_plugin["version_details"].get(version, {})
 
             version_specific_changes = []
 
-            if old_details.get('hash') != new_details.get('hash'):
-                if not old_details.get('has_metadata') and new_details.get('has_metadata'):
+            if old_details.get("hash") != new_details.get("hash"):
+                if not old_details.get("has_metadata") and new_details.get(
+                    "has_metadata"
+                ):
                     version_specific_changes.append("metadata added")
-                elif old_details.get('has_metadata') and not new_details.get('has_metadata'):
+                elif old_details.get("has_metadata") and not new_details.get(
+                    "has_metadata"
+                ):
                     version_specific_changes.append("metadata removed")
-                elif old_details.get('has_metadata') and new_details.get('has_metadata'):
-                    old_meta = old_details.get('metadata', {})
-                    new_meta = new_details.get('metadata', {})
+                elif old_details.get("has_metadata") and new_details.get(
+                    "has_metadata"
+                ):
+                    old_meta = old_details.get("metadata", {})
+                    new_meta = new_details.get("metadata", {})
 
                     if old_meta != new_meta:
                         meta_changes = []
-                        if old_meta.get('description') != new_meta.get('description'):
+                        if old_meta.get("description") != new_meta.get("description"):
                             meta_changes.append("description")
-                        if old_meta.get('authors') != new_meta.get('authors'):
+                        if old_meta.get("authors") != new_meta.get("authors"):
                             meta_changes.append("authors")
-                        if old_meta.get('license') != new_meta.get('license'):
+                        if old_meta.get("license") != new_meta.get("license"):
                             meta_changes.append("license")
-                        if set(old_meta.get('platforms', [])) != set(new_meta.get('platforms', [])):
+                        if set(old_meta.get("platforms", [])) != set(
+                            new_meta.get("platforms", [])
+                        ):
                             meta_changes.append("platforms")
-                        if set(old_meta.get('categories', [])) != set(new_meta.get('categories', [])):
+                        if set(old_meta.get("categories", [])) != set(
+                            new_meta.get("categories", [])
+                        ):
                             meta_changes.append("categories")
 
                         if meta_changes:
-                            version_specific_changes.append(f"metadata updated ({', '.join(meta_changes)})")
+                            version_specific_changes.append(
+                                f"metadata updated ({', '.join(meta_changes)})"
+                            )
 
-                if old_details.get('sha256') != new_details.get('sha256'):
+                if old_details.get("sha256") != new_details.get("sha256"):
                     version_specific_changes.append("archive contents changed")
 
-                if old_details.get('url') != new_details.get('url'):
+                if old_details.get("url") != new_details.get("url"):
                     version_specific_changes.append("download URL changed")
 
             if version_specific_changes:
@@ -385,23 +410,23 @@ def format_short_message(counts: Dict[str, int]) -> str:
     """
     parts = []
 
-    if counts['plugins_added'] > 0:
-        plural = "s" if counts['plugins_added'] != 1 else ""
+    if counts["plugins_added"] > 0:
+        plural = "s" if counts["plugins_added"] != 1 else ""
         parts.append(f"+{counts['plugins_added']} plugin{plural}")
 
-    if counts['plugins_removed'] > 0:
-        plural = "s" if counts['plugins_removed'] != 1 else ""
+    if counts["plugins_removed"] > 0:
+        plural = "s" if counts["plugins_removed"] != 1 else ""
         parts.append(f"-{counts['plugins_removed']} plugin{plural}")
 
-    if counts['releases_added'] > 0:
-        plural = "s" if counts['releases_added'] != 1 else ""
+    if counts["releases_added"] > 0:
+        plural = "s" if counts["releases_added"] != 1 else ""
         parts.append(f"+{counts['releases_added']} release{plural}")
 
-    if counts['releases_removed'] > 0:
-        plural = "s" if counts['releases_removed'] != 1 else ""
+    if counts["releases_removed"] > 0:
+        plural = "s" if counts["releases_removed"] != 1 else ""
         parts.append(f"-{counts['releases_removed']} release{plural}")
 
-    if counts['releases_changed'] > 0:
+    if counts["releases_changed"] > 0:
         parts.append(f"~{counts['releases_changed']} changed")
 
     if not parts:
@@ -410,7 +435,7 @@ def format_short_message(counts: Dict[str, int]) -> str:
     return "sync repo: " + ", ".join(parts)
 
 
-def summarize_changes(repo_path: str = '.', short: bool = False, at_commit: str = None):
+def summarize_changes(repo_path: str = ".", short: bool = False, at_commit: str = None):
     """Summarize changes to plugin-repository.json.
 
     Args:
@@ -424,7 +449,7 @@ def summarize_changes(repo_path: str = '.', short: bool = False, at_commit: str 
         print(f"Error: '{repo_path}' is not a valid Git repository", file=sys.stderr)
         sys.exit(1)
 
-    file_path = 'plugin-repository.json'
+    file_path = "plugin-repository.json"
 
     if at_commit:
         commit = repo.commit(at_commit)
@@ -437,8 +462,8 @@ def summarize_changes(repo_path: str = '.', short: bool = False, at_commit: str 
 
         new_data = get_file_at_ref(repo, commit.hexsha, file_path)
     else:
-        old_data = get_file_at_ref(repo, 'HEAD', file_path)
-        new_data = get_file_at_ref(repo, ':0:', file_path)
+        old_data = get_file_at_ref(repo, "HEAD", file_path)
+        new_data = get_file_at_ref(repo, ":0:", file_path)
 
     if new_data is None:
         if not short:
@@ -467,23 +492,23 @@ def summarize_changes(repo_path: str = '.', short: bool = False, at_commit: str 
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Summarize changes to plugin-repository.json for commit messages'
+        description="Summarize changes to plugin-repository.json for commit messages"
     )
     parser.add_argument(
-        '--short',
-        action='store_true',
-        help='Output short subject line instead of full markdown body'
+        "--short",
+        action="store_true",
+        help="Output short subject line instead of full markdown body",
     )
     parser.add_argument(
-        '--at-commit',
-        metavar='COMMIT',
-        help='Compare specified commit with its parent instead of staged vs HEAD'
+        "--at-commit",
+        metavar="COMMIT",
+        help="Compare specified commit with its parent instead of staged vs HEAD",
     )
     parser.add_argument(
-        'repo_path',
-        nargs='?',
-        default='.',
-        help='Path to the Git repository (default: current directory)'
+        "repo_path",
+        nargs="?",
+        default=".",
+        help="Path to the Git repository (default: current directory)",
     )
 
     args = parser.parse_args()
