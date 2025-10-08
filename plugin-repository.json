@@ -127,6 +127,366 @@
             }
         },
         {
+            "host": "https://github.com/HexRays-plugin-contributions/bindiff",
+            "name": "bindiff",
+            "versions": {
+                "8.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "4b34b272426abd841e7a660e36272c7eee982553c400528b13a1fe4406688323",
+                        "url": "https://github.com/HexRays-plugin-contributions/bindiff/releases/download/v8.0.0/bindiff-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "c9814f5b2cf2cef9742495c1c7cf527f346f3b8050fc4cd625326a8a073e7aaf",
+                        "url": "https://github.com/HexRays-plugin-contributions/bindiff/releases/download/v8.0.0/bindiff-ida9.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "dd21ea0b81b42190ee0cf31f1cc8d4834de92881250ab09b54a4aba7525c7148",
+                        "url": "https://github.com/HexRays-plugin-contributions/bindiff/releases/download/v8.0.0/bindiff-ida9.1.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/HexRays-plugin-contributions/binexport",
+            "name": "binexport",
+            "versions": {
+                "12.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "87014f2fa36bb42baa2aadb7f51b6ef9ae8e9950e3b3acc842b4914178ef6831",
+                        "url": "https://github.com/HexRays-plugin-contributions/binexport/releases/download/v12.0.0/binexport-ida9.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "d4968be51e40e783f2ebc1ad407ddeb8fa1254dae521bcabfb1fc5adc5803933",
+                        "url": "https://github.com/HexRays-plugin-contributions/binexport/releases/download/v12.0.0/binexport-ida9.1.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "6cb4b44080e88453e92d8645931701781e768319d02a62f556e62edd61a1a84f",
+                        "url": "https://github.com/HexRays-plugin-contributions/binexport/releases/download/v12.0.0/binexport-ida9.2.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/idawilli",
             "name": "bookmark-hints",
             "versions": {
