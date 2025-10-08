@@ -5,4 +5,5 @@ HexRays-plugin-contributions/deREferencing
 HexRays-plugin-contributions/ida_ifl
 HexRays-plugin-contributions/bindiff
 HexRays-plugin-contributions/binexport
+HexRays-plugin-contributions/ipyida
 williballenthin/idawilli
