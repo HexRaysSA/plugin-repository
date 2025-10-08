@@ -4,7 +4,7 @@
 # Example:
 #
 #     $ mkdir output
-#     $ uv run scripts/cache_plugin_archive_contents.py plugin-repository.json output
+#     $ uv run scripts/mirror_plugin_archive_contents.py plugin-repository.json output
 #     $ eza --tree --level=5 output/
 #       output
 #       └── github.com
