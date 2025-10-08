@@ -81,6 +81,7 @@ def do_snapshot(json_path: Path, out_path: Path, token: str):
     plugins = repo.get_plugins()
 
     seen_repos = set()
+    all_metadata = {}
 
     for plugin in rich.progress.track(
         plugins, description="Fetching repo metadata", transient=True, console=stderr_console
@@ -112,10 +113,18 @@ def do_snapshot(json_path: Path, out_path: Path, token: str):
             destination_path.mkdir(parents=True, exist_ok=True)
             metadata_path.write_text(json.dumps(metadata, indent=2) + "\n")
 
+            full_repo_name = f"{org}/{repo_name}"
+            all_metadata[full_repo_name] = metadata
+
             logger.debug("wrote: %s (stars: %d)", metadata_path, metadata.get("stargazers_count", 0))
         except requests.exceptions.HTTPError as e:
             logger.error("failed to fetch metadata for %s/%s: %s", org, repo_name, e)
             continue
+
+    consolidated_path = out_path / "github.com" / "repositories-metadata.json"
+    consolidated_path.parent.mkdir(parents=True, exist_ok=True)
+    consolidated_path.write_text(json.dumps(all_metadata, indent=2) + "\n")
+    logger.info("wrote consolidated metadata: %s (%d repositories)", consolidated_path, len(all_metadata))
 
 
 def main() -> None:
