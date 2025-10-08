@@ -56,7 +56,7 @@ jobs:
       - name: Mirror plugin content
         run: |
           mkdir -p ./public/plugins/
-          uv run scripts/mirror_plugin_archive_contents.py plugin-repository.json public/plugins/
+          uv run scripts/mirror_plugin_archive_contents.py --no-cache plugin-repository.json public/plugins/
 
       - name: Fetch star counts
         run: |

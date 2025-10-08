@@ -68,7 +68,7 @@ logger = logging.getLogger(__name__)
 stderr_console = rich.console.Console(stderr=True)
 
 
-def do_cache(json_path: Path, out_path: Path):
+def do_cache(json_path: Path, out_path: Path, no_cache: bool = False):
     repo = JSONFilePluginRepo.from_file(json_path)
     plugins = repo.get_plugins()
 
@@ -90,7 +90,7 @@ def do_cache(json_path: Path, out_path: Path):
         destination_path = out_path / host / plugin.name
         plugin_zip_path = destination_path / "plugin.zip"
 
-        if plugin_zip_path.exists():
+        if not no_cache and plugin_zip_path.exists():
             existing_hash = hashlib.sha256(plugin_zip_path.read_bytes()).hexdigest()
             if existing_hash == location.sha256:
                 logger.debug("skipping: %s (already cached)", plugin.name)
@@ -112,7 +112,8 @@ def do_cache(json_path: Path, out_path: Path):
         plugin_subdirectory = metadata_path.parent
 
         extract_zip_subdirectory_to(zip_data, plugin_subdirectory, destination_path)
-        plugin_zip_path.write_bytes(zip_data)
+        if not no_cache:
+            plugin_zip_path.write_bytes(zip_data)
 
 
 def main() -> None:
@@ -127,6 +128,11 @@ def main() -> None:
         "output_path", type=Path, metavar="output-path", help="path to output directory"
     )
     parser.add_argument("--verbose", action="store_true", help="enable verbose logging")
+    parser.add_argument(
+        "--no-cache",
+        action="store_true",
+        help="always re-download plugins; do not write plugin.zip or check existing cache",
+    )
     args = parser.parse_args()
 
     logging.basicConfig(
@@ -141,7 +147,7 @@ def main() -> None:
     if not args.output_path.exists():
         raise ValueError("output-path does not exist")
 
-    do_cache(args.plugin_repo_json, args.output_path)
+    do_cache(args.plugin_repo_json, args.output_path, args.no_cache)
 
 
 if __name__ == "__main__":
