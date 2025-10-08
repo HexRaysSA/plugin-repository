@@ -27,7 +27,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.147.3
     steps:
 
       - name: Setup uv
@@ -35,13 +35,13 @@ jobs:
         with:
           enable-cache: false
 
-      # - name: Install Hugo CLI
-      #   run: |
-      #     wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-      #     && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       - name: Setup Pages
         id: pages
@@ -65,14 +65,27 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Build with Hugo
-      #   env:
-      #     HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-      #     HUGO_ENVIRONMENT: production
-      #   run: |
-      #     hugo \
-      #       --minify \
-      #       --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Generate Hugo site
+        run: |
+          mkdir -p ./site/content/
+          uv run scripts/generate_hugo_site.py public/ site/content/
+          cp .github/pages/hugo.toml site/
+          cp -r .github/pages/layouts site/layouts
+
+      - name: Hugo build
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo \
+            --source site \
+            --baseURL "${{ steps.pages.outputs.base_url }}/_/"
+
+      - name: Collect site
+        run: |
+          mkdir -p ./public/_/
+          rsync -av ./site/public/ ./public/_/
+          rm -rf ./site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

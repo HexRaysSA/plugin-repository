@@ -1,0 +1,13 @@
+baseURL = "https://plugins.hex-rays.com/"
+languageCode = "en-us"
+title = "IDA Pro Plugin Repository"
+publishDir = "public"
+disableKinds = ["RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = ""
