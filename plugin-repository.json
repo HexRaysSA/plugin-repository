@@ -1278,6 +1278,134 @@
             }
         },
         {
+            "host": "https://github.com/HexRays-plugin-contributions/ipyida",
+            "name": "ipyida",
+            "versions": {
+                "2.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "leveille@google.com",
+                                        "name": "Marc-Etienne M.L\u00e9veill\u00e9"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Embed an IPython console inside IDA Pro with Qt integration and Jupyter support",
+                                "entryPoint": "ipyida_plugin_stub.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ipython",
+                                    "jupyter",
+                                    "console",
+                                    "qtconsole",
+                                    "interactive",
+                                    "python",
+                                    "notebook",
+                                    "kernel",
+                                    "repl"
+                                ],
+                                "license": "BSD-2-Clause",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "ipyida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ipyida==2.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/ipyida"
+                                },
+                                "version": "2.3"
+                            }
+                        },
+                        "sha256": "ec26b8054e5914165a61823d83be93cffd9c4b6cb448b5d783bf8279793dae90",
+                        "url": "https://codeload.github.com/HexRays-plugin-contributions/ipyida/legacy.zip/989e681a03ff7b75b1a0a67fc5cb5907bd06559b"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/idawilli",
             "name": "oplog",
             "versions": {
