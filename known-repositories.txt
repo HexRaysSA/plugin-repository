@@ -6,7 +6,6 @@ HexRays-plugin-contributions/ida_ifl
 HexRays-plugin-contributions/bindiff
 HexRays-plugin-contributions/binexport
 HexRays-plugin-contributions/ipyida
-HexRays-plugin-contributions/zydisinfo
 HexRays-plugin-contributions/hashdb-ida
 HexRays-plugin-contributions/mkYARA
 williballenthin/idawilli
