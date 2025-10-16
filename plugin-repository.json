@@ -1723,6 +1723,162 @@
                     }
                 ]
             }
+        },
+        {
+            "host": "https://github.com/milankovo/zydisinfo",
+            "name": "zydisinfo",
+            "versions": {
+                "1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "zydisinfo@noreply.github.com",
+                                        "name": "milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Displays detailed x86/x64 instruction metadata using the Zydis disassembler library",
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "x86",
+                                    "x64",
+                                    "instruction-metadata",
+                                    "zydis",
+                                    "operands",
+                                    "encoding",
+                                    "flags"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/zydisinfo"
+                                },
+                                "version": "1.1"
+                            }
+                        },
+                        "sha256": "d5c5b06976f6e72ee4d5f2abd4130896d4cee8fdfacb71c0be574285236bf849",
+                        "url": "https://github.com/milankovo/zydisinfo/releases/download/v1.1/zydisinfo-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "zydisinfo@noreply.github.com",
+                                        "name": "milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Displays detailed x86/x64 instruction metadata using the Zydis disassembler library",
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "x86",
+                                    "x64",
+                                    "instruction-metadata",
+                                    "zydis",
+                                    "operands",
+                                    "encoding",
+                                    "flags"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/zydisinfo"
+                                },
+                                "version": "1.1"
+                            }
+                        },
+                        "sha256": "eaa2e9795db242842bb1b36113d0035357209df6e97532ea18756ae6e415f139",
+                        "url": "https://github.com/milankovo/zydisinfo/releases/download/v1.1/zydisinfo-ida9.1.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "zydisinfo@noreply.github.com",
+                                        "name": "milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Displays detailed x86/x64 instruction metadata using the Zydis disassembler library",
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "x86",
+                                    "x64",
+                                    "instruction-metadata",
+                                    "zydis",
+                                    "operands",
+                                    "encoding",
+                                    "flags"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/zydisinfo"
+                                },
+                                "version": "1.1"
+                            }
+                        },
+                        "sha256": "17b8e6e84d9413ba3d1b81d1b31bca81194953eea2827e73334b035acf66dc85",
+                        "url": "https://github.com/milankovo/zydisinfo/releases/download/v1.1/zydisinfo-ida9.0.zip"
+                    }
+                ]
+            }
         }
     ],
     "version": 1
