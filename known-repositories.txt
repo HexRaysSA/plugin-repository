@@ -9,5 +9,5 @@ HexRays-plugin-contributions/ipyida
 HexRays-plugin-contributions/hashdb-ida
 HexRays-plugin-contributions/mkYARA
 williballenthin/idawilli
-williballenthin/ida-cyberchef
+HexRaysSA/ida-cyberchef
 milankovo/zydisinfo
