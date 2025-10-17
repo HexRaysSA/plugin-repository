@@ -1222,6 +1222,68 @@
             }
         },
         {
+            "host": "https://github.com/HexRaysSA/ida-cyberchef",
+            "name": "ida-cyberchef",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "CyberChef in IDA",
+                                "entryPoint": "entrypoint.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "encoding",
+                                    "decoding",
+                                    "encryption",
+                                    "decryption",
+                                    "data",
+                                    "transformation"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-cyberchef",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pydantic>=2",
+                                    "STPyV8"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-cyberchef"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "96fa29e33a6bfea855b7bf23e9289b3be9f1db0a509df69934df050f6a4b5827",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-cyberchef/legacy.zip/9ec70a25f2d6daeb9c633c522c52e2805744e4eb"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRaysSA/ida-terminal-plugin",
             "name": "ida-terminal-plugin",
             "versions": {
