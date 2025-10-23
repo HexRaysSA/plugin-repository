@@ -1284,6 +1284,275 @@
             }
         },
         {
+            "host": "https://github.com/williballenthin/ida-settings",
+            "name": "ida-settings-editor",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [],
+                                "category": "ui-ux-and-visualization",
+                                "description": "Settings manager UI for IDA Pro plugins",
+                                "entryPoint": "./plugin/entrypoint.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "settings",
+                                    "configuration",
+                                    "preferences",
+                                    "plugin-manager",
+                                    "ui",
+                                    "editor"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-settings-editor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-hcli",
+                                    "ida-settings"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": "Required API key for authentication (cannot be deleted)",
+                                        "key": "required_api_key",
+                                        "name": "API Key",
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "default-value",
+                                        "documentation": "A demo string setting to test the settings editor",
+                                        "key": "key1",
+                                        "name": "Demo String Setting",
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "A demo boolean setting to test the settings editor",
+                                        "key": "key2",
+                                        "name": "Demo Boolean Setting",
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": [
+                                            "debug",
+                                            "info",
+                                            "warning",
+                                            "error"
+                                        ],
+                                        "default": "info",
+                                        "documentation": "Logging verbosity level",
+                                        "key": "log_level",
+                                        "name": "Log Level",
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "https://api.example.com",
+                                        "documentation": "URL for the API endpoint (must start with https://)",
+                                        "key": "api_endpoint",
+                                        "name": "API Endpoint",
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": "^https://.*$"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose debug logging and diagnostics",
+                                        "key": "enable_debug_mode",
+                                        "name": "Enable Debug Mode",
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Request timeout in seconds (must be a positive integer)",
+                                        "key": "timeout",
+                                        "name": "Timeout",
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "^[1-9][0-9]*$"
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/ida-settings"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "299a0565080718decd31544b88594788a253092c862c9f65675ef12484dfbd61",
+                        "url": "https://codeload.github.com/williballenthin/ida-settings/legacy.zip/7a3bb86f5bc739f43a4cd26a6cd62cfc8af2fb93"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Settings manager UI for IDA Pro plugins",
+                                "entryPoint": "./plugin/entrypoint.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "settings",
+                                    "configuration",
+                                    "preferences",
+                                    "plugin-manager",
+                                    "ui",
+                                    "editor"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-settings-editor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-hcli",
+                                    "ida-settings"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": "Required API key for authentication (cannot be deleted)",
+                                        "key": "required_api_key",
+                                        "name": "API Key",
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "default-value",
+                                        "documentation": "A demo string setting to test the settings editor",
+                                        "key": "key1",
+                                        "name": "Demo String Setting",
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "A demo boolean setting to test the settings editor",
+                                        "key": "key2",
+                                        "name": "Demo Boolean Setting",
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": [
+                                            "debug",
+                                            "info",
+                                            "warning",
+                                            "error"
+                                        ],
+                                        "default": "info",
+                                        "documentation": "Logging verbosity level",
+                                        "key": "log_level",
+                                        "name": "Log Level",
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "https://api.example.com",
+                                        "documentation": "URL for the API endpoint (must start with https://)",
+                                        "key": "api_endpoint",
+                                        "name": "API Endpoint",
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": "^https://.*$"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose debug logging and diagnostics",
+                                        "key": "enable_debug_mode",
+                                        "name": "Enable Debug Mode",
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Request timeout in seconds (must be a positive integer)",
+                                        "key": "timeout",
+                                        "name": "Timeout",
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "^[1-9][0-9]*$"
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/ida-settings"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "53362146edca8da4e6ffa1c45543e4722102b0c63d8b6aeddd5f049a3449684c",
+                        "url": "https://codeload.github.com/williballenthin/ida-settings/legacy.zip/675e82113fab8c223bcb30c337aeda1c0818b891"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRaysSA/ida-terminal-plugin",
             "name": "ida-terminal-plugin",
             "versions": {
