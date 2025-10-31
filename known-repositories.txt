@@ -1,6 +1,5 @@
 HexRays-plugin-contributions/xray
 HexRays-plugin-contributions/comida
-HexRays-plugin-contributions/deREferencing
 HexRays-plugin-contributions/ida_ifl
 HexRays-plugin-contributions/bindiff
 HexRays-plugin-contributions/binexport
@@ -11,3 +10,4 @@ williballenthin/idawilli
 williballenthin/ida-settings
 HexRaysSA/ida-cyberchef
 milankovo/zydisinfo
+danigargu/deREferencing
