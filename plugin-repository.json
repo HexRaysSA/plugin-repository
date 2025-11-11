@@ -594,6 +594,55 @@
                         },
                         "sha256": "79c99990cad08075cc88b882193f64c9e5a85ec8d71cf45ab3674cf565982a25",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/0533048168f8327573e7f668a61485bfc0b26246"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Show a hoverable icon on lines with a bookmark.",
+                                "entryPoint": "bookmark_hints.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "bookmarks",
+                                    "navigation",
+                                    "ui-enhancement",
+                                    "tooltips",
+                                    "disassembly-view"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "bookmark-hints",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
                     }
                 ]
             }
@@ -706,6 +755,55 @@
                         },
                         "sha256": "79c99990cad08075cc88b882193f64c9e5a85ec8d71cf45ab3674cf565982a25",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/0533048168f8327573e7f668a61485bfc0b26246"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Colors call instructions and adds a prefix in the disassembly listing.",
+                                "entryPoint": "colorize_calls.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "visual-enhancement",
+                                    "code-analysis",
+                                    "disassembly-highlighting",
+                                    "reverse-engineering",
+                                    "ui-improvement"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "colorize-calls",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
                     }
                 ]
             }
@@ -1002,6 +1100,55 @@
                         },
                         "sha256": "79c99990cad08075cc88b882193f64c9e5a85ec8d71cf45ab3674cf565982a25",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/0533048168f8327573e7f668a61485bfc0b26246"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Demonstrate how to display dynamic hints.",
+                                "entryPoint": "extensible_hints.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "ui-customization",
+                                    "tooltips",
+                                    "dynamic-hints",
+                                    "disassembly-enhancement",
+                                    "developer-example"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "extensible-hints",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
                     }
                 ]
             }
@@ -1114,6 +1261,55 @@
                         },
                         "sha256": "79c99990cad08075cc88b882193f64c9e5a85ec8d71cf45ab3674cf565982a25",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/0533048168f8327573e7f668a61485bfc0b26246"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Displays popup function hints for the referenced calls and strings.",
+                                "entryPoint": "hint_calls.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "reverse-engineering",
+                                    "function-analysis",
+                                    "ui-enhancement",
+                                    "code-navigation",
+                                    "popup-hints"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "hint-calls",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
                     }
                 ]
             }
@@ -1876,6 +2072,60 @@
                         "sha256": "79c99990cad08075cc88b882193f64c9e5a85ec8d71cf45ab3674cf565982a25",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/0533048168f8327573e7f668a61485bfc0b26246"
                     }
+                ],
+                "0.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "oplog is an IDA Pro plugin that records operations during analysis.",
+                                "entryPoint": "oplog_entry.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "workflow-analysis",
+                                    "reverse-engineering-methodology",
+                                    "ai-training-data",
+                                    "analysis-visualization"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "oplog",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pydantic>=2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.2.0"
+                            }
+                        },
+                        "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
+                    }
                 ]
             }
         },
@@ -1987,6 +2237,55 @@
                         },
                         "sha256": "79c99990cad08075cc88b882193f64c9e5a85ec8d71cf45ab3674cf565982a25",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/0533048168f8327573e7f668a61485bfc0b26246"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Quickly organize functions into tags via hotkey (Z).",
+                                "entryPoint": "tag_func.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "function-organization",
+                                    "reverse-engineering",
+                                    "code-navigation",
+                                    "function-tagging",
+                                    "workflow-optimization"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "tag-func",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
                     }
                 ]
             }
