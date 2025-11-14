@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '30 4 * * *'  # rebuild daily at 4:30 UTC
+    - cron: '30 00,4,12,16,20 * * *'  # rebuild daily at 4:30 UTC
   workflow_dispatch:
 
 name: sync
