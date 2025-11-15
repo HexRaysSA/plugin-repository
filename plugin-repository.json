@@ -127,6 +127,59 @@
             }
         },
         {
+            "host": "https://github.com/merces/showcomments",
+            "name": "ShowComments",
+            "versions": {
+                "0.5.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "@mer0x36.bsky.social",
+                                        "name": "Fernando Merc\u00eas"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "IDA Pro plugin that shows comments in a database",
+                                "entryPoint": "showcomments.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "comments",
+                                    "comment"
+                                ],
+                                "license": "GPL-3.0-or-later",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ShowComments",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/merces/showcomments"
+                                },
+                                "version": "0.5.0"
+                            }
+                        },
+                        "sha256": "8b27eaac1cdf69837244cc14914fb55385b4395669b42e34cc3a67849376b29d",
+                        "url": "https://codeload.github.com/merces/showcomments/legacy.zip/1d67930beb30e970dcec147a85becb0e41f98432"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/bindiff",
             "name": "bindiff",
             "versions": {
