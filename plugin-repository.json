@@ -180,6 +180,64 @@
             }
         },
         {
+            "host": "https://github.com/0xdea/augur",
+            "name": "augur",
+            "versions": {
+                "0.7.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.7.3"
+                            }
+                        },
+                        "sha256": "101097eb48ee3fcbf22dfa3c0fec365d7708b94edda6d4f7da41526757158ccf",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/8d00044d1d91e7f1c973ac88e601c006249a9842"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/bindiff",
             "name": "bindiff",
             "versions": {
@@ -1304,6 +1362,64 @@
                         },
                         "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/0xdea/haruspex",
+            "name": "haruspex",
+            "versions": {
+                "0.7.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.7.3"
+                            }
+                        },
+                        "sha256": "4009a13aeddcbe5760b2d7b9abf244aab1126c5ca8b0e9c8fa1d8f3af280d56c",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/c77f11854197be2a87f6c12c9b57f45111f3797c"
                     }
                 ]
             }
