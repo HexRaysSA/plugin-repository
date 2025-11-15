@@ -1936,6 +1936,62 @@
             }
         },
         {
+            "host": "https://github.com/binarly-io/idalib",
+            "name": "idalib-rust-bindings",
+            "versions": {
+                "0.7.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Idiomatic Rust bindings to IDA SDK",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "bindings"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": "resources/logo.png",
+                                "maintainers": [],
+                                "name": "idalib-rust-bindings",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binarly-io/idalib"
+                                },
+                                "version": "0.7.2"
+                            }
+                        },
+                        "sha256": "650b5a51cbd8a76f7eafff8f2f1dc6ae1c931edffb1683a5b3ca21e9129456b7",
+                        "url": "https://codeload.github.com/binarly-io/idalib/legacy.zip/35d055501a93ab88de18292d5edc8ead2d194048"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/ipyida",
             "name": "ipyida",
             "versions": {
