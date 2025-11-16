@@ -2575,6 +2575,60 @@
             }
         },
         {
+            "host": "https://github.com/xorpse/parascope",
+            "name": "parascope",
+            "versions": {
+                "0.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Weggli ruleset scanner for source code and binaries using idalib",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "weggli",
+                                    "vulnerability-research"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "parascope-logo.svg",
+                                "maintainers": [],
+                                "name": "parascope",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [
+                                    "parascope==0.3.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/xorpse/parascope"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "1059f40ec4293c9353fa12c29caa2a83289918448ada09fc9437255cafaaf4fc",
+                        "url": "https://codeload.github.com/xorpse/parascope/legacy.zip/42e23e31e70fdf64896d6942d7e5fcc00a4e706f"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/0xdea/rhabdomancer",
             "name": "rhabdomancer",
             "versions": {
