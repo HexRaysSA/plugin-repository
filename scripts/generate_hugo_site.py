@@ -491,6 +491,7 @@ title: "{metadata.name}"
             if logo_source.exists():
                 logo_dest = plugin_dir / metadata.logo_path
                 if logo_source.resolve() != logo_dest.resolve():
+                    logo_dest.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(logo_source, logo_dest)
                 plugin_content += f"![{metadata.name} Logo]({metadata.logo_path})\n\n"
 
