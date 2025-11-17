@@ -509,9 +509,7 @@ title: "{metadata.name}"
             readme_content = readme_path.read_text()
             plugin_content += f"""## README
 
-```markdown
 {readme_content}
-```
 
 """
 
