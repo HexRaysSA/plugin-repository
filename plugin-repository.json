@@ -1206,6 +1206,72 @@
             }
         },
         {
+            "host": "https://github.com/binarly-io/efixplorer",
+            "name": "efiXplorer",
+            "versions": {
+                "6.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yv@yegor.cc",
+                                        "name": "yeggor"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "IDA plugin and loader for UEFI firmware analysis and reverse engineering automation",
+                                "entryPoint": "efiXplorer",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "firmware",
+                                    "uefi",
+                                    "efi"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": "pics/efiXplorer.png",
+                                "maintainers": [],
+                                "name": "efiXplorer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binarly-io/efixplorer"
+                                },
+                                "version": "6.1.1"
+                            }
+                        },
+                        "sha256": "7c5add5d80ac82656a7844aeda6c268158a9e0ffdb5b9b2482bf9f86debd9777",
+                        "url": "https://github.com/binarly-io/efiXplorer/releases/download/v6.1.1/efiXplorer-v6.1.1.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/idawilli",
             "name": "extensible-hints",
             "versions": {
@@ -1362,6 +1428,73 @@
                         },
                         "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/binarly-io/fwhunt-ida",
+            "name": "fwhunt-ida",
+            "versions": {
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yv@yegor.cc",
+                                        "name": "yeggor"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Helper plugin for generating FwHunt compliant rules in IDA",
+                                "entryPoint": "fwhunt.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "firmware",
+                                    "fwhunt",
+                                    "uefi",
+                                    "efi"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "fwhunt-ida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fwhunt-scan~=2.3.5"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binarly-io/fwhunt-ida"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "6163c09a2a26e251880ba44290724a08dfaebc498b352f0d70b70e9cd016362c",
+                        "url": "https://codeload.github.com/binarly-io/fwhunt-ida/legacy.zip/176ef4ccdc94c8d1979e72415d8ca695bf8244f7"
                     }
                 ]
             }
