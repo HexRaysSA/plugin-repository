@@ -466,17 +466,16 @@ def generate_plugin_pages(repo_path: Path, content_path: Path) -> None:
         assert plugin.host.startswith("https://")
         host = plugin.host[len("https://") :]
 
-        plugin_dir = content_path / "plugins" / host / plugin.name
+        domain, org, repo = host.rstrip("/").split("/")
+        assert domain == "github.com"
+
+        plugin_dir = content_path / "plugins" / domain / org / repo/ plugin.name
         plugin_dir.mkdir(parents=True, exist_ok=True)
 
         latest_version = next(iter(plugin.versions.keys()))
         metadata = plugin.versions[latest_version][0].metadata.plugin
 
-        host_parts = host.split("/")
-        if len(host_parts) >= 2:
-            plugin_source_dir = repo_path / "plugins" / host_parts[0] / host_parts[1] / plugin.name / plugin.name
-        else:
-            plugin_source_dir = repo_path / "plugins" / host / plugin.name / plugin.name
+        plugin_source_dir = repo_path / "plugins" / domain / org / repo / plugin.name
 
         plugin_content = f"""---
 title: "{metadata.name}"
@@ -493,7 +492,7 @@ title: "{metadata.name}"
                 if logo_source.resolve() != logo_dest.resolve():
                     logo_dest.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(logo_source, logo_dest)
-                plugin_content += f"![{metadata.name} Logo]({metadata.logo_path})\n\n"
+                plugin_content += f"<img src='{metadata.logo_path}' alt='{metadata.name}' width='60px' /><br />"
 
         plugin_content += f"{metadata.description or 'No description available'}\n\n"
 
@@ -584,6 +583,8 @@ title: "{metadata.name}"
             plugin_content += "```json\n"
             plugin_content += ida_plugin_json_content
             plugin_content += "\n```\n"
+        else:
+            logger.warning("missing ida-plugin: %s: %s", plugin.name, plugin_source_dir)
 
         plugin_path = plugin_dir / "_index.md"
         plugin_path.write_text(plugin_content)
