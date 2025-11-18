@@ -1496,6 +1496,59 @@
                         "sha256": "6163c09a2a26e251880ba44290724a08dfaebc498b352f0d70b70e9cd016362c",
                         "url": "https://codeload.github.com/binarly-io/fwhunt-ida/legacy.zip/176ef4ccdc94c8d1979e72415d8ca695bf8244f7"
                     }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yv@yegor.cc",
+                                        "name": "yeggor"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Helper plugin for generating FwHunt compliant rules in IDA",
+                                "entryPoint": "fwhunt.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "firmware",
+                                    "fwhunt",
+                                    "uefi",
+                                    "efi"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "fwhunt-ida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fwhunt-scan~=2.3.5"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binarly-io/fwhunt-ida"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "c16ab107ae7778f3c77c07854046f74bdd9c2cc3c5e2a53ce0f02f193ff5d130",
+                        "url": "https://codeload.github.com/binarly-io/fwhunt-ida/legacy.zip/ce23f2e965aa90c157f7a2303b8cc12bc2c0aecf"
+                    }
                 ]
             }
         },
