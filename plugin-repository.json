@@ -2412,6 +2412,124 @@
             }
         },
         {
+            "host": "https://github.com/binarly-io/idapcode",
+            "name": "idapcode",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yv@yegor.cc",
+                                        "name": "yeggor"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "IDA plugin that displays the P-code for the current function",
+                                "entryPoint": "idapcode.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ghidra",
+                                    "p-code",
+                                    "pypcode",
+                                    "angr"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "idapcode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pypcode~=3.3.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binarly-io/idapcode"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "7dffc89754e71c7e1a4f3cf179fbfcaf686e525c1c94c7b9409b5bf984552a66",
+                        "url": "https://codeload.github.com/binarly-io/idapcode/legacy.zip/500cfc3a2bad9a5a260407c80523b9aeea674efb"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yv@yegor.cc",
+                                        "name": "yeggor"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "IDA plugin that displays the P-code for the current function",
+                                "entryPoint": "idapcode.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ghidra",
+                                    "p-code",
+                                    "pypcode",
+                                    "angr"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "idapcode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pypcode~=3.3.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binarly-io/idapcode"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "f998d96eaaf6bfcb3b5c4e157e242ac40f9638b3dc7f4c8fe2fb7c76f8585ac2",
+                        "url": "https://codeload.github.com/binarly-io/idapcode/legacy.zip/1b81685f4a1b8a6cae7d685eee3df328e926cbe7"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/ipyida",
             "name": "ipyida",
             "versions": {
