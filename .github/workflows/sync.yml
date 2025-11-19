@@ -30,6 +30,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         HCLI_DISABLE_UPDATES: 1
+        HCLI_DEBUG: 1
         TTY_COMPATIBLE: 0
         TTY_INTERACTIVE: 0
 
