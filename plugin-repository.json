@@ -127,6 +127,61 @@
             }
         },
         {
+            "host": "https://github.com/allthingsida/qscripts",
+            "name": "QScripts",
+            "versions": {
+                "1.2.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Develop IDA scripts faster with hot-reload and automatic execution on file changes. Supports Python, IDC, and compiled plugins with dependency tracking.",
+                                "entryPoint": "qscripts",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "QScripts",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/qscripts"
+                                },
+                                "version": "1.2.6"
+                            }
+                        },
+                        "sha256": "9e4286375295d8b94c1ce2580915ca7862d3ed186e3dbe144ec07ac19ea02c18",
+                        "url": "https://github.com/allthingsida/qscripts/releases/download/v1.2.6/qscripts-v1.2.6.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/merces/showcomments",
             "name": "ShowComments",
             "versions": {
