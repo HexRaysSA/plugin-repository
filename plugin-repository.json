@@ -3363,6 +3363,63 @@
             }
         },
         {
+            "host": "https://github.com/chenxvb/Unicorn-Trace",
+            "name": "unicorn-tracer-arm64",
+            "versions": {
+                "0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@v10r.com",
+                                        "name": "Vior"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "This project provides a lightweight Unicorn engine-based ARM64 dynamic tracing emulation tool that can run as an IDA Pro plugin or standalone. The tool integrates tightly with IDA to ensure execution consistency and avoid errors. It provides reliable simulation reproduction capabilities and generates beautiful Tenet logs for debugging and analysis. Key features include dynamic code simulation, memory dumping, register state tracking, and instruction-level logging.",
+                                "entryPoint": "dyn_trace_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "Trace",
+                                    "Tenet",
+                                    "unicorn",
+                                    "android",
+                                    "analysis-visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "unicorn-tracer-arm64",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "unicorn>=2.1.3",
+                                    "capstone>=5.0.6"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/chenxvb/Unicorn-Trace"
+                                },
+                                "version": "0.1"
+                            }
+                        },
+                        "sha256": "870094c9f8ce3fdc7a5059bf4d47b251fa6aac3ac9b6ad496fd1c5cd5206e49c",
+                        "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/releases/Unicorn_Trace.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/xray",
             "name": "xray",
             "versions": {
