@@ -66,6 +66,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Summarize logs
+        run: |
+          mkdir -p ./public/logs/
+          uv run scripts/summarize_github_indexer_logs.py --html > public/logs/indexer.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate Hugo site
         run: |
           mkdir -p ./site/content/

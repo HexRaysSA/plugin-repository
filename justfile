@@ -24,6 +24,11 @@ collect-stars:
     uv run scripts/snapshot_github_repo_metadata.py plugin-repository.json public/plugins/
 
 
+summarize-logs:
+    mkdir -p ./public/logs/
+    uv run scripts/summarize_github_indexer_logs.py --html > public/logs/indexer.html
+
+
 generate-hugo:
     mkdir -p ./site/content/
     uv run scripts/generate_hugo_site.py public/ site/content/
@@ -40,7 +45,7 @@ collect-site:
     rsync -av ./site/public/ ./public/_/
 
 
-build-public: collect-repo mirror-content collect-stars generate-hugo hugo-build-site collect-site
+build-public: collect-repo mirror-content collect-stars summarize-logs generate-hugo hugo-build-site collect-site
 
 
 export HCLI_DISABLE_UPDATES := "1"
