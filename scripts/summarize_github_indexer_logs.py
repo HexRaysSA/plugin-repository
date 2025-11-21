@@ -20,6 +20,7 @@ import re
 import sys
 import zipfile
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from io import BytesIO, StringIO
 from pathlib import Path
 from typing import Any
@@ -317,7 +318,10 @@ class LogRenderer:
         self.console.print(f"{'=' * 80}")
 
         if self.log_url:
-            self.console.print(f"Log URL: [link={self.log_url}]{self.log_url}[/link]\n")
+            self.console.print(f"Log URL: [link={self.log_url}]{self.log_url}[/link]")
+
+        current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        self.console.print(f"Generated at: {current_time}\n")
 
         self.console.print(f"Total repositories: {len(repos)}\n")
 

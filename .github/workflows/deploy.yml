@@ -72,6 +72,7 @@ jobs:
           uv run scripts/summarize_github_indexer_logs.py --html > public/logs/indexer.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COLUMNS: 240
 
       - name: Generate Hugo site
         run: |
