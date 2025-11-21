@@ -18,7 +18,6 @@ import logging
 import shutil
 from collections import defaultdict
 from pathlib import Path
-from urllib.parse import urlparse
 
 import rich.console
 import rich.progress

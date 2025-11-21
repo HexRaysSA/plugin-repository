@@ -104,8 +104,8 @@ def do_cache(json_path: Path, out_path: Path, no_cache: bool = False):
 
         zip_data = fetch_plugin_archive(location.url)
 
-        metadata = get_metadata_from_plugin_archive(zip_data, plugin.name)
-        validate_metadata_in_plugin_archive(zip_data, metadata)
+        metadata_path, metadata = get_metadata_from_plugin_archive(zip_data, plugin.name)
+        validate_metadata_in_plugin_archive(zip_data, metadata_path, metadata)
 
         # path within the zip to ida-plugin.json
         metadata_path = get_metadata_path_from_plugin_archive(zip_data, plugin.name)
