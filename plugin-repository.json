@@ -2444,6 +2444,62 @@
             }
         },
         {
+            "host": "https://github.com/HexRaysSA/ida-terminal-plugin",
+            "name": "ida-terminal-plugin",
+            "versions": {
+                "0.0.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "palosson@hex-rays.com",
+                                        "name": "Pierre-Alexandre Losson"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "A lightweight terminal integration for IDA Pro that lets you open a fully functional terminal within the IDA GUI.\nQuickly access shell commands, scripts, or tooling without leaving your reversing environment.",
+                                "entryPoint": "index.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": "ida-plugin.png",
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "ida-terminal-plugin",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-terminal-plugin"
+                                },
+                                "version": "0.0.6"
+                            }
+                        },
+                        "sha256": "08c6c0792e7df2ccf9b590acb974f8857fc26c9fcc30ef9e0e9796fac3d5342d",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-terminal-plugin/legacy.zip/49fc8160ebe138d0e9403d3e4143076c7136fd72"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/binarly-io/idalib",
             "name": "idalib-rust-bindings",
             "versions": {
