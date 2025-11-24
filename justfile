@@ -53,3 +53,28 @@ export HCLI_DEBUG := "0"
 
 build-repo:
     uv run --with ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt repo snapshot > plugin-repository.json
+
+
+update-known-repos:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    # Extract GitHub repository URLs from plugin-repository.json
+    repos=$(jq -r '.plugins[].host' plugin-repository.json | \
+        grep '^https://github.com/' | \
+        sed 's|https://github.com/||' | \
+        sort -u)
+    # Read existing known repositories (excluding empty lines and comments)
+    existing=$(grep -v '^#' known-repositories.txt | grep -v '^[[:space:]]*$' | sort -u)
+    # Find new repositories (those in plugin-repository.json but not in known-repositories.txt)
+    new_repos=$(comm -23 <(echo "$repos") <(echo "$existing"))
+    # Append new repositories if any were found
+    if [ -n "$new_repos" ]; then
+        echo "Found $(echo "$new_repos" | wc -l) new repositories to add:"
+        echo "$new_repos" | sed 's/^/  /'
+        echo "" >> known-repositories.txt
+        echo "# Discovered on $(date '+%Y-%m-%d %H:%M:%S')" >> known-repositories.txt
+        echo "$new_repos" >> known-repositories.txt
+        echo "Successfully appended new repositories to known-repositories.txt"
+    else
+        echo "No new repositories found"
+    fi
