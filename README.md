@@ -14,7 +14,7 @@ In summary:
 Watch the Git history to see plugin additions and (hopefully unlikely) moderation events.
 Commits like [3c0f21c](https://github.com/HexRaysSA/plugin-repository/commit/3c0f21c6672c46ff3cbb071b86e5389bc64583cb) are made by the indexer, and include a nice summary in the commit message:
 
-```markdwon
+```markdown
 sync repo: +2 plugins, +3 releases
 ## New plugins
 - [iOSHelper](https://github.com/yoavst/ida-ios-helper) (1.0.19, 1.0.17)
