@@ -182,3 +182,7 @@ w00tzenheimer/d810-ng
 yoavst/graffiti
 yoavst/ida-ios-helper
 zerotypic/wilhelm
+
+# Discovered on 2025-11-24 16:41:18
+chenxvb/Unicorn-Trace
+xorpse/parascope

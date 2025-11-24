@@ -2914,6 +2914,60 @@
             }
         },
         {
+            "host": "https://github.com/xorpse/parascope",
+            "name": "parascope",
+            "versions": {
+                "0.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Weggli ruleset scanner for source code and binaries using idalib",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "weggli",
+                                    "vulnerability-research"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "parascope-logo.svg",
+                                "maintainers": [],
+                                "name": "parascope",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [
+                                    "parascope==0.3.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/xorpse/parascope"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "1059f40ec4293c9353fa12c29caa2a83289918448ada09fc9437255cafaaf4fc",
+                        "url": "https://codeload.github.com/xorpse/parascope/legacy.zip/42e23e31e70fdf64896d6942d7e5fcc00a4e706f"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/0xdea/rhabdomancer",
             "name": "rhabdomancer",
             "versions": {
@@ -3127,6 +3181,65 @@
                         },
                         "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/chenxvb/Unicorn-Trace",
+            "name": "unicorn-tracer-arm64",
+            "versions": {
+                "0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@v10r.com",
+                                        "name": "Vior"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "This project provides a lightweight Unicorn engine-based ARM64 dynamic tracing emulation tool that can run as an IDA Pro plugin or standalone. The tool integrates tightly with IDA to ensure execution consistency and avoid errors. It provides reliable simulation reproduction capabilities and generates beautiful Tenet logs for debugging and analysis. Key features include dynamic code simulation, memory dumping, register state tracking, and instruction-level logging.",
+                                "entryPoint": "dyn_trace_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "Trace",
+                                    "Tenet",
+                                    "unicorn",
+                                    "android",
+                                    "analysis-visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "unicorn-tracer-arm64",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "unicorn>=2.1.3",
+                                    "capstone>=5.0.6"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/chenxvb/Unicorn-Trace"
+                                },
+                                "version": "0.1"
+                            }
+                        },
+                        "sha256": "b9fc69c0404190cf0ed3a9a21844e4d0de14eefd3b360eaa82413a322ede00bc",
+                        "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/releases/Unicorn_Trace.zip"
                     }
                 ]
             }
