@@ -186,3 +186,6 @@ zerotypic/wilhelm
 # Discovered on 2025-11-24 16:41:18
 chenxvb/Unicorn-Trace
 xorpse/parascope
+
+# Discovered on 2025-11-25 08:45:12
+rand-tech/idaplugins
