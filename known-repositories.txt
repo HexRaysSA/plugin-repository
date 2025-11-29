@@ -192,3 +192,6 @@ rand-tech/idaplugins
 
 # added 2025-11-29
 XingTuLab/recopilot
+
+# Discovered on 2025-11-29 08:42:25
+KasperskyLab/hrtng

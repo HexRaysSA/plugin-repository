@@ -182,6 +182,1004 @@
             }
         },
         {
+            "host": "https://github.com/XingTuLab/recopilot",
+            "name": "ReCopilot",
+            "versions": {
+                "0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "7576ac8fbf90c445032c747a53e3eaa1b100ac7c02da134cb4be1f0596abf80b",
+                        "url": "https://codeload.github.com/XingTuLab/recopilot/legacy.zip/d49189e983f7db658bcbd7ebbf5b509b0b944f2b"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "b1d6a41b01cd25c48ab2f17496ccefc534c2156c3cec740f7bb1c02e369a90ef",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy310-linux.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "2758780810e266ca2408d27b577cbff54903b1767b5c7f99e8eaca4b6581e249",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy310-macos.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "0be7eae16e12beac99876be8144725fa9b45437295be8308c0ab9802ee6a0a6d",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy310-windows.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "e85889f69a5750ba6e52167ffcf960e4d68938dfd351e30ff632c926684a62be",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy311-linux.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "010b820344c2421124e688bc8129d833245c9d5642e98e1022fe893d4a6bc28d",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy311-macos.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "263f7becd1d3c71b344dff04ed3a22ec500d493778dfb29e8cc34a088dd2d362",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy311-windows.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "7cd20dfa2c935730f0cb6b4ca1acfa75f80a89efb7583fbf24e5a09eadea1dc9",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy312-linux.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "4ac22ba36f99cbb29c88dec970aeb9b6b4e976eadcff157b5680d0ff7b13a6fd",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy312-macos.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "545920e4fad6c2b4922489b872cce8bb61f067e5f139ea235527695c20fd922c",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy312-windows.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "59a21e201c4e7fbe0c7f2340a1ef219752f2f4185d1982223c6fe43576d71d3c",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy313-linux.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "5b34bb6fecedc3d740db325a18bc90e7c67be2cc58948e1f37c05fbbed6c01a9",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy313-macos.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "9fe980d1b0b104e3245ecf139e076de693f20035135757e178ad15c75b634ab6",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy313-windows.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "79c15d6972b7738cc65af1357fc7223c3d5ebb4d3c7ff879c52d15d8062b6211",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy38-linux.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "cf6b44ba7540f1d6233b96bee48019fdd6929a12d6880ea870915d6fc710c04a",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy38-windows.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "88f1bc6bf67368ee037c16f245b3a54e1bc467f5c3cd932e7aad0c341d7aacc6",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy39-linux.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "84bfd845c3c2b934624c7cdca42c75a06bc397e4ba97b86926d3758a9c4964ac",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy39-macos.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "research@qianxin.com",
+                                        "name": "XingTuLab"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "ReCopilot: Reverse Engineering Copilot in Binary Analysis",
+                                "entryPoint": "recopilot.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "LLM",
+                                    "Decompilation Augmentation",
+                                    "BCSD",
+                                    "Homology Search"
+                                ],
+                                "license": "CC BY-NC 4.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ReCopilot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.58.1",
+                                    "requests",
+                                    "termcolor",
+                                    "pygments"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/XingTuLab/recopilot"
+                                },
+                                "version": "0.2"
+                            }
+                        },
+                        "sha256": "d28a09910a6cc36590239443f233319641c94e107aa96ada56a0ecb8c676d206",
+                        "url": "https://github.com/XingTuLab/recopilot/releases/download/0.2/recopilot-distpy39-windows.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/merces/showcomments",
             "name": "ShowComments",
             "versions": {
@@ -1913,6 +2911,84 @@
                         },
                         "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/KasperskyLab/hrtng",
+            "name": "hrtng",
+            "versions": {
+                "3.7.74": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.7.74"
+                            }
+                        },
+                        "sha256": "e8ea4ebccb887d70c0785eaf7aaa57e5542a6573cbf2f636ceebae6f4d136a69",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.7.74/hrtng-ida9.2.zip"
                     }
                 ]
             }
