@@ -189,3 +189,6 @@ xorpse/parascope
 
 # Discovered on 2025-11-25 08:45:12
 rand-tech/idaplugins
+
+# added 2025-11-29
+XingTuLab/recopilot
