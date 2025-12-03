@@ -1,6 +1,75 @@
 {
     "plugins": [
         {
+            "host": "https://github.com/AzzOnFire/emuit",
+            "name": "EmuIt",
+            "versions": {
+                "0.8.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "malanov.io@gmail.com",
+                                        "name": "AzzOnFire"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Easy-to-use IDA PRO emulator plugin based on unicorn",
+                                "entryPoint": "emuit.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "deobfuscation",
+                                    "emulation",
+                                    "unicorn",
+                                    "malware-analysis",
+                                    "emulate-selection",
+                                    "strings-extraction"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "EmuIt",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "unicorn>=2.1.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/AzzOnFire/emuit"
+                                },
+                                "version": "0.8.1"
+                            }
+                        },
+                        "sha256": "0afef8b0b4ae5a61c376ca69991a8914da8245c2d25f5fb35d33dab0631ec9d1",
+                        "url": "https://codeload.github.com/AzzOnFire/emuit/legacy.zip/ffde3161d8abcb6b66ccef98cca131b7cdfdb52e"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/ida_ifl",
             "name": "IFL",
             "versions": {
@@ -2692,6 +2761,150 @@
                         },
                         "sha256": "8fb12df24e64defe9f06ff4102e04a7f8a33a64ae5cd2a52638f281389215153",
                         "url": "https://codeload.github.com/rand-tech/idaplugins/legacy.zip/63c8bcb01107dd76a52730a11c4fe4737af82e1d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "54098069+rand-tech@users.noreply.github.com",
+                                        "name": "rand0m"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Display functions grouped by source file. Useful when analyzing rust samples",
+                                "entryPoint": "funcfiletree.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "reverse-engineering",
+                                    "rust",
+                                    "llvm",
+                                    "go"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "funcfiletree",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/rand-tech/idaplugins"
+                                },
+                                "version": "1.0"
+                            }
+                        },
+                        "sha256": "9e4fdeabe5534db9dbfe8b1fa803e68ce51d1c87a1cba60a1cbd005877b157f1",
+                        "url": "https://codeload.github.com/rand-tech/idaplugins/legacy.zip/9a8b2ce39f58b53ead5198bf1441e4b564577bfc"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/JusticeRage/Gepetto",
+            "name": "gepetto",
+            "versions": {
+                "1.5.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "justicerage@manalyzer.org",
+                                        "name": "Ivan Kwiatkowski"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "decompilation",
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Gepetto is a Python plugin which uses various large language models to provide meaning to functions decompiled by IDA Pro. It can leverage them to explain what a function does, and to automatically rename its variables.",
+                                "entryPoint": "gepetto.py",
+                                "idaVersions": [
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "gpt",
+                                    "openai",
+                                    "gemini",
+                                    "ollama",
+                                    "code-explanation",
+                                    "variable-renaming",
+                                    "auto-comment",
+                                    "decompilation-analysis",
+                                    "reverse-engineering-assistant",
+                                    "natural-language",
+                                    "azure-openai",
+                                    "groq",
+                                    "together",
+                                    "deepseek",
+                                    "agent"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "gepetto",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai>=1.101.0",
+                                    "groq>=0.8.0",
+                                    "together>=1.2.0",
+                                    "ollama>=0.4.5",
+                                    "azure-identity>=1.21.0",
+                                    "google-genai>=1.36.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/JusticeRage/Gepetto"
+                                },
+                                "version": "1.5.0"
+                            }
+                        },
+                        "sha256": "9263a3c89e2eadde3e2c0d039e9cf96a1040359cd65eee0ae41a043cb42e76b9",
+                        "url": "https://codeload.github.com/JusticeRage/Gepetto/legacy.zip/5dd9f4f242c1a3914dd70924bcf2823ddf0ea1d6"
                     }
                 ]
             }
@@ -3107,6 +3320,60 @@
                         },
                         "sha256": "a6bee04d7806794e6e2ea9d1a3c7ffbf593b04336525e82814ede774c41f1d6e",
                         "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/43eadf2ce4efebff8f1509fde68d0ea260fdca98"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/rand-tech/idaplugins",
+            "name": "icp",
+            "versions": {
+                "1.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "54098069+rand-tech@users.noreply.github.com",
+                                        "name": "rand0m"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "IDA's Command Palette - Commands, names, functions, structures, etc. all accessible from one place.",
+                                "entryPoint": "icp.py",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "reverse-engineering",
+                                    "command palette",
+                                    "hotkeys",
+                                    "productivity"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "icp",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/rand-tech/idaplugins"
+                                },
+                                "version": "1.3"
+                            }
+                        },
+                        "sha256": "9e4fdeabe5534db9dbfe8b1fa803e68ce51d1c87a1cba60a1cbd005877b157f1",
+                        "url": "https://codeload.github.com/rand-tech/idaplugins/legacy.zip/9a8b2ce39f58b53ead5198bf1441e4b564577bfc"
                     }
                 ]
             }
@@ -4188,6 +4455,54 @@
                         },
                         "sha256": "8fb12df24e64defe9f06ff4102e04a7f8a33a64ae5cd2a52638f281389215153",
                         "url": "https://codeload.github.com/rand-tech/idaplugins/legacy.zip/63c8bcb01107dd76a52730a11c4fe4737af82e1d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "54098069+rand-tech@users.noreply.github.com",
+                                        "name": "rand0m"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Jump with J/K to the previous or next function or named data item.",
+                                "entryPoint": "navigator.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "reverse-engineering",
+                                    "navigation",
+                                    "hotkeys",
+                                    "productivity"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "navigator",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/rand-tech/idaplugins"
+                                },
+                                "version": "1.3"
+                            }
+                        },
+                        "sha256": "9e4fdeabe5534db9dbfe8b1fa803e68ce51d1c87a1cba60a1cbd005877b157f1",
+                        "url": "https://codeload.github.com/rand-tech/idaplugins/legacy.zip/9a8b2ce39f58b53ead5198bf1441e4b564577bfc"
                     }
                 ]
             }
