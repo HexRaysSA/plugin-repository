@@ -1499,7 +1499,7 @@
                         "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/e64c29b55b4875f2d6c8fe8487787b8e8307b885"
                     }
                 ],
-                "1.2.0": [
+                "1.2.1": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -1538,11 +1538,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/p05wn/SuperHint"
                                 },
-                                "version": "1.2.0"
+                                "version": "1.2.1"
                             }
                         },
-                        "sha256": "7878d9432be2928bb903f57a22269b72aab5ba751c334ed73850630550cc35d4",
-                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/8276a7f2bdbeabb782204a376ee3de7aaf99ac31"
+                        "sha256": "8101edd087d9dd11c3a45c7d7eb82d109eff7c9c48e58921fdba8bb41885c235",
+                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/5ef74f68087fef08635a9873bb506d46e9fe1830"
                     }
                 ]
             }
