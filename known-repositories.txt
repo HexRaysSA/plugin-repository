@@ -206,3 +206,6 @@ VirusTotal/vt-ida-plugin
 
 # Discovered on 2025-12-12 04:47:05
 HexRaysSA/ida-terminal-plugin
+
+# manually added 2025-12-13
+p05wn/SuperHint
