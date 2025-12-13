@@ -1302,6 +1302,252 @@
             }
         },
         {
+            "host": "https://github.com/p05wn/SuperHint",
+            "name": "SuperHint",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "p05wnable@gmail.com",
+                                        "name": "0s_W"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "add/edit comments to hints. Supports local variable and structure fields",
+                                "entryPoint": "superhint.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2"
+                                ],
+                                "keywords": [
+                                    "hint",
+                                    "hints",
+                                    "comments",
+                                    "comment"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "SuperHint",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/p05wn/SuperHint"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "a25ed0894acab098c522d5c42a7c6472977969fbae9281cbe1870429af8a2695",
+                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/5bf81458306c371b00fd2be6853922e12cb88e6e"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "p05wnable@gmail.com",
+                                        "name": "0s_W"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "add/edit comments to hints. Supports local variable and structure fields",
+                                "entryPoint": "superhint.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2"
+                                ],
+                                "keywords": [
+                                    "hint",
+                                    "hints",
+                                    "comments",
+                                    "comment"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "SuperHint",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/p05wn/SuperHint"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "fe9c1236bbf2d7034e500a5b42a25faa9e58281868f8bec17f98b47d737df779",
+                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/8c5223fc005a3ec3c112e6f6ba7bce197ec45f12"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "p05wnable@gmail.com",
+                                        "name": "0s_W"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "add/edit comments to hints. Supports local variable and structure fields",
+                                "entryPoint": "superhint.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2"
+                                ],
+                                "keywords": [
+                                    "hint",
+                                    "hints",
+                                    "comments",
+                                    "comment"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "SuperHint",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/p05wn/SuperHint"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "142c3a39336f8e6bb424e890124e9f3b154f912f3cabc75afd7aeaf52eb2b63d",
+                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/daaee4e183d66775fde56eb9ca60c990b7163192"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "p05wnable@gmail.com",
+                                        "name": "0s_W"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "add/edit comments to hints. Supports local variable and structure fields",
+                                "entryPoint": "superhint.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2"
+                                ],
+                                "keywords": [
+                                    "hint",
+                                    "hints",
+                                    "comments",
+                                    "comment"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "SuperHint",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/p05wn/SuperHint"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "9e1946e7171625b939f20e89898a3dd978e3a41234cb5fcd89a48282de471331",
+                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/e64c29b55b4875f2d6c8fe8487787b8e8307b885"
+                    }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "p05wnable@gmail.com",
+                                        "name": "0s_W"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "add/edit comments to hints. Supports local variable and structure fields",
+                                "entryPoint": "superhint.py",
+                                "idaVersions": [
+                                    "8.4"
+                                ],
+                                "keywords": [
+                                    "hint",
+                                    "comment"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "SuperHint",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/p05wn/SuperHint"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "7878d9432be2928bb903f57a22269b72aab5ba751c334ed73850630550cc35d4",
+                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/8276a7f2bdbeabb782204a376ee3de7aaf99ac31"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/0xdea/augur",
             "name": "augur",
             "versions": {
