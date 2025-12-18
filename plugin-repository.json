@@ -1403,52 +1403,6 @@
                         "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/e64c29b55b4875f2d6c8fe8487787b8e8307b885"
                     }
                 ],
-                "1.2.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "p05wnable@gmail.com",
-                                        "name": "0s_W"
-                                    }
-                                ],
-                                "categories": [
-                                    "ui-ux-and-visualization"
-                                ],
-                                "description": "add/edit comments to hints.",
-                                "entryPoint": "superhint.py",
-                                "idaVersions": [
-                                    "8.4"
-                                ],
-                                "keywords": [
-                                    "hint",
-                                    "comment"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "SuperHint",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/p05wn/SuperHint"
-                                },
-                                "version": "1.2.0"
-                            }
-                        },
-                        "sha256": "cdbe709a94b94704334fc391108b6bfff60215121923f5c31a0def2d3aa5bedb",
-                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/241299d7b47d348c14fc856ed37a6b13a74ffaa8"
-                    }
-                ],
                 "1.2.1": [
                     {
                         "metadata": {
@@ -1493,6 +1447,52 @@
                         },
                         "sha256": "8101edd087d9dd11c3a45c7d7eb82d109eff7c9c48e58921fdba8bb41885c235",
                         "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/5ef74f68087fef08635a9873bb506d46e9fe1830"
+                    }
+                ],
+                "1.2.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "p05wnable@gmail.com",
+                                        "name": "0s_W"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "add/edit comments to hints.",
+                                "entryPoint": "superhint.py",
+                                "idaVersions": [
+                                    "8.4"
+                                ],
+                                "keywords": [
+                                    "hint",
+                                    "comment"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "SuperHint",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/p05wn/SuperHint"
+                                },
+                                "version": "1.2.2"
+                            }
+                        },
+                        "sha256": "99095e90426efe2895b07e0dcf69c9e62320aaab8ca83f2c84960074777c396a",
+                        "url": "https://codeload.github.com/p05wn/SuperHint/legacy.zip/eeaa96e2d492b8a21ef5c2916b2264557264af1d"
                     }
                 ]
             }
