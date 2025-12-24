@@ -209,3 +209,6 @@ HexRaysSA/ida-terminal-plugin
 
 # manually added 2025-12-13
 p05wn/SuperHint
+
+# Discovered on 2025-12-24 00:53:42
+a1ext/auto_re
