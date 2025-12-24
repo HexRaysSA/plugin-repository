@@ -212,3 +212,6 @@ p05wn/SuperHint
 
 # Discovered on 2025-12-24 00:53:42
 a1ext/auto_re
+
+# Discovered on 2025-12-24 16:44:17
+binarly-io/fwhunt-ida
