@@ -62,9 +62,10 @@ update-known-repos:
     repos=$(jq -r '.plugins[].host' plugin-repository.json | \
         grep '^https://github.com/' | \
         sed 's|https://github.com/||' | \
+        tr '[:upper:]' '[:lower:]' | \
         sort -u)
     # Read existing known repositories (excluding empty lines and comments)
-    existing=$(grep -v '^#' known-repositories.txt | grep -v '^[[:space:]]*$' | sort -u)
+    existing=$(grep -v '^#' known-repositories.txt | grep -v '^[[:space:]]*$' | tr '[:upper:]' '[:lower:]' | sort -u)
     # Find new repositories (those in plugin-repository.json but not in known-repositories.txt)
     new_repos=$(comm -23 <(echo "$repos") <(echo "$existing"))
     # Append new repositories if any were found
