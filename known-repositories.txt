@@ -55,7 +55,6 @@ cisco-talos/dyndataresolver
 cisco-talos/ghida
 coldzer0/ida-for-delphi
 danielplohmann/idascope
-danigargu/dereferencing
 danigargu/heap-viewer
 danigargu/idatropy
 danigargu/syms2elf
@@ -192,20 +191,6 @@ rand-tech/idaplugins
 
 # added 2025-11-29
 XingTuLab/recopilot
-
-# Discovered on 2025-11-29 08:42:25
-KasperskyLab/hrtng
-
-# Discovered on 2025-12-03 08:46:05
-AzzOnFire/emuit
-JusticeRage/Gepetto
-
-# Discovered on 2025-12-09 08:46:47
-AzzOnFire/yarka
-VirusTotal/vt-ida-plugin
-
-# Discovered on 2025-12-12 04:47:05
-HexRaysSA/ida-terminal-plugin
 
 # manually added 2025-12-13
 p05wn/SuperHint
