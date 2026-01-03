@@ -185,6 +185,61 @@
             }
         },
         {
+            "host": "https://github.com/dyussekeyev/ida-spotlight",
+            "name": "IDA-Spotlight",
+            "versions": {
+                "0.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "dyussekeyev@yandex.kz",
+                                        "name": "Askar Dyussekeyev"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Workflow-centric function triage and prioritization plugin for IDA Pro",
+                                "entryPoint": "spotlight.py",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "malware",
+                                    "malware analysis",
+                                    "focus",
+                                    "spotlight"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-Spotlight",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "PySide6",
+                                    "shiboken6"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/dyussekeyev/ida-spotlight"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "d02c1e35c9b41605e2c42123fbb77d6797e8c9d4c3d6ee8f8f814aacab522a43",
+                        "url": "https://codeload.github.com/dyussekeyev/ida-spotlight/legacy.zip/9d8ba450cf35165f130832111814a8f1c00d2a06"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/ida_ifl",
             "name": "IFL",
             "versions": {
