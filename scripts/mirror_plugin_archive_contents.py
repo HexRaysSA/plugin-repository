@@ -78,8 +78,10 @@ def do_cache(json_path: Path, out_path: Path, no_cache: bool = False):
         logger.debug("caching: %s", plugin.name)
         version = None
         locations = []
+        # assume versions are sorted in ascending order,
+        # so fetch the last one
         for version, locations in plugin.versions.items():
-            break
+            continue
 
         assert version is not None
         location = locations[0]

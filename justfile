@@ -16,7 +16,7 @@ collect-repo:
 
 mirror-content:
     mkdir -p ./public/plugins/
-    uv run scripts/mirror_plugin_archive_contents.py --no-cache plugin-repository.json public/plugins/
+    uv run --no-cache scripts/mirror_plugin_archive_contents.py --no-cache plugin-repository.json public/plugins/
 
 
 collect-stars:
@@ -49,10 +49,10 @@ build-public: collect-repo mirror-content collect-stars summarize-logs generate-
 
 
 export HCLI_DISABLE_UPDATES := "1"
-export HCLI_DEBUG := "0"
+export HCLI_DEBUG := "1"
 
 build-repo:
-    uv run --with ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt repo snapshot > plugin-repository.json
+    uv run --with ~/code/hex-rays/ida-hcli --no-cache hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt repo snapshot > plugin-repository.json
 
 
 update-known-repos:
