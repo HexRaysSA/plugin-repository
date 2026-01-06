@@ -206,3 +206,6 @@ libtero/structline
 
 # manually added 2026-01-03
 dyussekeyev/ida-spotlight
+
+# manually added 2026-01-06
+danielplohmann/mcrit-plugin
