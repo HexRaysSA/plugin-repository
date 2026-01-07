@@ -3062,6 +3062,56 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/decode_instruction",
+            "name": "decode_instruction",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "milankovo@users.noreply.github.com",
+                                        "name": "Milanek"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "The decode_instruction plugin is an IDA Pro plugin that provides information about current instruction.",
+                                "entryPoint": "decode_instruction",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "decode_instruction",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/decode_instruction"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "9c09bb2ac4564f8e05931af7701314901f7c3a0d2a973aa810a0e6d457fb7a61",
+                        "url": "https://github.com/milankovo/decode_instruction/releases/download/v1.0.0/decode_instruction-ida9.2.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/binarly-io/efixplorer",
             "name": "efiXplorer",
             "versions": {
