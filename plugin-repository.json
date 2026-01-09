@@ -4301,6 +4301,171 @@
             }
         },
         {
+            "host": "https://github.com/SymbioticSec/ida-security-scanner",
+            "name": "ida-security-scanner",
+            "versions": {
+                "0.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anthony.bondu@symbioticsec.ai",
+                                        "name": "Symbiotic Security"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Security scanner combining IDA decompilation with SAST rules to detect vulnerabilities in pseudocode",
+                                "entryPoint": "symbiotic_ida_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "security",
+                                    "vulnerability",
+                                    "sast",
+                                    "scanner",
+                                    "opengrep"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "symbiotic-logo.jpg",
+                                "maintainers": [],
+                                "name": "ida-security-scanner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/SymbioticSec/ida-security-scanner"
+                                },
+                                "version": "0.0.1"
+                            }
+                        },
+                        "sha256": "3a9fb0f47011910f77850205d6670be623237b0da984c0094ee4cd01c0bbd3a4",
+                        "url": "https://codeload.github.com/SymbioticSec/ida-security-scanner/legacy.zip/025ce7775ec5ee540aeea7a0e6b9bb95675efdb7"
+                    }
+                ],
+                "0.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anthony.bondu@symbioticsec.ai",
+                                        "name": "Symbiotic Security"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Security scanner combining IDA decompilation with SAST rules to detect vulnerabilities in pseudocode",
+                                "entryPoint": "symbiotic_ida_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "security",
+                                    "vulnerability",
+                                    "sast",
+                                    "scanner",
+                                    "opengrep"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "symbiotic-logo.jpg",
+                                "maintainers": [],
+                                "name": "ida-security-scanner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "litellm>=1.0.0",
+                                    "python-dotenv>=1.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/SymbioticSec/ida-security-scanner"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "6af3a0624f0c8e6b2c696242761c75a3c97e179f81f6b6488edfb73d84b6f828",
+                        "url": "https://codeload.github.com/SymbioticSec/ida-security-scanner/legacy.zip/3822f92f2525fff836f6490b15d6dcd4d3433691"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anthony.bondu@symbioticsec.ai",
+                                        "name": "Symbiotic Security"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Security scanner combining IDA decompilation with SAST rules to detect vulnerabilities in pseudocode",
+                                "entryPoint": "symbiotic_ida_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "security",
+                                    "vulnerability",
+                                    "sast",
+                                    "scanner",
+                                    "opengrep"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "symbiotic-logo.jpg",
+                                "maintainers": [],
+                                "name": "ida-security-scanner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "litellm>=1.0.0",
+                                    "python-dotenv>=1.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/SymbioticSec/ida-security-scanner"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "8571a6cc4c3a113956f2f7613664e21d29f4ba6ce82c1517889c7c49d966a7b5",
+                        "url": "https://github.com/SymbioticSec/ida-security-scanner/releases/download/v0.1.2/ida-security-scanner-v0.1.2.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/ida-settings",
             "name": "ida-settings-editor",
             "versions": {
@@ -5967,8 +6132,110 @@
                                 "version": "0.1"
                             }
                         },
+                        "sha256": "0753b7fe4de50031d719eb661a8b71e086b8b72a0ef8da50a36bd7aff2178c05",
+                        "url": "https://codeload.github.com/chenxvb/Unicorn-Trace/legacy.zip/038d4eeec89643f8eca1c9508c512eaaa10300d5"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@v10r.com",
+                                        "name": "Vior"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "This project provides a lightweight Unicorn engine-based ARM64 dynamic tracing emulation tool that can run as an IDA Pro plugin or standalone. The tool integrates tightly with IDA to ensure execution consistency and avoid errors. It provides reliable simulation reproduction capabilities and generates beautiful Tenet logs for debugging and analysis. Key features include dynamic code simulation, memory dumping, register state tracking, and instruction-level logging.",
+                                "entryPoint": "dyn_trace_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "Trace",
+                                    "Tenet",
+                                    "unicorn",
+                                    "android",
+                                    "analysis-visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "unicorn-tracer-arm64",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "unicorn>=2.1.3",
+                                    "capstone>=5.0.6"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/chenxvb/Unicorn-Trace"
+                                },
+                                "version": "0.1"
+                            }
+                        },
                         "sha256": "b9fc69c0404190cf0ed3a9a21844e4d0de14eefd3b360eaa82413a322ede00bc",
                         "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/releases/Unicorn_Trace.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@v10r.com",
+                                        "name": "Vior"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "This project provides a lightweight Unicorn engine-based ARM64 dynamic tracing emulation tool that can run as an IDA Pro plugin or standalone. The tool integrates tightly with IDA to ensure execution consistency and avoid errors. It provides reliable simulation reproduction capabilities and generates beautiful Tenet logs for debugging and analysis. Key features include dynamic code simulation, memory dumping, register state tracking, and instruction-level logging.",
+                                "entryPoint": "dyn_trace_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "Trace",
+                                    "Tenet",
+                                    "unicorn",
+                                    "android",
+                                    "analysis-visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "unicorn-tracer-arm64",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "unicorn>=2.1.3",
+                                    "capstone>=5.0.6"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/chenxvb/Unicorn-Trace"
+                                },
+                                "version": "0.1"
+                            }
+                        },
+                        "sha256": "1d2c6e2055b24a5a23c7bf698c2ba2b0d4dbb6fc79091712c84764c567c4e10b",
+                        "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/v0.2/Unicorn_Trace.zip"
                     }
                 ]
             }
