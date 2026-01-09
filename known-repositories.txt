@@ -215,3 +215,11 @@ milankovo/decode_instruction
 
 # manually added 2026-01-09
 SymbioticSec/ida-security-scanner
+libtero/suture
+libtero/graphviewer
+libtero/idaguides
+19h/ida-lifter
+19h/ida-codedump
+19h/ida-semray
+19h/idalib-dump
+19h/chernobog
