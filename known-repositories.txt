@@ -212,3 +212,6 @@ danielplohmann/mcrit-plugin
 
 # Discovered on 2026-01-07 16:47:58
 milankovo/decode_instruction
+
+# manually added 2026-01-09
+SymbioticSec/ida-security-scanner
