@@ -6467,7 +6467,9 @@
                         },
                         "sha256": "b9fc69c0404190cf0ed3a9a21844e4d0de14eefd3b360eaa82413a322ede00bc",
                         "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/releases/Unicorn_Trace.zip"
-                    },
+                    }
+                ],
+                "0.2": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -6513,10 +6515,10 @@
                                     "homepage": null,
                                     "repository": "https://github.com/chenxvb/Unicorn-Trace"
                                 },
-                                "version": "0.1"
+                                "version": "0.2"
                             }
                         },
-                        "sha256": "1d2c6e2055b24a5a23c7bf698c2ba2b0d4dbb6fc79091712c84764c567c4e10b",
+                        "sha256": "8a4acf43434edc668fe43b7910a879bbac57590e3b8228f4ca853d933f01cac3",
                         "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/v0.2/Unicorn_Trace.zip"
                     }
                 ]
