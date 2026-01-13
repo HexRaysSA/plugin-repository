@@ -4865,6 +4865,7 @@
                                         "documentation": "Required API key for authentication (cannot be deleted)",
                                         "key": "required_api_key",
                                         "name": "API Key",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": null
@@ -4875,6 +4876,7 @@
                                         "documentation": "A demo string setting to test the settings editor",
                                         "key": "key1",
                                         "name": "Demo String Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -4885,6 +4887,7 @@
                                         "documentation": "A demo boolean setting to test the settings editor",
                                         "key": "key2",
                                         "name": "Demo Boolean Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -4900,6 +4903,7 @@
                                         "documentation": "Logging verbosity level",
                                         "key": "log_level",
                                         "name": "Log Level",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -4910,6 +4914,7 @@
                                         "documentation": "URL for the API endpoint (must start with https://)",
                                         "key": "api_endpoint",
                                         "name": "API Endpoint",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": "^https://.*$"
@@ -4920,6 +4925,7 @@
                                         "documentation": "Enable verbose debug logging and diagnostics",
                                         "key": "enable_debug_mode",
                                         "name": "Enable Debug Mode",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -4930,6 +4936,7 @@
                                         "documentation": "Request timeout in seconds (must be a positive integer)",
                                         "key": "timeout",
                                         "name": "Timeout",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": "^[1-9][0-9]*$"
@@ -4997,6 +5004,7 @@
                                         "documentation": "Required API key for authentication (cannot be deleted)",
                                         "key": "required_api_key",
                                         "name": "API Key",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5007,6 +5015,7 @@
                                         "documentation": "A demo string setting to test the settings editor",
                                         "key": "key1",
                                         "name": "Demo String Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5017,6 +5026,7 @@
                                         "documentation": "A demo boolean setting to test the settings editor",
                                         "key": "key2",
                                         "name": "Demo Boolean Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5032,6 +5042,7 @@
                                         "documentation": "Logging verbosity level",
                                         "key": "log_level",
                                         "name": "Log Level",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5042,6 +5053,7 @@
                                         "documentation": "URL for the API endpoint (must start with https://)",
                                         "key": "api_endpoint",
                                         "name": "API Endpoint",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": "^https://.*$"
@@ -5052,6 +5064,7 @@
                                         "documentation": "Enable verbose debug logging and diagnostics",
                                         "key": "enable_debug_mode",
                                         "name": "Enable Debug Mode",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5062,6 +5075,7 @@
                                         "documentation": "Request timeout in seconds (must be a positive integer)",
                                         "key": "timeout",
                                         "name": "Timeout",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": "^[1-9][0-9]*$"
@@ -5129,6 +5143,7 @@
                                         "documentation": "Required API key for authentication (cannot be deleted)",
                                         "key": "required_api_key",
                                         "name": "Demo API Key",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5139,6 +5154,7 @@
                                         "documentation": "A demo string setting to test the settings editor",
                                         "key": "key1",
                                         "name": "Demo String Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5149,6 +5165,7 @@
                                         "documentation": "A demo boolean setting to test the settings editor",
                                         "key": "key2",
                                         "name": "Demo Boolean Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5164,6 +5181,7 @@
                                         "documentation": "Logging verbosity level",
                                         "key": "log_level",
                                         "name": "Demo Log Level",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5174,6 +5192,7 @@
                                         "documentation": "URL for the API endpoint (must start with https://)",
                                         "key": "api_endpoint",
                                         "name": "Demo API Endpoint",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": "^https://.*$"
@@ -5184,6 +5203,7 @@
                                         "documentation": "Enable verbose debug logging and diagnostics",
                                         "key": "enable_debug_mode",
                                         "name": "Demo Enable Debug Mode",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5194,6 +5214,7 @@
                                         "documentation": "Request timeout in seconds (must be a positive integer)",
                                         "key": "timeout",
                                         "name": "Demo Timeout",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": "^[1-9][0-9]*$"
@@ -5259,6 +5280,7 @@
                                         "documentation": "Required API key for authentication (cannot be deleted)",
                                         "key": "required_api_key",
                                         "name": "Demo API Key",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5269,6 +5291,7 @@
                                         "documentation": "A demo string setting to test the settings editor",
                                         "key": "key1",
                                         "name": "Demo String Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5279,6 +5302,7 @@
                                         "documentation": "A demo boolean setting to test the settings editor",
                                         "key": "key2",
                                         "name": "Demo Boolean Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5294,6 +5318,7 @@
                                         "documentation": "Logging verbosity level",
                                         "key": "log_level",
                                         "name": "Demo Log Level",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5304,6 +5329,7 @@
                                         "documentation": "URL for the API endpoint (must start with https://)",
                                         "key": "api_endpoint",
                                         "name": "Demo API Endpoint",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": "^https://.*$"
@@ -5314,6 +5340,7 @@
                                         "documentation": "Enable verbose debug logging and diagnostics",
                                         "key": "enable_debug_mode",
                                         "name": "Demo Enable Debug Mode",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5324,6 +5351,7 @@
                                         "documentation": "Request timeout in seconds (must be a positive integer)",
                                         "key": "timeout",
                                         "name": "Demo Timeout",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": "^[1-9][0-9]*$"
@@ -5389,6 +5417,7 @@
                                         "documentation": "Required API key for authentication (cannot be deleted)",
                                         "key": "required_api_key",
                                         "name": "Demo API Key",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5399,6 +5428,7 @@
                                         "documentation": "A demo string setting to test the settings editor",
                                         "key": "key1",
                                         "name": "Demo String Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5409,6 +5439,7 @@
                                         "documentation": "A demo boolean setting to test the settings editor",
                                         "key": "key2",
                                         "name": "Demo Boolean Setting",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5424,6 +5455,7 @@
                                         "documentation": "Logging verbosity level",
                                         "key": "log_level",
                                         "name": "Demo Log Level",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": null
@@ -5434,6 +5466,7 @@
                                         "documentation": "URL for the API endpoint (must start with https://)",
                                         "key": "api_endpoint",
                                         "name": "Demo API Endpoint",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "string",
                                         "validation_pattern": "^https://.*$"
@@ -5444,6 +5477,7 @@
                                         "documentation": "Enable verbose debug logging and diagnostics",
                                         "key": "enable_debug_mode",
                                         "name": "Demo Enable Debug Mode",
+                                        "prompt": true,
                                         "required": false,
                                         "type": "boolean",
                                         "validation_pattern": null
@@ -5454,6 +5488,7 @@
                                         "documentation": "Request timeout in seconds (must be a positive integer)",
                                         "key": "timeout",
                                         "name": "Demo Timeout",
+                                        "prompt": true,
                                         "required": true,
                                         "type": "string",
                                         "validation_pattern": "^[1-9][0-9]*$"
