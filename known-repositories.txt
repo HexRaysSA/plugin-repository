@@ -223,3 +223,6 @@ libtero/idaguides
 19h/ida-semray
 19h/idalib-dump
 19h/chernobog
+
+# Discovered on 2026-01-13 12:52:19
+nico-posada/crystalre

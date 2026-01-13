@@ -176,6 +176,70 @@
             }
         },
         {
+            "host": "https://github.com/Nico-Posada/CrystalRE",
+            "name": "CrystalRE",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "posadanico@outlook.com",
+                                        "name": "Nico Posada"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "description": "Make reversing crystal binaries less annoying.",
+                                "entryPoint": "crystalre.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "crystal",
+                                    "symbols",
+                                    "strings",
+                                    "elf",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "CrystalRE",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "regex",
+                                    "pyelftools"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Nico-Posada/CrystalRE"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "0dca1ded90655e2002c992a1883466a17964aa55e6ceb4b4216fb37d259a7978",
+                        "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/9e4ce30150c1e5c3e33da4a0d38dbb3432c1551d"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/AzzOnFire/emuit",
             "name": "EmuIt",
             "versions": {
