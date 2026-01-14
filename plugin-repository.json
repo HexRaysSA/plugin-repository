@@ -309,6 +309,132 @@
             }
         },
         {
+            "host": "https://github.com/HappyIDA/HappyIDA",
+            "name": "HappyIDA",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "fd09fcc981f9e92f66501d76098325f3182d64f396fd6b09a3c655621facb73f",
+                        "url": "https://codeload.github.com/HappyIDA/HappyIDA/legacy.zip/37c1bc01b817197c2c55035bfbb4932a8b982ed9"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "4186a378ca7751c205e4d8a60d8ca055b2358a4d5a3b5f8fb412a685521f7594",
+                        "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.0/HappyIDA-v1.0.0.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/dyussekeyev/ida-spotlight",
             "name": "IDA-Spotlight",
             "versions": {
