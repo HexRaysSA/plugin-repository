@@ -232,4 +232,4 @@ nico-posada/crystalre
 n0pex3/sharingan
 
 # manually added 2026-01-14
-arkup/tc_deer/
+arkup/tc_deer
