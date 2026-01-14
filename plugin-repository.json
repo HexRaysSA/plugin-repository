@@ -1647,6 +1647,58 @@
                         "sha256": "ec4cdee2ab9678201509a54ea8fd86116c502f7a8425729975f7b1e350dea8da",
                         "url": "https://codeload.github.com/n0pex3/sharingan/legacy.zip/64e6b3e792611237395f82d6697a1decbeb43e2d"
                     }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "minhhuy2197@gmail.com",
+                                        "name": "Do Minh Huy"
+                                    },
+                                    {
+                                        "email": "congtrung2k1@gmail.com",
+                                        "name": "congtrung2k1"
+                                    }
+                                ],
+                                "categories": [
+                                    "deobfuscation"
+                                ],
+                                "description": "Assist IDA users with deobfuscation and string/data decryption through a drag-and-drop recipe workflow.",
+                                "entryPoint": "zharingan.py",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "deobfuscation",
+                                    "decryption"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "Sharingan",
+                                "platforms": [
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pycryptodome==3.23.0",
+                                    "pycryptodomex==3.23.0",
+                                    "unicorn==2.1.4"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/n0pex3/sharingan"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "11bafad84f0b8fdbd0fe238c67ec4cac3a6e7f69432aee7308748affee8d1f46",
+                        "url": "https://codeload.github.com/n0pex3/sharingan/legacy.zip/85d04e6b838ac54a0570f7a22dfb50cb1be42ee1"
+                    }
                 ]
             }
         },
