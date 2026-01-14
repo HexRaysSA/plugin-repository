@@ -230,3 +230,6 @@ nico-posada/crystalre
 
 # Discovered on 2026-01-14 12:53:17
 n0pex3/sharingan
+
+# manually added 2026-01-14
+arkup/tc_deer/
