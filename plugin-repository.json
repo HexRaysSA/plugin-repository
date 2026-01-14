@@ -4630,6 +4630,95 @@
                                 "pythonDependencies": [
                                     "claude-agent-sdk",
                                     "ida-domain",
+                                    "ida-settings",
+                                    "claude-code-transcripts"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "show_wizard",
+                                        "name": "Show Setup Wizard",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "auth_type",
+                                        "name": "Authentication Type",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "api_key",
+                                        "name": "API Key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-chat-plugin"
+                                },
+                                "version": "0.2.1"
+                            }
+                        },
+                        "sha256": "93d5cb9349edf67a48aaab508c35f394872b4f7a1c62e35e307d0849f0469c75",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-chat-plugin/legacy.zip/8fc6d59a18feecdf697233a17ca1f8d066eea266"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "LLM Chat Client for IDA Pro - A dockable chat interface for AI-powered reverse engineering assistance using Claude Agent SDK.",
+                                "entryPoint": "ida_chat_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "palosson@hex-rays.com",
+                                        "name": "Pierre-Alexandre Losson"
+                                    }
+                                ],
+                                "name": "ida-chat",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "claude-agent-sdk",
+                                    "ida-domain",
                                     "ida-settings"
                                 ],
                                 "settings": [
@@ -4940,6 +5029,95 @@
                         },
                         "sha256": "f48711e92dd4286f5b39a61b678adf01d0c7e0742cf89c896d150200e1cf5aca",
                         "url": "https://github.com/HexRaysSA/ida-chat-plugin/releases/download/v0.2.4/ida-chat.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "LLM Chat Client for IDA Pro - A dockable chat interface for AI-powered reverse engineering assistance using Claude Agent SDK.",
+                                "entryPoint": "ida_chat_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "palosson@hex-rays.com",
+                                        "name": "Pierre-Alexandre Losson"
+                                    }
+                                ],
+                                "name": "ida-chat",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "claude-agent-sdk",
+                                    "ida-domain",
+                                    "ida-settings",
+                                    "claude-code-transcripts"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "show_wizard",
+                                        "name": "Show Setup Wizard",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "auth_type",
+                                        "name": "Authentication Type",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "api_key",
+                                        "name": "API Key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-chat-plugin"
+                                },
+                                "version": "0.2.1"
+                            }
+                        },
+                        "sha256": "d097eb175f56aa9c6b96aa5a611dfedcbd18fb62195dc6d786eec0390271da2a",
+                        "url": "https://github.com/HexRaysSA/ida-chat-plugin/releases/download/v0.2.5/ida-chat.zip"
                     }
                 ],
                 "1.0.0": [
