@@ -3092,8 +3092,8 @@
                                 "version": "0.1.3"
                             }
                         },
-                        "sha256": "7bba47a52d34d5b0ac0b3c316633b6f79b47414b48f24e06ffe3b3a6bd655601",
-                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a1060c0e92468f10355198a687ad9ef82b9de039"
+                        "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
                     {
                         "metadata": {
@@ -3500,8 +3500,8 @@
                                 "version": "0.1.3"
                             }
                         },
-                        "sha256": "7bba47a52d34d5b0ac0b3c316633b6f79b47414b48f24e06ffe3b3a6bd655601",
-                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a1060c0e92468f10355198a687ad9ef82b9de039"
+                        "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
                     {
                         "metadata": {
@@ -4070,8 +4070,8 @@
                                 "version": "0.1.3"
                             }
                         },
-                        "sha256": "7bba47a52d34d5b0ac0b3c316633b6f79b47414b48f24e06ffe3b3a6bd655601",
-                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a1060c0e92468f10355198a687ad9ef82b9de039"
+                        "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
                     {
                         "metadata": {
@@ -4445,6 +4445,63 @@
             }
         },
         {
+            "host": "https://github.com/williballenthin/idawilli",
+            "name": "global-struct-dissector",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Renders structure instances in global data with explicit field names, offsets, and values.",
+                                "entryPoint": "global_struct_dissector_entry.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "structure",
+                                    "formatting",
+                                    "data",
+                                    "disassembly"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "global-struct-dissector",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/0xdea/haruspex",
             "name": "haruspex",
             "versions": {
@@ -4709,8 +4766,8 @@
                                 "version": "0.1.3"
                             }
                         },
-                        "sha256": "7bba47a52d34d5b0ac0b3c316633b6f79b47414b48f24e06ffe3b3a6bd655601",
-                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a1060c0e92468f10355198a687ad9ef82b9de039"
+                        "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
                     {
                         "metadata": {
@@ -6747,8 +6804,8 @@
                                 "version": "0.2.0"
                             }
                         },
-                        "sha256": "7bba47a52d34d5b0ac0b3c316633b6f79b47414b48f24e06ffe3b3a6bd655601",
-                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a1060c0e92468f10355198a687ad9ef82b9de039"
+                        "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
                     {
                         "metadata": {
@@ -7229,8 +7286,8 @@
                                 "version": "0.1.3"
                             }
                         },
-                        "sha256": "7bba47a52d34d5b0ac0b3c316633b6f79b47414b48f24e06ffe3b3a6bd655601",
-                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a1060c0e92468f10355198a687ad9ef82b9de039"
+                        "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
                     {
                         "metadata": {
