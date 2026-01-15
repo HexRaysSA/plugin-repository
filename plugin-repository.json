@@ -6720,6 +6720,55 @@
             }
         },
         {
+            "host": "https://github.com/0Eniltilps/foo",
+            "name": "security-poc-plugin",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "foo@example.tld",
+                                        "name": "0Eniltilps"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "Security PoC - harmless",
+                                "entryPoint": "poc_plugin.py",
+                                "idaVersions": [
+                                    "9.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "security-poc-plugin",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/0Eniltilps/foo"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "5b7b8e5ec2ae0ebfdfe34bcd02bd5be0a58090980627ea099d95f4d4394e17d4",
+                        "url": "https://github.com/0Eniltilps/foo/releases/download/v1.0.0/poc-0Eniltilps-foo.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/n0pex3/sharingan",
             "name": "sharingan",
             "versions": {
