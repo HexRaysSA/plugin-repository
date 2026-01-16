@@ -12,6 +12,7 @@ HexRaysSA/ida-cyberchef
 milankovo/zydisinfo
 danigargu/deREferencing
 HappyIDA/HappyIDA
+marcosd4h/DeepExtractIDA
 
 # this is an initial list of plugins from plugins.hex-rays.com on Nov 17, 2025:
 0rganizers/nmips
