@@ -676,171 +676,6 @@
                             "plugin": {
                                 "authors": [
                                     {
-                                        "email": "",
-                                        "name": "HappyIDA Team"
-                                    },
-                                    {
-                                        "email": "nini@undefined.zip",
-                                        "name": "NiNi"
-                                    },
-                                    {
-                                        "email": "h3xrabbit@gmail.com",
-                                        "name": "HexRabbit"
-                                    },
-                                    {
-                                        "email": "scwuaptx@gmail.com",
-                                        "name": "Angelboy"
-                                    }
-                                ],
-                                "categories": [
-                                    "decompilation"
-                                ],
-                                "description": "Make your IDA Happy!",
-                                "entryPoint": "main.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "decompiler",
-                                    "parameter label",
-                                    "SEH"
-                                ],
-                                "license": "GPL-3.0",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "HappyIDA",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-settings==3.3.0"
-                                ],
-                                "settings": [
-                                    {
-                                        "choices": null,
-                                        "default": "8FE0F8",
-                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
-                                        "key": "seh_bgcolor",
-                                        "name": "SEH Highlight Background Color",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "string",
-                                        "validation_pattern": "[0-9A-Fa-f]{6}"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable parameter labeling",
-                                        "key": "enable_param_label",
-                                        "name": "Enable Parameter Labeling",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable parameter edit",
-                                        "key": "enable_param_edit",
-                                        "name": "Enable Parameter Edit",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable parameter sync name",
-                                        "key": "enable_param_sync_name",
-                                        "name": "Enable Parameter Sync Name",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable parameter sync type",
-                                        "key": "enable_param_sync_type",
-                                        "name": "Enable Parameter Sync Type",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable function navigate",
-                                        "key": "enable_func_navigate",
-                                        "name": "Enable Function Navigate",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable rust string",
-                                        "key": "enable_rust_string",
-                                        "name": "Enable Rust String",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable seh highlight",
-                                        "key": "enable_seh_highlight",
-                                        "name": "Enable SEH Highlight",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Enable seh rebuild",
-                                        "key": "enable_seh_rebuild",
-                                        "name": "Enable SEH Rebuild",
-                                        "prompt": false,
-                                        "required": true,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    }
-                                ],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HappyIDA/HappyIDA"
-                                },
-                                "version": "1.0.0"
-                            }
-                        },
-                        "sha256": "d056256737e962631ffc93734dcaa19007cae07c0247830b83e66841176355bf",
-                        "url": "https://codeload.github.com/HappyIDA/HappyIDA/legacy.zip/ce634b90f7a12ebe1fcf44721d4924bb97ad2e22"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
                                         "email": "nini@undefined.zip",
                                         "name": "NiNi"
                                     },
@@ -893,6 +728,173 @@
                         },
                         "sha256": "4186a378ca7751c205e4d8a60d8ca055b2358a4d5a3b5f8fb412a685521f7594",
                         "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.0/HappyIDA-v1.0.0.zip"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "a5ebb7e8217333e28698682012ba991f352d66b75b9d92b767201dde71c7bfb8",
+                        "url": "https://codeload.github.com/HappyIDA/HappyIDA/legacy.zip/532be918ab915e49e26c8b61aa75cea4539498b7"
                     },
                     {
                         "metadata": {
@@ -1053,10 +1055,10 @@
                                     "homepage": null,
                                     "repository": "https://github.com/HappyIDA/HappyIDA"
                                 },
-                                "version": "1.0.0"
+                                "version": "1.0.1"
                             }
                         },
-                        "sha256": "f3af850d3eaaa02d825c5e21528f09941ac351d72c3b94512c4853f4aff2d579",
+                        "sha256": "9790c7a53d842a19554406b7bd45d500409fb1758641330440a52d96e7cdb7b9",
                         "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.1/HappyIDA.zip"
                     }
                 ]
