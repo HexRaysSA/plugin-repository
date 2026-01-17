@@ -4606,6 +4606,69 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/ida_export_scripts",
+            "name": "export_to_git",
+            "versions": {
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida_export_scripts@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Exports IDA scripts to a Git repository",
+                                "entryPoint": "export_to_git.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "git",
+                                    "version-control",
+                                    "backup",
+                                    "scripts"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "export_to_git",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "GitPython"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida_export_scripts"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "a441337786e2458a50f757e9fef5ea83e7eaffc9a2a8808dd6657aaed8bbec59",
+                        "url": "https://codeload.github.com/milankovo/ida_export_scripts/legacy.zip/aa1ba2d3cc59eb4d8cd984bfdadc67d31e08e565"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/idawilli",
             "name": "extensible-hints",
             "versions": {
@@ -5297,6 +5360,66 @@
                         },
                         "sha256": "bec108dd9e28ec91b95bbe97fda4b42d74e8f5638afc87be43bc48f47e933c77",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/d6ed0986d0f334e24eab9d1b1c35d8da4a56b492"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/hexinlay",
+            "name": "hexinlay",
+            "versions": {
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "hexinlay@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "decompilation"
+                                ],
+                                "description": "Display function argument names in Hex-Rays decompiled code as inlay hints",
+                                "entryPoint": "hexrays_inlay.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "inlay-hints",
+                                    "hex-rays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpeg",
+                                "maintainers": [],
+                                "name": "hexinlay",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/hexinlay"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "86e9712e5b16224820cc09216b9a045b8c84fd48922f1acd8dc6ae78c37b1415",
+                        "url": "https://codeload.github.com/milankovo/hexinlay/legacy.zip/095ac5cbcbf9e5ce37741286245f09c20140676d"
                     }
                 ]
             }
@@ -7158,6 +7281,147 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/instrlen",
+            "name": "instrlen",
+            "versions": {
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "instrlen@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules"
+                                ],
+                                "description": "Forces instruction lengths for binary files.",
+                                "entryPoint": "instrlen",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "binary-analysis",
+                                    "instruction-length"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "img/example.png",
+                                "maintainers": [],
+                                "name": "instrlen",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/instrlen"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "0656784f8e2c7b83c90d1139828a291845fbd0443c18634a7101182a3b63026e",
+                        "url": "https://github.com/milankovo/instrlen/releases/download/v1.0.2/instrlen-ida9.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "instrlen@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules"
+                                ],
+                                "description": "Forces instruction lengths for binary files.",
+                                "entryPoint": "instrlen",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "binary-analysis",
+                                    "instruction-length"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "img/example.png",
+                                "maintainers": [],
+                                "name": "instrlen",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/instrlen"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "bc9ab6e5c012a6b742b34ea56f7b03322288ee07801e9af4ff5c0771e041ba0e",
+                        "url": "https://github.com/milankovo/instrlen/releases/download/v1.0.2/instrlen-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "instrlen@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules"
+                                ],
+                                "description": "Forces instruction lengths for binary files.",
+                                "entryPoint": "instrlen",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "binary-analysis",
+                                    "instruction-length"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "img/example.png",
+                                "maintainers": [],
+                                "name": "instrlen",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/instrlen"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "9cb86b2326aea04023d77fa25f16aefdd5347fe2a2d3ccbea823432e5294650f",
+                        "url": "https://github.com/milankovo/instrlen/releases/download/v1.0.2/instrlen-ida9.1.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRays-plugin-contributions/ipyida",
             "name": "ipyida",
             "versions": {
@@ -7281,6 +7545,153 @@
                         },
                         "sha256": "ec26b8054e5914165a61823d83be93cffd9c4b6cb448b5d783bf8279793dae90",
                         "url": "https://codeload.github.com/HexRays-plugin-contributions/ipyida/legacy.zip/989e681a03ff7b75b1a0a67fc5cb5907bd06559b"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/navcolor",
+            "name": "navcolor",
+            "versions": {
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "navcolor@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
+                                "entryPoint": "navcolor",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "navigation",
+                                    "color",
+                                    "visualization",
+                                    "functions"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "navcolor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/navcolor"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "b1f182e2c8f1953b7c55f88541848012c7dfc13b8f44333dd9cf1c9f742d7b29",
+                        "url": "https://github.com/milankovo/navcolor/releases/download/v1.0.2/navcolor-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "navcolor@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
+                                "entryPoint": "navcolor",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "navigation",
+                                    "color",
+                                    "visualization",
+                                    "functions"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "navcolor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/navcolor"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "a1c6b752bbae9f378365c55847dc29e7f203a478fe1395ff77daa1d1cf250cf0",
+                        "url": "https://github.com/milankovo/navcolor/releases/download/v1.0.2/navcolor-ida9.1.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "navcolor@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
+                                "entryPoint": "navcolor",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "navigation",
+                                    "color",
+                                    "visualization",
+                                    "functions"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "navcolor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/navcolor"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "681e008f3b4916cd421aab9cdeb2fe7a313fc8e74e7138944b788a2d9dc606de",
+                        "url": "https://github.com/milankovo/navcolor/releases/download/v1.0.2/navcolor-ida9.0.zip"
                     }
                 ]
             }
