@@ -236,3 +236,7 @@ n0pex3/sharingan
 # manually added 2026-01-14
 arkup/tc_deer
 
+
+# Discovered on 2026-01-25 19:40:27
+allthingsida/idasql
+volexity/goresolver

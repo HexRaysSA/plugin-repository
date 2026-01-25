@@ -171,6 +171,58 @@
                         },
                         "sha256": "f7ec15873e316ed10719cf15d7651b5abdcb447fd6e956442e6598a76ad49d64",
                         "url": "https://github.com/binsync/binsync/releases/download/v5.10.1/binsync-ida-plugin.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "binsync@mahaloz.re",
+                                        "name": "The BinSync Team"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
+                                "entryPoint": "binsync_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "collaboration",
+                                    "ai-integration",
+                                    "translation",
+                                    "converter"
+                                ],
+                                "license": "BSD 2 Simplified",
+                                "logoPath": "binsync.png",
+                                "maintainers": [],
+                                "name": "BinSync",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "binsync==5.10.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binsync/binsync"
+                                },
+                                "version": "5.10.1"
+                            }
+                        },
+                        "sha256": "621e3b8e0153093071a8fce51a2020e9ef926f2963a613a1fe77b9433cd4da44",
+                        "url": "https://github.com/binsync/binsync/releases/download/v5.11.0/binsync-ida-plugin.zip"
                     }
                 ]
             }
@@ -235,6 +287,64 @@
                         },
                         "sha256": "0dca1ded90655e2002c992a1883466a17964aa55e6ceb4b4216fb37d259a7978",
                         "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/9e4ce30150c1e5c3e33da4a0d38dbb3432c1551d"
+                    }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "posadanico@outlook.com",
+                                        "name": "Nico Posada"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "description": "Make reversing crystal binaries less annoying.",
+                                "entryPoint": "crystalre.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "crystal",
+                                    "symbols",
+                                    "strings",
+                                    "elf",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "CrystalRE",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "regex",
+                                    "pyelftools"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Nico-Posada/CrystalRE"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "16b861e64fdb0a4fd80b577686c151c2ad7ed90fae3055d83755528d733a68ab",
+                        "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/2a566711cafb93ba6c9cdeeddd1e6b71253e29fc"
                     }
                 ]
             }
@@ -534,6 +644,152 @@
                         "sha256": "4ae76bc0310046ea5bccea62fcc6dfaf1d4477e9ad9c09beb7ed7c605655989b",
                         "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.0.6/DeepExtractIDA.zip"
                     }
+                ],
+                "0.0.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.0.8"
+                            }
+                        },
+                        "sha256": "19c77c0f75354e499b44632d3edccd21deb29eca88a184840aeb0497c28a353a",
+                        "url": "https://codeload.github.com/marcosd4h/DeepExtractIDA/legacy.zip/7a77e2f8fbe99c487cb375d1f06d6fab9b9d5cb8"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.0.8"
+                            }
+                        },
+                        "sha256": "5119ab84094f2aab1cacc0d72f30baabb709ba485b2eb2e0d829561841ee0285",
+                        "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.0.8/DeepExtractIDA.zip"
+                    }
                 ]
             }
         },
@@ -602,6 +858,128 @@
                         },
                         "sha256": "0afef8b0b4ae5a61c376ca69991a8914da8245c2d25f5fb35d33dab0631ec9d1",
                         "url": "https://codeload.github.com/AzzOnFire/emuit/legacy.zip/ffde3161d8abcb6b66ccef98cca131b7cdfdb52e"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/volexity/GoResolver",
+            "name": "GoResolver",
+            "versions": {
+                "1.4.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "categories": [
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "GoResolver plugin for IDA Pro.",
+                                "entryPoint": "goresolver_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "Go",
+                                    "Golang",
+                                    "Similarity Analysis",
+                                    "Symbols Recovery",
+                                    "Control Flow Graphs"
+                                ],
+                                "license": "Modified BSD License",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "name": "GoResolver",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "goresolver>=1.4.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/volexity/GoResolver"
+                                },
+                                "version": "1.4.0"
+                            }
+                        },
+                        "sha256": "c592af028c66991b75b9a147dca89782866331d6a7312991989afcddbef1b56c",
+                        "url": "https://codeload.github.com/volexity/GoResolver/legacy.zip/8446475a051a2d8faac1634ae3cba23e4a056edb"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "categories": [
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "GoResolver plugin for IDA Pro.",
+                                "entryPoint": "goresolver_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "Go",
+                                    "Golang",
+                                    "Similarity Analysis",
+                                    "Symbols Recovery",
+                                    "Control Flow Graphs"
+                                ],
+                                "license": "Modified BSD License",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "name": "GoResolver",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "goresolver>=1.4.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/volexity/GoResolver"
+                                },
+                                "version": "1.4.0"
+                            }
+                        },
+                        "sha256": "d54662d4711c8d4b7c63ec6dbca05ee7820146053b6a0fdb66b9ecfe913cc920",
+                        "url": "https://github.com/volexity/GoResolver/releases/download/v1.4.0/GoResolver-Plugin-v1.4.0.zip"
                     }
                 ]
             }
@@ -1061,6 +1439,1002 @@
                         "sha256": "9790c7a53d842a19554406b7bd45d500409fb1758641330440a52d96e7cdb7b9",
                         "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.1/HappyIDA.zip"
                     }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "118247e430da7ab5a4e071ab6a6f6e2a3fbe6b1cbc0269426989c204fbc893c5",
+                        "url": "https://codeload.github.com/HappyIDA/HappyIDA/legacy.zip/ea759c5d00659cbe08391e96f7d574567665589a"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "ff613129d07f14cad8e1a2a652f8dcfc8d3efc37180b6a37a189e7b971db2ad6",
+                        "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.2/HappyIDA.zip"
+                    }
+                ],
+                "1.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "7c328b9d142218113681f9cb955d1ff0f9fd72fa8b241cd891c85c6153c11599",
+                        "url": "https://codeload.github.com/HappyIDA/HappyIDA/legacy.zip/1430c9220f9a3d3978557b9903d1fe9638c903ad"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "461b46d6801d3abf07242b3dc2381a9b1dbc98c11b5bf0b14bab411413568d31",
+                        "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.3/HappyIDA.zip"
+                    }
+                ],
+                "1.0.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.4"
+                            }
+                        },
+                        "sha256": "18653778f66aa08b06947b19c2b0aadf3bf3faeb2c5a060f790d9c67768bcb81",
+                        "url": "https://codeload.github.com/HappyIDA/HappyIDA/legacy.zip/5af7cf181a75c27ec8f54ce77b8b81dfb2f929ac"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.4"
+                            }
+                        },
+                        "sha256": "680c145fbb4edd7a5612ae4dae2c581374e642fca6fc89c2e6eb8e8e99473bac",
+                        "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.4/HappyIDA.zip"
+                    }
                 ]
             }
         },
@@ -1115,6 +2489,148 @@
                         },
                         "sha256": "d02c1e35c9b41605e2c42123fbb77d6797e8c9d4c3d6ee8f8f814aacab522a43",
                         "url": "https://codeload.github.com/dyussekeyev/ida-spotlight/legacy.zip/9d8ba450cf35165f130832111814a8f1c00d2a06"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/allthingsida/idasql",
+            "name": "IDASQL",
+            "versions": {
+                "0.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, remote server mode, and natural language queries via Claude.",
+                                "entryPoint": "idasql_plugin",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.1"
+                            }
+                        },
+                        "sha256": "5a8ca05acb1b2594759a4f2383d2609697b2f401670e9e4b69173eba35666b33",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.1/idasql_plugin-v0.0.1.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/L4ys/IDASignsrch",
+            "name": "IDASignsrch",
+            "versions": {
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "l4ys.tw@gmail.com",
+                                        "name": "Lays"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "IDAPython plugin for searching signatures using XML signature database from IDA_Signsrch",
+                                "entryPoint": "signsrch.py",
+                                "idaVersions": [
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "signsrch",
+                                    "signature",
+                                    "crypto",
+                                    "pattern",
+                                    "search"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASignsrch",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/L4ys/IDASignsrch"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "36ce1519efa8f825d3b557f76631f657a4e4e63292b4292dc47941a9c52a10ec",
+                        "url": "https://codeload.github.com/L4ys/IDASignsrch/legacy.zip/26ab5559911c30fda3b80d302bbfe5f91e7e3d7f"
                     }
                 ]
             }
@@ -1241,6 +2757,168 @@
                         },
                         "sha256": "ea4edc8a0696216e795a28e947f205cecbf0646e129b4d311b2b8c29fe6192c0",
                         "url": "https://codeload.github.com/HexRays-plugin-contributions/ida_ifl/legacy.zip/21de7a5c03889dff5c38a4422338c6d4040e4464"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/L4ys/LazyCross",
+            "name": "LazyCross",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "l4ys.tw@gmail.com",
+                                        "name": "Lays"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Display cross-references to functions and variables across the entire binary in Hex-Rays pseudocode",
+                                "entryPoint": "LazyCross.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "xref",
+                                    "cross-reference",
+                                    "hex-rays",
+                                    "decompilation"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.png",
+                                "maintainers": [],
+                                "name": "LazyCross",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/L4ys/LazyCross"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "c6c12c163240547f0b18298557eacc2e419d53fe1411125ebbea947cea62a1e7",
+                        "url": "https://codeload.github.com/L4ys/LazyCross/legacy.zip/a1168a3049be4e29be4e768801562a44cef57ab1"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/L4ys/LazyIDA",
+            "name": "LazyIDA",
+            "versions": {
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "l4ys.tw@gmail.com",
+                                        "name": "Lays"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Make your IDA Lazy!",
+                                "entryPoint": "LazyIDA.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "automation",
+                                    "clipboard",
+                                    "shortcuts",
+                                    "vtable",
+                                    "format-string"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "LazyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/L4ys/LazyIDA"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "bfd5e532f8eb34d983b4affe5e0c0d75a4b49398ae1fd4c89150318f78dea687",
+                        "url": "https://codeload.github.com/L4ys/LazyIDA/legacy.zip/7dec271514094f8a352fe2de7a519e51ffb539ca"
                     }
                 ]
             }
@@ -4416,6 +6094,56 @@
                         "sha256": "9c09bb2ac4564f8e05931af7701314901f7c3a0d2a973aa810a0e6d457fb7a61",
                         "url": "https://github.com/milankovo/decode_instruction/releases/download/v1.0.0/decode_instruction-ida9.2.zip"
                     }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "decode_instruction@noreply.github.com",
+                                        "name": "Milanek"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Provides detailed information about the instruction at the current cursor position, including flags dissection, operand details, and argument addresses",
+                                "entryPoint": "decode_instruction",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "instruction",
+                                    "disassembly",
+                                    "analysis",
+                                    "operands",
+                                    "flags"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpeg",
+                                "maintainers": [],
+                                "name": "decode_instruction",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/decode_instruction"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "9bda9d6364257f5d468b5f9eddc3d73ca841c4e7520e7304871756c5253fd1ce",
+                        "url": "https://github.com/milankovo/decode_instruction/releases/download/v1.0.1/decode_instruction-ida9.2.zip"
+                    }
                 ]
             }
         },
@@ -4540,7 +6268,7 @@
                             }
                         },
                         "sha256": "7c5add5d80ac82656a7844aeda6c268158a9e0ffdb5b9b2482bf9f86debd9777",
-                        "url": "https://github.com/binarly-io/efiXplorer/releases/download/v6.1.1/efiXplorer-v6.1.1.zip"
+                        "url": "https://github.com/REhints/efiXplorer/releases/download/v6.1.1/efiXplorer-v6.1.1.zip"
                     }
                 ],
                 "6.1.2": [
@@ -4600,7 +6328,7 @@
                             }
                         },
                         "sha256": "157d79353f51e7ec78d184d1689d9bd14b38505c289412bfbcdbcb07131ddff0",
-                        "url": "https://github.com/binarly-io/efiXplorer/releases/download/v6.1.2/efiXplorer-v6.1.2.zip"
+                        "url": "https://github.com/REhints/efiXplorer/releases/download/v6.1.2/efiXplorer-v6.1.2.zip"
                     }
                 ]
             }
@@ -4874,6 +6602,69 @@
                         },
                         "sha256": "b3cca874dd88d7a41aaa46e16e38f9616a22938546b2b819ca7272ad69ae8b64",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/a5f1fa88a2a9cd6ca748a64c9082497febe1e98c"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/ida-yara-x",
+            "name": "find-yara-x",
+            "versions": {
+                "4.2.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-yara-x@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Find YARA-X rule matches in IDA Pro",
+                                "entryPoint": "find-yara-x.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "yara-x",
+                                    "scan",
+                                    "rules"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "find-yara-x",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "yara-x"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-yara-x"
+                                },
+                                "version": "4.2.1"
+                            }
+                        },
+                        "sha256": "44bb496f01651a1e5e53d39908acd2e8d25acb14e79c3bf8bd0c91338040a73f",
+                        "url": "https://codeload.github.com/milankovo/ida-yara-x/legacy.zip/1e752dd756abc562d001496f762b5653e6820344"
                     }
                 ]
             }
@@ -6348,8 +8139,112 @@
                                 "version": "0.1.2"
                             }
                         },
+                        "sha256": "d9a2b6addd76a65d33c0cfacd750a22b09c6ee3ee669e5a88bfc9e38b3e0419f",
+                        "url": "https://codeload.github.com/SymbioticSec/ida-security-scanner/legacy.zip/524f6cd3272c83ac01f9e68d549e323fb9501309"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anthony.bondu@symbioticsec.ai",
+                                        "name": "Symbiotic Security"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Security scanner combining IDA decompilation with SAST rules to detect vulnerabilities in pseudocode",
+                                "entryPoint": "symbiotic_ida_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "security",
+                                    "vulnerability",
+                                    "sast",
+                                    "scanner",
+                                    "opengrep"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "symbiotic-logo.jpg",
+                                "maintainers": [],
+                                "name": "ida-security-scanner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "litellm>=1.0.0",
+                                    "python-dotenv>=1.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/SymbioticSec/ida-security-scanner"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
                         "sha256": "8571a6cc4c3a113956f2f7613664e21d29f4ba6ce82c1517889c7c49d966a7b5",
                         "url": "https://github.com/SymbioticSec/ida-security-scanner/releases/download/v0.1.2/ida-security-scanner-v0.1.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anthony.bondu@symbioticsec.ai",
+                                        "name": "Symbiotic Security"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Security scanner combining IDA decompilation with SAST rules to detect vulnerabilities in pseudocode",
+                                "entryPoint": "symbiotic_ida_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "security",
+                                    "vulnerability",
+                                    "sast",
+                                    "scanner",
+                                    "opengrep"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "symbiotic-logo.jpg",
+                                "maintainers": [],
+                                "name": "ida-security-scanner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "litellm>=1.0.0",
+                                    "python-dotenv>=1.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/SymbioticSec/ida-security-scanner"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "a06dacc1f0ecc18e63cc520fa21c459ffe5049b86d7fdd17cfd6856980738c25",
+                        "url": "https://github.com/SymbioticSec/ida-security-scanner/releases/download/v0.1.3/ida-security-scanner-v0.1.3.zip"
                     }
                 ]
             }
@@ -7156,8 +9051,8 @@
                                 "version": "0.7.2"
                             }
                         },
-                        "sha256": "650b5a51cbd8a76f7eafff8f2f1dc6ae1c931edffb1683a5b3ca21e9129456b7",
-                        "url": "https://codeload.github.com/binarly-io/idalib/legacy.zip/35d055501a93ab88de18292d5edc8ead2d194048"
+                        "sha256": "c86c99fbfabf05f8c117b0a7392541105dccca19c90cee5dc26d9fd8d486b043",
+                        "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/35d055501a93ab88de18292d5edc8ead2d194048"
                     }
                 ]
             }
@@ -7692,6 +9587,147 @@
                         },
                         "sha256": "681e008f3b4916cd421aab9cdeb2fe7a313fc8e74e7138944b788a2d9dc606de",
                         "url": "https://github.com/milankovo/navcolor/releases/download/v1.0.2/navcolor-ida9.0.zip"
+                    }
+                ],
+                "1.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "navcolor@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
+                                "entryPoint": "navcolor",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "navigation",
+                                    "color",
+                                    "visualization",
+                                    "functions"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "img/navband.png",
+                                "maintainers": [],
+                                "name": "navcolor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/navcolor"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "5f93b4aa089f722c57d28b7c577140eff6144f5a1e2ea9eae7f1109992eb6c88",
+                        "url": "https://github.com/milankovo/navcolor/releases/download/v1.0.3/navcolor-ida9.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "navcolor@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
+                                "entryPoint": "navcolor",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "navigation",
+                                    "color",
+                                    "visualization",
+                                    "functions"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "img/navband.png",
+                                "maintainers": [],
+                                "name": "navcolor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/navcolor"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "aad785da5bda8db758145df4a7e5a717d690c9b573f5d7af31260c36fb015b6c",
+                        "url": "https://github.com/milankovo/navcolor/releases/download/v1.0.3/navcolor-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "navcolor@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
+                                "entryPoint": "navcolor",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "navigation",
+                                    "color",
+                                    "visualization",
+                                    "functions"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "img/navband.png",
+                                "maintainers": [],
+                                "name": "navcolor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/navcolor"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "2a4a2cecb34a855d025cf305088cc309f231171a2140d2c42afafebdac0cd778",
+                        "url": "https://github.com/milankovo/navcolor/releases/download/v1.0.3/navcolor-ida9.1.zip"
                     }
                 ]
             }
@@ -8236,6 +10272,58 @@
                         },
                         "sha256": "a482fb6cbe9305f9049c2e587a980a800c91a9cb33db2fdd355cf6f8256584bc",
                         "url": "https://codeload.github.com/n0pex3/sharingan/legacy.zip/29e8f3655b2f30c2f39c66ec382ff8c2378f2484"
+                    }
+                ],
+                "1.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "minhhuy2197@gmail.com",
+                                        "name": "Do Minh Huy"
+                                    },
+                                    {
+                                        "email": "congtrung2k1@gmail.com",
+                                        "name": "congtrung2k1"
+                                    }
+                                ],
+                                "categories": [
+                                    "deobfuscation"
+                                ],
+                                "description": "Assist IDA users with deobfuscation and string/data decryption through a drag-and-drop recipe workflow.",
+                                "entryPoint": "zharingan.py",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "deobfuscation",
+                                    "decryption"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "sharingan",
+                                "platforms": [
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pycryptodome==3.23.0",
+                                    "pycryptodomex==3.23.0",
+                                    "unicorn==2.1.4"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/n0pex3/sharingan"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "770d4a0df72d6d0b1150aaee11b1598aa98a5eb6cbaa01d73768fba5cded3176",
+                        "url": "https://codeload.github.com/n0pex3/sharingan/legacy.zip/24516b0d373bf1b23b51a6c3d4eaa398db63a48f"
                     }
                 ]
             }
@@ -9112,6 +11200,156 @@
                         },
                         "sha256": "17b8e6e84d9413ba3d1b81d1b31bca81194953eea2827e73334b035acf66dc85",
                         "url": "https://github.com/milankovo/zydisinfo/releases/download/v1.1/zydisinfo-ida9.0.zip"
+                    }
+                ],
+                "1.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "zydisinfo@noreply.github.com",
+                                        "name": "milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Displays detailed x86/x64 instruction metadata using the Zydis disassembler library",
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "x86",
+                                    "x64",
+                                    "instruction-metadata",
+                                    "zydis",
+                                    "operands",
+                                    "encoding",
+                                    "flags"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/pushad.png",
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/zydisinfo"
+                                },
+                                "version": "1.1.2"
+                            }
+                        },
+                        "sha256": "6825400032b317458d542c2ed493cc2504009ab577c328c0f1bb59121bd2297d",
+                        "url": "https://github.com/milankovo/zydisinfo/releases/download/v1.1.2/zydisinfo-ida9.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "zydisinfo@noreply.github.com",
+                                        "name": "milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Displays detailed x86/x64 instruction metadata using the Zydis disassembler library",
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "x86",
+                                    "x64",
+                                    "instruction-metadata",
+                                    "zydis",
+                                    "operands",
+                                    "encoding",
+                                    "flags"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/pushad.png",
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/zydisinfo"
+                                },
+                                "version": "1.1.2"
+                            }
+                        },
+                        "sha256": "20147b83dc97846871dd953ad7fd0b8c4dbc0c0f9536f46fd7204f578d4d0af2",
+                        "url": "https://github.com/milankovo/zydisinfo/releases/download/v1.1.2/zydisinfo-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "zydisinfo@noreply.github.com",
+                                        "name": "milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Displays detailed x86/x64 instruction metadata using the Zydis disassembler library",
+                                "entryPoint": "zydisinfo",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "disassembly",
+                                    "x86",
+                                    "x64",
+                                    "instruction-metadata",
+                                    "zydis",
+                                    "operands",
+                                    "encoding",
+                                    "flags"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/pushad.png",
+                                "maintainers": [],
+                                "name": "zydisinfo",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/zydisinfo"
+                                },
+                                "version": "1.1.2"
+                            }
+                        },
+                        "sha256": "2530792bafbe9c598623ede2fd14ff6f12ba1f078ba603c7bbfb1603800bd075",
+                        "url": "https://github.com/milankovo/zydisinfo/releases/download/v1.1.2/zydisinfo-ida9.1.zip"
                     }
                 ]
             }
