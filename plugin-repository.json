@@ -863,6 +863,116 @@
             }
         },
         {
+            "host": "https://github.com/terrynini/feelinglucky",
+            "name": "FeelingLucky",
+            "versions": {
+                "1.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
+                                "entryPoint": "FeelingLucky.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": "dice_icon.png",
+                                "maintainers": [],
+                                "name": "FeelingLucky",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/terrynini/feelinglucky"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "86007e67f0296452ff088792e79a523043c94ae90fd661c8a10f109a97abd6ae",
+                        "url": "https://codeload.github.com/terrynini/FeelingLucky/legacy.zip/f1a3f267e04357c9438fece823a83068551cfe76"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
+                                "entryPoint": "FeelingLucky.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": "dice_icon.png",
+                                "maintainers": [],
+                                "name": "FeelingLucky",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/terrynini/feelinglucky"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "25cbfeb2f2a14f801e4667f69597b3df7548fc9519678c3428bdaae93cc6c947",
+                        "url": "https://github.com/terrynini/FeelingLucky/releases/download/v1.0.3/FeelingLucky.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/volexity/GoResolver",
             "name": "GoResolver",
             "versions": {
@@ -980,6 +1090,122 @@
                         },
                         "sha256": "d54662d4711c8d4b7c63ec6dbca05ee7820146053b6a0fdb66b9ecfe913cc920",
                         "url": "https://github.com/volexity/GoResolver/releases/download/v1.4.0/GoResolver-Plugin-v1.4.0.zip"
+                    }
+                ],
+                "1.4.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "categories": [
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "GoResolver plugin for IDA Pro.",
+                                "entryPoint": "goresolver_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "Go",
+                                    "Golang",
+                                    "Similarity Analysis",
+                                    "Symbols Recovery",
+                                    "Control Flow Graphs"
+                                ],
+                                "license": "Modified BSD License",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "name": "GoResolver",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "goresolver>=1.4.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/volexity/GoResolver"
+                                },
+                                "version": "1.4.1"
+                            }
+                        },
+                        "sha256": "1fbc6411f76a3a55efa4a28b578a77c179d26cb7e68bcbff6b382180745e8bef",
+                        "url": "https://codeload.github.com/volexity/GoResolver/legacy.zip/8b13b5afb36ed0483b0c96234809aa213325d6c1"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "categories": [
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "GoResolver plugin for IDA Pro.",
+                                "entryPoint": "goresolver_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "Go",
+                                    "Golang",
+                                    "Similarity Analysis",
+                                    "Symbols Recovery",
+                                    "Control Flow Graphs"
+                                ],
+                                "license": "Modified BSD License",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "kraimbaud@volexity.com",
+                                        "name": "Killian RAIMBAUD"
+                                    }
+                                ],
+                                "name": "GoResolver",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "goresolver>=1.4.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/volexity/GoResolver"
+                                },
+                                "version": "1.4.1"
+                            }
+                        },
+                        "sha256": "dbf7a7717a2ee86701e8bb70342029d5159167ee30a600b092c7e665812dad28",
+                        "url": "https://github.com/volexity/GoResolver/releases/download/v1.4.1/GoResolver-Plugin-v1.4.1.zip"
                     }
                 ]
             }
