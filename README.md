@@ -21,6 +21,10 @@ sync repo: +2 plugins, +3 releases
 - [rhabdomancer](https://github.com/0xdea/rhabdomancer) (0.7.4)
 ```
 
+<p align="center">
+  <img src="https://hexrayssa.github.io/plugin-repository/resources/repo_size.png" alt="Hex-Rays Plugin Repository size" style="max-width: 500px;">
+</p>
+
 ## Resources for Plugin Authors
 
 - Packaging Guide: https://hcli.docs.hex-rays.com/reference/packaging-your-existing-plugin
