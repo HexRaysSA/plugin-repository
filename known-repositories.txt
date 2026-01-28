@@ -240,3 +240,28 @@ arkup/tc_deer
 # Discovered on 2026-01-25 19:40:27
 allthingsida/idasql
 volexity/goresolver
+
+# manually added 2026-01-28
+milankovo/array-helper
+milankovo/comment-evaluator
+milankovo/decode_instruction
+milankovo/hex-pic
+milankovo/hexinlay
+milankovo/hexrays-ansi
+milankovo/hexrays-signed
+milankovo/hexrays_hlight
+milankovo/ida-drop-all-the-files
+milankovo/ida-to-wstr
+milankovo/ida-uuid-resolver-plugin
+milankovo/ida-yank-type
+milankovo/ida_enums_helper
+milankovo/ida_export_scripts
+milankovo/ida_outliner
+milankovo/instrlen
+milankovo/ipv4-format
+milankovo/navcolor
+milankovo/paste-struct
+milankovo/paste_name
+milankovo/renimp
+milankovo/unix-time-format
+milankovo/zydisinfo
