@@ -8,6 +8,11 @@ clean-public:
 clean: clean-site clean-public
 
 
+generate-chart:
+    mkdir -p ./public/resources/
+    uv run --script scripts/plugin_count_chart.py . public/resources/repo_size.png
+
+
 collect-repo:
     mkdir -p ./public/
     cp plugin-repository.json ./public/plugin-repository.json
@@ -45,7 +50,7 @@ collect-site:
     rsync -av ./site/public/ ./public/_/
 
 
-build-public: collect-repo mirror-content collect-stars summarize-logs generate-hugo hugo-build-site collect-site
+build-public: generate-chart collect-repo mirror-content collect-stars summarize-logs generate-hugo hugo-build-site collect-site
 
 
 export HCLI_DISABLE_UPDATES := "1"

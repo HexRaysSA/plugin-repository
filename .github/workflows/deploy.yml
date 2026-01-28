@@ -43,6 +43,8 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Pages
         id: pages
@@ -53,6 +55,11 @@ jobs:
           mkdir -p ./public/
           cp plugin-repository.json ./public/plugin-repository.json
           cp tags.json ./public/tags.json
+
+      - name: Generate chart
+        run: |
+          mkdir -p ./public/resources/
+          uv run --script scripts/plugin_count_chart.py . public/resources/repo_size.png
         
       - name: Mirror plugin content
         run: |
