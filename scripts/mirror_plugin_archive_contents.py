@@ -113,7 +113,16 @@ def do_cache(json_path: Path, out_path: Path, no_cache: bool = False):
         metadata_path = get_metadata_path_from_plugin_archive(zip_data, plugin.name)
         plugin_subdirectory = metadata_path.parent
 
-        extract_zip_subdirectory_to(zip_data, plugin_subdirectory, destination_path)
+        try:
+            extract_zip_subdirectory_to(zip_data, plugin_subdirectory, destination_path)
+        except ValueError as e:
+            # some potential failures from `validate_archive_entry`:
+            # - Rejecting symlink in archive
+            # - Rejecting absolute path in archive
+            # - Rejecting path traversal in archive
+            logger.info("skipping: %s (%s): error: %s", plugin.name, metadata.plugin.version, e)
+            continue
+
         if not no_cache:
             plugin_zip_path.write_bytes(zip_data)
 
