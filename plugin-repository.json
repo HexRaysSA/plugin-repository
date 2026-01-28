@@ -5386,6 +5386,66 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/array-helper",
+            "name": "array-helper",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "array-helper@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Simplify array resizing in IDA Pro with hotkey shortcuts",
+                                "entryPoint": "array_helpers.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "array",
+                                    "sizing",
+                                    "utility"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "array-helper",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/array-helper"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "3693bc0bb58226bb089e9a95efee9b3e0e54c1974ca362f7b557fe58310dac82",
+                        "url": "https://codeload.github.com/milankovo/array-helper/legacy.zip/0f134e1a7d1bb027f21141b5d5cf86bb98f09745"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/0xdea/augur",
             "name": "augur",
             "versions": {
@@ -6559,6 +6619,67 @@
                         },
                         "sha256": "44748533d3f38efdc6133013cbc642f1a1a42b90fb4378c452bac43d39d98870",
                         "url": "https://codeload.github.com/HexRays-plugin-contributions/comida/legacy.zip/e48daae226a4137c7edc577666ba0e471c9310c5"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/comment-evaluator",
+            "name": "comment-evaluator",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "comment-evaluator@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Automatically evaluates expressions wrapped in {{...}} tags in comments using eval_expr API",
+                                "entryPoint": "comment_evaluator.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "comments",
+                                    "expressions",
+                                    "eval",
+                                    "automation"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "comment-evaluator",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/comment-evaluator"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "adecf57536720125c9047e4eef3242ffdd86728ea06ccf71733e114bfd3e87a6",
+                        "url": "https://codeload.github.com/milankovo/comment-evaluator/legacy.zip/858fa8a5357cd879db3021fef1e58b2d475b9a72"
                     }
                 ]
             }
@@ -7826,6 +7947,249 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/hexrays-ansi",
+            "name": "hexrays-ansi",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "hexrays-ansi@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Converts ANSI escape codes to HTML in Hex-Rays pseudocode view",
+                                "entryPoint": "hexrays_ansi.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ansi",
+                                    "colors",
+                                    "pseudocode",
+                                    "visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "hexrays-ansi",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/hexrays-ansi"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "fe504a5ac655cb4fdf3a238aadb241515ff05f6cf89b53f7bfe7556dea2ee9a7",
+                        "url": "https://codeload.github.com/milankovo/hexrays-ansi/legacy.zip/c606857e8266f1484608473a27b3baa45e14c0c9"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/hex-pic",
+            "name": "hexrays-pic",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "hex-pic@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "IDA Pro plugin for optimizing PIC (Position Independent Code) in Hex-Rays Decompiler",
+                                "entryPoint": "hexrays_pic.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "pic",
+                                    "position-independent-code",
+                                    "decompiler",
+                                    "hex-rays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "hexrays-pic",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/hex-pic"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "163058e304143c5cd7a7b441f289ed78c27df86361dc39e5a725bd5cf3a99233",
+                        "url": "https://codeload.github.com/milankovo/hex-pic/legacy.zip/c4b0b0809f7a171f94aa99ed40a7946336a01a27"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/hexrays-signed",
+            "name": "hexrays-signed",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "hexrays-signed@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Highlights signed comparisons in the Pseudocode-View",
+                                "entryPoint": "hexrays_signed.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "hexrays",
+                                    "decompilation",
+                                    "pseudocode",
+                                    "signed",
+                                    "comparisons",
+                                    "analysis",
+                                    "visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "hexrays-signed",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/hexrays-signed"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "59ae6a6eda3eba315c752a0370fec008862059ab016e84d5b2abd2f408ef527d",
+                        "url": "https://codeload.github.com/milankovo/hexrays-signed/legacy.zip/5733eb97a63b286c61868b1b235896c9acf68dba"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/hexrays_hlight",
+            "name": "hexrays_hlight",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "hexrays_hlight@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Highlight matching braces in Hex-Rays pseudocode and jump between them.",
+                                "entryPoint": "hexrays_hlight.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "highlight",
+                                    "braces",
+                                    "pseudocode",
+                                    "hex-rays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "hexrays_hlight",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/hexrays_hlight"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "19ab860c818beb249998d3cdfe721890d9979db8d67b5d34ce598035c6b69259",
+                        "url": "https://codeload.github.com/milankovo/hexrays_hlight/legacy.zip/1a43e70402ab448c0ec34306e5a71b05ed0b828c"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/idawilli",
             "name": "hint-calls",
             "versions": {
@@ -8586,6 +8950,224 @@
                         },
                         "sha256": "7adb8695689e05f4b810a567eb2ba669d9005e90deb7506a3b6d7f9e8da5cfcf",
                         "url": "https://codeload.github.com/milankovo/ida_enums_helper/legacy.zip/1f9a0c3b3c63b0b1cd04edac823220a0bbf9b63f"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/ida_outliner",
+            "name": "ida-outliner",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "outliner@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "A lightweight plugin that adds the ability to mark functions as outlined in the decompiler view, making code more readable by collapsing functions to a single line.",
+                                "entryPoint": "outliner.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "outline",
+                                    "hexrays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpeg",
+                                "maintainers": [],
+                                "name": "ida-outliner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida_outliner"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "72c92900b7b8f2994694e7455f6a14f817cafe5a2e9f1bba4997fe41e47312a5",
+                        "url": "https://codeload.github.com/milankovo/ida_outliner/legacy.zip/723f4d4788bb4c3cb663c8cceed148a48fddbc1c"
+                    }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "outliner@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "A lightweight plugin that adds the ability to mark functions as outlined in the decompiler view, making code more readable by collapsing functions to a single line.",
+                                "entryPoint": "outliner.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "outline",
+                                    "hexrays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpeg",
+                                "maintainers": [],
+                                "name": "ida-outliner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida_outliner"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "637f7e0c5eb42ad82813a1564f9e70698a93743761fce4bdd2b0c2fed0fb58ca",
+                        "url": "https://codeload.github.com/milankovo/ida_outliner/legacy.zip/5e2c4fa04ee68c9bbb8b474fd9d234ffb39b4304"
+                    }
+                ],
+                "1.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "outliner@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "A lightweight plugin that adds the ability to mark functions as outlined in the decompiler view, making code more readable by collapsing functions to a single line.",
+                                "entryPoint": "outliner.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "outline",
+                                    "hexrays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpeg",
+                                "maintainers": [],
+                                "name": "ida-outliner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida_outliner"
+                                },
+                                "version": "1.1.1"
+                            }
+                        },
+                        "sha256": "8120a51f12173f9f18eb431286ca83e20e68285a25865821915d858bc615b0dd",
+                        "url": "https://codeload.github.com/milankovo/ida_outliner/legacy.zip/8dfe54c8d174328549bd912b83822cbff2294d4a"
+                    }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "outliner@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "A lightweight plugin that adds the ability to mark functions as outlined in the decompiler view, making code more readable by collapsing functions to a single line.",
+                                "entryPoint": "outliner.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "outline",
+                                    "hexrays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpeg",
+                                "maintainers": [],
+                                "name": "ida-outliner",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida_outliner"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "76c64d2c4a404b6253f45ebbee4f45b669bcb2b96445291b9819c94742d50803",
+                        "url": "https://codeload.github.com/milankovo/ida_outliner/legacy.zip/e41c569db77893c56ccb0eed07edf0315cb4477e"
                     }
                 ]
             }
@@ -9612,6 +10194,120 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/ida-to-wstr",
+            "name": "ida-to-wstr",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-to-wstr@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Convert string variables to wchar_t arrays in IDA Pro's pseudocode view",
+                                "entryPoint": "to_str.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "pseudocode",
+                                    "type-conversion",
+                                    "decompilation"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-to-wstr",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-to-wstr"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "89a1bdbd4bb6cabc07d4b6f073b59f97bb957498488dbd633af72134fca1637a",
+                        "url": "https://codeload.github.com/milankovo/ida-to-wstr/legacy.zip/21bbe832eda68ccfe6c5204b1a8503611080091f"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-to-wstr@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Convert string variables to wchar_t arrays in IDA Pro's pseudocode view",
+                                "entryPoint": "to_str.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "pseudocode",
+                                    "type-conversion",
+                                    "decompilation"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-to-wstr",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-to-wstr"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "9c99291d73f591796bbf86e3c58e7d76c1f629e62bb557faa3a9cba51bd4c905",
+                        "url": "https://codeload.github.com/milankovo/ida-to-wstr/legacy.zip/f5c364e78ec12310401785035b14e716140da2fa"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/binarly-io/idalib",
             "name": "idalib-rust-bindings",
             "versions": {
@@ -9922,6 +10618,66 @@
                         },
                         "sha256": "9cb86b2326aea04023d77fa25f16aefdd5347fe2a2d3ccbea823432e5294650f",
                         "url": "https://github.com/milankovo/instrlen/releases/download/v1.0.2/instrlen-ida9.1.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/ipv4-format",
+            "name": "ipv4-format",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ipv4-format@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Custom data format for displaying IPv4 addresses in both big-endian and little-endian formats",
+                                "entryPoint": "ipv4_format_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ipv4",
+                                    "data-format",
+                                    "custom-type"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ipv4-format",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ipv4-format"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "183cc424e6760bbb58851071ec3d8bd0099955015e383fdef3257d1c39d7deed",
+                        "url": "https://codeload.github.com/milankovo/ipv4-format/legacy.zip/59ba3ad06113b25f2ee96c20ba638d32951ff5af"
                     }
                 ]
             }
@@ -10721,6 +11477,63 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/paste_name",
+            "name": "paste_name",
+            "versions": {
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "paste_name@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Rename functions, variables, and fields from the clipboard text in the decompiler view.",
+                                "entryPoint": "paste_name.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "rename",
+                                    "clipboard",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "paste_name",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/paste_name"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "ef8721dc1f0e54daaadf6f465a54989b962bf8525ed25056219f201e726ea5bf",
+                        "url": "https://codeload.github.com/milankovo/paste_name/legacy.zip/9a0559100fa9a5eed5fb1030ffb6e588ee0fc3a2"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/0xdea/rhabdomancer",
             "name": "rhabdomancer",
             "versions": {
@@ -11421,6 +12234,129 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/unix-time-format",
+            "name": "unix-time-format",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "unix-time-format@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Format Unix timestamps in various units (seconds, milliseconds, microseconds, nanoseconds) in both UTC and local time",
+                                "entryPoint": "unix_time_format_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "timestamp",
+                                    "epoch",
+                                    "data-format",
+                                    "time-conversion"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "img/image.png",
+                                "maintainers": [],
+                                "name": "unix-time-format",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/unix-time-format"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "aef51d95944be1718a1d2eef29f2b3c71db739983af24853bc612674720cb888",
+                        "url": "https://codeload.github.com/milankovo/unix-time-format/legacy.zip/2f81bcc4f47d4aeb8fa73d9724a25acb1c74475d"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/ida-uuid-resolver-plugin",
+            "name": "uuid-resolver",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-uuid-resolver-plugin@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Resolves UUIDs and updates names in the IDA database based on resolved data",
+                                "entryPoint": "uuid_resolver.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "uuid",
+                                    "resolution",
+                                    "naming",
+                                    "analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "uuid-resolver",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests>=2.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-uuid-resolver-plugin"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "cbfe7c925fddfd1286a11afe3691ca70ea5a830947b9fc4671db71508f6dfe36",
+                        "url": "https://codeload.github.com/milankovo/ida-uuid-resolver-plugin/legacy.zip/536970e6e4f145a3158c0aa1d5211b8c4b1134cf"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/VirusTotal/vt-ida-plugin",
             "name": "vt-ida-plugin",
             "versions": {
@@ -11582,6 +12518,67 @@
                         },
                         "sha256": "c1adac9b29ae39f46d85bfc2e3c9c6cb3db7464f3370cfbe459bda030670f4e6",
                         "url": "https://codeload.github.com/HexRays-plugin-contributions/xray/legacy.zip/03a0dda2ff45d8611327d6f28505834723afd1c3"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/ida-yank-type",
+            "name": "yank_type",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-yank-type@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Copy and paste decompiler types between variables and expressions.",
+                                "entryPoint": "yank-type.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "types",
+                                    "hex-rays",
+                                    "yank",
+                                    "paste",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yank_type",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-yank-type"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "34e5bde0c003e1b300262589292bb26a9c1c0fb8e9f095ec5b7b0c541c8ebf24",
+                        "url": "https://codeload.github.com/milankovo/ida-yank-type/legacy.zip/98e6d91bd5621fb57e762d1e45687e03b56c7b8f"
                     }
                 ]
             }
