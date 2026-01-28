@@ -66,27 +66,38 @@ def extract_plugin_info(data: Dict) -> Dict[str, Dict]:
         if "versions" in plugin and plugin["versions"]:
             for version, releases in plugin["versions"].items():
                 if releases and isinstance(releases, list):
-                    release_info = releases[0]
-
-                    version_hash = hash(json.dumps(release_info, sort_keys=True))
-                    plugins[name]["version_details"][version] = {
-                        "hash": version_hash,
-                        "has_metadata": bool(release_info.get("metadata")),
-                        "sha256": release_info.get("sha256", ""),
-                        "url": release_info.get("url", ""),
-                    }
-
-                    if release_info.get("metadata"):
-                        metadata = release_info["metadata"].get("plugin", {})
-                        plugins[name]["version_details"][version]["metadata"] = {
-                            "description": metadata.get("description", ""),
-                            "authors": [
-                                a.get("name", "") for a in metadata.get("authors", [])
-                            ],
-                            "categories": metadata.get("categories", []),
-                            "license": metadata.get("license", ""),
-                            "platforms": metadata.get("platforms", []),
+                    # Track ALL releases in this version's array, not just the first
+                    all_releases = []
+                    for release_info in releases:
+                        release_hash = hash(json.dumps(release_info, sort_keys=True))
+                        release_data = {
+                            "hash": release_hash,
+                            "has_metadata": bool(release_info.get("metadata")),
+                            "sha256": release_info.get("sha256", ""),
+                            "url": release_info.get("url", ""),
                         }
+
+                        if release_info.get("metadata"):
+                            metadata = release_info["metadata"].get("plugin", {})
+                            release_data["metadata"] = {
+                                "description": metadata.get("description", ""),
+                                "authors": [
+                                    a.get("name", "") for a in metadata.get("authors", [])
+                                ],
+                                "categories": metadata.get("categories", []),
+                                "license": metadata.get("license", ""),
+                                "platforms": metadata.get("platforms", []),
+                            }
+
+                        all_releases.append(release_data)
+
+                    # Store all releases and also keep first release info for backward compat
+                    first_release = all_releases[0] if all_releases else {}
+                    plugins[name]["version_details"][version] = {
+                        **first_release,
+                        "all_releases": all_releases,
+                        "release_count": len(all_releases),
+                    }
 
     return plugins
 
@@ -194,10 +205,16 @@ def count_changes(old_data: Optional[Dict], new_data: Optional[Dict]) -> Dict[st
     counts["plugins_removed"] = len(old_names - new_names)
 
     for name in new_names - old_names:
-        counts["releases_added"] += len(new_plugins[name]["versions"])
+        # Count total releases across all versions for new plugins
+        for version in new_plugins[name]["versions"]:
+            details = new_plugins[name]["version_details"].get(version, {})
+            counts["releases_added"] += details.get("release_count", 1)
 
     for name in old_names - new_names:
-        counts["releases_removed"] += len(old_plugins[name]["versions"])
+        # Count total releases across all versions for removed plugins
+        for version in old_plugins[name]["versions"]:
+            details = old_plugins[name]["version_details"].get(version, {})
+            counts["releases_removed"] += details.get("release_count", 1)
 
     common_plugins = old_names & new_names
     for name in common_plugins:
@@ -210,16 +227,45 @@ def count_changes(old_data: Optional[Dict], new_data: Optional[Dict]) -> Dict[st
         added_versions = new_versions - old_versions
         removed_versions = old_versions - new_versions
 
-        counts["releases_added"] += len(added_versions)
-        counts["releases_removed"] += len(removed_versions)
+        # Count releases in newly added versions
+        for version in added_versions:
+            details = new_plugin["version_details"].get(version, {})
+            counts["releases_added"] += details.get("release_count", 1)
+
+        # Count releases in removed versions
+        for version in removed_versions:
+            details = old_plugin["version_details"].get(version, {})
+            counts["releases_removed"] += details.get("release_count", 1)
 
         common_versions = old_versions & new_versions
         for version in common_versions:
             old_details = old_plugin["version_details"].get(version, {})
             new_details = new_plugin["version_details"].get(version, {})
 
-            if old_details.get("hash") != new_details.get("hash"):
-                counts["releases_changed"] += 1
+            old_count = old_details.get("release_count", 1)
+            new_count = new_details.get("release_count", 1)
+
+            # Check for releases added within existing version
+            if new_count > old_count:
+                counts["releases_added"] += new_count - old_count
+            elif old_count > new_count:
+                counts["releases_removed"] += old_count - new_count
+
+            # Check for changes in existing releases (compare by sha256)
+            old_releases = old_details.get("all_releases", [old_details])
+            new_releases = new_details.get("all_releases", [new_details])
+
+            old_sha256s = {r.get("sha256") for r in old_releases if r.get("sha256")}
+            new_sha256s = {r.get("sha256") for r in new_releases if r.get("sha256")}
+
+            # Common releases that may have changed
+            common_sha256s = old_sha256s & new_sha256s
+            for sha256 in common_sha256s:
+                old_release = next((r for r in old_releases if r.get("sha256") == sha256), None)
+                new_release = next((r for r in new_releases if r.get("sha256") == sha256), None)
+                if old_release and new_release:
+                    if old_release.get("hash") != new_release.get("hash"):
+                        counts["releases_changed"] += 1
 
     return counts
 
@@ -268,9 +314,43 @@ def compare_plugins_for_message(
         new_versions = new_plugin["versions"]
         added_versions = new_versions - old_versions
 
+        # Check for new versions (version keys)
+        new_version_list = []
         if added_versions:
+            new_version_list.extend(sorted(added_versions, reverse=True))
+
+        # Also check for new releases added within existing versions
+        common_versions = old_versions & new_versions
+        for version in common_versions:
+            old_details = old_plugin["version_details"].get(version, {})
+            new_details = new_plugin["version_details"].get(version, {})
+
+            old_releases = old_details.get("all_releases", [old_details])
+            new_releases = new_details.get("all_releases", [new_details])
+
+            old_sha256s = {r.get("sha256") for r in old_releases if r.get("sha256")}
+            new_sha256s = {r.get("sha256") for r in new_releases if r.get("sha256")}
+
+            # Find releases that are new (sha256 not in old)
+            added_sha256s = new_sha256s - old_sha256s
+            for sha256 in added_sha256s:
+                new_release = next((r for r in new_releases if r.get("sha256") == sha256), None)
+                if new_release:
+                    # Extract version from URL if possible (e.g., v5.11.1)
+                    url = new_release.get("url", "")
+                    release_version = None
+                    if "/releases/download/" in url:
+                        # Extract version tag from URL like .../releases/download/v5.11.1/...
+                        parts = url.split("/releases/download/")
+                        if len(parts) > 1:
+                            tag = parts[1].split("/")[0]
+                            release_version = tag.lstrip("v")
+                    if release_version and release_version not in new_version_list:
+                        new_version_list.append(release_version)
+
+        if new_version_list:
             plugin_url = new_plugin["host"]
-            version_list = ", ".join(sorted(added_versions, reverse=True))
+            version_list = ", ".join(sorted(set(new_version_list), reverse=True))
             new_release_entries.append(f"- [{name}]({plugin_url}): {version_list}")
 
     # Section 3: Changes (version-specific changes and host changes)
