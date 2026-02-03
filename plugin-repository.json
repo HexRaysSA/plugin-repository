@@ -452,6 +452,66 @@
                         "sha256": "16b861e64fdb0a4fd80b577686c151c2ad7ed90fae3055d83755528d733a68ab",
                         "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/2a566711cafb93ba6c9cdeeddd1e6b71253e29fc"
                     }
+                ],
+                "1.2.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "posadanico@outlook.com",
+                                        "name": "Nico Posada"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation",
+                                    "file-parsers-and-loaders"
+                                ],
+                                "description": "Make reversing crystal binaries less annoying.",
+                                "entryPoint": "crystalre.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "crystal",
+                                    "symbols",
+                                    "strings",
+                                    "elf",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "CrystalRE",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "regex",
+                                    "pyelftools"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Nico-Posada/CrystalRE"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "a48c068ed895231e2074ec2583de288beaca7fc3c5d76c41bffc29d04e4128b9",
+                        "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/a74d46e43e610a336bfa494fbad27557b2b1db31"
+                    }
                 ]
             }
         },
@@ -8179,6 +8239,58 @@
                         },
                         "sha256": "bec108dd9e28ec91b95bbe97fda4b42d74e8f5638afc87be43bc48f47e933c77",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/d6ed0986d0f334e24eab9d1b1c35d8da4a56b492"
+                    }
+                ],
+                "0.7.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.7.5"
+                            }
+                        },
+                        "sha256": "1615d5105ef5e439f9a7785c2ba727c08dcf142b7ab2da2c2c046f46b8b808b2",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/1fcbc871820bed8acddc815f8b2a1af6b3e1b53b"
                     }
                 ]
             }
