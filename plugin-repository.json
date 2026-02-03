@@ -13042,6 +13042,73 @@
                         "sha256": "cc268be1d1427e0aaaaf2442ab807100e311b90602b96feb841b276c3674b19a",
                         "url": "https://codeload.github.com/VirusTotal/vt-ida-plugin/legacy.zip/a0e93a35a19e0f3e6d08a616c517900c33e4a6d2"
                     }
+                ],
+                "1.0.7": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "gerardofn@virustotal.com",
+                                        "name": "Gerardo Fernandez"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.",
+                                "entryPoint": "plugin/vt.py",
+                                "idaVersions": [
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "virustotal",
+                                    "vt",
+                                    "code-similarity",
+                                    "code-insight"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "vt-ida-plugin",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/VirusTotal/vt-ida-plugin"
+                                },
+                                "version": "1.0.7"
+                            }
+                        },
+                        "sha256": "2ce5c6e3c4d2b3b70eb91fc7a980f8037b7bccb77f726002db273f94f832298c",
+                        "url": "https://codeload.github.com/VirusTotal/vt-ida-plugin/legacy.zip/5e0672aa49a2078e92195b72cb707e571d6a325c"
+                    }
                 ]
             }
         },
