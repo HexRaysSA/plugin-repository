@@ -5713,6 +5713,58 @@
                         "sha256": "e7971875777f091da4fce70180cd482c9c5841ed2d82d387bcf0adb8770db41c",
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/300cb5bcf9b0e7afeb4ac72318762f1537f2ab89"
                     }
+                ],
+                "0.7.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.7.5"
+                            }
+                        },
+                        "sha256": "87b879ab9e813a932aab4c4825a0b87174cf6bd23d7b36cbc52dd7b3ece2e1d0",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/6078b1a7562e7dbc898fa36fed42fe5ba11c809f"
+                    }
                 ]
             }
         },
@@ -13108,6 +13160,96 @@
                         },
                         "sha256": "2ce5c6e3c4d2b3b70eb91fc7a980f8037b7bccb77f726002db273f94f832298c",
                         "url": "https://codeload.github.com/VirusTotal/vt-ida-plugin/legacy.zip/5e0672aa49a2078e92195b72cb707e571d6a325c"
+                    }
+                ],
+                "1.0.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "gerardofn@virustotal.com",
+                                        "name": "Gerardo Fernandez"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.",
+                                "entryPoint": "plugin/vt.py",
+                                "idaVersions": [
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "virustotal",
+                                    "vt",
+                                    "code-similarity",
+                                    "code-insight"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": "plugin/virustotal/vt_ida/ui/resources/vt_logo.png",
+                                "maintainers": [],
+                                "name": "vt-ida-plugin",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": "Your VirusTotal API key is required to access Code Insight features. You can obtain an API key by creating a free account on VirusTotal's website.",
+                                        "key": "api_key",
+                                        "name": "VirusTotal Api Key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable debug mode to log detailed information for troubleshooting purposes.",
+                                        "key": "debug",
+                                        "name": "Enable Debug Mode",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/VirusTotal/vt-ida-plugin"
+                                },
+                                "version": "1.0.8"
+                            }
+                        },
+                        "sha256": "9c0df9506587615186c8bbebb3ac8bb3c9e91f636036d36a3f3aa3749b16faf1",
+                        "url": "https://codeload.github.com/VirusTotal/vt-ida-plugin/legacy.zip/281372d623a30bc8746e2e4ea2be5a81deb4440f"
                     }
                 ]
             }
