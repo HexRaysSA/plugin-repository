@@ -512,6 +512,66 @@
                         "sha256": "a48c068ed895231e2074ec2583de288beaca7fc3c5d76c41bffc29d04e4128b9",
                         "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/a74d46e43e610a336bfa494fbad27557b2b1db31"
                     }
+                ],
+                "1.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "posadanico@outlook.com",
+                                        "name": "Nico Posada"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation",
+                                    "file-parsers-and-loaders"
+                                ],
+                                "description": "Make reversing crystal binaries less annoying.",
+                                "entryPoint": "crystalre.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "crystal",
+                                    "symbols",
+                                    "strings",
+                                    "elf",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "CrystalRE",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "regex",
+                                    "pyelftools"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Nico-Posada/CrystalRE"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "013a1921b538c4b1d6aeffc9408b57d76015c7b28eb16175774579d65c74eb49",
+                        "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/5a7406f74bb895decd297d21a8de62d0938e93dc"
+                    }
                 ]
             }
         },
