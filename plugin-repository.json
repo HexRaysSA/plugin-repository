@@ -7892,6 +7892,72 @@
             }
         },
         {
+            "host": "https://github.com/rehints/efixplorer",
+            "name": "efiXplorer",
+            "versions": {
+                "6.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yv@yegor.cc",
+                                        "name": "yeggor"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "IDA plugin and loader for UEFI firmware analysis and reverse engineering automation",
+                                "entryPoint": "efiXplorer",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "firmware",
+                                    "uefi",
+                                    "efi"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": "pics/efiXplorer.png",
+                                "maintainers": [],
+                                "name": "efiXplorer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/rehints/efixplorer"
+                                },
+                                "version": "6.2.0"
+                            }
+                        },
+                        "sha256": "18b3a91984091ad05a7b29f8fccdb62b242b8bdadb87bb54ab1cd0388104efbb",
+                        "url": "https://github.com/REhints/efiXplorer/releases/download/v6.2.0/efiXplorer-v6.2.0.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/milankovo/ida_export_scripts",
             "name": "export_to_git",
             "versions": {

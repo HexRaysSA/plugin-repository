@@ -265,3 +265,6 @@ milankovo/paste_name
 milankovo/renimp
 milankovo/unix-time-format
 milankovo/zydisinfo
+
+# Discovered on 2026-02-17 13:00:14
+rehints/efixplorer
