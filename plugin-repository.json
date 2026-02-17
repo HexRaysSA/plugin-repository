@@ -3521,6 +3521,53 @@
                         },
                         "sha256": "5e7aa97de836fcb9a5eb87a6ed6c39b89f7c8bb7c7086eaf2e84757910e010d7",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.6/idasql_plugin-v0.0.6.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, remote server mode, and natural language queries via Claude.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.1"
+                            }
+                        },
+                        "sha256": "078d51ed27fbbf729815dde018addf1e274b595d0ac5adf24b342fe963c4b555",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.7/idasql_plugin-v0.0.7.zip"
                     }
                 ]
             }
@@ -5686,6 +5733,113 @@
                                 "version": "1.0.0"
                             }
                         },
+                        "sha256": "d7a84df15709e81558c6c1d3e617ab8d2ecd5be91c8b78aca66e3c28e73c8973",
+                        "url": "https://codeload.github.com/libtero/suture/legacy.zip/3832ac7ac366d77517eae161dbf16d14ce758043"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Automated structure recovery using AST pattern matching",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "struct",
+                                    "structure",
+                                    "reconstruction"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "Suture",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/suture"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
                         "sha256": "c9564df192725c84a4e2b9bb3e3a9a26edb3358e3d5c5f572635c09fb07a5e23",
                         "url": "https://codeload.github.com/libtero/suture/legacy.zip/a2dbb6ba06cf8157588a5709697fec2de9b5a4e7"
                     },
@@ -5795,6 +5949,115 @@
                         },
                         "sha256": "370cb7ab396fc093401eee692a4fc732e0b37403cd9c4cea268e4bec3fed21da",
                         "url": "https://github.com/libtero/suture/releases/download/1.0.0/suture.zip"
+                    }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Automated structure recovery using AST pattern matching",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "struct",
+                                    "structure",
+                                    "reconstruction"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "Suture",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/suture"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "a5695fb7ae83d1d7d16529c6de0e012f2a9c0bb328034b1fc46e0a6fee4fe6a1",
+                        "url": "https://github.com/libtero/suture/releases/download/1.1.0/suture.zip"
                     }
                 ]
             }
