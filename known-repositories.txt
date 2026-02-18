@@ -268,3 +268,6 @@ milankovo/zydisinfo
 
 # Discovered on 2026-02-17 13:00:14
 rehints/efixplorer
+
+# Discovered on 2026-02-18 01:08:39
+hasherezade/ida_ifl

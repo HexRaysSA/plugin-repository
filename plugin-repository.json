@@ -3569,6 +3569,102 @@
                         "sha256": "078d51ed27fbbf729815dde018addf1e274b595d0ac5adf24b342fe963c4b555",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.7/idasql_plugin-v0.0.7.zip"
                     }
+                ],
+                "0.0.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional AI agent integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.8"
+                            }
+                        },
+                        "sha256": "f4f99033de998c333582a51e5ce2aa54a9ccea7a82c57d11cf24b40f57695de7",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.8/idasql_plugin-no-agent-v0.0.8.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional AI agent integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.8"
+                            }
+                        },
+                        "sha256": "1d659d878de34ea7c409085093676878683c50d60981257c03bf4d6236d0b4a9",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.8/idasql_plugin-v0.0.8.zip"
+                    }
                 ]
             }
         },
@@ -3781,6 +3877,127 @@
                         },
                         "sha256": "ea4edc8a0696216e795a28e947f205cecbf0646e129b4d311b2b8c29fe6192c0",
                         "url": "https://codeload.github.com/HexRays-plugin-contributions/ida_ifl/legacy.zip/21de7a5c03889dff5c38a4422338c6d4040e4464"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/hasherezade/ida_ifl",
+            "name": "IFL",
+            "versions": {
+                "1.5.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "hasherezade@gmail.com",
+                                        "name": "hasherezade"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Interactive Functions List with navigation and PE-sieve import support",
+                                "entryPoint": "ifl.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "function-navigation",
+                                    "function-analysis",
+                                    "references",
+                                    "pe-sieve",
+                                    "interactive-ui",
+                                    "function-listing",
+                                    "import-export",
+                                    "malware-analysis"
+                                ],
+                                "license": "CC-BY-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IFL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/hasherezade/ida_ifl"
+                                },
+                                "version": "1.5.2"
+                            }
+                        },
+                        "sha256": "b44c8b975bbe6d90405850c9d57752761bc8effefc62a82355014dd9b8a89a1c",
+                        "url": "https://codeload.github.com/hasherezade/ida_ifl/legacy.zip/0d7a163e7e0e7c3279a29c1b6fdaa5e28122ccbc"
                     }
                 ]
             }
