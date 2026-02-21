@@ -1,10 +1,6 @@
 HexRays-plugin-contributions/xray
-HexRays-plugin-contributions/comida
-HexRays-plugin-contributions/ida_ifl
 HexRays-plugin-contributions/bindiff
 HexRays-plugin-contributions/binexport
-HexRays-plugin-contributions/ipyida
-HexRays-plugin-contributions/hashdb-ida
 HexRays-plugin-contributions/mkYARA
 williballenthin/idawilli
 williballenthin/ida-settings
@@ -271,3 +267,6 @@ rehints/efixplorer
 
 # Discovered on 2026-02-18 01:08:39
 hasherezade/ida_ifl
+
+# manually added 2026-02-21
+kevinmuoz/binwalk-reversing-plugin
