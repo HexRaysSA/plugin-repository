@@ -334,6 +334,69 @@
             }
         },
         {
+            "host": "https://github.com/kevinmuoz/binwalk-reversing-plugin",
+            "name": "Binwalk",
+            "versions": {
+                "0.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "km9530802@gmail.com",
+                                        "name": "Kevin Mu\u00f1oz"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Embedded file detection and extraction for firmware and binary images.",
+                                "entryPoint": "ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "binwalk",
+                                    "firmware analysis",
+                                    "embedded file extraction",
+                                    "binary analysis"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": "images/binwalk_ida_pro.jpg",
+                                "maintainers": [],
+                                "name": "Binwalk",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pybinwalk"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/kevinmuoz/binwalk-reversing-plugin"
+                                },
+                                "version": "0.0.1"
+                            }
+                        },
+                        "sha256": "4763c6e9edfc473eedf74cbac1924ed94e28873594fed65cda2506a7a3ad6733",
+                        "url": "https://codeload.github.com/kevinmuoz/binwalk-reversing-plugin/legacy.zip/f394c968e4ce12085d01919fde4997ec5bbe7ca4"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/Nico-Posada/CrystalRE",
             "name": "CrystalRE",
             "versions": {
@@ -571,6 +634,226 @@
                         },
                         "sha256": "013a1921b538c4b1d6aeffc9408b57d76015c7b28eb16175774579d65c74eb49",
                         "url": "https://codeload.github.com/Nico-Posada/CrystalRE/legacy.zip/5a7406f74bb895decd297d21a8de62d0938e93dc"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/HexRaysSA/ida-dbimporter",
+            "name": "DBImporter",
+            "versions": {
+                "0.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bbudny@hex-rays.com",
+                                        "name": "bbudny-hexrays"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "A plugin to import data from all sorts of reverse engineering tools",
+                                "entryPoint": "plugin_main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ghidra",
+                                    "import"
+                                ],
+                                "license": null,
+                                "logoPath": "logo.png",
+                                "maintainers": [],
+                                "name": "DBImporter",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-dbimporter"
+                                },
+                                "version": "0.0.1"
+                            }
+                        },
+                        "sha256": "3bec5868397011b05c034bca75449d9488e6a515c1e46cb813a19583e0ee5ba4",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-dbimporter/legacy.zip/f80db5cab11fdbc2c4be735237e634017732ec62"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bbudny@hex-rays.com",
+                                        "name": "bbudny-hexrays"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "A plugin to import data from all sorts of reverse engineering tools",
+                                "entryPoint": "plugin_main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ghidra",
+                                    "import"
+                                ],
+                                "license": null,
+                                "logoPath": "logo.png",
+                                "maintainers": [],
+                                "name": "DBImporter",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-dbimporter"
+                                },
+                                "version": "0.0.1"
+                            }
+                        },
+                        "sha256": "511baa33b280bd51642a486e88f1e5d332ccd34dd2d465ffec3c5c2235617b42",
+                        "url": "https://github.com/HexRaysSA/ida-dbimporter/releases/download/v0.0.1/ida-dbimporter.zip"
                     }
                 ]
             }
@@ -3756,132 +4039,6 @@
             }
         },
         {
-            "host": "https://github.com/HexRays-plugin-contributions/ida_ifl",
-            "name": "IFL",
-            "versions": {
-                "1.5.2": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "hasherezade@gmail.com",
-                                        "name": "hasherezade"
-                                    }
-                                ],
-                                "categories": [
-                                    "ui-ux-and-visualization",
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "Interactive Functions List with navigation and PE-sieve import support",
-                                "entryPoint": "ifl.py",
-                                "idaVersions": [
-                                    "3.0",
-                                    "4.0",
-                                    "4.1",
-                                    "4.2",
-                                    "4.3",
-                                    "4.4",
-                                    "4.5",
-                                    "4.6",
-                                    "4.7",
-                                    "4.8",
-                                    "4.9",
-                                    "4.9sp1",
-                                    "5.0",
-                                    "5.1",
-                                    "5.2",
-                                    "5.3",
-                                    "5.4",
-                                    "5.5",
-                                    "5.6",
-                                    "5.7",
-                                    "6.0",
-                                    "6.1",
-                                    "6.2",
-                                    "6.3",
-                                    "6.4",
-                                    "6.5",
-                                    "6.6",
-                                    "6.7",
-                                    "6.8",
-                                    "6.9",
-                                    "6.95",
-                                    "7.0",
-                                    "7.0sp1",
-                                    "7.1",
-                                    "7.2",
-                                    "7.3",
-                                    "7.4",
-                                    "7.4sp1",
-                                    "7.5",
-                                    "7.5sp1",
-                                    "7.5sp2",
-                                    "7.5sp3",
-                                    "7.6",
-                                    "7.6sp1",
-                                    "7.7",
-                                    "7.7sp1",
-                                    "8.0",
-                                    "8.0sp1",
-                                    "8.1",
-                                    "8.2",
-                                    "8.2sp1",
-                                    "8.3",
-                                    "8.4",
-                                    "8.4sp1",
-                                    "8.4sp2",
-                                    "8.5",
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "function-navigation",
-                                    "function-analysis",
-                                    "references",
-                                    "pe-sieve",
-                                    "interactive-ui",
-                                    "function-listing",
-                                    "import-export",
-                                    "malware-analysis"
-                                ],
-                                "license": "CC-BY-3.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "IFL",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/ida_ifl"
-                                },
-                                "version": "1.5.2"
-                            }
-                        },
-                        "sha256": "ea4edc8a0696216e795a28e947f205cecbf0646e129b4d311b2b8c29fe6192c0",
-                        "url": "https://codeload.github.com/HexRays-plugin-contributions/ida_ifl/legacy.zip/21de7a5c03889dff5c38a4422338c6d4040e4464"
-                    }
-                ]
-            }
-        },
-        {
             "host": "https://github.com/hasherezade/ida_ifl",
             "name": "IFL",
             "versions": {
@@ -6498,6 +6655,59 @@
                         "sha256": "87b879ab9e813a932aab4c4825a0b87174cf6bd23d7b36cbc52dd7b3ece2e1d0",
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/6078b1a7562e7dbc898fa36fed42fe5ba11c809f"
                     }
+                ],
+                "0.8.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.8.0"
+                            }
+                        },
+                        "sha256": "7124f4278fae2756bc5e72813d067b8166bacf9f846ed8f063fec163bdf2e70f",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/38e31c3f7aacfb72ff856aa2995af263f451dfa3"
+                    }
                 ]
             }
         },
@@ -7573,96 +7783,6 @@
                         },
                         "sha256": "9728b90014e8b6716d5d3ea782a623ac082374c3cc36dd5d95a5903b15e2812e",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/e3452081919b58e9517cdaa64cd1ed5881fcb381"
-                    }
-                ]
-            }
-        },
-        {
-            "host": "https://github.com/HexRays-plugin-contributions/comida",
-            "name": "comida",
-            "versions": {
-                "2025.9.24": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "citronneur@gmail.com",
-                                        "name": "citronneur"
-                                    }
-                                ],
-                                "categories": [
-                                    "malware-analysis",
-                                    "decompilation",
-                                    "ui-ux-and-visualization"
-                                ],
-                                "description": "Analyze modules using COM by finding GUID references and inferring types.",
-                                "entryPoint": "comida.py",
-                                "idaVersions": [
-                                    "7.4",
-                                    "7.4sp1",
-                                    "7.5",
-                                    "7.5sp1",
-                                    "7.5sp2",
-                                    "7.5sp3",
-                                    "7.6",
-                                    "7.6sp1",
-                                    "7.7",
-                                    "7.7sp1",
-                                    "8.0",
-                                    "8.0sp1",
-                                    "8.1",
-                                    "8.2",
-                                    "8.2sp1",
-                                    "8.3",
-                                    "8.4",
-                                    "8.4sp1",
-                                    "8.4sp2",
-                                    "8.5",
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "com",
-                                    "guid",
-                                    "windows",
-                                    "type-inference",
-                                    "cocreateinstance",
-                                    "queryinterface",
-                                    "hexrays",
-                                    "decompiler",
-                                    "malware-analysis",
-                                    "windows-internals"
-                                ],
-                                "license": "Apache 2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "comida",
-                                "platforms": [
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/comida"
-                                },
-                                "version": "2025.9.24"
-                            }
-                        },
-                        "sha256": "44748533d3f38efdc6133013cbc642f1a1a42b90fb4378c452bac43d39d98870",
-                        "url": "https://codeload.github.com/HexRays-plugin-contributions/comida/legacy.zip/e48daae226a4137c7edc577666ba0e471c9310c5"
                     }
                 ]
             }
@@ -9143,6 +9263,59 @@
                         "sha256": "1615d5105ef5e439f9a7785c2ba727c08dcf142b7ab2da2c2c046f46b8b808b2",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/1fcbc871820bed8acddc815f8b2a1af6b3e1b53b"
                     }
+                ],
+                "0.8.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.8.0"
+                            }
+                        },
+                        "sha256": "a874f858763c5549515cd7751c90da3a86786349a9ac1cf0e37bc9342f1674f8",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/05df4465019b6ee32c90af42b8d4fa7c0bcbc395"
+                    }
                 ]
             }
         },
@@ -9783,6 +9956,148 @@
                         "sha256": "e8ea4ebccb887d70c0785eaf7aaa57e5542a6573cbf2f636ceebae6f4d136a69",
                         "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.7.74/hrtng-ida9.2.zip"
                     }
+                ],
+                "3.8.88": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.8.88"
+                            }
+                        },
+                        "sha256": "825ce284e3d1ab5c5f20c05469a6f090b30674f557ae351b3183714e3e7e3c33",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.8.88/hrtng-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.8.88"
+                            }
+                        },
+                        "sha256": "1dc0bdab0bd89ee49336a6d5bcabbef3943d65d4c00937eae8795331cde27e49",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.8.88/hrtng-ida9.3.zip"
+                    }
                 ]
             }
         },
@@ -9847,6 +10162,60 @@
                     }
                 ],
                 "1.0.19": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yoav.sternberg@gmail.com",
+                                        "name": "Yoav Sternberg"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "A plugin for IDA Pro 9.0+ to help with iOS code analysis.",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ios",
+                                    "objc",
+                                    "swift",
+                                    "kernel-cache"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "res/logo.png",
+                                "maintainers": [],
+                                "name": "iOSHelper",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-ios-helper==1.0.19"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/yoavst/ida-ios-helper"
+                                },
+                                "version": "1.0.19"
+                            }
+                        },
+                        "sha256": "c15b2308ad540438625a1db5fd93d6e7cc053fcc1313f4d2e7d989c50eee843b",
+                        "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/2a35afe4d64f4e0f521be7d40635a6295166b5a3"
+                    },
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -11673,6 +12042,114 @@
             }
         },
         {
+            "host": "https://github.com/idalib-rs/idalib",
+            "name": "idalib-rust-bindings",
+            "versions": {
+                "0.8.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Idiomatic Rust bindings to IDA SDK",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "bindings"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": "resources/logo.png",
+                                "maintainers": [],
+                                "name": "idalib-rust-bindings",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/idalib-rs/idalib"
+                                },
+                                "version": "0.8.0"
+                            }
+                        },
+                        "sha256": "f67c5a01f7113cb881afde046f434279b5c33e9f135b2f23dac1563c7eaa5082",
+                        "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/955276c8af729ede179fc44b8ff967476cab4bbb"
+                    }
+                ],
+                "0.8.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Idiomatic Rust bindings to IDA SDK",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "bindings"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": "resources/logo.png",
+                                "maintainers": [],
+                                "name": "idalib-rust-bindings",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/idalib-rs/idalib"
+                                },
+                                "version": "0.8.1"
+                            }
+                        },
+                        "sha256": "4bcbb7f7d2923390b230da3b4d7bca1115cd5289d6a65f87cfea22e1784de7de",
+                        "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/668e93cfaa33ee674b31f6b737eb447451f92f53"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/binarly-io/idapcode",
             "name": "idapcode",
             "versions": {
@@ -11987,134 +12464,6 @@
                         },
                         "sha256": "183cc424e6760bbb58851071ec3d8bd0099955015e383fdef3257d1c39d7deed",
                         "url": "https://codeload.github.com/milankovo/ipv4-format/legacy.zip/59ba3ad06113b25f2ee96c20ba638d32951ff5af"
-                    }
-                ]
-            }
-        },
-        {
-            "host": "https://github.com/HexRays-plugin-contributions/ipyida",
-            "name": "ipyida",
-            "versions": {
-                "2.3": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "leveille@google.com",
-                                        "name": "Marc-Etienne M.L\u00e9veill\u00e9"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "Embed an IPython console inside IDA Pro with Qt integration and Jupyter support",
-                                "entryPoint": "ipyida_plugin_stub.py",
-                                "idaVersions": [
-                                    "3.0",
-                                    "4.0",
-                                    "4.1",
-                                    "4.2",
-                                    "4.3",
-                                    "4.4",
-                                    "4.5",
-                                    "4.6",
-                                    "4.7",
-                                    "4.8",
-                                    "4.9",
-                                    "4.9sp1",
-                                    "5.0",
-                                    "5.1",
-                                    "5.2",
-                                    "5.3",
-                                    "5.4",
-                                    "5.5",
-                                    "5.6",
-                                    "5.7",
-                                    "6.0",
-                                    "6.1",
-                                    "6.2",
-                                    "6.3",
-                                    "6.4",
-                                    "6.5",
-                                    "6.6",
-                                    "6.7",
-                                    "6.8",
-                                    "6.9",
-                                    "6.95",
-                                    "7.0",
-                                    "7.0sp1",
-                                    "7.1",
-                                    "7.2",
-                                    "7.3",
-                                    "7.4",
-                                    "7.4sp1",
-                                    "7.5",
-                                    "7.5sp1",
-                                    "7.5sp2",
-                                    "7.5sp3",
-                                    "7.6",
-                                    "7.6sp1",
-                                    "7.7",
-                                    "7.7sp1",
-                                    "8.0",
-                                    "8.0sp1",
-                                    "8.1",
-                                    "8.2",
-                                    "8.2sp1",
-                                    "8.3",
-                                    "8.4",
-                                    "8.4sp1",
-                                    "8.4sp2",
-                                    "8.5",
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "ipython",
-                                    "jupyter",
-                                    "console",
-                                    "qtconsole",
-                                    "interactive",
-                                    "python",
-                                    "notebook",
-                                    "kernel",
-                                    "repl"
-                                ],
-                                "license": "BSD-2-Clause",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "ipyida",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ipyida==2.3"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/ipyida"
-                                },
-                                "version": "2.3"
-                            }
-                        },
-                        "sha256": "ec26b8054e5914165a61823d83be93cffd9c4b6cb448b5d783bf8279793dae90",
-                        "url": "https://codeload.github.com/HexRays-plugin-contributions/ipyida/legacy.zip/989e681a03ff7b75b1a0a67fc5cb5907bd06559b"
                     }
                 ]
             }
@@ -13055,6 +13404,58 @@
                         },
                         "sha256": "198e12350941a6671ae4be46e550648b5d9b9efdc8e5bec4dba4ffc2e7121a99",
                         "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/e010e5f560ed698d9e12845ff0b7eeba151477e5"
+                    }
+                ],
+                "0.8.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "rhabdomancer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/rhabdomancer/rhabdomancer/",
+                                    "repository": "https://github.com/0xdea/rhabdomancer"
+                                },
+                                "version": "0.8.0"
+                            }
+                        },
+                        "sha256": "73b229b5e7af87c56f5cf03db36d716e037f4508f2e265b44e0aedc61890d626",
+                        "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/855546b76b1f47047b850798f8e8e4d76c1192cb"
                     }
                 ]
             }

@@ -270,3 +270,6 @@ hasherezade/ida_ifl
 
 # manually added 2026-02-21
 kevinmuoz/binwalk-reversing-plugin
+# Discovered on 2026-02-22 01:04:24
+hexrayssa/ida-dbimporter
+idalib-rs/idalib
