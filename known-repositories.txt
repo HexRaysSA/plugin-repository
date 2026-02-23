@@ -273,3 +273,6 @@ kevinmuoz/binwalk-reversing-plugin
 # Discovered on 2026-02-22 01:04:24
 hexrayssa/ida-dbimporter
 idalib-rs/idalib
+
+# Discovered on 2026-02-23 17:03:26
+teflate/bitopt
