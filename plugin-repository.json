@@ -10246,7 +10246,7 @@
                                 "version": "3.8.88"
                             }
                         },
-                        "sha256": "825ce284e3d1ab5c5f20c05469a6f090b30674f557ae351b3183714e3e7e3c33",
+                        "sha256": "cfa1f26c10a5a80e26fc099fad3beab4aa5b23cd96f53e5692d28eaa9d70f7f7",
                         "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.8.88/hrtng-ida9.2.zip"
                     },
                     {
@@ -10316,7 +10316,7 @@
                                 "version": "3.8.88"
                             }
                         },
-                        "sha256": "1dc0bdab0bd89ee49336a6d5bcabbef3943d65d4c00937eae8795331cde27e49",
+                        "sha256": "a7291097ff23789f873555b51f170da07445ed378279a9a7b418bb5778f8bd39",
                         "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.8.88/hrtng-ida9.3.zip"
                     }
                 ]
