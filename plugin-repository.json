@@ -4095,6 +4095,100 @@
                         },
                         "sha256": "1d659d878de34ea7c409085093676878683c50d60981257c03bf4d6236d0b4a9",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.8/idasql_plugin-v0.0.8.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional AI agent integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.8"
+                            }
+                        },
+                        "sha256": "2c5f2f87a3d1f749896031a2d6e15d60c066af9975b1958c36640029ede0931b",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.9/idasql_plugin-no-agent-v0.0.9.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional AI agent integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.8"
+                            }
+                        },
+                        "sha256": "09bb9db5f4393646356bcec7fd1166f12f605dcfd40924d9590732ad5d57ce4b",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.9/idasql_plugin-v0.0.9.zip"
                     }
                 ]
             }
@@ -13787,6 +13881,61 @@
                         },
                         "sha256": "770d4a0df72d6d0b1150aaee11b1598aa98a5eb6cbaa01d73768fba5cded3176",
                         "url": "https://codeload.github.com/n0pex3/sharingan/legacy.zip/24516b0d373bf1b23b51a6c3d4eaa398db63a48f"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/merces/showcomments",
+            "name": "showcomments",
+            "versions": {
+                "0.6.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "@mer0x36.bsky.social",
+                                        "name": "Fernando Merc\u00eas"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "IDA Pro plugin to display and search comments in the database",
+                                "entryPoint": "showcomments.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "comments",
+                                    "comment"
+                                ],
+                                "license": "GPL-3.0-or-later",
+                                "logoPath": "./assets/logo.png",
+                                "maintainers": [],
+                                "name": "showcomments",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/merces/showcomments"
+                                },
+                                "version": "0.6.0"
+                            }
+                        },
+                        "sha256": "25c541af03dc2fdfdfdf8b54494fc4cd60bc7f77c1ac4ab8865373139e94a853",
+                        "url": "https://codeload.github.com/merces/showcomments/legacy.zip/20cd7dd7615645fb7a2c620517369131319029f8"
                     }
                 ]
             }
