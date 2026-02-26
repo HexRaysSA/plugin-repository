@@ -22,6 +22,7 @@ import argparse
 import json
 import logging
 import os
+import time
 from pathlib import Path
 
 import requests
@@ -104,6 +105,14 @@ def do_snapshot(json_path: Path, out_path: Path, token: str):
 
         destination_path = out_path / "github.com" / org / repo_name
         metadata_path = destination_path / "metadata.json"
+
+        if metadata_path.exists():
+            file_age = time.time() - metadata_path.stat().st_mtime
+            if file_age < 24 * 60 * 60:
+                logger.debug("using cached metadata: %s/%s (age: %.0fh)", org, repo_name, file_age / 3600)
+                cached = json.loads(metadata_path.read_text())
+                all_metadata[f"{org}/{repo_name}"] = cached
+                continue
 
         logger.debug("fetching metadata: %s/%s", org, repo_name)
 

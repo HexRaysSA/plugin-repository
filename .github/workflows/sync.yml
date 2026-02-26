@@ -22,6 +22,14 @@ jobs:
       with:
         enable-cache: false
 
+    - name: Restore HCLI cache
+      uses: actions/cache@v4
+      with:
+        path: .cache/hcli
+        key: hcli-cache-${{ github.run_id }}
+        restore-keys: |
+          hcli-cache-
+
     - name: snapshot repo
       run: |
           uvx --from ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt repo snapshot > plugin-repository.json
@@ -29,6 +37,7 @@ jobs:
           git diff plugin-repository.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        HCLI_CACHE_DIR: .cache/hcli
         HCLI_DISABLE_UPDATES: 1
         HCLI_DEBUG: 1
         TTY_COMPATIBLE: 0

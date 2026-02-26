@@ -56,6 +56,14 @@ jobs:
           cp plugin-repository.json ./public/plugin-repository.json
           cp tags.json ./public/tags.json
 
+      - name: Restore plugins cache
+        uses: actions/cache@v4
+        with:
+          path: ./public/plugins
+          key: deploy-plugins-${{ github.run_id }}
+          restore-keys: |
+            deploy-plugins-
+
       - name: Generate chart
         run: |
           mkdir -p ./public/resources/
@@ -64,7 +72,7 @@ jobs:
       - name: Mirror plugin content
         run: |
           mkdir -p ./public/plugins/
-          uv run scripts/mirror_plugin_archive_contents.py --no-cache plugin-repository.json public/plugins/
+          uv run scripts/mirror_plugin_archive_contents.py plugin-repository.json public/plugins/
 
       - name: Fetch star counts
         run: |
