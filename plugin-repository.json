@@ -4140,7 +4140,7 @@
                                 "version": "0.0.8"
                             }
                         },
-                        "sha256": "2c5f2f87a3d1f749896031a2d6e15d60c066af9975b1958c36640029ede0931b",
+                        "sha256": "93d0269dfde61f2ce6b6e548cb42aa00bc5732626c8c1bc8b23bd8287c66a343",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.9/idasql_plugin-no-agent-v0.0.9.zip"
                     },
                     {
@@ -4187,7 +4187,7 @@
                                 "version": "0.0.8"
                             }
                         },
-                        "sha256": "09bb9db5f4393646356bcec7fd1166f12f605dcfd40924d9590732ad5d57ce4b",
+                        "sha256": "53f381226e37c097880daeb2b74bdbe3f725dd02a3184dbcbe7be82094648420",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.9/idasql_plugin-v0.0.9.zip"
                     }
                 ]
@@ -7318,6 +7318,71 @@
             "name": "bitopt",
             "versions": {
                 "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "teflate@icloud.com",
+                                        "name": "teflate"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation"
+                                ],
+                                "description": "Optimization passes for ROL, ROR and byteswap intrinsics",
+                                "entryPoint": "plugins/bitopt_plugin.py",
+                                "idaVersions": [
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ROL",
+                                    "ROR",
+                                    "byteswap",
+                                    "optimization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "bitopt",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/teflate/bitopt"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "b5493fa6abbeb74a9db1442eca6dabfdc74ea5964c5ed3b25e157b6b0de6b84d",
+                        "url": "https://codeload.github.com/teflate/bitopt/legacy.zip/31c709a3a08af38ed2fe2c3b7a78914ac6085126"
+                    },
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
