@@ -276,3 +276,7 @@ idalib-rs/idalib
 
 # Discovered on 2026-02-23 17:03:26
 teflate/bitopt
+
+# Discovered on 2026-02-28 00:56:26
+oxikkk/ida-function-string-associate
+starsunyzl/idapatching

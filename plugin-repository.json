@@ -1098,9 +1098,11 @@
                                 "version": "1.0.0"
                             }
                         },
-                        "sha256": "b5493fa6abbeb74a9db1442eca6dabfdc74ea5964c5ed3b25e157b6b0de6b84d",
-                        "url": "https://codeload.github.com/teflate/bitopt/legacy.zip/31c709a3a08af38ed2fe2c3b7a78914ac6085126"
-                    },
+                        "sha256": "54199878513e7d6be16c90798ee3210c2fb57af5b291ba3a48f2eab9ecf43f07",
+                        "url": "https://codeload.github.com/teflate/bitopt/legacy.zip/868c052828ebdf6174afd69a85bd04ec80c06604"
+                    }
+                ],
+                "1.0.1": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -1160,11 +1162,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/teflate/bitopt"
                                 },
-                                "version": "1.0.0"
+                                "version": "1.0.1"
                             }
                         },
-                        "sha256": "54199878513e7d6be16c90798ee3210c2fb57af5b291ba3a48f2eab9ecf43f07",
-                        "url": "https://codeload.github.com/teflate/bitopt/legacy.zip/868c052828ebdf6174afd69a85bd04ec80c06604"
+                        "sha256": "61550acb11879f9d2e3c7cf3db3df35a4680b256eb6c769c4a2bee203092fbdb",
+                        "url": "https://codeload.github.com/teflate/bitopt/legacy.zip/b25b2adc36d9bf7449a3c64b3ab6661c558547d6"
                     }
                 ]
             }
@@ -4254,6 +4256,62 @@
                         },
                         "sha256": "9e4fdeabe5534db9dbfe8b1fa803e68ce51d1c87a1cba60a1cbd005877b157f1",
                         "url": "https://codeload.github.com/rand-tech/idaplugins/legacy.zip/9a8b2ce39f58b53ead5198bf1441e4b564577bfc"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/oxiKKK/ida-function-string-associate",
+            "name": "function-string-associate",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Auto-generates function comments from referenced string literals",
+                                "entryPoint": "function_string_associate.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "strings",
+                                    "comments",
+                                    "function-string-associate"
+                                ],
+                                "license": "UNLICENSED",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "function-string-associate",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-function-string-associate"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "76239f19f2d43efbcdbdd8097ed2a3319051390743e58dbb6b6f83b95595e8aa",
+                        "url": "https://codeload.github.com/oxiKKK/ida-function-string-associate/legacy.zip/9e7f19f23cf25685adfc6606cc63a898081b17b1"
                     }
                 ]
             }
@@ -10081,7 +10139,7 @@
             "host": "https://github.com/hasherezade/ida_ifl",
             "name": "IFL",
             "versions": {
-                "1.5.2": [
+                "1.5.3": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -10189,11 +10247,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/hasherezade/ida_ifl"
                                 },
-                                "version": "1.5.2"
+                                "version": "1.5.3"
                             }
                         },
-                        "sha256": "b44c8b975bbe6d90405850c9d57752761bc8effefc62a82355014dd9b8a89a1c",
-                        "url": "https://codeload.github.com/hasherezade/ida_ifl/legacy.zip/0d7a163e7e0e7c3279a29c1b6fdaa5e28122ccbc"
+                        "sha256": "b8f86f74a01ccfaa6fe57bb275b4af1a112a9a788adeea27ea33ced962150e33",
+                        "url": "https://codeload.github.com/hasherezade/ida_ifl/legacy.zip/dadfbbb7457ce1e8bd103cf0ab46abe2c15270ce"
                     }
                 ]
             }
@@ -11510,6 +11568,202 @@
                         },
                         "sha256": "ef8721dc1f0e54daaadf6f465a54989b962bf8525ed25056219f201e726ea5bf",
                         "url": "https://codeload.github.com/milankovo/paste_name/legacy.zip/9a0559100fa9a5eed5fb1030ffb6e588ee0fc3a2"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/starsunyzl/idapatching",
+            "name": "Patching",
+            "versions": {
+                "0.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "your@example.com",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "Interactive Binary Patching for IDA Pro",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "starsunyzl@gmail.com",
+                                        "name": "Zhang Li"
+                                    }
+                                ],
+                                "name": "Patching",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/starsunyzl/idapatching"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "1e453f43b2b285029250c560342388f04f783c13216d84708076248cf54b1c3c",
+                        "url": "https://codeload.github.com/starsunyzl/idapatching/legacy.zip/3349fb44c62d3415368a4ee6b3472fdca1e5f060"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "your@example.com",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "Interactive Binary Patching for IDA Pro",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "starsunyzl@gmail.com",
+                                        "name": "Zhang Li"
+                                    }
+                                ],
+                                "name": "Patching",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/starsunyzl/idapatching"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "c7348cc44920fb8a6df52945b1158400e0d8fab7f07c3f15b2e2623a5c8cc93e",
+                        "url": "https://github.com/starsunyzl/idapatching/releases/download/v0.3.0/patching-linux-x64-v0.3.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "your@example.com",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "Interactive Binary Patching for IDA Pro",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "starsunyzl@gmail.com",
+                                        "name": "Zhang Li"
+                                    }
+                                ],
+                                "name": "Patching",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/starsunyzl/idapatching"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "a9e8c1600ab0f0b7094c0e5d5a42328d9b371bd53815ceec308bdf4429ba02ae",
+                        "url": "https://github.com/starsunyzl/idapatching/releases/download/v0.3.0/patching-macos-universal-v0.3.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "your@example.com",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "Interactive Binary Patching for IDA Pro",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "starsunyzl@gmail.com",
+                                        "name": "Zhang Li"
+                                    }
+                                ],
+                                "name": "Patching",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/starsunyzl/idapatching"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "6bce7bef203d956f8d0ba1b5385190e34799336312d8b8ce011421d8761bd590",
+                        "url": "https://github.com/starsunyzl/idapatching/releases/download/v0.3.0/patching-windows-x64-v0.3.0.zip"
                     }
                 ]
             }
