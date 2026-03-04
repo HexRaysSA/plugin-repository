@@ -9428,6 +9428,226 @@
             }
         },
         {
+            "host": "https://github.com/libtero/idaguides",
+            "name": "IDAGuides",
+            "versions": {
+                "1.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Display indent guides in Hex-Rays Decompiler.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "indent-guides",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "IDAGuides",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/idaguides"
+                                },
+                                "version": "1.1.1"
+                            }
+                        },
+                        "sha256": "abc006522c68bfcfd39c49e8bd61a4cecdfacb38f40e7996929d4584b0aad4ba",
+                        "url": "https://codeload.github.com/libtero/idaguides/legacy.zip/2b0a20fc656d85ab81544fc4388a545c2b538bd1"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Display indent guides in Hex-Rays Decompiler.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "indent-guides",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "IDAGuides",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/idaguides"
+                                },
+                                "version": "1.1.1"
+                            }
+                        },
+                        "sha256": "f187e53f8e88b3398df9682eb64be26a1c3b5e6cc66056b15471c40acd5489d5",
+                        "url": "https://github.com/libtero/idaguides/releases/download/1.1.1/idaguides.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/binarly-io/idalib",
             "name": "idalib-rust-bindings",
             "versions": {
@@ -10140,6 +10360,124 @@
             "name": "idassist",
             "versions": {
                 "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "idassist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/jtang613/IDAssist"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "90d91394acb11dc250e69fcdadfa28073766cc3e4a2595a9527099395610a12b",
+                        "url": "https://codeload.github.com/jtang613/IDAssist/legacy.zip/2381ac0d2f5d4f5270d15df03f0538651d2db352"
+                    },
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
