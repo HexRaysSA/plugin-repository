@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '30 00,4,8,12,16,20 * * *'  # sync every 4 hours
+    - cron: '30 00,12 * * *'  # sync every 12 hours
   workflow_dispatch:
 
 name: sync
