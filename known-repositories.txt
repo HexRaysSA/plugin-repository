@@ -285,3 +285,7 @@ starsunyzl/idapatching
 jtang613/idassist
 jtang613/idassistmcp
 oxikkk/ida-vtable-tools
+
+# Discovered on 2026-03-07 00:55:28
+kevinmuoz/ida-theme-explorer
+oxikkk/ida-edit-function-prototype

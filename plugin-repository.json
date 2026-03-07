@@ -3403,6 +3403,64 @@
             }
         },
         {
+            "host": "https://github.com/oxiKKK/ida-edit-function-prototype",
+            "name": "edit-function-prototype",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Edit a function prototype and symbol name together from one dialog",
+                                "entryPoint": "edit_function_prototype.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "functions",
+                                    "types",
+                                    "rename",
+                                    "prototype"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "edit-function-prototype",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-edit-function-prototype"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "045c3e3e4fbf16511d9590f301368e097b2b59f6d644792c374cd01d0480ad99",
+                        "url": "https://codeload.github.com/oxiKKK/ida-edit-function-prototype/legacy.zip/b3b1468b5c38c32392356dcdb6c10211ca317a50"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/binarly-io/efixplorer",
             "name": "efiXplorer",
             "versions": {
@@ -4312,6 +4370,56 @@
                         },
                         "sha256": "76239f19f2d43efbcdbdd8097ed2a3319051390743e58dbb6b6f83b95595e8aa",
                         "url": "https://codeload.github.com/oxiKKK/ida-function-string-associate/legacy.zip/9e7f19f23cf25685adfc6606cc63a898081b17b1"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Auto-generates function comments from referenced string literals",
+                                "entryPoint": "function_string_associate.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "strings",
+                                    "comments",
+                                    "function-string-associate"
+                                ],
+                                "license": "UNLICENSED",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "function-string-associate",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-function-string-associate"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "c81aa77af8ad5305dd1fa67cfc00c468f97efe2c7189b02900eb8ee671e0baab",
+                        "url": "https://codeload.github.com/oxiKKK/ida-function-string-associate/legacy.zip/0475a1a9fbcd2c83097188d29f39b0012e555461"
                     }
                 ]
             }
@@ -9309,6 +9417,68 @@
                         },
                         "sha256": "08c6c0792e7df2ccf9b590acb974f8857fc26c9fcc30ef9e0e9796fac3d5342d",
                         "url": "https://codeload.github.com/HexRaysSA/ida-terminal-plugin/legacy.zip/49fc8160ebe138d0e9403d3e4143076c7136fd72"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/kevinmuoz/ida-theme-explorer",
+            "name": "IDA-Theme-Explorer",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "km9530802@gmail.com",
+                                        "name": "Kevin Mu\u00f1oz"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Install and browse 100+ community themes for IDA Pro (Dracula, Monokai, Solarized, Gruvbox and more)",
+                                "entryPoint": "theme_explorer.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ida",
+                                    "themes",
+                                    "ida-plugin",
+                                    "ui",
+                                    "customization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/ida_theme_explorer.png",
+                                "maintainers": [],
+                                "name": "IDA-Theme-Explorer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/kevinmuoz/ida-theme-explorer"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "8236189d96a0af314005c5b393f1d9e56a80c44845193ee3dab189b2bbfb958c",
+                        "url": "https://codeload.github.com/kevinmuoz/ida-theme-explorer/legacy.zip/f33b897cc53b3100f354586b1124ead89a94661f"
                     }
                 ]
             }
