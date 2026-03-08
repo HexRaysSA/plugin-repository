@@ -289,3 +289,6 @@ oxikkk/ida-vtable-tools
 # Discovered on 2026-03-07 00:55:28
 kevinmuoz/ida-theme-explorer
 oxikkk/ida-edit-function-prototype
+
+# Discovered on 2026-03-08 00:59:35
+tanu360/ida-chat-plugin

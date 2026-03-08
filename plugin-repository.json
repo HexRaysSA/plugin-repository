@@ -8009,6 +8009,286 @@
             }
         },
         {
+            "host": "https://github.com/tanu360/ida-chat-plugin",
+            "name": "ida-chat",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "LLM Chat Client for IDA Pro - A dockable chat interface for AI-powered reverse engineering assistance using Claude Agent SDK.",
+                                "entryPoint": "ida_chat_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "palosson@hex-rays.com",
+                                        "name": "Pierre-Alexandre Losson"
+                                    }
+                                ],
+                                "name": "ida-chat",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "claude-agent-sdk",
+                                    "ida-domain",
+                                    "ida-settings",
+                                    "beautifulsoup4",
+                                    "markdown-it-py",
+                                    "linkify-it-py",
+                                    "Pygments"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "show_wizard",
+                                        "name": "Show Setup Wizard",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "auth_type",
+                                        "name": "Authentication Type",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "api_key",
+                                        "name": "API Key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": null,
+                                        "key": "require_script_approval",
+                                        "name": "Ask before running generated scripts",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "auto_context",
+                                        "name": "Automatic Context",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "model_profile",
+                                        "name": "Model Profile",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "redact_export_paths",
+                                        "name": "Redact Export Paths",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/tanu360/ida-chat-plugin"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "2a56fe6b1321c1a96c152efcb0dc5878aca3e55b1ec97978ef66bec7c9d90e2b",
+                        "url": "https://codeload.github.com/tanu360/ida-chat-plugin/legacy.zip/7da8508718f263a3cabebd4af95e51dc910fca40"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "LLM Chat Client for IDA Pro - A dockable chat interface for AI-powered reverse engineering assistance using Claude Agent SDK.",
+                                "entryPoint": "ida_chat_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "palosson@hex-rays.com",
+                                        "name": "Pierre-Alexandre Losson"
+                                    }
+                                ],
+                                "name": "ida-chat",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "claude-agent-sdk",
+                                    "ida-domain",
+                                    "ida-settings",
+                                    "beautifulsoup4",
+                                    "markdown-it-py",
+                                    "linkify-it-py",
+                                    "Pygments"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "show_wizard",
+                                        "name": "Show Setup Wizard",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "auth_type",
+                                        "name": "Authentication Type",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "api_key",
+                                        "name": "API Key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": null,
+                                        "key": "require_script_approval",
+                                        "name": "Ask before running generated scripts",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "auto_context",
+                                        "name": "Automatic Context",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "model_profile",
+                                        "name": "Model Profile",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "redact_export_paths",
+                                        "name": "Redact Export Paths",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/tanu360/ida-chat-plugin"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "acd158d893b954687c1e771b572b0a82e83fac5545a420b2a2cc7ae7a3e28aad",
+                        "url": "https://github.com/tanu360/ida-chat-plugin/releases/download/v1.0.0/ida-chat.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/HexRaysSA/ida-cyberchef",
             "name": "ida-cyberchef",
             "versions": {
@@ -9477,8 +9757,118 @@
                                 "version": "1.0.0"
                             }
                         },
+                        "sha256": "7afb5e7dbaaafc322a0416912b8b44706879d1b9291ca728be8568ebaab6ed73",
+                        "url": "https://codeload.github.com/kevinmuoz/ida-theme-explorer/legacy.zip/ac3da58ceb9e7240005c65c07ff48ec14fa2dc56"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "km9530802@gmail.com",
+                                        "name": "Kevin Mu\u00f1oz"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Install and browse 100+ community themes for IDA Pro (Dracula, Monokai, Solarized, Gruvbox and more)",
+                                "entryPoint": "theme_explorer.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ida",
+                                    "themes",
+                                    "ida-plugin",
+                                    "ui",
+                                    "customization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/ida_theme_explorer.png",
+                                "maintainers": [],
+                                "name": "IDA-Theme-Explorer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/kevinmuoz/ida-theme-explorer"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
                         "sha256": "8236189d96a0af314005c5b393f1d9e56a80c44845193ee3dab189b2bbfb958c",
                         "url": "https://codeload.github.com/kevinmuoz/ida-theme-explorer/legacy.zip/f33b897cc53b3100f354586b1124ead89a94661f"
+                    }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "km9530802@gmail.com",
+                                        "name": "Kevin Mu\u00f1oz"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Install and browse 100+ community themes for IDA Pro (Dracula, Monokai, Solarized, Gruvbox and more)",
+                                "entryPoint": "theme_explorer.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ida",
+                                    "themes",
+                                    "ida-plugin",
+                                    "ui",
+                                    "customization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/ida_theme_explorer.png",
+                                "maintainers": [],
+                                "name": "IDA-Theme-Explorer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/kevinmuoz/ida-theme-explorer"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "b64704d691ee209c85d169f1a881e344883eec875620f90b147a8f6ab34f57fb",
+                        "url": "https://codeload.github.com/kevinmuoz/ida-theme-explorer/legacy.zip/6966115cada1e4007890970ac1262e0ad2da0593"
                     }
                 ]
             }
