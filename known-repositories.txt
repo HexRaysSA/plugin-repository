@@ -292,3 +292,8 @@ oxikkk/ida-edit-function-prototype
 
 # Discovered on 2026-03-08 00:59:35
 tanu360/ida-chat-plugin
+
+# Discovered on 2026-03-10 08:58:07
+dump-guy/applycalleetypeex
+symgraph/idassist
+symgraph/idassistmcp

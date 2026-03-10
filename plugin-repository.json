@@ -1,6 +1,86 @@
 {
     "plugins": [
         {
+            "host": "https://github.com/Dump-GUY/ApplyCalleeTypeEx",
+            "name": "ApplyCalleeTypeEx",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Applies a known function prototype to an indirect CALL instruction. Unlocks correct decompiler and disassembler output for runtime-resolved APIs stored in local stack variables. Port and enhancement of the Mandiant FLARE apply_callee_type plugin for IDA Pro 8.x through 9.3+.",
+                                "entryPoint": "apply_callee_type_ex.py",
+                                "idaVersions": [
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "callee-type",
+                                    "indirect-call",
+                                    "apply-type",
+                                    "type-propagation",
+                                    "decompiler",
+                                    "pseudocode",
+                                    "malware-analysis",
+                                    "runtime-api-resolution",
+                                    "peb-walk",
+                                    "getprocaddress",
+                                    "function-prototype",
+                                    "flare",
+                                    "ida-9"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ApplyCalleeTypeEx",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ApplyCalleeTypeEx"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "958b8ab860306eb06384d5c5df8c31ddb66a40f47fbbc927296ddf9fb6ba7329",
+                        "url": "https://codeload.github.com/Dump-GUY/ApplyCalleeTypeEx/legacy.zip/39011003d40b31b648dee0eaf6c98a5b429de7d6"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/milankovo/array-helper",
             "name": "array-helper",
             "versions": {
@@ -10204,6 +10284,220 @@
                         "sha256": "f187e53f8e88b3398df9682eb64be26a1c3b5e6cc66056b15471c40acd5489d5",
                         "url": "https://github.com/libtero/idaguides/releases/download/1.1.1/idaguides.zip"
                     }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Display indent guides in Hex-Rays Decompiler.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "indent-guides",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "IDAGuides",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/idaguides"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "b25494d286d519591f565fd4a1f166b2e340c3c03cfa78faa832ebbdb702e609",
+                        "url": "https://codeload.github.com/libtero/idaguides/legacy.zip/3b1c20f25b19b4485e75997c64f2ff4e5784dc28"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Display indent guides in Hex-Rays Decompiler.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "indent-guides",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "IDAGuides",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/idaguides"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "31f97fcb840cdeea8812c1015d2125049cad1c60c811de1c655e7c21316d632f",
+                        "url": "https://github.com/libtero/idaguides/releases/download/1.2.0/idaguides.zip"
+                    }
                 ]
             }
         },
@@ -11209,6 +11503,78 @@
             }
         },
         {
+            "host": "https://github.com/symgraph/IDAssist",
+            "name": "IDAssist",
+            "versions": {
+                "1.0.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "1.0.4"
+                            }
+                        },
+                        "sha256": "13d02d06abeeab4c4a0a61b9a94a8a62e57b3633ce523520fc0d8b75b1e690f3",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/1eb7456e2672af5e8b31e25749c49d14d4221328"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/jtang613/IDAssistMCP",
             "name": "idassistmcp",
             "versions": {
@@ -11325,6 +11691,73 @@
                         },
                         "sha256": "db83cb67733a7b8dcd71b88c5b054da806ab3aed81c674facde174e29b316a00",
                         "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/73ab1348e2ffeebba9406ef21767db229d91fc7b"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/symgraph/IDAssistMCP",
+            "name": "IDAssistMCP",
+            "versions": {
+                "1.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Standalone MCP server plugin exposing IDA Pro's analysis capabilities to LLM clients",
+                                "entryPoint": "idassistmcp_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "llm",
+                                    "reverse-engineering",
+                                    "model-context-protocol",
+                                    "analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssistMCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "mcp>=1.23.3",
+                                    "anyio>=4.0.0",
+                                    "hypercorn>=0.16.0",
+                                    "pydantic>=2.0.0",
+                                    "pydantic-settings>=2.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssistMCP"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "328e711444e674c5b449633abc8af647db3ca28d4542c51d46ef46b9c1bd06bd",
+                        "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/d5221f4499ce555a4f57a8e81714cae6f9037cf1"
                     }
                 ]
             }
