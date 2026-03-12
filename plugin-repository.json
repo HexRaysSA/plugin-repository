@@ -530,7 +530,7 @@
                             }
                         },
                         "sha256": "4b34b272426abd841e7a660e36272c7eee982553c400528b13a1fe4406688323",
-                        "url": "https://github.com/HexRays-plugin-contributions/bindiff/releases/download/v8.0.0/bindiff-ida9.2.zip"
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.2.zip"
                     },
                     {
                         "metadata": {
@@ -588,7 +588,7 @@
                             }
                         },
                         "sha256": "c9814f5b2cf2cef9742495c1c7cf527f346f3b8050fc4cd625326a8a073e7aaf",
-                        "url": "https://github.com/HexRays-plugin-contributions/bindiff/releases/download/v8.0.0/bindiff-ida9.0.zip"
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.0.zip"
                     },
                     {
                         "metadata": {
@@ -645,7 +645,7 @@
                             }
                         },
                         "sha256": "dd21ea0b81b42190ee0cf31f1cc8d4834de92881250ab09b54a4aba7525c7148",
-                        "url": "https://github.com/HexRays-plugin-contributions/bindiff/releases/download/v8.0.0/bindiff-ida9.1.zip"
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.1.zip"
                     }
                 ]
             }
@@ -711,7 +711,7 @@
                             }
                         },
                         "sha256": "87014f2fa36bb42baa2aadb7f51b6ef9ae8e9950e3b3acc842b4914178ef6831",
-                        "url": "https://github.com/HexRays-plugin-contributions/binexport/releases/download/v12.0.0/binexport-ida9.0.zip"
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.0.zip"
                     },
                     {
                         "metadata": {
@@ -768,7 +768,7 @@
                             }
                         },
                         "sha256": "d4968be51e40e783f2ebc1ad407ddeb8fa1254dae521bcabfb1fc5adc5803933",
-                        "url": "https://github.com/HexRays-plugin-contributions/binexport/releases/download/v12.0.0/binexport-ida9.1.zip"
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.1.zip"
                     },
                     {
                         "metadata": {
@@ -825,7 +825,7 @@
                             }
                         },
                         "sha256": "6cb4b44080e88453e92d8645931701781e768319d02a62f556e62edd61a1a84f",
-                        "url": "https://github.com/HexRays-plugin-contributions/binexport/releases/download/v12.0.0/binexport-ida9.2.zip"
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.2.zip"
                     }
                 ]
             }
@@ -2486,6 +2486,116 @@
                         },
                         "sha256": "511baa33b280bd51642a486e88f1e5d332ccd34dd2d465ffec3c5c2235617b42",
                         "url": "https://github.com/HexRaysSA/ida-dbimporter/releases/download/v0.0.1/ida-dbimporter.zip"
+                    }
+                ],
+                "0.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "plugins@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "A plugin to import data from all sorts of reverse engineering tools",
+                                "entryPoint": "plugin_main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ghidra",
+                                    "import"
+                                ],
+                                "license": null,
+                                "logoPath": "logo.png",
+                                "maintainers": [],
+                                "name": "DBImporter",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "regex"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-dbimporter"
+                                },
+                                "version": "0.0.2"
+                            }
+                        },
+                        "sha256": "a212a38c4f7e026dfbe971b6d68e780f1d61c835d8dfe0cbaac73b4185835ee5",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-dbimporter/legacy.zip/44406c14d7c76dd684aff7c86901a51efcdf1eae"
                     }
                 ]
             }
@@ -7210,6 +7320,90 @@
                         },
                         "sha256": "a874f858763c5549515cd7751c90da3a86786349a9ac1cf0e37bc9342f1674f8",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/05df4465019b6ee32c90af42b8d4fa7c0bcbc395"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/OALabs/hashdb-ida",
+            "name": "HashDB",
+            "versions": {
+                "1.10.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "sergei@openanalysis.net",
+                                        "name": "herrcore"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "deobfuscation"
+                                ],
+                                "description": "Malware string hash lookup plugin connecting to the OALABS HashDB service for algorithm identification and bulk import.",
+                                "entryPoint": "hashdb.py",
+                                "idaVersions": [
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "hash",
+                                    "malware",
+                                    "string-lookup",
+                                    "reverse-engineering",
+                                    "obfuscation",
+                                    "api-resolution",
+                                    "shellcode"
+                                ],
+                                "license": "BSD-3-Clause",
+                                "logoPath": "hashi.png",
+                                "maintainers": [],
+                                "name": "HashDB",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/OALabs/hashdb-ida"
+                                },
+                                "version": "1.10.0"
+                            }
+                        },
+                        "sha256": "d71498029ae6bfa4f708d21fad13071fabed974ac104d41ec8a05e3adf431360",
+                        "url": "https://codeload.github.com/OALabs/hashdb-ida/legacy.zip/deddbdee829a3c5fb93086481f78b7494defe020"
                     }
                 ]
             }
@@ -16233,6 +16427,222 @@
                         "sha256": "a5695fb7ae83d1d7d16529c6de0e012f2a9c0bb328034b1fc46e0a6fee4fe6a1",
                         "url": "https://github.com/libtero/suture/releases/download/1.1.0/suture.zip"
                     }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Automated structure recovery using AST pattern matching",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "struct",
+                                    "structure",
+                                    "reconstruction"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "Suture",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/suture"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "204d9e9796c483d161f5fbb53ae22861b95465a55015fb8c7054b3c9d5bb5add",
+                        "url": "https://codeload.github.com/libtero/suture/legacy.zip/bb1f72f64f2e026e40cb9e7f1c6613b65ff9ad8f"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Automated structure recovery using AST pattern matching",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "struct",
+                                    "structure",
+                                    "reconstruction"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "Suture",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/suture"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "80d6288fe7951a032316342b27f8d0c6ed540d18cba904a31a9c73517df2ace8",
+                        "url": "https://github.com/libtero/suture/releases/download/1.2.0/suture.zip"
+                    }
                 ]
             }
         },
@@ -17318,7 +17728,7 @@
                             }
                         },
                         "sha256": "c1adac9b29ae39f46d85bfc2e3c9c6cb3db7464f3370cfbe459bda030670f4e6",
-                        "url": "https://codeload.github.com/HexRays-plugin-contributions/xray/legacy.zip/03a0dda2ff45d8611327d6f28505834723afd1c3"
+                        "url": "https://codeload.github.com/williballenthin/xray/legacy.zip/03a0dda2ff45d8611327d6f28505834723afd1c3"
                     }
                 ]
             }
