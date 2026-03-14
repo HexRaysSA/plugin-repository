@@ -826,6 +826,63 @@
                         },
                         "sha256": "6cb4b44080e88453e92d8645931701781e768319d02a62f556e62edd61a1a84f",
                         "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "e466a18bc4c16c517d9ef8703ef8dfb5a9dde0c326ade060aaca54c13d1945cc",
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.3.zip"
                     }
                 ]
             }
@@ -2596,6 +2653,114 @@
                         },
                         "sha256": "a212a38c4f7e026dfbe971b6d68e780f1d61c835d8dfe0cbaac73b4185835ee5",
                         "url": "https://codeload.github.com/HexRaysSA/ida-dbimporter/legacy.zip/44406c14d7c76dd684aff7c86901a51efcdf1eae"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "plugins@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "A plugin to import data from all sorts of reverse engineering tools",
+                                "entryPoint": "plugin_main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ghidra",
+                                    "import"
+                                ],
+                                "license": null,
+                                "logoPath": "logo.png",
+                                "maintainers": [],
+                                "name": "DBImporter",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "regex"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-dbimporter"
+                                },
+                                "version": "0.0.2"
+                            }
+                        },
+                        "sha256": "a93bedfafcde5e28d002217bb892469b98b1efc6c8c8fffc95dedb3bf66b3073",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-dbimporter/legacy.zip/d8c99eb090203fe65fd2cd1fd54a5557f2fe03f9"
                     }
                 ]
             }
@@ -11620,6 +11785,55 @@
                         },
                         "sha256": "6c68e5cb98507196b1e3a6a7c04d0392ba32b29dd9bd453b9e882bdbc6841492",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.10/idasql_plugin-v0.0.10.zip"
+                    }
+                ],
+                "0.0.11": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.11"
+                            }
+                        },
+                        "sha256": "13f5247de46387ef9cd983ca1700a1251ac3aedea368d4989f66746b504da485",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.11/idasql_plugin-v0.0.11.zip"
                     }
                 ],
                 "0.0.8": [
