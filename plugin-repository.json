@@ -352,6 +352,59 @@
                         "sha256": "7124f4278fae2756bc5e72813d067b8166bacf9f846ed8f063fec163bdf2e70f",
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/38e31c3f7aacfb72ff856aa2995af263f451dfa3"
                     }
+                ],
+                "0.8.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.8.1"
+                            }
+                        },
+                        "sha256": "b03332d0a3468c45ae0907e9156f097fa02c155322cbd158fe6ecc1234b8edcf",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/522b255f9b26e92c20c389e27d38e67d4f5d44e9"
+                    }
                 ]
             }
         },
@@ -646,6 +699,63 @@
                         },
                         "sha256": "dd21ea0b81b42190ee0cf31f1cc8d4834de92881250ab09b54a4aba7525c7148",
                         "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.1.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "76ba6ecfdec8967f55795b9590efe6e871c581764d568edecddb539167c6675f",
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.3.zip"
                     }
                 ]
             }
@@ -7486,6 +7596,59 @@
                         "sha256": "a874f858763c5549515cd7751c90da3a86786349a9ac1cf0e37bc9342f1674f8",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/05df4465019b6ee32c90af42b8d4fa7c0bcbc395"
                     }
+                ],
+                "0.8.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.8.1"
+                            }
+                        },
+                        "sha256": "3ea1ac9990b368769f53348a6cb6343a0e860f4470b1256c6c1c490bd85839a3",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/5f4c3a631b2ab04e2be520be9c18909da034af75"
+                    }
                 ]
             }
         },
@@ -10457,6 +10620,62 @@
                         "sha256": "b64704d691ee209c85d169f1a881e344883eec875620f90b147a8f6ab34f57fb",
                         "url": "https://codeload.github.com/kevinmuoz/ida-theme-explorer/legacy.zip/6966115cada1e4007890970ac1262e0ad2da0593"
                     }
+                ],
+                "1.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "km9530802@gmail.com",
+                                        "name": "Kevin Mu\u00f1oz"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Install and browse 100+ community themes for IDA Pro (Dracula, Monokai, Solarized, Gruvbox and more)",
+                                "entryPoint": "theme_explorer.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ida",
+                                    "themes",
+                                    "ida-plugin",
+                                    "ui",
+                                    "customization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/ida_theme_explorer.png",
+                                "maintainers": [],
+                                "name": "IDA-Theme-Explorer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/kevinmuoz/ida-theme-explorer"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "1f17f504e7e15f973ce80da4cf68ea5d5158f4515cab68fe5e0745c1aa5415f3",
+                        "url": "https://codeload.github.com/kevinmuoz/ida-theme-explorer/legacy.zip/772f82ff3dbec335838a9f8e852ff4ea9a7effbd"
+                    }
                 ]
             }
         },
@@ -12341,6 +12560,136 @@
                         "sha256": "13d02d06abeeab4c4a0a61b9a94a8a62e57b3633ce523520fc0d8b75b1e690f3",
                         "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/1eb7456e2672af5e8b31e25749c49d14d4221328"
                     }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "7b38e932383cac33ca2a71643d3abd0e607ab96f0ad64c9e32d281cfd87e7258",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/eda5f78c7e316f0f9f84a4fb2df3e73889124ce2"
+                    }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "2ebd0efb7814ee5ec0c179f3d7abb3691e79b9b6c3717789e44cc9d9e984c128",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/eefc4c8792c02f7583e6dc535e7e40a24195a033"
+                    }
                 ]
             }
         },
@@ -12528,6 +12877,123 @@
                         },
                         "sha256": "328e711444e674c5b449633abc8af647db3ca28d4542c51d46ef46b9c1bd06bd",
                         "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/d5221f4499ce555a4f57a8e81714cae6f9037cf1"
+                    }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Standalone MCP server plugin exposing IDA Pro's analysis capabilities to LLM clients",
+                                "entryPoint": "idassistmcp_plugin.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "llm",
+                                    "reverse-engineering",
+                                    "model-context-protocol",
+                                    "analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssistMCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "mcp>=1.23.3",
+                                    "anyio>=4.0.0",
+                                    "hypercorn>=0.16.0",
+                                    "pydantic>=2.0.0",
+                                    "pydantic-settings>=2.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssistMCP"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "228c159e9aa9cc618bae16aa3a992fadb75f734761b18244dc7bff74e7670b4a",
+                        "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/610f4c8d38ac064949a172b3549051a34ec59714"
+                    }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Standalone MCP server plugin exposing IDA Pro's analysis capabilities to LLM clients",
+                                "entryPoint": "idassistmcp_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "llm",
+                                    "reverse-engineering",
+                                    "model-context-protocol",
+                                    "analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssistMCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "mcp>=1.23.3",
+                                    "anyio>=4.0.0",
+                                    "hypercorn>=0.16.0",
+                                    "pydantic>=2.0.0",
+                                    "pydantic-settings>=2.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssistMCP"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "fb8647b814a9d272eb0c7ffdfb869bff27870fe8d4c0d9c2a805684f23dcc9e4",
+                        "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/281cefa0718ca05af9fc684fc84d40e5824fe70c"
                     }
                 ]
             }
@@ -15425,6 +15891,58 @@
                         },
                         "sha256": "73b229b5e7af87c56f5cf03db36d716e037f4508f2e265b44e0aedc61890d626",
                         "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/855546b76b1f47047b850798f8e8e4d76c1192cb"
+                    }
+                ],
+                "0.8.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "rhabdomancer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/rhabdomancer/rhabdomancer/",
+                                    "repository": "https://github.com/0xdea/rhabdomancer"
+                                },
+                                "version": "0.8.1"
+                            }
+                        },
+                        "sha256": "89a13082ef8f0c9023bdea6ecdb7278ab20a1888a5447bd201cc7c344a2103e4",
+                        "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/cb559cd95a5520a60c05e13733912be63d723bda"
                     }
                 ]
             }
