@@ -12055,6 +12055,55 @@
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.11/idasql_plugin-v0.0.11.zip"
                     }
                 ],
+                "0.0.12": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.12"
+                            }
+                        },
+                        "sha256": "7e85c79d33e9603721a7e452109c302f2fa3af13da205d083b84c44901c449da",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.12/idasql_plugin-v0.0.12.zip"
+                    }
+                ],
                 "0.0.8": [
                     {
                         "metadata": {
