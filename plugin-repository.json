@@ -3711,6 +3711,154 @@
                         "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.10/DeepExtractIDA.zip"
                     }
                 ],
+                "0.9.11": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.11"
+                            }
+                        },
+                        "sha256": "6b4241788bde5fd1bc00df55d26c4c59878b3ade22976e3df2538894c8420da0",
+                        "url": "https://codeload.github.com/marcosd4h/DeepExtractIDA/legacy.zip/a61e89e4973956341fe1ee38db94084c43d15941"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.11"
+                            }
+                        },
+                        "sha256": "70441c7e7f909d216456a2664881df5c97da7a1d7151d9dc627b262e9471ab0d",
+                        "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.11/DeepExtractIDA.zip"
+                    }
+                ],
                 "0.9.8": [
                     {
                         "metadata": {
@@ -17954,6 +18102,110 @@
                         },
                         "sha256": "8a4acf43434edc668fe43b7910a879bbac57590e3b8228f4ca853d933f01cac3",
                         "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/v0.2/Unicorn_Trace.zip"
+                    }
+                ],
+                "0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@v10r.com",
+                                        "name": "Vior"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "This project provides a lightweight Unicorn engine-based ARM64 dynamic tracing emulation tool that can run as an IDA Pro plugin or standalone. The tool integrates tightly with IDA to ensure execution consistency and avoid errors. It provides reliable simulation reproduction capabilities and generates beautiful Tenet logs for debugging and analysis. Key features include dynamic code simulation, memory dumping, register state tracking, and instruction-level logging.",
+                                "entryPoint": "dyn_trace_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "Trace",
+                                    "Tenet",
+                                    "unicorn",
+                                    "android",
+                                    "analysis-visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "unicorn-tracer-arm64",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "unicorn>=2.1.3",
+                                    "capstone>=5.0.6"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/chenxvb/Unicorn-Trace"
+                                },
+                                "version": "0.3"
+                            }
+                        },
+                        "sha256": "ed29e660ff9bcdcabed156cfc2821e4f2286ab7643da22fc65d24cff6ff75315",
+                        "url": "https://codeload.github.com/chenxvb/Unicorn-Trace/legacy.zip/34d899e2512dd38806afa6c35d2c56126e8c992e"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@v10r.com",
+                                        "name": "Vior"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "This project provides a lightweight Unicorn engine-based ARM64 dynamic tracing emulation tool that can run as an IDA Pro plugin or standalone. The tool integrates tightly with IDA to ensure execution consistency and avoid errors. It provides reliable simulation reproduction capabilities and generates beautiful Tenet logs for debugging and analysis. Key features include dynamic code simulation, memory dumping, register state tracking, and instruction-level logging.",
+                                "entryPoint": "dyn_trace_ida.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "Trace",
+                                    "Tenet",
+                                    "unicorn",
+                                    "android",
+                                    "analysis-visualization"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "unicorn-tracer-arm64",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "unicorn>=2.1.3",
+                                    "capstone>=5.0.6"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/chenxvb/Unicorn-Trace"
+                                },
+                                "version": "0.3"
+                            }
+                        },
+                        "sha256": "f9d593ff286d15e0ce356b3b36930706a78e2d25ccb84ae7d25b2c6ab21ca23a",
+                        "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/v0.3/Unicorn_Trace_0.3.zip"
                     }
                 ]
             }
