@@ -282,8 +282,6 @@ oxikkk/ida-function-string-associate
 starsunyzl/idapatching
 
 # Discovered on 2026-03-02 05:09:06
-jtang613/idassist
-jtang613/idassistmcp
 oxikkk/ida-vtable-tools
 
 # Discovered on 2026-03-07 00:55:28
