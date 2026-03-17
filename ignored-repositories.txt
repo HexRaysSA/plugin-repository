@@ -1,1 +1,3 @@
 HexRaysSA/ida-hcli
+jtang613/IDAssist
+jtang613/IDAssistMCP
