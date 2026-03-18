@@ -4978,6 +4978,131 @@
             }
         },
         {
+            "host": "https://github.com/ys1231/idafridascript",
+            "name": "Frida_Tools",
+            "versions": {
+                "0.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ys1231@126.com",
+                                        "name": "iyue"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "decompilation"
+                                ],
+                                "description": "\u4e00\u4e2a\u7528\u4e8e\u751f\u6210frida\u811a\u672c\u7684ida\u63d2\u4ef6/An ida plug-in for generating frida scripts",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "hook",
+                                    "generate frida script"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "resources/main.png",
+                                "maintainers": [],
+                                "name": "Frida_Tools",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "loguru>=0.7.3",
+                                    "mcp[cli]>=1.9.1",
+                                    "pyqt5>=5.15.11",
+                                    "pyside6>=6.10.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/ys1231/idafridascript"
+                                },
+                                "version": "0.0.2"
+                            }
+                        },
+                        "sha256": "f8a739132e16904e26fad01dcf97d1533d96b9e882cd432cd7d05650f64496f8",
+                        "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/9f6651de85c6437dd5ef12cc5a63afd2d8d06e9d"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/ys1231/idafridascript",
+            "name": "FridaTools",
+            "versions": {
+                "0.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ys1231@126.com",
+                                        "name": "iyue"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "decompilation"
+                                ],
+                                "description": "\u4e00\u4e2a\u7528\u4e8e\u751f\u6210frida\u811a\u672c\u7684ida/mcp\u63d2\u4ef6/An ida/mcp plug-in for generating frida scripts",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "hook",
+                                    "generate frida script",
+                                    "frida tools",
+                                    "frida",
+                                    "mcp"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "resources/main.png",
+                                "maintainers": [],
+                                "name": "FridaTools",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "loguru>=0.7.3",
+                                    "mcp[cli]>=1.9.1",
+                                    "pyqt5>=5.15.11",
+                                    "pyside6>=6.10.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/ys1231/idafridascript"
+                                },
+                                "version": "0.0.3"
+                            }
+                        },
+                        "sha256": "6fde80d6655a401c01a3d07cad5ff799ac88d5a26b27f9cadedf85f14baf6b37",
+                        "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/b78a82d9e37940ed6d851e197e33b7309baf73af"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/rand-tech/idaplugins",
             "name": "funcfiletree",
             "versions": {

@@ -295,3 +295,6 @@ tanu360/ida-chat-plugin
 dump-guy/applycalleetypeex
 symgraph/idassist
 symgraph/idassistmcp
+
+# Discovered on 2026-03-18 16:55:47
+ys1231/idafridascript
