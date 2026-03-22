@@ -13181,6 +13181,65 @@
                         "sha256": "fb8647b814a9d272eb0c7ffdfb869bff27870fe8d4c0d9c2a805684f23dcc9e4",
                         "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/281cefa0718ca05af9fc684fc84d40e5824fe70c"
                     }
+                ],
+                "1.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Standalone MCP server plugin exposing IDA Pro's analysis capabilities to LLM clients",
+                                "entryPoint": "idassistmcp_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "llm",
+                                    "reverse-engineering",
+                                    "model-context-protocol",
+                                    "analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssistMCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "mcp>=1.23.3",
+                                    "anyio>=4.0.0",
+                                    "hypercorn>=0.16.0",
+                                    "pydantic>=2.0.0",
+                                    "pydantic-settings>=2.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssistMCP"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "8f6a263ddeeee70e32ad9c0e8109ecb7d229b9165b96cab98a2f8a7ce0c38e0a",
+                        "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/42bc78da4d124ac388ad33874bd64d7950a46af5"
+                    }
                 ]
             }
         },
