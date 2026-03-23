@@ -9,7 +9,7 @@
 #
 # Outputs:
 #   plugins-combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
-#   categories.json           12 category definitions with pluginCount
+#   categories.json           all category definitions (counts computed by UI)
 #
 # Usage:
 #   uv run --script scripts/merge_plugins.py \
@@ -23,6 +23,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
+#     "pydantic>=2",
 #     "requests",
 #     "rich",
 # ]
@@ -32,7 +33,6 @@ import argparse
 import json
 import logging
 import re
-from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -40,9 +40,98 @@ from pathlib import Path
 import requests
 import rich.console
 import rich.progress
+from pydantic import BaseModel
 from rich.logging import RichHandler
 
 logger = logging.getLogger(__name__)
+
+
+# ─── Output schemas (Pydantic) ──────────────────────────────────────────────
+#
+# These models define the exact shape of categories.json and plugins-combined.json.
+# Both transform functions return a Plugin instance; the final output is serialized
+# via .model_dump().
+
+
+class Category(BaseModel):
+    """A single entry in categories.json."""
+    id: int
+    icon: str
+    name: str
+    slug: str
+    description: str
+
+
+class Author(BaseModel):
+    """An author entry inside idaplugin_json.plugin.authors."""
+    login: str
+    name: str = ""
+    email: str = ""
+    repository_owner: str = ""
+    derivedFromName: bool = False
+
+
+class PluginInfo(BaseModel):
+    """The ``plugin`` object inside ``idaplugin_json``."""
+    name: str
+    description: str = ""
+    authors: list[Author] = []
+    keywords: list[str] = []
+    absoluteLogoUrl: str | None = None
+    version: str | None = None
+    idaVersions: list[str] = []
+    license: str | None = None
+
+
+class IdaPluginJson(BaseModel):
+    """Wrapper for the ``idaplugin_json`` field in plugin metadata."""
+    plugin: PluginInfo
+
+
+class DynamicMetadata(BaseModel):
+    """GitHub-sourced metadata that changes over time (stars, forks, dates)."""
+    stars: int = 0
+    forks: int = 0
+    watchers: int = 0
+    language: str | None = None
+    created_at: str | None = None
+    latest_update: str | None = None
+    topics: list[str] = []
+    homepage: str = ""
+    default_branch: str = "master"
+    owner_avatar_url: str | None = None
+    owner_type: str | None = None
+
+
+class PluginMetadata(BaseModel):
+    """The ``metadata`` envelope for every plugin."""
+    idaplugin_json: IdaPluginJson | None = None
+    repository_owner: str
+    repository_name: str
+    repository_description: str = ""
+    tags: list[str] = []
+    badges: list[str] = []
+    prettified_versions: list[str] | None = None
+    license_type: str | None = None
+    readme_url: str | None = None
+    dynamic_metadata: DynamicMetadata = DynamicMetadata()
+
+
+class Plugin(BaseModel):
+    """A single plugin entry in plugins-combined.json."""
+    slug: str
+    url: str
+    host: str
+    name: str
+    metadata: PluginMetadata
+    categories: list[Category] = []
+    versions: dict | None = None
+
+
+class CombinedOutput(BaseModel):
+    """Top-level wrapper for plugins-combined.json."""
+    generated_at: str
+    plugins: list[Plugin]
 stderr_console = rich.console.Console(stderr=True)
 
 # Legacy slug aliases from older ida-plugin.json spec versions.
@@ -56,7 +145,7 @@ _LEGACY_SLUG_ALIASES: dict[str, str] = {
 }
 
 
-def load_categories(path: Path) -> list[dict]:
+def load_categories(path: Path) -> list[Category]:
     """Load category definitions from api-categories.json."""
     with open(path) as f:
         raw = json.load(f)
@@ -67,11 +156,14 @@ def load_categories(path: Path) -> list[dict]:
         cats = raw.get("categories") or raw.get("hits") or list(raw.values())
     else:
         cats = []
-    # Normalize slugs to lowercase
-    return [{**c, "slug": c["slug"].lower()} for c in cats if c.get("slug")]
+    # Normalize slugs to lowercase; only keep fields defined in Category schema
+    return [
+        Category(id=c["id"], icon=c.get("icon", ""), name=c["name"], slug=c["slug"].lower(), description=c.get("description", ""))
+        for c in cats if c.get("slug")
+    ]
 
 
-def map_category(raw_slug: str, slug_to_cat: dict[str, dict]) -> dict:
+def map_category(raw_slug: str, slug_to_cat: dict[str, Category]) -> Category:
     """Map any raw category slug to a canonical category definition.
 
     Tries in order:
@@ -92,7 +184,7 @@ def map_category(raw_slug: str, slug_to_cat: dict[str, dict]) -> dict:
         )
         return slug_to_cat[canonical]
     logger.warning("Unknown category slug %r — mapped to 'other'", normalized)
-    return slug_to_cat.get("other", {"slug": "other", "name": "Other"})
+    return slug_to_cat.get("other", Category(id=0, icon="", name="Other", slug="other", description=""))
 
 
 # ─── Author login derivation (ported from DataMerger.deriveLogin) ─────────────
@@ -254,7 +346,7 @@ def parse_github_url(url: str) -> tuple[str, str] | None:
 
 # ─── Transform functions ──────────────────────────────────────────────────────
 
-def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, slug_to_cat: dict, tags_from_a: list[str] | None = None) -> dict | None:
+def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, slug_to_cat: dict, tags_from_a: list[str] | None = None) -> Plugin | None:
     """Transform a single HCLI plugin entry into the combined output shape."""
     parsed = parse_github_url(hcli_plugin.get("host", ""))
     if not parsed:
@@ -279,17 +371,18 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
 
     # Authors
     raw_authors = plugin_meta.get("authors") or []
-    normalized_authors = []
+    normalized_authors: list[Author] = []
     for author in raw_authors:
         login, derived = derive_login(author, owner)
-        normalized_authors.append({
-            **author,
-            "login": login,
-            "derivedFromName": derived,
-            "repository_owner": owner,
-        })
+        normalized_authors.append(Author(
+            login=login,
+            name=author.get("name") or "",
+            email=author.get("email") or "",
+            repository_owner=owner,
+            derivedFromName=derived,
+        ))
     if not normalized_authors:
-        normalized_authors = [{"login": owner, "name": owner, "email": "", "repository_owner": owner, "derivedFromName": False}]
+        normalized_authors = [Author(login=owner, name=owner, email="", repository_owner=owner, derivedFromName=False)]
 
     # Versions
     prettified = prettify_ida_versions(plugin_meta.get("idaVersions") or [])
@@ -306,52 +399,52 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
         for cat in (plugin_meta.get("categories") or ["other"])
     ]
 
-    return {
-        "slug": slug,
-        "url": hcli_plugin["host"],
-        "host": hcli_plugin["host"],
-        "name": hcli_plugin["name"],
-        "metadata": {
-            "idaplugin_json": {
-                "plugin": {
-                    "name": plugin_meta.get("name") or hcli_plugin["name"],
-                    "description": plugin_meta.get("description") or "",
-                    "authors": normalized_authors,
-                    "keywords": plugin_meta.get("keywords") or [],
-                    "absoluteLogoUrl": absolute_logo_url,
-                    "version": plugin_meta.get("version") or latest_key,
-                    "idaVersions": plugin_meta.get("idaVersions") or [],
-                    "license": plugin_meta.get("license"),
-                },
-            },
-            "repository_owner": owner,
-            "repository_name": repo,
-            "repository_description": github_meta.get("description") or plugin_meta.get("description") or "",
-            "tags": tags,
-            "badges": generate_badges(tags),
-            "prettified_versions": prettified,
-            "license_type": plugin_meta.get("license"),
-            "readme_url": readme_url,
-            "dynamic_metadata": {
-                "stars": github_meta.get("stargazers_count") or 0,
-                "forks": github_meta.get("forks_count") or 0,
-                "watchers": github_meta.get("watchers_count") or 0,
-                "language": github_meta.get("language"),
-                "created_at": github_meta.get("created_at"),
-                "latest_update": github_meta.get("pushed_at") or github_meta.get("updated_at"),
-                "topics": github_meta.get("topics") or [],
-                "homepage": github_meta.get("homepage") or "",
-                "default_branch": default_branch,
-                "owner_avatar_url": (github_meta.get("owner") or {}).get("avatar_url"),
-                "owner_type": (github_meta.get("owner") or {}).get("type"),
-            },
-        },
-        "categories": categories,
-        "versions": hcli_plugin.get("versions"),
-    }
+    return Plugin(
+        slug=slug,
+        url=hcli_plugin["host"],
+        host=hcli_plugin["host"],
+        name=hcli_plugin["name"],
+        metadata=PluginMetadata(
+            idaplugin_json=IdaPluginJson(
+                plugin=PluginInfo(
+                    name=plugin_meta.get("name") or hcli_plugin["name"],
+                    description=plugin_meta.get("description") or "",
+                    authors=normalized_authors,
+                    keywords=plugin_meta.get("keywords") or [],
+                    absoluteLogoUrl=absolute_logo_url,
+                    version=plugin_meta.get("version") or latest_key,
+                    idaVersions=plugin_meta.get("idaVersions") or [],
+                    license=plugin_meta.get("license"),
+                ),
+            ),
+            repository_owner=owner,
+            repository_name=repo,
+            repository_description=github_meta.get("description") or plugin_meta.get("description") or "",
+            tags=tags,
+            badges=generate_badges(tags),
+            prettified_versions=prettified,
+            license_type=plugin_meta.get("license"),
+            readme_url=readme_url,
+            dynamic_metadata=DynamicMetadata(
+                stars=github_meta.get("stargazers_count") or 0,
+                forks=github_meta.get("forks_count") or 0,
+                watchers=github_meta.get("watchers_count") or 0,
+                language=github_meta.get("language"),
+                created_at=github_meta.get("created_at"),
+                latest_update=github_meta.get("pushed_at") or github_meta.get("updated_at"),
+                topics=github_meta.get("topics") or [],
+                homepage=github_meta.get("homepage") or "",
+                default_branch=default_branch,
+                owner_avatar_url=(github_meta.get("owner") or {}).get("avatar_url"),
+                owner_type=(github_meta.get("owner") or {}).get("type"),
+            ),
+        ),
+        categories=categories,
+        versions=hcli_plugin.get("versions"),
+    )
 
 
-def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, slug_to_cat: dict) -> dict | None:
+def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, slug_to_cat: dict) -> Plugin | None:
     """Transform an API-only plugin into the combined output shape.
     Passes through idaplugin_json when present (some API plugins have metadata but aren't in the HCLI index yet).
     """
@@ -364,13 +457,13 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
     owner, repo = parsed
     meta = api_plugin.get("metadata") or {}
     default_branch = github_meta.get("default_branch") or "master"
-    idaplugin_json = meta.get("idaplugin_json")  # may be None or a dict
+    raw_idaplugin_json = meta.get("idaplugin_json")  # may be None or a dict
 
     slug = api_plugin.get("slug") or f"{owner}/{repo}"
 
     # Tags: from A (metadata.tags) + C (tags.json), deduplicated
     tags_from_a = meta.get("tags") or []
-    plugin_name = (idaplugin_json or {}).get("plugin", {}).get("name") or meta.get("repository_name") or repo
+    plugin_name = (raw_idaplugin_json or {}).get("plugin", {}).get("name") or meta.get("repository_name") or repo
     tags_from_c = get_tags_for_plugin(tags_map, url, plugin_name)
     tags = list(dict.fromkeys(tags_from_a + tags_from_c))
 
@@ -384,46 +477,65 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
 
     # dynamic_metadata: prefer github_meta (fresher), fall back to API dynamic_metadata
     api_dyn = meta.get("dynamic_metadata") or {}
-    dynamic_metadata = {
-        "stars": github_meta.get("stargazers_count") or api_dyn.get("stars") or 0,
-        "forks": github_meta.get("forks_count") or api_dyn.get("forks") or 0,
-        "watchers": github_meta.get("watchers_count") or 0,
-        "language": github_meta.get("language") or api_dyn.get("language"),
-        "created_at": github_meta.get("created_at") or api_dyn.get("created_at"),
-        "latest_update": github_meta.get("pushed_at") or github_meta.get("updated_at") or api_dyn.get("latest_update"),
-        "topics": github_meta.get("topics") or [],
-        "homepage": github_meta.get("homepage") or "",
-        "default_branch": default_branch,
-        "owner_avatar_url": (github_meta.get("owner") or {}).get("avatar_url"),
-        "owner_type": (github_meta.get("owner") or {}).get("type"),
-    }
 
     # License: prefer idaplugin_json.plugin.license, then API metadata.license_type, then GitHub repo license
-    idaplugin_license = (idaplugin_json or {}).get("plugin", {}).get("license")
+    idaplugin_license = (raw_idaplugin_json or {}).get("plugin", {}).get("license")
     api_license = meta.get("license_type")
     github_license = (github_meta.get("license") or {}).get("name") or (github_meta.get("license") or {}).get("spdx_id")
     license_type = idaplugin_license or api_license or github_license
 
-    return {
-        "slug": slug,
-        "url": url,
-        "host": url,
-        "name": plugin_name,
-        "metadata": {
-            "idaplugin_json": idaplugin_json,
-            "repository_owner": meta.get("repository_owner") or owner,
-            "repository_name": meta.get("repository_name") or repo,
-            "repository_description": github_meta.get("description") or meta.get("repository_description") or "",
-            "tags": tags,
-            "badges": generate_badges(tags),
-            "prettified_versions": None,
-            "license_type": license_type,
-            "readme_url": readme_url,
-            "dynamic_metadata": dynamic_metadata,
-        },
-        "categories": categories,
-        "versions": None,
-    }
+    # Build typed idaplugin_json if the API has it
+    idaplugin_json: IdaPluginJson | None = None
+    if raw_idaplugin_json and isinstance(raw_idaplugin_json.get("plugin"), dict):
+        raw_plugin = raw_idaplugin_json["plugin"]
+        raw_ida_versions = raw_plugin.get("idaVersions") or []
+        if isinstance(raw_ida_versions, str):
+            raw_ida_versions = [raw_ida_versions]
+        idaplugin_json = IdaPluginJson(
+            plugin=PluginInfo(
+                name=raw_plugin.get("name") or plugin_name,
+                description=raw_plugin.get("description") or "",
+                authors=[Author(**a) if isinstance(a, dict) else Author(login=str(a)) for a in (raw_plugin.get("authors") or [])],
+                keywords=raw_plugin.get("keywords") or [],
+                absoluteLogoUrl=raw_plugin.get("absoluteLogoUrl"),
+                version=raw_plugin.get("version"),
+                idaVersions=raw_ida_versions,
+                license=raw_plugin.get("license"),
+            ),
+        )
+
+    return Plugin(
+        slug=slug,
+        url=url,
+        host=url,
+        name=plugin_name,
+        metadata=PluginMetadata(
+            idaplugin_json=idaplugin_json,
+            repository_owner=meta.get("repository_owner") or owner,
+            repository_name=meta.get("repository_name") or repo,
+            repository_description=github_meta.get("description") or meta.get("repository_description") or "",
+            tags=tags,
+            badges=generate_badges(tags),
+            prettified_versions=None,
+            license_type=license_type,
+            readme_url=readme_url,
+            dynamic_metadata=DynamicMetadata(
+                stars=github_meta.get("stargazers_count") or api_dyn.get("stars") or 0,
+                forks=github_meta.get("forks_count") or api_dyn.get("forks") or 0,
+                watchers=github_meta.get("watchers_count") or 0,
+                language=github_meta.get("language") or api_dyn.get("language"),
+                created_at=github_meta.get("created_at") or api_dyn.get("created_at"),
+                latest_update=github_meta.get("pushed_at") or github_meta.get("updated_at") or api_dyn.get("latest_update"),
+                topics=github_meta.get("topics") or [],
+                homepage=github_meta.get("homepage") or "",
+                default_branch=default_branch,
+                owner_avatar_url=(github_meta.get("owner") or {}).get("avatar_url"),
+                owner_type=(github_meta.get("owner") or {}).get("type"),
+            ),
+        ),
+        categories=categories,
+        versions=None,
+    )
 
 
 # ─── Main merge logic ─────────────────────────────────────────────────────────
@@ -482,7 +594,7 @@ def do_merge(
         if categories_path:
             logger.warning("--categories file not found (%s); categories.json will be empty", categories_path)
         category_definitions = []
-    slug_to_cat: dict[str, dict] = {cat["slug"]: cat for cat in category_definitions}
+    slug_to_cat: dict[str, Category] = {cat.slug: cat for cat in category_definitions}
 
     tags_map = build_tags_map(tags_array)
     logger.info("Loaded: %d API plugins, %d HCLI plugins, %d tag entries, %d repo metadata entries, %d categories",
@@ -563,7 +675,7 @@ def do_merge(
                 progress.advance(task)
 
     # ── Transform HCLI plugins ────────────────────────────────────────────────
-    output_plugins: list[dict] = []
+    output_plugins: list[Plugin] = []
     hcli_count = 0
 
     for key, p in hcli_map.items():
@@ -602,39 +714,31 @@ def do_merge(
     logger.info("Merged: %d HCLI + %d legacy = %d total plugins", hcli_count, legacy_count, len(output_plugins))
 
     # Verify no duplicates
-    slugs = [p["slug"] for p in output_plugins]
+    slugs = [p.slug for p in output_plugins]
     if len(slugs) != len(set(slugs)):
         dupes = [s for s in slugs if slugs.count(s) > 1]
         logger.warning("Duplicate slugs found: %s", list(set(dupes)))
 
-    # ── Compute category counts ───────────────────────────────────────────────
-    category_counts: Counter = Counter()
-    for plugin in output_plugins:
-        for cat in plugin.get("categories") or []:
-            category_counts[cat["slug"]] += 1
-
-    categories_out = [
-        {**cat, "pluginCount": category_counts.get(cat["slug"], 0)}
-        for cat in category_definitions
-    ]
-
     # ── Write outputs ─────────────────────────────────────────────────────────
     out_path.mkdir(parents=True, exist_ok=True)
 
+    combined = CombinedOutput(
+        generated_at=datetime.now(timezone.utc).isoformat(),
+        plugins=output_plugins,
+    )
     combined_path = out_path / "plugins-combined.json"
-    combined_path.write_text(json.dumps({
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "plugins": output_plugins,
-    }, indent=2, ensure_ascii=False) + "\n")
+    combined_path.write_text(json.dumps(combined.model_dump(), indent=2, ensure_ascii=False) + "\n")
     logger.info("Wrote %s (%d plugins)", combined_path, len(output_plugins))
 
+    # categories.json: static definitions only (no pluginCount — the UI derives
+    # counts at runtime from the actual plugin list so they stay in sync).
     cat_path = categories_out_path or (out_path / "categories.json")
-    cat_path.write_text(json.dumps(categories_out, indent=2, ensure_ascii=False) + "\n")
+    cat_path.write_text(json.dumps([c.model_dump() for c in category_definitions], indent=2, ensure_ascii=False) + "\n")
     logger.info("Wrote %s", cat_path)
 
     # ── Summary ───────────────────────────────────────────────────────────────
-    pm_ready = sum(1 for p in output_plugins if "plugin_manager_ready" in (p["metadata"]["tags"] or []))
-    no_readme = sum(1 for p in output_plugins if not p["metadata"]["readme_url"])
+    pm_ready = sum(1 for p in output_plugins if "plugin_manager_ready" in p.metadata.tags)
+    no_readme = sum(1 for p in output_plugins if not p.metadata.readme_url)
     stderr_console.print(f"\n[bold green]Done![/bold green] {len(output_plugins)} plugins "
                          f"({pm_ready} PM-ready, {legacy_count} legacy, {no_readme} without README)")
 
