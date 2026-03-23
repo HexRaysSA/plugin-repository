@@ -2,7 +2,7 @@
 #
 # Inputs:
 #   A  api-plugins.json       All plugins from the Hex-Rays API (one-time dump)
-#   B  hcli-plugins.json      HCLI-indexed plugins (plugin-repository.json from GitHub)
+#   B  plugin-repository.json  HCLI-indexed plugins (from GitHub)
 #   C  tags.json              Curated tags (favourite, plugin_contest_*, etc.)
 #      github-metadata.json   GitHub repo metadata (stars, forks, dates, topics)
 #      api-categories.json    Category definitions from the API (optional, for descriptions)
@@ -13,7 +13,7 @@
 #
 # Usage:
 #   uv run --script scripts/merge_plugins.py \
-#     --hcli hcli-plugins.json \
+#     --hcli plugin-repository.json \
 #     --tags tags.json \
 #     --api api-plugins.json \
 #     --categories api-categories.json \
