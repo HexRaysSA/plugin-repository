@@ -44,6 +44,7 @@ from pydantic import BaseModel
 from rich.logging import RichHandler
 
 logger = logging.getLogger(__name__)
+stderr_console = rich.console.Console(stderr=True)
 
 
 # ─── Output schemas (Pydantic) ──────────────────────────────────────────────
@@ -132,7 +133,6 @@ class CombinedOutput(BaseModel):
     """Top-level wrapper for plugins-combined.json."""
     generated_at: str
     plugins: list[Plugin]
-stderr_console = rich.console.Console(stderr=True)
 
 # Legacy slug aliases from older ida-plugin.json spec versions.
 # As of 2025 all slugs in plugin-repository.json already match api-categories.json exactly,
