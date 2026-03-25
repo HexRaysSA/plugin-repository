@@ -1,9 +1,6 @@
 # OS generated files
 .DS_Store
 
-# Downloaded on demand by `just fetch-metadata`
-github-metadata.json
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -29,17 +29,14 @@ collect-stars:
     uv run scripts/snapshot_github_repo_metadata.py plugin-repository.json public/plugins/
 
 
-fetch-metadata:
-    curl -sSfL -o github-metadata.json https://hexrayssa.github.io/plugin-repository/plugins/github.com/repositories-metadata.json
-
-merge-plugins: fetch-metadata
+merge-plugins:
     mkdir -p ./public/
     uv run --script scripts/merge_plugins.py \
         --hcli plugin-repository.json \
         --tags tags.json \
         --api api-plugins.json \
         --categories api-categories.json \
-        --metadata github-metadata.json \
+        --metadata public/plugins/github.com/repositories-metadata.json \
         --out public/
 
 
