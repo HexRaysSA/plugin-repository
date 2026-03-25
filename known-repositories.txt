@@ -282,8 +282,6 @@ oxikkk/ida-function-string-associate
 starsunyzl/idapatching
 
 # Discovered on 2026-03-02 05:09:06
-jtang613/idassist
-jtang613/idassistmcp
 oxikkk/ida-vtable-tools
 
 # Discovered on 2026-03-07 00:55:28
@@ -297,3 +295,9 @@ tanu360/ida-chat-plugin
 dump-guy/applycalleetypeex
 symgraph/idassist
 symgraph/idassistmcp
+
+# Discovered on 2026-03-18 16:55:47
+ys1231/idafridascript
+
+# Discovered on 2026-03-24 10:18:48
+joxeankoret/idamagicstrings
