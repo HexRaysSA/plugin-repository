@@ -35,7 +35,6 @@ merge-plugins:
         --hcli plugin-repository.json \
         --tags tags.json \
         --api api-plugins.json \
-        --categories api-categories.json \
         --metadata public/plugins/github.com/repositories-metadata.json \
         --out public/
 

@@ -5,18 +5,17 @@
 #   B  plugin-repository.json  HCLI-indexed plugins (from GitHub)
 #   C  tags.json              Curated tags (favourite, plugin_contest_*, etc.)
 #      github-metadata.json   GitHub repo metadata (stars, forks, dates, topics)
-#      api-categories.json    Category definitions from the API (optional, for descriptions)
 #
 # Outputs:
 #   plugins-combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
-#   categories.json           all category definitions (counts computed by UI)
+#                             Category data is stored as slugs only; the UI enriches
+#                             them with presentation data (icons, descriptions).
 #
 # Usage:
 #   uv run --script scripts/merge_plugins.py \
 #     --hcli plugin-repository.json \
 #     --tags tags.json \
 #     --api api-plugins.json \
-#     --categories api-categories.json \
 #     --metadata github-metadata.json \
 #     --out .
 #
@@ -49,18 +48,9 @@ stderr_console = rich.console.Console(stderr=True)
 
 # ─── Output schemas (Pydantic) ──────────────────────────────────────────────
 #
-# These models define the exact shape of categories.json and plugins-combined.json.
+# These models define the exact shape of plugins-combined.json.
 # Both transform functions return a Plugin instance; the final output is serialized
 # via .model_dump().
-
-
-class Category(BaseModel):
-    """A single entry in categories.json."""
-    id: int
-    icon: str
-    name: str
-    slug: str
-    description: str
 
 
 class Author(BaseModel):
@@ -125,7 +115,7 @@ class Plugin(BaseModel):
     host: str
     name: str
     metadata: PluginMetadata
-    categories: list[Category] = []
+    categories: list[str] = []
     versions: dict | None = None
 
 
@@ -135,7 +125,7 @@ class CombinedOutput(BaseModel):
     plugins: list[Plugin]
 
 # Legacy slug aliases from older ida-plugin.json spec versions.
-# As of 2025 all slugs in plugin-repository.json already match api-categories.json exactly,
+# As of 2025 all slugs in plugin-repository.json already use canonical slugs,
 # so none of these are hit at runtime.  They are kept as a safety net for plugins submitted
 # with an old spec version so they don't silently fall into "other".
 _LEGACY_SLUG_ALIASES: dict[str, str] = {
@@ -145,46 +135,22 @@ _LEGACY_SLUG_ALIASES: dict[str, str] = {
 }
 
 
-def load_categories(path: Path) -> list[Category]:
-    """Load category definitions from api-categories.json."""
-    with open(path) as f:
-        raw = json.load(f)
-    # Handle both a bare list and a wrapped object
-    if isinstance(raw, list):
-        cats = raw
-    elif isinstance(raw, dict):
-        cats = raw.get("categories") or raw.get("hits") or list(raw.values())
-    else:
-        cats = []
-    # Normalize slugs to lowercase; only keep fields defined in Category schema
-    return [
-        Category(id=c["id"], icon=c.get("icon", ""), name=c["name"], slug=c["slug"].lower(), description=c.get("description", ""))
-        for c in cats if c.get("slug")
-    ]
+def normalize_category_slug(raw_slug: str) -> str:
+    """Normalize a raw category slug to its canonical lowercase form.
 
-
-def map_category(raw_slug: str, slug_to_cat: dict[str, Category]) -> Category:
-    """Map any raw category slug to a canonical category definition.
-
-    Tries in order:
-      1. Direct match against slug_to_cat (built from api-categories.json)
-      2. Legacy alias lookup (_LEGACY_SLUG_ALIASES) with a warning
-      3. Falls back to "other"
+    Applies legacy alias mapping if needed, otherwise just lowercases.
     """
     normalized = raw_slug.lower().strip().replace(" ", "-")
-    if normalized in slug_to_cat:
-        return slug_to_cat[normalized]
     canonical = _LEGACY_SLUG_ALIASES.get(normalized)
-    if canonical and canonical in slug_to_cat:
+    if canonical:
         logger.warning(
             "Category slug %r is a legacy alias for %r — "
             "the plugin should be updated to use the canonical slug",
             normalized,
             canonical,
         )
-        return slug_to_cat[canonical]
-    logger.warning("Unknown category slug %r — mapped to 'other'", normalized)
-    return slug_to_cat.get("other", Category(id=0, icon="", name="Other", slug="other", description=""))
+        return canonical
+    return normalized
 
 
 # ─── Author login derivation (ported from DataMerger.deriveLogin) ─────────────
@@ -346,7 +312,7 @@ def parse_github_url(url: str) -> tuple[str, str] | None:
 
 # ─── Transform functions ──────────────────────────────────────────────────────
 
-def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, slug_to_cat: dict, tags_from_a: list[str] | None = None) -> Plugin | None:
+def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, tags_from_a: list[str] | None = None) -> Plugin | None:
     """Transform a single HCLI plugin entry into the combined output shape."""
     parsed = parse_github_url(hcli_plugin.get("host", ""))
     if not parsed:
@@ -393,9 +359,9 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
     tags_from_c = get_tags_for_plugin(tags_map, hcli_plugin.get("host", ""), hcli_plugin["name"])
     tags = list(dict.fromkeys((tags_from_a or []) + tags_from_c + ["plugin_manager_ready"]))
 
-    # Categories
+    # Categories (slugs only — UI enriches with presentation data)
     categories = [
-        map_category(cat, slug_to_cat)
+        normalize_category_slug(cat)
         for cat in (plugin_meta.get("categories") or ["other"])
     ]
 
@@ -444,7 +410,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
     )
 
 
-def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, slug_to_cat: dict) -> Plugin | None:
+def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None) -> Plugin | None:
     """Transform an API-only plugin into the combined output shape.
     Passes through idaplugin_json when present (some API plugins have metadata but aren't in the HCLI index yet).
     """
@@ -467,13 +433,13 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
     tags_from_c = get_tags_for_plugin(tags_map, url, plugin_name)
     tags = list(dict.fromkeys(tags_from_a + tags_from_c))
 
-    # Categories: from API plugin, normalize slugs
+    # Categories (slugs only — UI enriches with presentation data)
     categories = [
-        map_category(cat.get("slug") or "other", slug_to_cat)
+        normalize_category_slug(cat.get("slug") or "other")
         for cat in (api_plugin.get("categories") or [])
     ]
     if not categories:
-        categories = [map_category("other", slug_to_cat)]
+        categories = ["other"]
 
     # dynamic_metadata: prefer github_meta (fresher), fall back to API dynamic_metadata
     api_dyn = meta.get("dynamic_metadata") or {}
@@ -545,9 +511,7 @@ def do_merge(
     hcli_path: Path,
     tags_path: Path,
     metadata_path: Path | None,
-    categories_path: Path | None,
     out_path: Path,
-    categories_out_path: Path | None,
 ) -> None:
     # ── Load inputs ──────────────────────────────────────────────────────────
     logger.info("Loading inputs...")
@@ -588,17 +552,9 @@ def do_merge(
     def get_meta(owner: str, repo: str) -> dict:
         return github_metadata_lower.get(f"{owner}/{repo}".lower()) or {}
 
-    if categories_path and categories_path.exists():
-        category_definitions = load_categories(categories_path)
-    else:
-        if categories_path:
-            logger.warning("--categories file not found (%s); categories.json will be empty", categories_path)
-        category_definitions = []
-    slug_to_cat: dict[str, Category] = {cat.slug: cat for cat in category_definitions}
-
     tags_map = build_tags_map(tags_array)
-    logger.info("Loaded: %d API plugins, %d HCLI plugins, %d tag entries, %d repo metadata entries, %d categories",
-                len(api_plugins_raw), len(hcli_plugins_raw), len(tags_array), len(github_metadata), len(category_definitions))
+    logger.info("Loaded: %d API plugins, %d HCLI plugins, %d tag entries, %d repo metadata entries",
+                len(api_plugins_raw), len(hcli_plugins_raw), len(tags_array), len(github_metadata))
 
     # ── Build lookup maps ────────────────────────────────────────────────────
     # HCLI: key = "owner/repo/plugin_name".lower() (one plugin per entry, unique)
@@ -688,7 +644,7 @@ def do_merge(
         # Rule 6: merge tags from A (full tag set: contest years, placements, etc.)
         repo_key = f"{owner}/{repo}".lower()
         tags_from_a = (api_map.get(repo_key, {}).get("metadata") or {}).get("tags") or []
-        transformed = transform_hcli_plugin(p, meta, tags_map, readme_url, slug_to_cat, tags_from_a)
+        transformed = transform_hcli_plugin(p, meta, tags_map, readme_url, tags_from_a)
         if transformed:
             output_plugins.append(transformed)
             hcli_count += 1
@@ -706,7 +662,7 @@ def do_merge(
         owner, repo = parsed
         meta = get_meta(owner, repo)
         readme_url = readme_results.get(key)
-        transformed = transform_legacy_plugin(p, meta, tags_map, readme_url, slug_to_cat)
+        transformed = transform_legacy_plugin(p, meta, tags_map, readme_url)
         if transformed:
             output_plugins.append(transformed)
             legacy_count += 1
@@ -719,7 +675,7 @@ def do_merge(
         dupes = [s for s in slugs if slugs.count(s) > 1]
         logger.warning("Duplicate slugs found: %s", list(set(dupes)))
 
-    # ── Write outputs ─────────────────────────────────────────────────────────
+    # ── Write output ──────────────────────────────────────────────────────────
     out_path.mkdir(parents=True, exist_ok=True)
 
     combined = CombinedOutput(
@@ -729,12 +685,6 @@ def do_merge(
     combined_path = out_path / "plugins-combined.json"
     combined_path.write_text(json.dumps(combined.model_dump(), indent=2, ensure_ascii=False) + "\n")
     logger.info("Wrote %s (%d plugins)", combined_path, len(output_plugins))
-
-    # categories.json: static definitions only (no pluginCount — the UI derives
-    # counts at runtime from the actual plugin list so they stay in sync).
-    cat_path = categories_out_path or (out_path / "categories.json")
-    cat_path.write_text(json.dumps([c.model_dump() for c in category_definitions], indent=2, ensure_ascii=False) + "\n")
-    logger.info("Wrote %s", cat_path)
 
     # ── Summary ───────────────────────────────────────────────────────────────
     pm_ready = sum(1 for p in output_plugins if "plugin_manager_ready" in p.metadata.tags)
@@ -757,10 +707,8 @@ def main() -> None:
                         help="Tags file (tags.json)")
     parser.add_argument("--metadata", type=Path, default=None,
                         help="GitHub repo metadata JSON — optional, omit to skip GitHub stats")
-    parser.add_argument("--categories", type=Path, default=None,
-                        help="API categories export (api-categories.json) — optional")
     parser.add_argument("--out", type=Path, default=Path("."),
-                        help="Output directory for plugins-combined.json and categories.json")
+                        help="Output directory for plugins-combined.json")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
@@ -782,9 +730,7 @@ def main() -> None:
         hcli_path=args.hcli,
         tags_path=args.tags,
         metadata_path=args.metadata,
-        categories_path=args.categories,
         out_path=args.out,
-        categories_out_path=None,
     )
 
 
