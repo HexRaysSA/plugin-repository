@@ -6,7 +6,7 @@
 #   C  tags.json              Curated tags (favourite, plugin_contest_*, etc.)
 #      github-metadata.json   GitHub repo metadata (stars, forks, dates, topics)
 #
-# Outputs:
+# Output:
 #   plugins-combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
 #                             Category data is stored as slugs only; the UI enriches
 #                             them with presentation data (icons, descriptions).
@@ -16,7 +16,7 @@
 #     --hcli plugin-repository.json \
 #     --tags tags.json \
 #     --api api-plugins.json \
-#     --metadata github-metadata.json \
+#     --metadata public/plugins/github.com/repositories-metadata.json \
 #     --out .
 #
 # /// script
