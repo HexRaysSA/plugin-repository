@@ -1,4 +1,4 @@
-# Merge plugin data from multiple sources into a single plugins-combined.json for the UI.
+# Merge plugin data from multiple sources into a single combined.json for the UI.
 #
 # Inputs:
 #   A  api-plugins.json       All plugins from the Hex-Rays API (one-time dump)
@@ -7,7 +7,7 @@
 #      github-metadata.json   GitHub repo metadata (stars, forks, dates, topics)
 #
 # Output:
-#   plugins-combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
+#   combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
 #                             Category data is stored as slugs only; the UI enriches
 #                             them with presentation data (icons, descriptions).
 #
@@ -17,7 +17,8 @@
 #     --tags tags.json \
 #     --api api-plugins.json \
 #     --metadata public/plugins/github.com/repositories-metadata.json \
-#     --out .
+#     --mirror-dir public/plugins/ \
+#     --out public/plugins/
 #
 # /// script
 # requires-python = ">=3.13"
@@ -48,7 +49,7 @@ stderr_console = rich.console.Console(stderr=True)
 
 # ─── Output schemas (Pydantic) ──────────────────────────────────────────────
 #
-# These models define the exact shape of plugins-combined.json.
+# These models define the exact shape of combined.json.
 # Both transform functions return a Plugin instance; the final output is serialized
 # via .model_dump().
 
@@ -109,7 +110,7 @@ class PluginMetadata(BaseModel):
 
 
 class Plugin(BaseModel):
-    """A single plugin entry in plugins-combined.json."""
+    """A single plugin entry in combined.json."""
     slug: str
     url: str
     host: str
@@ -120,37 +121,9 @@ class Plugin(BaseModel):
 
 
 class CombinedOutput(BaseModel):
-    """Top-level wrapper for plugins-combined.json."""
+    """Top-level wrapper for combined.json."""
     generated_at: str
     plugins: list[Plugin]
-
-# Legacy slug aliases from older ida-plugin.json spec versions.
-# As of 2025 all slugs in plugin-repository.json already use canonical slugs,
-# so none of these are hit at runtime.  They are kept as a safety net for plugins submitted
-# with an old spec version so they don't silently fall into "other".
-_LEGACY_SLUG_ALIASES: dict[str, str] = {
-    "decompiler-and-disassembly":              "decompilation",
-    "binary-analysis-and-reverse-engineering": "disassembly-and-processor-modules",
-    "data-analysis-and-processing":            "file-parsers-and-loaders",
-}
-
-
-def normalize_category_slug(raw_slug: str) -> str:
-    """Normalize a raw category slug to its canonical lowercase form.
-
-    Applies legacy alias mapping if needed, otherwise just lowercases.
-    """
-    normalized = raw_slug.lower().strip().replace(" ", "-")
-    canonical = _LEGACY_SLUG_ALIASES.get(normalized)
-    if canonical:
-        logger.warning(
-            "Category slug %r is a legacy alias for %r — "
-            "the plugin should be updated to use the canonical slug",
-            normalized,
-            canonical,
-        )
-        return canonical
-    return normalized
 
 
 # ─── Author login derivation (ported from DataMerger.deriveLogin) ─────────────
@@ -236,16 +209,25 @@ _README_FILENAMES: list[str] = [
 ]
 
 
-def probe_readme(owner: str, repo: str, plugin_name: str | None, default_branch: str, is_hcli: bool) -> str | None:
-    """Try HEAD requests for candidate README URLs. Returns first URL that returns 200, or None."""
-    candidates: list[str] = []
+_MIRROR_PUBLIC_BASE = "https://hexrayssa.github.io/plugin-repository/plugins"
 
-    if is_hcli and plugin_name:
-        mirror_base = f"https://hexrayssa.github.io/plugin-repository/plugins/github.com/{owner}/{repo}/{plugin_name}"
-        candidates += [f"{mirror_base}/{fn}" for fn in _README_FILENAMES]
 
-    # Try default_branch first, then fall back to the other common branch name
-    # so that plugins whose metadata has a stale/incorrect branch still resolve.
+def _probe_readme_mirror(
+    owner: str, repo: str, plugin_name: str, mirror_dir: Path,
+) -> str | None:
+    """Check the local mirror for a README and return its public URL, or None."""
+    local_base = mirror_dir / "github.com" / owner / repo / plugin_name
+    if local_base.is_dir():
+        for fn in _README_FILENAMES:
+            if (local_base / fn).is_file():
+                return f"{_MIRROR_PUBLIC_BASE}/github.com/{owner}/{repo}/{plugin_name}/{fn}"
+    return None
+
+
+def _probe_readme_github(
+    owner: str, repo: str, default_branch: str,
+) -> str | None:
+    """Probe GitHub raw URLs via HEAD requests. Returns first 200, or None."""
     branches = [default_branch]
     if default_branch == "main":
         branches.append("master")
@@ -255,7 +237,7 @@ def probe_readme(owner: str, repo: str, plugin_name: str | None, default_branch:
         branches += ["main", "master"]
 
     raw_base = f"https://raw.githubusercontent.com/{owner}/{repo}"
-    candidates += [f"{raw_base}/{branch}/{fn}" for branch in branches for fn in _README_FILENAMES]
+    candidates = [f"{raw_base}/{branch}/{fn}" for branch in branches for fn in _README_FILENAMES]
 
     for url in candidates:
         try:
@@ -266,6 +248,28 @@ def probe_readme(owner: str, repo: str, plugin_name: str | None, default_branch:
             continue
 
     return None
+
+
+def probe_readme(
+    owner: str,
+    repo: str,
+    plugin_name: str | None,
+    default_branch: str,
+    is_hcli: bool,
+    mirror_dir: Path | None = None,
+) -> str | None:
+    """Return a README URL for the plugin, or None.
+
+    HCLI plugins: checks the local mirror first, falls back to GitHub
+    only when the mirror has no README (e.g. archive didn't include one).
+    API-only plugins: probes GitHub raw URLs via HEAD requests.
+    """
+    if is_hcli and plugin_name and mirror_dir:
+        url = _probe_readme_mirror(owner, repo, plugin_name, mirror_dir)
+        if url:
+            return url
+
+    return _probe_readme_github(owner, repo, default_branch)
 
 
 # ─── Build tags map from tags.json ────────────────────────────────────────────
@@ -360,10 +364,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
     tags = list(dict.fromkeys((tags_from_a or []) + tags_from_c + ["plugin_manager_ready"]))
 
     # Categories (slugs only — UI enriches with presentation data)
-    categories = [
-        normalize_category_slug(cat)
-        for cat in (plugin_meta.get("categories") or ["other"])
-    ]
+    categories = plugin_meta.get("categories") or ["other"]
 
     return Plugin(
         slug=slug,
@@ -385,7 +386,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
             ),
             repository_owner=owner,
             repository_name=repo,
-            repository_description=github_meta.get("description") or plugin_meta.get("description") or "",
+            repository_description=plugin_meta.get("description") or github_meta.get("description") or "",
             tags=tags,
             badges=generate_badges(tags),
             prettified_versions=prettified,
@@ -435,7 +436,7 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
 
     # Categories (slugs only — UI enriches with presentation data)
     categories = [
-        normalize_category_slug(cat.get("slug") or "other")
+        cat.get("slug") or "other"
         for cat in (api_plugin.get("categories") or [])
     ]
     if not categories:
@@ -479,7 +480,7 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
             idaplugin_json=idaplugin_json,
             repository_owner=meta.get("repository_owner") or owner,
             repository_name=meta.get("repository_name") or repo,
-            repository_description=github_meta.get("description") or meta.get("repository_description") or "",
+            repository_description=meta.get("repository_description") or github_meta.get("description") or "",
             tags=tags,
             badges=generate_badges(tags),
             prettified_versions=None,
@@ -512,6 +513,7 @@ def do_merge(
     tags_path: Path,
     metadata_path: Path | None,
     out_path: Path,
+    mirror_dir: Path | None = None,
 ) -> None:
     # ── Load inputs ──────────────────────────────────────────────────────────
     logger.info("Loading inputs...")
@@ -611,7 +613,7 @@ def do_merge(
 
     def _probe(params):
         owner, repo, plugin_name, default_branch, is_hcli, key = params
-        url = probe_readme(owner, repo, plugin_name, default_branch, is_hcli)
+        url = probe_readme(owner, repo, plugin_name, default_branch, is_hcli, mirror_dir)
         return key, url
 
     with rich.progress.Progress(
@@ -682,7 +684,7 @@ def do_merge(
         generated_at=datetime.now(timezone.utc).isoformat(),
         plugins=output_plugins,
     )
-    combined_path = out_path / "plugins-combined.json"
+    combined_path = out_path / "combined.json"
     combined_path.write_text(json.dumps(combined.model_dump(), indent=2, ensure_ascii=False) + "\n")
     logger.info("Wrote %s (%d plugins)", combined_path, len(output_plugins))
 
@@ -697,7 +699,7 @@ def do_merge(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Merge HCLI + API plugin data into plugins-combined.json for the UI.",
+        description="Merge HCLI + API plugin data into combined.json for the UI.",
     )
     parser.add_argument("--api", type=Path, default=None,
                         help="API export (api-plugins.json) — optional, omit to process HCLI plugins only")
@@ -708,7 +710,9 @@ def main() -> None:
     parser.add_argument("--metadata", type=Path, default=None,
                         help="GitHub repo metadata JSON — optional, omit to skip GitHub stats")
     parser.add_argument("--out", type=Path, default=Path("."),
-                        help="Output directory for plugins-combined.json")
+                        help="Output directory for combined.json")
+    parser.add_argument("--mirror-dir", type=Path, default=None,
+                        help="Local mirror directory (e.g. public/plugins/) — avoids GitHub HTTP requests for HCLI plugins")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
@@ -731,6 +735,7 @@ def main() -> None:
         tags_path=args.tags,
         metadata_path=args.metadata,
         out_path=args.out,
+        mirror_dir=args.mirror_dir,
     )
 
 

@@ -104,7 +104,11 @@ def do_cache(json_path: Path, out_path: Path, no_cache: bool = False):
 
         assert location.url.startswith("https://")
 
-        zip_data = fetch_plugin_archive(location.url)
+        try:
+            zip_data = fetch_plugin_archive(location.url)
+        except Exception as e:
+            logger.info("skipping: %s: fetch failed: %s", plugin.name, e)
+            continue
 
         metadata_path, metadata = get_metadata_from_plugin_archive(zip_data, plugin.name)
         validate_metadata_in_plugin_archive(zip_data, metadata_path, metadata)
