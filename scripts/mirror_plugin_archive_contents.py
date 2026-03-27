@@ -49,6 +49,7 @@ import argparse
 import hashlib
 import logging
 import shutil
+import urllib.request
 from pathlib import Path
 
 import rich.console
@@ -66,6 +67,19 @@ from rich.logging import RichHandler
 logger = logging.getLogger(__name__)
 
 stderr_console = rich.console.Console(stderr=True)
+
+
+def fetch_plugin_archive_with_redirects(url: str) -> bytes:
+    try:
+        return fetch_plugin_archive(url)
+    except Exception as e:
+        response = getattr(e, "response", None)
+        if response is None or response.status_code not in {301, 302, 303, 307, 308}:
+            raise
+
+        logger.info("following redirect for plugin archive: %s", url)
+        with urllib.request.urlopen(url) as response:
+            return response.read()
 
 
 def do_cache(json_path: Path, out_path: Path, no_cache: bool = False):
@@ -104,7 +118,7 @@ def do_cache(json_path: Path, out_path: Path, no_cache: bool = False):
 
         assert location.url.startswith("https://")
 
-        zip_data = fetch_plugin_archive(location.url)
+        zip_data = fetch_plugin_archive_with_redirects(location.url)
 
         metadata_path, metadata = get_metadata_from_plugin_archive(zip_data, plugin.name)
         validate_metadata_in_plugin_archive(zip_data, metadata_path, metadata)
