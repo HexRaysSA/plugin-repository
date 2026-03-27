@@ -40,6 +40,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
+#     "httpx",
 #     "ida-hcli",
 #     "rich",
 # ]
@@ -52,6 +53,7 @@ import shutil
 import urllib.request
 from pathlib import Path
 
+import httpx
 import rich.console
 import rich.progress
 from hcli.lib.ida.plugin import (
@@ -72,13 +74,19 @@ stderr_console = rich.console.Console(stderr=True)
 def fetch_plugin_archive_with_redirects(url: str) -> bytes:
     try:
         return fetch_plugin_archive(url)
-    except Exception as e:
-        response = getattr(e, "response", None)
-        if response is None or response.status_code not in {301, 302, 303, 307, 308}:
+    except httpx.HTTPStatusError as e:
+        if e.response.status_code not in {301, 302, 303, 307, 308}:
             raise
 
-        logger.info("following redirect for plugin archive: %s", url)
-        with urllib.request.urlopen(url) as response:
+        logger.info(
+            "retrying with urllib.request to follow redirect (%s) for plugin archive: %s",
+            e.response.status_code,
+            url,
+        )
+        with urllib.request.urlopen(url, timeout=30) as response:
+            redirected_url = response.geturl()
+            if not redirected_url.startswith("https://"):
+                raise ValueError(f"redirected plugin archive URL is not HTTPS: {redirected_url}")
             return response.read()
 
 
