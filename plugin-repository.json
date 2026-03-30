@@ -4117,6 +4117,154 @@
                         "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.11/DeepExtractIDA.zip"
                     }
                 ],
+                "0.9.12": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.12"
+                            }
+                        },
+                        "sha256": "039d015f1075d83dd3e8cfe1977dbe247dc9f070a8723654742225b5279f0f99",
+                        "url": "https://codeload.github.com/marcosd4h/DeepExtractIDA/legacy.zip/0f7d72123698272a03ff5bbd2abf357f6c22e41d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.12"
+                            }
+                        },
+                        "sha256": "e10dc7fb505dcdcf84f7b64fa24553385927de3b854f1cfaa09bc89f5a031358",
+                        "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.12/DeepExtractIDA.zip"
+                    }
+                ],
                 "0.9.8": [
                     {
                         "metadata": {
@@ -13518,6 +13666,70 @@
                         "sha256": "d620b660eb92b338718a8adbc356cfd8d61622a0ca7c82cb2f4579a231bff2c2",
                         "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/e2e5529aa7db563f9c552bf34535b5f623d65531"
                     }
+                ],
+                "1.5.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "1.5.0"
+                            }
+                        },
+                        "sha256": "a5fbdac5ffe6a60d6080ac10071ed4ccea23185136166f8471f615d98f6caa51",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/347b51518d0c3181496636d9de27b357bf35a497"
+                    }
                 ]
             }
         },
@@ -13760,6 +13972,65 @@
                         },
                         "sha256": "8f6a263ddeeee70e32ad9c0e8109ecb7d229b9165b96cab98a2f8a7ce0c38e0a",
                         "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/42bc78da4d124ac388ad33874bd64d7950a46af5"
+                    }
+                ],
+                "1.4.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Standalone MCP server plugin exposing IDA Pro's analysis capabilities to LLM clients",
+                                "entryPoint": "idassistmcp_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "llm",
+                                    "reverse-engineering",
+                                    "model-context-protocol",
+                                    "analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssistMCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "mcp>=1.23.3",
+                                    "anyio>=4.0.0",
+                                    "hypercorn>=0.16.0",
+                                    "pydantic>=2.0.0",
+                                    "pydantic-settings>=2.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssistMCP"
+                                },
+                                "version": "1.4.0"
+                            }
+                        },
+                        "sha256": "a3d3841444b37175bccc1d7d5951a94179268f7feaa264367cf23d7f1be44c7f",
+                        "url": "https://codeload.github.com/symgraph/IDAssistMCP/legacy.zip/2d34e73f6e495a362e45c1aa064fb0db22fba3c7"
                     }
                 ]
             }
@@ -18306,6 +18577,104 @@
                         },
                         "sha256": "80d6288fe7951a032316342b27f8d0c6ed540d18cba904a31a9c73517df2ace8",
                         "url": "https://github.com/libtero/suture/releases/download/1.2.0/suture.zip"
+                    }
+                ],
+                "1.2.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Automated structure recovery using AST pattern matching",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "struct",
+                                    "structure",
+                                    "reconstruction"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "Suture",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/suture"
+                                },
+                                "version": "1.2.5"
+                            }
+                        },
+                        "sha256": "9370ec4d24bda804a6b21411aa78b91a29b5bd629f5fa6cc6ed90260d4749cf1",
+                        "url": "https://codeload.github.com/libtero/suture/legacy.zip/254ac41315ca188c71a4b313cfd6c8b78fd6efbb"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Automated structure recovery using AST pattern matching",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "struct",
+                                    "structure",
+                                    "reconstruction"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "Suture",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/suture"
+                                },
+                                "version": "1.2.5"
+                            }
+                        },
+                        "sha256": "c9f07ace9b95402ed8ec719577b57cf79fe52025a73a4a2d29080a57995c1db6",
+                        "url": "https://github.com/libtero/suture/releases/download/1.2.5/suture.zip"
                     }
                 ]
             }
