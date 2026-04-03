@@ -19919,6 +19919,58 @@
                         "sha256": "6018fb0bdef2e81194fc612b80227f250f20b2e99f0e72d8a4133bb05140718a",
                         "url": "https://codeload.github.com/oxiKKK/ida-vtable-tools/legacy.zip/04e4ed60a667f84f020a1d0c3c28a71887a3e2af"
                     }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Adds right-click actions for probable vtable entries so you can rename methods, dump interface skeletons, inspect slot info, and set the 'this' parameter.",
+                                "entryPoint": "vtable_context_tools.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vtable",
+                                    "context-menu",
+                                    "rename",
+                                    "dump",
+                                    "this-pointer"
+                                ],
+                                "license": "UNLICENSED",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "vtable-context-tools",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-vtable-tools"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "4cd3f5741d5f38ce215200b812db4ec40bb570c1f206b3e836c26963737670e2",
+                        "url": "https://codeload.github.com/oxiKKK/ida-vtable-tools/legacy.zip/791007698b0716c9aa955424b7d1b038f8608241"
+                    }
                 ]
             }
         },
