@@ -8722,6 +8722,60 @@
                         "sha256": "86e9712e5b16224820cc09216b9a045b8c84fd48922f1acd8dc6ae78c37b1415",
                         "url": "https://codeload.github.com/milankovo/hexinlay/legacy.zip/095ac5cbcbf9e5ce37741286245f09c20140676d"
                     }
+                ],
+                "1.2.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "hexinlay@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "decompilation"
+                                ],
+                                "description": "Display function argument names in Hex-Rays decompiled code as inlay hints",
+                                "entryPoint": "hexrays_inlay.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "inlay-hints",
+                                    "hex-rays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpeg",
+                                "maintainers": [],
+                                "name": "hexinlay",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/hexinlay"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "fe917aff82ce37bc9244e12e6333aeb0c570686af6dade001358a3ea81f75d59",
+                        "url": "https://codeload.github.com/milankovo/hexinlay/legacy.zip/52f00d161db774d9c8a00236df74015bd74547be"
+                    }
                 ]
             }
         },
@@ -13825,6 +13879,70 @@
                         },
                         "sha256": "a5fbdac5ffe6a60d6080ac10071ed4ccea23185136166f8471f615d98f6caa51",
                         "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/347b51518d0c3181496636d9de27b357bf35a497"
+                    }
+                ],
+                "1.6.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "1.6.0"
+                            }
+                        },
+                        "sha256": "682e6ef41fbc5631999bee0b56a784d605890ea9952fd1ee1e92c5a907b0fee0",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/ce7134dbcf1e2d6607de1c855a220ea4374403e1"
                     }
                 ]
             }
