@@ -1372,6 +1372,60 @@
                         "sha256": "09e7b13620d326425d0047f303e4dd0ae88f2c5965980e4668308b5c2dbfbc68",
                         "url": "https://github.com/binsync/binsync/releases/download/v5.13.1/binsync-ida-plugin.zip"
                     }
+                ],
+                "5.14.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "binsync@mahaloz.re",
+                                        "name": "The BinSync Team"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
+                                "entryPoint": "binsync_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "collaboration",
+                                    "ai-integration",
+                                    "translation",
+                                    "converter"
+                                ],
+                                "license": "BSD 2 Simplified",
+                                "logoPath": "binsync.png",
+                                "maintainers": [],
+                                "name": "BinSync",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "binsync==5.14.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binsync/binsync"
+                                },
+                                "version": "5.14.0"
+                            }
+                        },
+                        "sha256": "07c175950142b4a768c305398b05401b081f4cc59d4be5ab274e41fa504e0af7",
+                        "url": "https://github.com/binsync/binsync/releases/download/v5.14.0/binsync-ida-plugin.zip"
+                    }
                 ]
             }
         },
@@ -13944,6 +13998,70 @@
                         "sha256": "682e6ef41fbc5631999bee0b56a784d605890ea9952fd1ee1e92c5a907b0fee0",
                         "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/ce7134dbcf1e2d6607de1c855a220ea4374403e1"
                     }
+                ],
+                "1.7.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "1.7.0"
+                            }
+                        },
+                        "sha256": "d7f6e541e2da799ab0310da5a3db1e34bd345130eea54f1785382c0188b57c28",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/dec7e7c21fcbb149a4be3a9ada453912a7646642"
+                    }
                 ]
             }
         },
@@ -17097,6 +17215,61 @@
                         },
                         "sha256": "52421b0abd1299b5305d8661a44b45b7655e0182c7cf3bb6c9c3dd3a2d596778",
                         "url": "https://codeload.github.com/milankovo/renimp/legacy.zip/a7900dc4cb8d0ac65e963b1aa8a4fe27fb05f17f"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "renimp@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "deobfuscation",
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Python implementation of the renimp.idc script",
+                                "entryPoint": "renimp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "imports",
+                                    "malware",
+                                    "dynamic-imports",
+                                    "rename",
+                                    "import-table"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "renimp",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/renimp"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "b6613aa0269915b842d993224bc2abe1a6f270e7b4f53d760ce73c387bd00da7",
+                        "url": "https://codeload.github.com/milankovo/renimp/legacy.zip/e1c24e27685467290e2401296a40e58fc9240036"
                     }
                 ]
             }
