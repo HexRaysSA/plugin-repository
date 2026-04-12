@@ -301,3 +301,6 @@ ys1231/idafridascript
 
 # Discovered on 2026-03-24 10:18:48
 joxeankoret/idamagicstrings
+
+# Discovered on 2026-04-12 12:55:19
+o1y/aida
