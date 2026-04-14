@@ -29,6 +29,17 @@ collect-stars:
     uv run scripts/snapshot_github_repo_metadata.py plugin-repository.json public/plugins/
 
 
+merge-plugins:
+    mkdir -p ./public/
+    uv run --script scripts/merge_plugins.py \
+        --hcli plugin-repository.json \
+        --tags tags.json \
+        --api api-plugins.json \
+        --metadata public/plugins/github.com/repositories-metadata.json \
+        --mirror-dir public/plugins/ \
+        --out public/
+
+
 summarize-logs:
     mkdir -p ./public/logs/
     uv run scripts/summarize_github_indexer_logs.py --html > public/logs/indexer.html
@@ -50,7 +61,7 @@ collect-site:
     rsync -av ./site/public/ ./public/_/
 
 
-build-public: generate-chart collect-repo mirror-content collect-stars summarize-logs generate-hugo hugo-build-site collect-site
+build-public: generate-chart collect-repo mirror-content collect-stars merge-plugins summarize-logs generate-hugo hugo-build-site collect-site
 
 
 export HCLI_DISABLE_UPDATES := "1"
