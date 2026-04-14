@@ -81,6 +81,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Merge plugins
+        run: |
+          mkdir -p ./public/plugins/
+          uv run --script scripts/merge_plugins.py \
+            --hcli plugin-repository.json \
+            --tags tags.json \
+            --api api-plugins.json \
+            --metadata public/plugins/github.com/repositories-metadata.json \
+            --mirror-dir public/plugins/ \
+            --out public/plugins/
+
       - name: Summarize logs
         run: |
           mkdir -p ./public/logs/
