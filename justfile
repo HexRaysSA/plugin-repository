@@ -30,14 +30,14 @@ collect-stars:
 
 
 merge-plugins:
-    mkdir -p ./public/
+    mkdir -p ./public/plugins/
     uv run --script scripts/merge_plugins.py \
         --hcli plugin-repository.json \
         --tags tags.json \
         --api api-plugins.json \
         --metadata public/plugins/github.com/repositories-metadata.json \
         --mirror-dir public/plugins/ \
-        --out public/
+        --out public/plugins/
 
 
 summarize-logs:
