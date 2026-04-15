@@ -2671,6 +2671,64 @@
             }
         },
         {
+            "host": "https://github.com/milankovo/command_palette",
+            "name": "command_palette",
+            "versions": {
+                "2.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "command_palette@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Sublime-like command palette for IDA Pro.",
+                                "entryPoint": "command_palette.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "command-palette",
+                                    "fuzzy-search",
+                                    "actions",
+                                    "shortcuts"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "command_palette",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/command_palette"
+                                },
+                                "version": "2.0.0"
+                            }
+                        },
+                        "sha256": "7578f60ff1913800fe4fb1e124062cf2a82835042930b489c3ad2383b4226f54",
+                        "url": "https://codeload.github.com/milankovo/command_palette/legacy.zip/4f65e7d0556361fa1a7d3cbb8c3be09195b489a5"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/milankovo/comment-evaluator",
             "name": "comment-evaluator",
             "versions": {
@@ -10729,6 +10787,592 @@
                         },
                         "sha256": "76c64d2c4a404b6253f45ebbee4f45b669bcb2b96445291b9819c94742d50803",
                         "url": "https://codeload.github.com/milankovo/ida_outliner/legacy.zip/e41c569db77893c56ccb0eed07edf0315cb4477e"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/milankovo/ida-search",
+            "name": "ida-search",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "a6a19a1a49bb279235dcd755b0a65cde70544003262e6727dd2cda7d39ea9842",
+                        "url": "https://codeload.github.com/milankovo/ida-search/legacy.zip/697531c6e6a03fde29527ad8f74fed7b0f2ad7cc"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "e176e43a894d117bb7842565a0ba49aec1da037823d632581155471a1b65b0af",
+                        "url": "https://github.com/milankovo/ida-search/releases/download/v0.1.0/ida-search-0.1.0.zip"
+                    }
+                ],
+                "0.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "78cbaa975b9fc8d0f2a42db28a22d5eadf3632ea3fe4c9aed08bdfd0940cb4a3",
+                        "url": "https://codeload.github.com/milankovo/ida-search/legacy.zip/2e6e36bb284074d45a5301f36bba3391c86db301"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "a581a72a725cd89b7e953178613a3a8d35b79e3f8c8a5b3f82b1724ebfed589b",
+                        "url": "https://github.com/milankovo/ida-search/releases/download/v0.1.1/ida-search-0.1.1.zip"
+                    }
+                ],
+                "0.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "f889f047b4afa60a78feb3aa09147e3e16fcebeb8c3a8ea04ba97d4e178e03a1",
+                        "url": "https://codeload.github.com/milankovo/ida-search/legacy.zip/74ce4d1bcaa094d270071b39424f0eb0693b5d2b"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "67fe11368374791bbe34d71b74fb98b7e629ba1f84da36f1106463d89c4a9b77",
+                        "url": "https://github.com/milankovo/ida-search/releases/download/v0.1.2/ida-search-0.1.2.zip"
+                    }
+                ],
+                "0.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.2.0"
+                            }
+                        },
+                        "sha256": "436ded08481cad672c8a54b8899ea290536f6e380919e412fcf3dd23a2a587ac",
+                        "url": "https://codeload.github.com/milankovo/ida-search/legacy.zip/12d8da36712a92c8ba24d5a0b4ffc8e839298a27"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.2.0"
+                            }
+                        },
+                        "sha256": "fe4ef514d79b92f74fd64dcfea46f0b6e09bb616f94fa7a5f556ff160f0cd445",
+                        "url": "https://github.com/milankovo/ida-search/releases/download/v0.2.0/ida-search-0.2.0.zip"
+                    }
+                ],
+                "0.2.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.2.1"
+                            }
+                        },
+                        "sha256": "c38f7115b85c5028bd27f979612da6954a7c455b75579a4309b548ae4e14e725",
+                        "url": "https://codeload.github.com/milankovo/ida-search/legacy.zip/fca24e957cc45884cb92f7db77b05ea12cc165bf"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.2.1"
+                            }
+                        },
+                        "sha256": "ab980237fdc7a3fa8833431fbd6f4d9297081f989a216aeed142a0d3787f7e95",
+                        "url": "https://github.com/milankovo/ida-search/releases/download/v0.2.1/ida-search-0.2.1.zip"
                     }
                 ]
             }
