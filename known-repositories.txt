@@ -304,3 +304,7 @@ joxeankoret/idamagicstrings
 
 # Discovered on 2026-04-12 12:55:19
 o1y/aida
+
+# manually added 2026-04-15
+milankovo/command_palette
+milankovo/ida-search
