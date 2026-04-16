@@ -533,6 +533,56 @@
                         "sha256": "b03332d0a3468c45ae0907e9156f097fa02c155322cbd158fe6ecc1234b8edcf",
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/522b255f9b26e92c20c389e27d38e67d4f5d44e9"
                     }
+                ],
+                "0.9.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.9.0"
+                            }
+                        },
+                        "sha256": "1f38a8c9b81b894b55ddaf8c0949efda484066d920f0e856adf64e1ea4b5bba5",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/7f6f29422f41f693850cf8fc8c26a3470fd3a376"
+                    }
                 ]
             }
         },
@@ -8550,6 +8600,338 @@
                         "sha256": "737b7d2bf6e7b2233b7bc91b72ee1ac05351715ffe44048b4d50d4a1670c1e4e",
                         "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.5/HappyIDA.zip"
                     }
+                ],
+                "1.0.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.6"
+                            }
+                        },
+                        "sha256": "19167d309f2dbb4569d218bc9b880fac649e2420c7152c7cbc72a8b12936f0ad",
+                        "url": "https://codeload.github.com/HappyIDA/HappyIDA/legacy.zip/09d237ada72ba9869591e0ac6014713407e17a31"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "HappyIDA Team"
+                                    },
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    },
+                                    {
+                                        "email": "h3xrabbit@gmail.com",
+                                        "name": "HexRabbit"
+                                    },
+                                    {
+                                        "email": "scwuaptx@gmail.com",
+                                        "name": "Angelboy"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "Make your IDA Happy!",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "parameter label",
+                                    "SEH"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "HappyIDA",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings==3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "8FE0F8",
+                                        "documentation": "The background color of the SEH highlight. Format: RRGGBB",
+                                        "key": "seh_bgcolor",
+                                        "name": "SEH Highlight Background Color",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9A-Fa-f]{6}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter labeling",
+                                        "key": "enable_param_label",
+                                        "name": "Enable Parameter Labeling",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter edit",
+                                        "key": "enable_param_edit",
+                                        "name": "Enable Parameter Edit",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync name",
+                                        "key": "enable_param_sync_name",
+                                        "name": "Enable Parameter Sync Name",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable parameter sync type",
+                                        "key": "enable_param_sync_type",
+                                        "name": "Enable Parameter Sync Type",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable function navigate",
+                                        "key": "enable_func_navigate",
+                                        "name": "Enable Function Navigate",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable rust string",
+                                        "key": "enable_rust_string",
+                                        "name": "Enable Rust String",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh highlight",
+                                        "key": "enable_seh_highlight",
+                                        "name": "Enable SEH Highlight",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Enable seh rebuild",
+                                        "key": "enable_seh_rebuild",
+                                        "name": "Enable SEH Rebuild",
+                                        "prompt": false,
+                                        "required": true,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HappyIDA/HappyIDA"
+                                },
+                                "version": "1.0.6"
+                            }
+                        },
+                        "sha256": "7cba66dc20be1a2e965660770e1893cd80a06f94246476d85008e0816dc55f26",
+                        "url": "https://github.com/HappyIDA/HappyIDA/releases/download/v1.0.6/HappyIDA.zip"
+                    }
                 ]
             }
         },
@@ -8817,6 +9199,56 @@
                         },
                         "sha256": "3ea1ac9990b368769f53348a6cb6343a0e860f4470b1256c6c1c490bd85839a3",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/5f4c3a631b2ab04e2be520be9c18909da034af75"
+                    }
+                ],
+                "0.9.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.9.0"
+                            }
+                        },
+                        "sha256": "e6f5ba6b1a6c38f9a85993b72dc7ea0d9980c7e8aa9f6a797740ed6436414e20",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/da2c5bbbaad1c349cd40969644be2359cf286555"
                     }
                 ]
             }
@@ -13603,6 +14035,57 @@
                         },
                         "sha256": "4bcbb7f7d2923390b230da3b4d7bca1115cd5289d6a65f87cfea22e1784de7de",
                         "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/668e93cfaa33ee674b31f6b737eb447451f92f53"
+                    }
+                ],
+                "0.9.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Idiomatic Rust bindings to IDA SDK",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "bindings"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": "resources/logo.png",
+                                "maintainers": [],
+                                "name": "idalib-rust-bindings",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/idalib-rs/idalib"
+                                },
+                                "version": "0.9.0"
+                            }
+                        },
+                        "sha256": "5f95b9e3edd5b0f7dcd253066c1565df6ede69e4dbc42d583ee243788fd5e345",
+                        "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/3b8a98ab0259be0326da9b132843927656968590"
                     }
                 ]
             }
@@ -18394,6 +18877,55 @@
                         "sha256": "89a13082ef8f0c9023bdea6ecdb7278ab20a1888a5447bd201cc7c344a2103e4",
                         "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/cb559cd95a5520a60c05e13733912be63d723bda"
                     }
+                ],
+                "0.9.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "rhabdomancer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/rhabdomancer/rhabdomancer/",
+                                    "repository": "https://github.com/0xdea/rhabdomancer"
+                                },
+                                "version": "0.9.0"
+                            }
+                        },
+                        "sha256": "f0a7e0eec0855c6b704e472bd8dc6f05ab4ab9ea9866eb1e4787b486899050e0",
+                        "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/2bb26a9f1f689ed3db345808e9f6b77be0bb9341"
+                    }
                 ]
             }
         },
@@ -21347,6 +21879,82 @@
                         },
                         "sha256": "884227960aba1218f4c5b73703faf5053bd1f9cada4737a30a1d234f118f3790",
                         "url": "https://codeload.github.com/AzzOnFire/yarka/legacy.zip/6858dbb928f2c122dff554f9f11006ff5047a550"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/Dump-GUY/ZoomAllViews",
+            "name": "ZoomAllViews",
+            "versions": {
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Ctrl+Scroll wheel font zoom for all IDA views \u2014 Disassembly, Pseudocode, Hex View, Imports, Exports, Functions, Strings, Structures, and every chooser window. Compatible IDA Pro 8.x \u2014 9.3+.",
+                                "entryPoint": "ZoomAllViews.py",
+                                "idaVersions": [
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "zoom",
+                                    "font-size",
+                                    "ctrl-scroll",
+                                    "ui",
+                                    "accessibility",
+                                    "pyqt5",
+                                    "pyside6",
+                                    "qt5",
+                                    "qt6"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ZoomAllViews",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ZoomAllViews"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "479673c711fe7496fa3a66f58dabfcacbe9e4bd22fce7ed064d0afd4dd48ed84",
+                        "url": "https://codeload.github.com/Dump-GUY/ZoomAllViews/legacy.zip/234e194768fd54263b538794708672825537c7ac"
                     }
                 ]
             }

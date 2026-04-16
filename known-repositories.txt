@@ -308,3 +308,6 @@ o1y/aida
 # manually added 2026-04-15
 milankovo/command_palette
 milankovo/ida-search
+
+# Discovered on 2026-04-16 01:14:22
+dump-guy/zoomallviews
