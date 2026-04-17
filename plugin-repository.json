@@ -2775,6 +2775,58 @@
                         "sha256": "7578f60ff1913800fe4fb1e124062cf2a82835042930b489c3ad2383b4226f54",
                         "url": "https://codeload.github.com/milankovo/command_palette/legacy.zip/4f65e7d0556361fa1a7d3cbb8c3be09195b489a5"
                     }
+                ],
+                "2.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "command_palette@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Sublime-like command palette for IDA Pro.",
+                                "entryPoint": "command_palette.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "command-palette",
+                                    "fuzzy-search",
+                                    "actions",
+                                    "shortcuts"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "command_palette",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/command_palette"
+                                },
+                                "version": "2.0.1"
+                            }
+                        },
+                        "sha256": "c9f01241995810cd6312bed9067c945ce04746b5901394fb5657aaf5248587aa",
+                        "url": "https://codeload.github.com/milankovo/command_palette/legacy.zip/164eb09d073402bb39329e5f04c606db26c4babb"
+                    }
                 ]
             }
         },
