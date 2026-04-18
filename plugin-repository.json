@@ -125,6 +125,68 @@
                         "sha256": "6e74409b0a29f2800959d9a71459da9ae45e9c81cc1b93c25992743eeb9d9908",
                         "url": "https://github.com/o1y/AIDA/releases/download/v1.0.0/aida-1.0.0.zip"
                     }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Oliver Mesieh"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered analysis plugin for IDA Pro. Uses cloud LLMs (Anthropic Claude, OpenAI GPT) to rename functions and variables, generate comments, batch rename call graphs, analyze data references, and export analysis for AI agent workflows.",
+                                "entryPoint": "aida_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ai",
+                                    "llm",
+                                    "rename",
+                                    "decompiler",
+                                    "hex-rays",
+                                    "anthropic",
+                                    "openai",
+                                    "reverse-engineering"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": ".github/logo.png",
+                                "maintainers": [],
+                                "name": "aida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "anthropic>=0.40.0",
+                                    "openai>=1.0.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/o1y/aida"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "80c87419f97120460c9075440eb05f932ae41ca3c9613a2109919d5404ae576e",
+                        "url": "https://codeload.github.com/o1y/AIDA/legacy.zip/134cc06a6bbbe9d01c1bc363f382e8034cba8b9f"
+                    }
                 ]
             }
         },
