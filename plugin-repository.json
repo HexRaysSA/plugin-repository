@@ -15583,6 +15583,71 @@
                         "sha256": "6d4b283dd5ccde47c66c993e5091a77cee6e816be0246b2698c163430483db9e",
                         "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/a321ad1d5f1c99afd29e0bb08f60d95fee05404f"
                     }
+                ],
+                "2.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp",
+                                    "pywin32; platform_system == \"Windows\""
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "2.0.0"
+                            }
+                        },
+                        "sha256": "35b6f09fcf5e607971aad0f69c25b52c0ac827cf4f41bf7f9fc0675c4264a266",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/3cdb161a7f2da10ef13379b7cbc34cd5d85de5d2"
+                    }
                 ]
             }
         },
