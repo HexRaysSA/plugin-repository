@@ -11920,6 +11920,122 @@
                         "sha256": "ab980237fdc7a3fa8833431fbd6f4d9297081f989a216aeed142a0d3787f7e95",
                         "url": "https://github.com/milankovo/ida-search/releases/download/v0.2.1/ida-search-0.2.1.zip"
                     }
+                ],
+                "0.2.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.2.2"
+                            }
+                        },
+                        "sha256": "9120e96a4ede59a9791dd6a048988ee71b40a072de9c57e39d127de87f113d00",
+                        "url": "https://codeload.github.com/milankovo/ida-search/legacy.zip/ddd88efa9fcca229eb6d2b4e22046a2544650c06"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-search@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "decompilation"
+                                ],
+                                "description": "010 Editor-style type-aware binary search with five backends: raw bytes, instruction operands, Hex-Rays microcode, ctree AST, and pseudocode text.",
+                                "entryPoint": "plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "search",
+                                    "binary search",
+                                    "hex search",
+                                    "constant search",
+                                    "microcode",
+                                    "ctree",
+                                    "pseudocode",
+                                    "pattern matching"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-search",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-search"
+                                },
+                                "version": "0.2.2"
+                            }
+                        },
+                        "sha256": "2b7b2c6f16920f15566fc20327e75671bcca70606831a570ded28d7a67e60109",
+                        "url": "https://github.com/milankovo/ida-search/releases/download/v0.2.2/ida-search-0.2.2.zip"
+                    }
                 ]
             }
         },
@@ -21313,6 +21429,134 @@
                         },
                         "sha256": "7d63ac9ce96c0e45b8cbdfe076364515df3dbd43fe275e7b256364d9b157c763",
                         "url": "https://github.com/arkup/tc_deer/releases/download/0.1.2/tc_deer_ida_plugin012.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/threatray/plugin-ida",
+            "name": "threatray",
+            "versions": {
+                "3.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@threatray.com",
+                                        "name": "Threatray AG"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Attribute functions to malware families and libraries, find function clusters across samples, and retrohunt similar functions on the Threatray platform.",
+                                "entryPoint": "threatray_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "threat-intelligence",
+                                    "malware",
+                                    "retrohunt",
+                                    "code-similarity",
+                                    "function-clustering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "threatray",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests>=2.27"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://threatray.com",
+                                    "repository": "https://github.com/threatray/plugin-ida"
+                                },
+                                "version": "3.0.0"
+                            }
+                        },
+                        "sha256": "320088dca1145712ee880f86d03586d15a00feefefaa34a23045822cea4b13df",
+                        "url": "https://codeload.github.com/threatray/plugin-ida/legacy.zip/5fd48c630cd0e0e4d62d8f0d1c846115b95157c3"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@threatray.com",
+                                        "name": "Threatray AG"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Attribute functions to malware families and libraries, find function clusters across samples, and retrohunt similar functions on the Threatray platform.",
+                                "entryPoint": "threatray_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "threat-intelligence",
+                                    "malware",
+                                    "retrohunt",
+                                    "code-similarity",
+                                    "function-clustering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "threatray",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests>=2.27"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://threatray.com",
+                                    "repository": "https://github.com/threatray/plugin-ida"
+                                },
+                                "version": "3.0.0"
+                            }
+                        },
+                        "sha256": "a2f4753a80230ff92b561f7f10eb92258b8b62fd8382ed1129764eec0f5e3f67",
+                        "url": "https://github.com/threatray/plugin-ida/releases/download/v3.0.0/threatray-ida-v3.0.0.zip"
                     }
                 ]
             }

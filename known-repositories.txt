@@ -311,3 +311,6 @@ milankovo/ida-search
 
 # Discovered on 2026-04-16 01:14:22
 dump-guy/zoomallviews
+
+# Discovered on 2026-04-22 01:10:16
+threatray/plugin-ida
