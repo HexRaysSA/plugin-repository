@@ -191,7 +191,7 @@
             }
         },
         {
-            "host": "https://github.com/Dump-GUY/ApplyCalleeTypeEx",
+            "host": "https://github.com/dump-guy/applycalleetypeex",
             "name": "ApplyCalleeTypeEx",
             "versions": {
                 "1.0.0": [
@@ -764,7 +764,7 @@
             }
         },
         {
-            "host": "https://github.com/HexRays-plugin-contributions/bindiff",
+            "host": "https://github.com/hexrays-plugin-contributions/bindiff",
             "name": "bindiff",
             "versions": {
                 "8.0.0": [
@@ -1001,7 +1001,7 @@
             }
         },
         {
-            "host": "https://github.com/HexRays-plugin-contributions/binexport",
+            "host": "https://github.com/hexrays-plugin-contributions/binexport",
             "name": "binexport",
             "versions": {
                 "12.0.0": [
@@ -2954,7 +2954,7 @@
             }
         },
         {
-            "host": "https://github.com/Nico-Posada/CrystalRE",
+            "host": "https://github.com/nico-posada/crystalre",
             "name": "CrystalRE",
             "versions": {
                 "1.0.0": [
@@ -3196,7 +3196,7 @@
             }
         },
         {
-            "host": "https://github.com/HexRaysSA/ida-dbimporter",
+            "host": "https://github.com/hexrayssa/ida-dbimporter",
             "name": "DBImporter",
             "versions": {
                 "0.0.1": [
@@ -3734,7 +3734,7 @@
             }
         },
         {
-            "host": "https://github.com/marcosd4h/DeepExtractIDA",
+            "host": "https://github.com/marcosd4h/deepextractida",
             "name": "DeepExtract",
             "versions": {
                 "0.0.5": [
@@ -4916,7 +4916,7 @@
             }
         },
         {
-            "host": "https://github.com/danigargu/deREferencing",
+            "host": "https://github.com/danigargu/dereferencing",
             "name": "deREferencing",
             "versions": {
                 "2025.9.24": [
@@ -5124,7 +5124,7 @@
             }
         },
         {
-            "host": "https://github.com/oxiKKK/ida-edit-function-prototype",
+            "host": "https://github.com/oxikkk/ida-edit-function-prototype",
             "name": "edit-function-prototype",
             "versions": {
                 "1.0.0": [
@@ -5374,7 +5374,7 @@
             }
         },
         {
-            "host": "https://github.com/AzzOnFire/emuit",
+            "host": "https://github.com/azzonfire/emuit",
             "name": "EmuIt",
             "versions": {
                 "0.8.1": [
@@ -5817,6 +5817,267 @@
             "host": "https://github.com/terrynini/feelinglucky",
             "name": "FeelingLucky",
             "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
+                                "entryPoint": "FeelingLucky.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": "dice_icon.png",
+                                "maintainers": [],
+                                "name": "FeelingLucky",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/terrynini/FeelingLucky/"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "b4be82a74eaf157214e2a5a1a46db670cc5bad1ffad80b04c75729994d20e184",
+                        "url": "https://codeload.github.com/terrynini/FeelingLucky/legacy.zip/fa1d0a8a7a3a295b13a41b07db8d95fa4bfbd815"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
+                                "entryPoint": "FeelingLucky.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": "dice_icon.png",
+                                "maintainers": [],
+                                "name": "FeelingLucky",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/terrynini/FeelingLucky/"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "12076a6ac048aa7fa5a21b39c5c8e9695f0484d9e605847c6c0e08087a41fccc",
+                        "url": "https://github.com/terrynini/FeelingLucky/releases/download/v1.0.0/FeelingLucky.zip"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
+                                "entryPoint": "FeelingLucky.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": "dice_icon.png",
+                                "maintainers": [],
+                                "name": "FeelingLucky",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/terrynini/FeelingLucky/"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "6557a1f58c3e4d4050b485ab9206ee62590d7f88362bda14e5364bc98f6baf10",
+                        "url": "https://github.com/terrynini/FeelingLucky/releases/download/v1.0.1/FeelingLucky.zip"
+                    }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
+                                "entryPoint": "FeelingLucky.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": "dice_icon.png",
+                                "maintainers": [],
+                                "name": "FeelingLucky",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/terrynini/FeelingLucky/"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "002758c68f92c6ad2b3411bdda699b5a28e5232978c819f915e27edc52be0298",
+                        "url": "https://codeload.github.com/terrynini/FeelingLucky/legacy.zip/3b441757acdfc0f9f57e754d614fb318b5c27b82"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nini@undefined.zip",
+                                        "name": "NiNi"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
+                                "entryPoint": "FeelingLucky.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": "dice_icon.png",
+                                "maintainers": [],
+                                "name": "FeelingLucky",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/terrynini/FeelingLucky/"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "60ca31254ea39551cfe450c1cecad6b085356382cde374954547303c60d20ca8",
+                        "url": "https://github.com/terrynini/FeelingLucky/releases/download/v1.0.2/FeelingLucky.zip"
+                    }
+                ],
                 "1.0.3": [
                     {
                         "metadata": {
@@ -6214,7 +6475,7 @@
             }
         },
         {
-            "host": "https://github.com/oxiKKK/ida-function-string-associate",
+            "host": "https://github.com/oxikkk/ida-function-string-associate",
             "name": "function-string-associate",
             "versions": {
                 "1.0.0": [
@@ -6440,7 +6701,7 @@
             }
         },
         {
-            "host": "https://github.com/JusticeRage/Gepetto",
+            "host": "https://github.com/justicerage/gepetto",
             "name": "gepetto",
             "versions": {
                 "1.5.0": [
@@ -6694,7 +6955,7 @@
             }
         },
         {
-            "host": "https://github.com/volexity/GoResolver",
+            "host": "https://github.com/volexity/goresolver",
             "name": "GoResolver",
             "versions": {
                 "1.4.0": [
@@ -6932,7 +7193,7 @@
             }
         },
         {
-            "host": "https://github.com/HappyIDA/HappyIDA",
+            "host": "https://github.com/happyida/happyida",
             "name": "HappyIDA",
             "versions": {
                 "1.0.0": [
@@ -9368,7 +9629,7 @@
             }
         },
         {
-            "host": "https://github.com/OALabs/hashdb-ida",
+            "host": "https://github.com/oalabs/hashdb-ida",
             "name": "HashDB",
             "versions": {
                 "1.10.0": [
@@ -10117,7 +10378,7 @@
             }
         },
         {
-            "host": "https://github.com/KasperskyLab/hrtng",
+            "host": "https://github.com/kasperskylab/hrtng",
             "name": "hrtng",
             "versions": {
                 "3.7.74": [
@@ -10479,7 +10740,7 @@
             }
         },
         {
-            "host": "https://github.com/HexRaysSA/ida-chat-plugin",
+            "host": "https://github.com/hexrayssa/ida-chat-plugin",
             "name": "ida-chat",
             "versions": {
                 "0.2.6": [
@@ -10945,7 +11206,7 @@
             }
         },
         {
-            "host": "https://github.com/HexRaysSA/ida-cyberchef",
+            "host": "https://github.com/hexrayssa/ida-cyberchef",
             "name": "ida-cyberchef",
             "versions": {
                 "0.1.0": [
@@ -12040,7 +12301,7 @@
             }
         },
         {
-            "host": "https://github.com/SymbioticSec/ida-security-scanner",
+            "host": "https://github.com/symbioticsec/ida-security-scanner",
             "name": "ida-security-scanner",
             "versions": {
                 "0.0.1": [
@@ -13060,7 +13321,7 @@
             }
         },
         {
-            "host": "https://github.com/HexRaysSA/ida-terminal-plugin",
+            "host": "https://github.com/hexrayssa/ida-terminal-plugin",
             "name": "ida-terminal-plugin",
             "versions": {
                 "0.0.6": [
@@ -14497,7 +14758,7 @@
             }
         },
         {
-            "host": "https://github.com/L4ys/IDASignsrch",
+            "host": "https://github.com/l4ys/idasignsrch",
             "name": "IDASignsrch",
             "versions": {
                 "1.0.1": [
@@ -15117,7 +15378,7 @@
             }
         },
         {
-            "host": "https://github.com/symgraph/IDAssist",
+            "host": "https://github.com/symgraph/idassist",
             "name": "IDAssist",
             "versions": {
                 "1.0.4": [
@@ -15768,7 +16029,7 @@
             }
         },
         {
-            "host": "https://github.com/symgraph/IDAssistMCP",
+            "host": "https://github.com/symgraph/idassistmcp",
             "name": "IDAssistMCP",
             "versions": {
                 "1.0.3": [
@@ -16564,7 +16825,7 @@
             }
         },
         {
-            "host": "https://github.com/L4ys/LazyCross",
+            "host": "https://github.com/l4ys/lazycross",
             "name": "LazyCross",
             "versions": {
                 "1.0.0": [
@@ -16645,7 +16906,7 @@
             }
         },
         {
-            "host": "https://github.com/L4ys/LazyIDA",
+            "host": "https://github.com/l4ys/lazyida",
             "name": "LazyIDA",
             "versions": {
                 "1.1.0": [
@@ -17861,7 +18122,7 @@
             }
         },
         {
-            "host": "https://github.com/XingTuLab/recopilot",
+            "host": "https://github.com/xingtulab/recopilot",
             "name": "ReCopilot",
             "versions": {
                 "0.2": [
@@ -19870,7 +20131,7 @@
             }
         },
         {
-            "host": "https://github.com/p05wn/SuperHint",
+            "host": "https://github.com/p05wn/superhint",
             "name": "SuperHint",
             "versions": {
                 "1.0.0": [
@@ -21562,7 +21823,7 @@
             }
         },
         {
-            "host": "https://github.com/chenxvb/Unicorn-Trace",
+            "host": "https://github.com/chenxvb/unicorn-trace",
             "name": "unicorn-tracer-arm64",
             "versions": {
                 "0.1": [
@@ -21952,7 +22213,7 @@
             }
         },
         {
-            "host": "https://github.com/VirusTotal/vt-ida-plugin",
+            "host": "https://github.com/virustotal/vt-ida-plugin",
             "name": "vt-ida-plugin",
             "versions": {
                 "1.0.6": [
@@ -22182,7 +22443,7 @@
             }
         },
         {
-            "host": "https://github.com/oxiKKK/ida-vtable-tools",
+            "host": "https://github.com/oxikkk/ida-vtable-tools",
             "name": "vtable-context-tools",
             "versions": {
                 "1.0.0": [
@@ -22344,7 +22605,7 @@
             }
         },
         {
-            "host": "https://github.com/HexRays-plugin-contributions/xray",
+            "host": "https://github.com/hexrays-plugin-contributions/xray",
             "name": "xray",
             "versions": {
                 "2025.9.24": [
@@ -22498,7 +22759,7 @@
             }
         },
         {
-            "host": "https://github.com/AzzOnFire/yarka",
+            "host": "https://github.com/azzonfire/yarka",
             "name": "yarka",
             "versions": {
                 "0.7.2": [
@@ -22570,7 +22831,7 @@
             }
         },
         {
-            "host": "https://github.com/Dump-GUY/ZoomAllViews",
+            "host": "https://github.com/dump-guy/zoomallviews",
             "name": "ZoomAllViews",
             "versions": {
                 "1.0.1": [
