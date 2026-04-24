@@ -1666,6 +1666,60 @@
                         "sha256": "07c175950142b4a768c305398b05401b081f4cc59d4be5ab274e41fa504e0af7",
                         "url": "https://github.com/binsync/binsync/releases/download/v5.14.0/binsync-ida-plugin.zip"
                     }
+                ],
+                "5.14.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "binsync@mahaloz.re",
+                                        "name": "The BinSync Team"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
+                                "entryPoint": "binsync_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "collaboration",
+                                    "ai-integration",
+                                    "translation",
+                                    "converter"
+                                ],
+                                "license": "BSD 2 Simplified",
+                                "logoPath": "binsync.png",
+                                "maintainers": [],
+                                "name": "BinSync",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "binsync==5.14.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binsync/binsync"
+                                },
+                                "version": "5.14.1"
+                            }
+                        },
+                        "sha256": "311d31eb063b656a452545d324662eac897f01ca31a1768e67d1d252a6ab93ed",
+                        "url": "https://github.com/binsync/binsync/releases/download/v5.14.1/binsync-ida-plugin.zip"
+                    }
                 ]
             }
         },
@@ -2470,6 +2524,67 @@
                         },
                         "sha256": "4bfade61d2d7baa96b9c650e49c91cda3868cb6910008c797a74782201fee081",
                         "url": "https://codeload.github.com/mandiant/capa/legacy.zip/7a79f799a70f052e8382cdbeaec8115daba14a5b"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/oxikkk/ida-clang-include",
+            "name": "clang-include",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Import C and C++ headers into Local Types from a dockable UI with previewed refreshes and clang-compatible parser settings",
+                                "entryPoint": "ida_clang_include.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "clang",
+                                    "idaclang",
+                                    "local-types",
+                                    "c",
+                                    "c++",
+                                    "headers",
+                                    "type-import"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "clang-include",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-clang-include"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "842650f255ae051e796686caa30c236c63d3ba181fec85ec1dbbd8d806f4ad8d",
+                        "url": "https://codeload.github.com/oxiKKK/ida-clang-include/legacy.zip/5dc9ed08123efc971b0a278287ded5dc4e2cdf81"
                     }
                 ]
             }
@@ -22034,7 +22149,9 @@
                         },
                         "sha256": "ed29e660ff9bcdcabed156cfc2821e4f2286ab7643da22fc65d24cff6ff75315",
                         "url": "https://codeload.github.com/chenxvb/Unicorn-Trace/legacy.zip/34d899e2512dd38806afa6c35d2c56126e8c992e"
-                    },
+                    }
+                ],
+                "0.3.1": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -22080,11 +22197,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/chenxvb/Unicorn-Trace"
                                 },
-                                "version": "0.3"
+                                "version": "0.3.1"
                             }
                         },
-                        "sha256": "f9d593ff286d15e0ce356b3b36930706a78e2d25ccb84ae7d25b2c6ab21ca23a",
-                        "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/v0.3/Unicorn_Trace_0.3.zip"
+                        "sha256": "03b69059de914ca2d4953b3c94a5c2bb7e833982269597937453582ee512107f",
+                        "url": "https://github.com/chenxvb/Unicorn-Trace/releases/download/v0.3/Unicorn_Trace_0.3.1.zip"
                     }
                 ]
             }

@@ -314,3 +314,6 @@ dump-guy/zoomallviews
 
 # Discovered on 2026-04-22 01:10:16
 threatray/plugin-ida
+
+# Discovered on 2026-04-24 05:31:22
+oxikkk/ida-clang-include
