@@ -645,6 +645,56 @@
                         "sha256": "1f38a8c9b81b894b55ddaf8c0949efda484066d920f0e856adf64e1ea4b5bba5",
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/7f6f29422f41f693850cf8fc8c26a3470fd3a376"
                     }
+                ],
+                "0.9.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.9.1"
+                            }
+                        },
+                        "sha256": "283ff319a195cf28b9ee836b40ad863a989e6544926d78be8dea495d1c32d253",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/7a668a63aed24e63f0d133d151703524233bf0b4"
+                    }
                 ]
             }
         },
@@ -4878,6 +4928,154 @@
                         },
                         "sha256": "e10dc7fb505dcdcf84f7b64fa24553385927de3b854f1cfaa09bc89f5a031358",
                         "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.12/DeepExtractIDA.zip"
+                    }
+                ],
+                "0.9.13": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.13"
+                            }
+                        },
+                        "sha256": "ff153abf44a1f5aaa7a5d6857d2c027e82ec8e36a9a615da6d7f2dc36a8df8d1",
+                        "url": "https://codeload.github.com/marcosd4h/DeepExtractIDA/legacy.zip/d80c2ffe4303bcff7fe9dc0c51c1a8b0fa83ca49"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.13"
+                            }
+                        },
+                        "sha256": "ea4426c83e529504c1e6bdc0317a2a768740d157017c2e35950f6ca87e3049f0",
+                        "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.13/DeepExtractIDA.zip"
                     }
                 ],
                 "0.9.8": [
@@ -9739,6 +9937,56 @@
                         },
                         "sha256": "e6f5ba6b1a6c38f9a85993b72dc7ea0d9980c7e8aa9f6a797740ed6436414e20",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/da2c5bbbaad1c349cd40969644be2359cf286555"
+                    }
+                ],
+                "0.9.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.9.1"
+                            }
+                        },
+                        "sha256": "b246e704cde1ffa173ce8d1100d7403bb38aa5a78cef173cb960e292e2c9c35e",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/1bfa54872c7c201d61cd736ad59cace37a4d8773"
                     }
                 ]
             }
@@ -19660,6 +19908,55 @@
                         },
                         "sha256": "f0a7e0eec0855c6b704e472bd8dc6f05ab4ab9ea9866eb1e4787b486899050e0",
                         "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/2bb26a9f1f689ed3db345808e9f6b77be0bb9341"
+                    }
+                ],
+                "0.9.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "rhabdomancer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/rhabdomancer/rhabdomancer/",
+                                    "repository": "https://github.com/0xdea/rhabdomancer"
+                                },
+                                "version": "0.9.1"
+                            }
+                        },
+                        "sha256": "5785078f7c1bb3608c7297b3ff27b55c4452cbccf1d61317b27a67d9aa127257",
+                        "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/a613045f6257843770d6eef718c71102bdb97a3f"
                     }
                 ]
             }
