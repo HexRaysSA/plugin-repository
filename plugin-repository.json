@@ -2636,6 +2636,75 @@
                         "sha256": "842650f255ae051e796686caa30c236c63d3ba181fec85ec1dbbd8d806f4ad8d",
                         "url": "https://codeload.github.com/oxiKKK/ida-clang-include/legacy.zip/5dc9ed08123efc971b0a278287ded5dc4e2cdf81"
                     }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Import C and C++ headers into Local Types from a dockable UI with previewed refreshes and clang-compatible parser settings",
+                                "entryPoint": "ida_clang_include.py",
+                                "idaVersions": [
+                                    "7.0",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "8.5",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "clang",
+                                    "idaclang",
+                                    "local-types",
+                                    "c",
+                                    "c++",
+                                    "headers",
+                                    "type-import"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "clang-include",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-clang-include"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "298db7e0c9d9af43e8c25ba188b8e39b354af2599573d44fb8e30f82f201cee6",
+                        "url": "https://codeload.github.com/oxiKKK/ida-clang-include/legacy.zip/23140960e84f6653a9f9c9b1086575aedbb5a378"
+                    }
                 ]
             }
         },
