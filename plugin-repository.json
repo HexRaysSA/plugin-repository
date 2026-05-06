@@ -10192,6 +10192,82 @@
                                 "version": "1.10.0"
                             }
                         },
+                        "sha256": "a78375cec14a57f888c3b37f5f844abab5e1c9c1e1815309eca1cd57d620bedb",
+                        "url": "https://codeload.github.com/OALabs/hashdb-ida/legacy.zip/b292103e5f04687add2b8d8ed6644386598ebb0c"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "sergei@openanalysis.net",
+                                        "name": "herrcore"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "deobfuscation"
+                                ],
+                                "description": "Malware string hash lookup plugin connecting to the OALABS HashDB service for algorithm identification and bulk import.",
+                                "entryPoint": "hashdb.py",
+                                "idaVersions": [
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "hash",
+                                    "malware",
+                                    "string-lookup",
+                                    "reverse-engineering",
+                                    "obfuscation",
+                                    "api-resolution",
+                                    "shellcode"
+                                ],
+                                "license": "BSD-3-Clause",
+                                "logoPath": "hashi.png",
+                                "maintainers": [],
+                                "name": "HashDB",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/OALabs/hashdb-ida"
+                                },
+                                "version": "1.10.0"
+                            }
+                        },
                         "sha256": "d71498029ae6bfa4f708d21fad13071fabed974ac104d41ec8a05e3adf431360",
                         "url": "https://codeload.github.com/OALabs/hashdb-ida/legacy.zip/deddbdee829a3c5fb93086481f78b7494defe020"
                     }
