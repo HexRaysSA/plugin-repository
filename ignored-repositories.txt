@@ -1,3 +1,7 @@
 HexRaysSA/ida-hcli
 jtang613/IDAssist
 jtang613/IDAssistMCP
+
+# disabled on 2026-05-12 due to GitHub IP allow list issues:
+# CheckPointSW organization has an IP allow list enabled, and your IP address is not permitted 
+checkpointsw/karta
