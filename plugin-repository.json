@@ -2759,6 +2759,75 @@
                         "sha256": "298db7e0c9d9af43e8c25ba188b8e39b354af2599573d44fb8e30f82f201cee6",
                         "url": "https://codeload.github.com/oxiKKK/ida-clang-include/legacy.zip/23140960e84f6653a9f9c9b1086575aedbb5a378"
                     }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Import C and C++ headers into Local Types from a dockable UI with previewed refreshes and clang-compatible parser settings",
+                                "entryPoint": "ida_clang_include.py",
+                                "idaVersions": [
+                                    "7.0",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "8.5",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "clang",
+                                    "idaclang",
+                                    "local-types",
+                                    "c",
+                                    "c++",
+                                    "headers",
+                                    "type-import"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "clang-include",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-clang-include"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "fa2da2593d576aa644feb9db3f099153afffaa9b83e52b11102296927360f1df",
+                        "url": "https://codeload.github.com/oxiKKK/ida-clang-include/legacy.zip/a11bdcfee2522a7206d4654594a19cf437edbc3a"
+                    }
                 ]
             }
         },
@@ -5441,6 +5510,75 @@
                         },
                         "sha256": "180406303eabdcf2587925680aa35d3682c0325d088454db7e482a97daedbd07",
                         "url": "https://codeload.github.com/danigargu/deREferencing/legacy.zip/3a13ff34063563d048ca689313e2333017c69003"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/joxeankoret/diaphora",
+            "name": "diaphora",
+            "versions": {
+                "3.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@joxeankoret.com",
+                                        "name": "Joxean Koret"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "vulnerability-research-and-exploit-development",
+                                    "other"
+                                ],
+                                "description": "A free and open-source program diffing tool",
+                                "entryPoint": "diaphora_plugin.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "diffing",
+                                    "patch-analysis",
+                                    "reverse-engineering",
+                                    "bindiff"
+                                ],
+                                "license": "AGPL-3.0",
+                                "logoPath": "logo/diaphora-border.png",
+                                "maintainers": [],
+                                "name": "diaphora",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/joxeankoret/diaphora"
+                                },
+                                "version": "3.4"
+                            }
+                        },
+                        "sha256": "632c85752a282ec7725bd4c2e6d702840f041c1762ac2bb3cd2f322274be2120",
+                        "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/84aa7dd83fd45d13ae4e5cbe10b12effb97b9b99"
                     }
                 ]
             }
