@@ -11440,6 +11440,114 @@
             }
         },
         {
+            "host": "https://github.com/hexrayssa/ida-bochs-binaries",
+            "name": "ida-bochs-binaries",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Bundles pre-built Bochs binaries and Windows DLL stubs so that IDA's Bochs debugger works out of the box with no manual Bochs installation.",
+                                "entryPoint": "bochs_binaries_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "bochs",
+                                    "debugger",
+                                    "emulator"
+                                ],
+                                "license": "LGPL-2.1-or-later",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-bochs-binaries",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-bochs-binaries"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "30fc4abe30d07d8f9550e745dfe0076e14ee0723cc99478ca1502da3c598113b",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-bochs-binaries/legacy.zip/9844cf670f2baccf53edcf75535cf5c6f36955f9"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Bundles pre-built Bochs binaries and Windows DLL stubs so that IDA's Bochs debugger works out of the box with no manual Bochs installation.",
+                                "entryPoint": "bochs_binaries_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "bochs",
+                                    "debugger",
+                                    "emulator"
+                                ],
+                                "license": "LGPL-2.1-or-later",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-bochs-binaries",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-bochs-binaries"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "19acbea98edc402caccfbd52a0c486a0cb752787ae43b1adc30a7550919ff494",
+                        "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.0/ida-bochs-binaries.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/hexrayssa/ida-chat-plugin",
             "name": "ida-chat",
             "versions": {

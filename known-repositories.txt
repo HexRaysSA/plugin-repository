@@ -320,3 +320,6 @@ oxikkk/ida-clang-include
 # disabled on 2026-05-12 due to GitHub IP allow list issues:
 # CheckPointSW organization has an IP allow list enabled, and your IP address is not permitted 
 checkpointsw/karta
+
+# Discovered on 2026-05-16 12:56:56
+hexrayssa/ida-bochs-binaries
