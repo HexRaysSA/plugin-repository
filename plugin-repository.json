@@ -12010,6 +12010,280 @@
                         "sha256": "acd158d893b954687c1e771b572b0a82e83fac5545a420b2a2cc7ae7a3e28aad",
                         "url": "https://github.com/tanu360/ida-chat-plugin/releases/download/v1.0.0/ida-chat.zip"
                     }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "LLM Chat Client for IDA Pro - A dockable chat interface for AI-powered reverse engineering assistance using Claude Agent SDK.",
+                                "entryPoint": "ida_chat_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "palosson@hex-rays.com",
+                                        "name": "Pierre-Alexandre Losson"
+                                    }
+                                ],
+                                "name": "ida-chat",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "claude-agent-sdk",
+                                    "ida-domain",
+                                    "ida-settings",
+                                    "beautifulsoup4",
+                                    "markdown-it-py",
+                                    "linkify-it-py",
+                                    "Pygments"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "show_wizard",
+                                        "name": "Show Setup Wizard",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "auth_type",
+                                        "name": "Authentication Type",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "api_key",
+                                        "name": "API Key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": null,
+                                        "key": "require_script_approval",
+                                        "name": "Ask before running generated scripts",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "auto_context",
+                                        "name": "Automatic Context",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "model_profile",
+                                        "name": "Model Profile",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "redact_export_paths",
+                                        "name": "Redact Export Paths",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/tanu360/ida-chat-plugin"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "7269c231d37a437dc6901a90719e9605157b83b44a3fc66901c0fce39a237c9d",
+                        "url": "https://codeload.github.com/tanu360/ida-chat-plugin/legacy.zip/e8afb78a17d2a7fb52ed07a13542086f7523ed23"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "LLM Chat Client for IDA Pro - A dockable chat interface for AI-powered reverse engineering assistance using Claude Agent SDK.",
+                                "entryPoint": "ida_chat_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "palosson@hex-rays.com",
+                                        "name": "Pierre-Alexandre Losson"
+                                    }
+                                ],
+                                "name": "ida-chat",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "claude-agent-sdk",
+                                    "ida-domain",
+                                    "ida-settings",
+                                    "beautifulsoup4",
+                                    "markdown-it-py",
+                                    "linkify-it-py",
+                                    "Pygments"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "show_wizard",
+                                        "name": "Show Setup Wizard",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "auth_type",
+                                        "name": "Authentication Type",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "api_key",
+                                        "name": "API Key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": null,
+                                        "key": "require_script_approval",
+                                        "name": "Ask before running generated scripts",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "auto_context",
+                                        "name": "Automatic Context",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": null,
+                                        "key": "model_profile",
+                                        "name": "Model Profile",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": null,
+                                        "key": "redact_export_paths",
+                                        "name": "Redact Export Paths",
+                                        "prompt": false,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/tanu360/ida-chat-plugin"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "5f14b059f924e045f8e2b325eabf53ae074771fb34cfc5d3c552942d121f81ba",
+                        "url": "https://github.com/tanu360/ida-chat-plugin/releases/download/v1.0.1/ida-chat.zip"
+                    }
                 ]
             }
         },
@@ -15991,6 +16265,55 @@
                         },
                         "sha256": "6aab2cdfcddfad58501fae95b7c3669fdb5e306347bd659f7ce20c521c519003",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.13/idasql_plugin-v0.0.13.zip"
+                    }
+                ],
+                "0.0.14": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MPL-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.14"
+                            }
+                        },
+                        "sha256": "829b0a9ea2caa95fce88b35d7bae80491d0dd60a57e4b13a6f1b73db26cfc4e4",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.14/idasql_plugin-v0.0.14.zip"
                     }
                 ],
                 "0.0.8": [
