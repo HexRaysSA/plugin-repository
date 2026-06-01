@@ -10249,6 +10249,56 @@
                         "sha256": "b246e704cde1ffa173ce8d1100d7403bb38aa5a78cef173cb960e292e2c9c35e",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/1bfa54872c7c201d61cd736ad59cace37a4d8773"
                     }
+                ],
+                "0.9.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.9.2"
+                            }
+                        },
+                        "sha256": "4b2adaa412f93751ba495e7bc998ee7de41f832667701db19d8cced1ecd6b8d1",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/8d527e370c9fd4c34c4e637ab40e22ec5c1ce8d8"
+                    }
                 ]
             }
         },
@@ -21069,6 +21119,55 @@
                         },
                         "sha256": "5785078f7c1bb3608c7297b3ff27b55c4452cbccf1d61317b27a67d9aa127257",
                         "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/a613045f6257843770d6eef718c71102bdb97a3f"
+                    }
+                ],
+                "0.9.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "rhabdomancer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/rhabdomancer/rhabdomancer/",
+                                    "repository": "https://github.com/0xdea/rhabdomancer"
+                                },
+                                "version": "0.9.2"
+                            }
+                        },
+                        "sha256": "aca0ad5152fe65dbdd7038a75402a2552fdacc45fec4da8354972d21abb224f4",
+                        "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/bda4531f3c8e81e188d4a2fe3fdd33525c7a750e"
                     }
                 ]
             }
