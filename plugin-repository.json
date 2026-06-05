@@ -18385,6 +18385,60 @@
                         },
                         "sha256": "a6bee04d7806794e6e2ea9d1a3c7ffbf593b04336525e82814ede774c41f1d6e",
                         "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/43eadf2ce4efebff8f1509fde68d0ea260fdca98"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yoav.sternberg@gmail.com",
+                                        "name": "Yoav Sternberg"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "A plugin for IDA Pro 9.0+ to help with iOS code analysis.",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ios",
+                                    "objc",
+                                    "swift",
+                                    "kernel-cache"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "res/logo.png",
+                                "maintainers": [],
+                                "name": "iOSHelper",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-ios-helper==1.0.19"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/yoavst/ida-ios-helper"
+                                },
+                                "version": "1.0.19"
+                            }
+                        },
+                        "sha256": "27e41cb75922e8c718b43c24d375f6286a9557ff1433e11985915f381e8e49e0",
+                        "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/4ff8ac504443d717ce24c29c31fa84ff686aadcc"
                     }
                 ]
             }
