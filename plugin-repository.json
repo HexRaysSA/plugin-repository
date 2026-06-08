@@ -1441,110 +1441,6 @@
                                 "version": "5.10.1"
                             }
                         },
-                        "sha256": "f7ec15873e316ed10719cf15d7651b5abdcb447fd6e956442e6598a76ad49d64",
-                        "url": "https://github.com/binsync/binsync/releases/download/v5.10.1/binsync-ida-plugin.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "binsync@mahaloz.re",
-                                        "name": "The BinSync Team"
-                                    }
-                                ],
-                                "categories": [
-                                    "collaboration-and-productivity"
-                                ],
-                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
-                                "entryPoint": "binsync_plugin.py",
-                                "idaVersions": [
-                                    "8.4",
-                                    "9.0",
-                                    "9.1",
-                                    "9.2"
-                                ],
-                                "keywords": [
-                                    "activity-tracking",
-                                    "collaboration",
-                                    "ai-integration",
-                                    "translation",
-                                    "converter"
-                                ],
-                                "license": "BSD 2 Simplified",
-                                "logoPath": "binsync.png",
-                                "maintainers": [],
-                                "name": "BinSync",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "binsync==5.10.1"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/binsync/binsync"
-                                },
-                                "version": "5.10.1"
-                            }
-                        },
-                        "sha256": "621e3b8e0153093071a8fce51a2020e9ef926f2963a613a1fe77b9433cd4da44",
-                        "url": "https://github.com/binsync/binsync/releases/download/v5.11.0/binsync-ida-plugin.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "binsync@mahaloz.re",
-                                        "name": "The BinSync Team"
-                                    }
-                                ],
-                                "categories": [
-                                    "collaboration-and-productivity"
-                                ],
-                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
-                                "entryPoint": "binsync_plugin.py",
-                                "idaVersions": [
-                                    "8.4",
-                                    "9.0",
-                                    "9.1",
-                                    "9.2"
-                                ],
-                                "keywords": [
-                                    "activity-tracking",
-                                    "collaboration",
-                                    "ai-integration",
-                                    "translation",
-                                    "converter"
-                                ],
-                                "license": "BSD 2 Simplified",
-                                "logoPath": "binsync.png",
-                                "maintainers": [],
-                                "name": "BinSync",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "binsync==5.10.1"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/binsync/binsync"
-                                },
-                                "version": "5.10.1"
-                            }
-                        },
                         "sha256": "11cabb0d9097300e52a50ba2bb4c67b6ae9d6a958d03474a5f6b8ac9bf2be53a",
                         "url": "https://github.com/binsync/binsync/releases/download/v5.11.1/binsync-ida-plugin.zip"
                     }
@@ -1923,6 +1819,116 @@
                         },
                         "sha256": "3f49bef44ea6a15b2c9d1e9d5bd393dc1b62beeb9c19473654f12793f88e2aa3",
                         "url": "https://github.com/binsync/binsync/releases/download/v5.15.0/binsync-ida-plugin.zip"
+                    }
+                ],
+                "5.15.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "binsync@mahaloz.re",
+                                        "name": "The BinSync Team"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
+                                "entryPoint": "binsync_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "collaboration",
+                                    "ai-integration",
+                                    "translation",
+                                    "converter"
+                                ],
+                                "license": "BSD 2 Simplified",
+                                "logoPath": "binsync.png",
+                                "maintainers": [],
+                                "name": "BinSync",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "binsync==5.15.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binsync/binsync"
+                                },
+                                "version": "5.15.1"
+                            }
+                        },
+                        "sha256": "c47d58fff7c48edab777672f7bad8760154e44bae1687f0fe6e3c23c762326e5",
+                        "url": "https://github.com/binsync/binsync/releases/download/v5.15.1/binsync-ida-plugin.zip"
+                    }
+                ],
+                "5.15.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "binsync@mahaloz.re",
+                                        "name": "The BinSync Team"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
+                                "entryPoint": "binsync_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "collaboration",
+                                    "ai-integration",
+                                    "translation",
+                                    "converter"
+                                ],
+                                "license": "BSD 2 Simplified",
+                                "logoPath": "binsync.png",
+                                "maintainers": [],
+                                "name": "BinSync",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "binsync==5.15.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binsync/binsync"
+                                },
+                                "version": "5.15.2"
+                            }
+                        },
+                        "sha256": "11f75f399b651491532695079a8012318cc46de034a38f8fd0af4c6f5ec54f79",
+                        "url": "https://github.com/binsync/binsync/releases/download/v5.15.2/binsync-ida-plugin.zip"
                     }
                 ]
             }
