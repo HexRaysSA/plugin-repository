@@ -37,6 +37,7 @@ merge-plugins:
         --api api-plugins.json \
         --metadata public/plugins/github.com/repositories-metadata.json \
         --mirror-dir public/plugins/ \
+        --known-repos known-repositories.txt \
         --out public/plugins/
 
 
