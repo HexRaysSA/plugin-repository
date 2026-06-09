@@ -323,3 +323,6 @@ checkpointsw/karta
 
 # Discovered on 2026-05-16 12:56:56
 hexrayssa/ida-bochs-binaries
+
+# Discovered on 2026-06-09 05:57:37
+r0ny123/yarg

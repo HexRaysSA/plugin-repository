@@ -24903,6 +24903,224 @@
             }
         },
         {
+            "host": "https://github.com/r0ny123/yarg",
+            "name": "yarg",
+            "versions": {
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "39289915+immortalp0ny@users.noreply.github.com",
+                                        "name": "immortalp0ny"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Yet another rule generator for Yara",
+                                "entryPoint": "yarg.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "yara-rules",
+                                    "pattern-matching",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yarg",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain==0.5.0",
+                                    "capstone==5.0.9",
+                                    "yara-x==1.17.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/r0ny123/yarg"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "6deb7fb25463d35bde239f683c4839a88513fe82ea2641b10e234cd32bc550a0",
+                        "url": "https://codeload.github.com/r0ny123/yarg/legacy.zip/08166b9d495f20b154535a49e317d5408952792d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "39289915+immortalp0ny@users.noreply.github.com",
+                                        "name": "immortalp0ny"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Yet another rule generator for Yara",
+                                "entryPoint": "yarg.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "yara-rules",
+                                    "pattern-matching",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yarg",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain==0.5.0",
+                                    "capstone==5.0.9",
+                                    "yara-x==1.17.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/r0ny123/yarg"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "480b9b0b1cb0c682022448d00a9c8c3c4c10907463b7223219a99d870257bc8e",
+                        "url": "https://github.com/r0ny123/yarg/releases/download/v1.0.1/yarg-1.0.1.zip"
+                    }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "39289915+immortalp0ny@users.noreply.github.com",
+                                        "name": "immortalp0ny"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Yet another rule generator for Yara",
+                                "entryPoint": "yarg.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "yara-rules",
+                                    "pattern-matching",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yarg",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain==0.5.0",
+                                    "capstone==5.0.9",
+                                    "yara-x==1.17.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/r0ny123/yarg"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "80488109d3a86a16ea02fd3b50ae41058d0bdeb27813ccf50383e33995386079",
+                        "url": "https://codeload.github.com/r0ny123/yarg/legacy.zip/511798c7f218aef2d9b7dc0981f1ba8bc820f328"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "39289915+immortalp0ny@users.noreply.github.com",
+                                        "name": "immortalp0ny"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Yet another rule generator for Yara",
+                                "entryPoint": "yarg.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "yara-rules",
+                                    "pattern-matching",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yarg",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain==0.5.0",
+                                    "capstone==5.0.9",
+                                    "yara-x==1.17.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/r0ny123/yarg"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "7e570b41b8567d7360f85d193da39ccfaf6665b76183af266aea359570c6a957",
+                        "url": "https://github.com/r0ny123/yarg/releases/download/v1.0.2/yarg-1.0.2.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/azzonfire/yarka",
             "name": "yarka",
             "versions": {
