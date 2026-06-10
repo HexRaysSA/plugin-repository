@@ -32,6 +32,7 @@
 import argparse
 import json
 import logging
+import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -165,6 +166,38 @@ def prettify_ida_versions(ida_versions: list[str]) -> list[str]:
     if len(ida_versions) == 1 or first == last:
         return [first]
     return [f"{first} to {last}"]
+
+
+# The latest publicly released IDA version. The upstream HCLI index expands
+# open-ended specs like ">=9.0" into a concrete list that includes forward-
+# looking placeholders (e.g. "10.0") not yet released (EA-762). cap_ida_versions
+# trims the list here so plugin pages never advertise an unreleased IDA.
+#
+# There is no machine-readable "latest released IDA" feed to derive this from
+# (Hex-Rays only publishes HTML release notes), so it's a reviewed default that
+# CI can override without a code change when a new IDA ships:
+#   LATEST_RELEASED_IDA=9.5 just merge-plugins
+_DEFAULT_LATEST_RELEASED_IDA = "9.4"
+LATEST_RELEASED_IDA = os.environ.get("LATEST_RELEASED_IDA", _DEFAULT_LATEST_RELEASED_IDA)
+
+
+def _ida_version_key(version: str) -> tuple[int, int, int, int] | None:
+    """Parse "9.0", "9.0sp1", "6.95", "9.0.0" into a sortable key, or None."""
+    m = re.fullmatch(r"(\d+)\.(\d+)(?:\.(\d+))?(?:sp(\d+))?", version.strip())
+    if not m:
+        return None
+    return int(m.group(1)), int(m.group(2)), int(m.group(3) or 0), int(m.group(4) or 0)
+
+
+def cap_ida_versions(ida_versions: list[str], latest: str = LATEST_RELEASED_IDA) -> list[str]:
+    """Drop versions newer than ``latest``; keep unparseable entries untouched."""
+    cap = _ida_version_key(latest)
+    if cap is None:
+        return list(ida_versions)
+    return [
+        v for v in ida_versions
+        if (key := _ida_version_key(v)) is None or key <= cap
+    ]
 
 
 # ─── Logo URL resolution ──────────────────────────────────────────────────────
@@ -355,7 +388,8 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
         normalized_authors = [Author(login=owner, name=owner, email="", repository_owner=owner, derivedFromName=False)]
 
     # Versions
-    prettified = prettify_ida_versions(plugin_meta.get("idaVersions") or [])
+    ida_versions = cap_ida_versions(plugin_meta.get("idaVersions") or [])
+    prettified = prettify_ida_versions(ida_versions)
 
     # Tags: from A (metadata.tags) + C (tags.json) + auto-tag plugin_manager_ready
     # A has the full tag set (contest years, placements, award_winning, favourite, etc.)
@@ -380,7 +414,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
                     keywords=plugin_meta.get("keywords") or [],
                     absoluteLogoUrl=absolute_logo_url,
                     version=plugin_meta.get("version") or latest_key,
-                    idaVersions=plugin_meta.get("idaVersions") or [],
+                    idaVersions=ida_versions,
                     license=plugin_meta.get("license"),
                 ),
             ),
@@ -458,6 +492,7 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
         raw_ida_versions = raw_plugin.get("idaVersions") or []
         if isinstance(raw_ida_versions, str):
             raw_ida_versions = [raw_ida_versions]
+        raw_ida_versions = cap_ida_versions(raw_ida_versions)
         idaplugin_json = IdaPluginJson(
             plugin=PluginInfo(
                 name=raw_plugin.get("name") or plugin_name,
@@ -670,6 +705,7 @@ def do_merge(
             legacy_count += 1
 
     logger.info("Merged: %d HCLI + %d legacy = %d total plugins", hcli_count, legacy_count, len(output_plugins))
+    logger.info("IDA version cap: idaVersions trimmed to <= %s (latest released)", LATEST_RELEASED_IDA)
 
     # Verify no duplicates
     slugs = [p.slug for p in output_plugins]
