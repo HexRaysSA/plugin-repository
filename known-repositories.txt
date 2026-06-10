@@ -48,7 +48,6 @@ cellebrite-labs/ida_kcpp
 cellebrite-labs/labsync
 cellebrite-labs/pacxplorer
 cemalgnlts/jside
-checkpointsw/karta
 cisco-talos/dyndataresolver
 cisco-talos/ghida
 coldzer0/ida-for-delphi
@@ -304,3 +303,26 @@ joxeankoret/idamagicstrings
 
 # Discovered on 2026-04-12 12:55:19
 o1y/aida
+
+# manually added 2026-04-15
+milankovo/command_palette
+milankovo/ida-search
+
+# Discovered on 2026-04-16 01:14:22
+dump-guy/zoomallviews
+
+# Discovered on 2026-04-22 01:10:16
+threatray/plugin-ida
+
+# Discovered on 2026-04-24 05:31:22
+oxikkk/ida-clang-include
+
+# disabled on 2026-05-12 due to GitHub IP allow list issues:
+# CheckPointSW organization has an IP allow list enabled, and your IP address is not permitted 
+checkpointsw/karta
+
+# Discovered on 2026-05-16 12:56:56
+hexrayssa/ida-bochs-binaries
+
+# Discovered on 2026-06-09 05:57:37
+r0ny123/yarg
