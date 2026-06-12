@@ -326,3 +326,6 @@ hexrayssa/ida-bochs-binaries
 
 # Discovered on 2026-06-09 05:57:37
 r0ny123/yarg
+
+# Discovered on 2026-06-12 13:45:33
+bkerler/ida_rpc
