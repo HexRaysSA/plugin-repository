@@ -5,7 +5,7 @@
 #   B  plugin-repository.json  HCLI-indexed plugins (from GitHub)
 #   C  tags.json              Curated tags (favourite, plugin_contest_*, etc.)
 #      github-metadata.json   GitHub repo metadata (stars, forks, dates, topics)
-#      known-repositories.txt Catalog-entry dates (added_at) from "# Discovered on" markers
+#      known-repositories.txt Catalog-entry dates (added_at) from its git history
 #
 # Output:
 #   combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
@@ -34,7 +34,9 @@
 import argparse
 import json
 import logging
+import os
 import re
+import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -298,53 +300,63 @@ def get_tags_for_plugin(tags_map: dict, host: str, name: str) -> list[str]:
     return tags_map.get(key, [])
 
 
-# ─── Catalog-entry dates from known-repositories.txt ──────────────────────────
-
-# A repo enters the catalog either by automated discovery ("# Discovered on …")
-# or by hand ("# added …" / "# manually added …"); both carry the same date and
-# count equally. Times are emitted by the cron host (UTC) — see build_discovered_map.
-_DISCOVERED_MARKER = re.compile(
-    r"^#\s*(?:Discovered on|(?:manually )?added)\s+"
-    r"(\d{4}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2}:\d{2}))?",
-    re.IGNORECASE,
-)
+# ─── Catalog-entry dates from known-repositories.txt git history ──────────────
 
 
 def build_discovered_map(known_repos_path: Path | None) -> dict[str, str]:
     """Map "owner/repo" (lowercased) -> the UTC date it entered the Hex-Rays catalog.
 
-    known-repositories.txt groups repos under dated markers
-    (``# Discovered on YYYY-MM-DD HH:MM:SS`` or ``# (manually) added YYYY-MM-DD``);
-    the date applies to every repo line until the next comment. Repos above the
-    first marker are the initial seed list — they have no catalog-entry date and
-    are intentionally omitted (they are not "recently added"). A repo listed
-    under more than one marker takes the latest (last-wins) date.
+    A repo's catalog-entry date is the author date of the commit that first added
+    its line to known-repositories.txt — the indexer appends newly-discovered
+    repos in that commit, so the commit timestamp *is* the discovery event. We
+    read it from git history rather than parsing the human-written "# Discovered
+    on" / "# added" comments, so that comment format is not load-bearing.
 
-    Dates are normalized to UTC (``…Z``) so the field is homogeneous with the
-    GitHub-sourced ``created_at`` / ``latest_update`` the UI compares it against.
+    Dates are UTC (``…Z``), homogeneous with the GitHub-sourced ``created_at`` /
+    ``latest_update`` the UI compares against. Returns {} (so added_at is simply
+    omitted) when the file is missing, git is unavailable, or the checkout is
+    shallow — never wrong dates.
     """
     if not known_repos_path or not known_repos_path.exists():
         return {}
 
+    repo_dir = known_repos_path.resolve().parent
+    env = {**os.environ, "TZ": "UTC"}
+
+    def _git(*args: str) -> str:
+        return subprocess.run(
+            ["git", "-C", str(repo_dir), *args],
+            capture_output=True, text=True, check=True, env=env,
+        ).stdout
+
+    try:
+        # A shallow clone lacks the history to date repos correctly — every repo
+        # would collapse onto the shallow boundary commit. Refuse rather than lie.
+        if _git("rev-parse", "--is-shallow-repository").strip() == "true":
+            logger.warning("Shallow checkout — cannot reconstruct added_at; omitting it. "
+                           "Fetch full history (fetch-depth: 0) to enable.")
+            return {}
+        log = _git(
+            "log", "--reverse", "--no-merges",
+            "--date=format-local:%Y-%m-%dT%H:%M:%SZ", "--format=commit %ad",
+            "-p", "--", known_repos_path.name,
+        )
+    except (subprocess.CalledProcessError, FileNotFoundError, OSError) as e:
+        logger.warning("Cannot read git history for %s (%s); omitting added_at", known_repos_path, e)
+        return {}
+
     result: dict[str, str] = {}
-    current: str | None = None
-    for raw in known_repos_path.read_text(encoding="utf-8").splitlines():
-        line = raw.strip()
-        if not line:
-            continue
-        if line.startswith("#"):
-            # Reset on any comment so a non-dated note can't leak the prior
-            # date onto the repos beneath it; re-arm only on a dated marker.
-            m = _DISCOVERED_MARKER.match(line)
-            current = (
-                (f"{m.group(1)}T{m.group(2)}Z" if m.group(2) else f"{m.group(1)}T00:00:00Z")
-                if m
-                else None
-            )
-            continue
-        if current is None:
-            continue  # seed repo — no catalog-entry date
-        result[line.lower().rstrip("/").removesuffix(".git")] = current
+    current_date: str | None = None
+    for line in log.splitlines():
+        if line.startswith("commit "):
+            current_date = line[len("commit "):].strip()
+        elif line.startswith("+") and not line.startswith("+++"):
+            entry = line[1:].strip()
+            if not entry or entry.startswith("#"):
+                continue
+            key = entry.lower().rstrip("/").removesuffix(".git")
+            if key and key not in result:  # earliest add wins (--reverse)
+                result[key] = current_date
     return result
 
 
@@ -805,7 +817,7 @@ def main() -> None:
     parser.add_argument("--mirror-dir", type=Path, default=None,
                         help="Local mirror directory (e.g. public/plugins/) — avoids GitHub HTTP requests for HCLI plugins")
     parser.add_argument("--known-repos", type=Path, default=None,
-                        help="known-repositories.txt — supplies catalog-entry dates (dynamic_metadata.added_at) from its '# Discovered on' / '# (manually) added' markers")
+                        help="known-repositories.txt — supplies catalog-entry dates (dynamic_metadata.added_at) reconstructed from the file's git history")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
