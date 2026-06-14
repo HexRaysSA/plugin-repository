@@ -15412,6 +15412,114 @@
             "host": "https://github.com/libtero/idaguides",
             "name": "IDAGuides",
             "versions": {
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Display indent guides in Hex-Rays Decompiler.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "indent-guides",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "IDAGuides",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/idaguides"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "54af007d8aeb127006375e7cf0d3dc7b64b32dc5df522ab1b879dd5d87128370",
+                        "url": "https://github.com/libtero/idaguides/releases/download/1.1.0/idaguides.zip"
+                    }
+                ],
                 "1.1.1": [
                     {
                         "metadata": {
@@ -16583,7 +16691,7 @@
                                 "version": "0.0.10"
                             }
                         },
-                        "sha256": "6c68e5cb98507196b1e3a6a7c04d0392ba32b29dd9bd453b9e882bdbc6841492",
+                        "sha256": "1a4af60d2027789428c9610845dc11f8e117f79042915b1ac8059bd4e63e5166",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.10/idasql_plugin-v0.0.10.zip"
                     }
                 ],
@@ -25007,7 +25115,7 @@
                                 "version": "2025.9.24"
                             }
                         },
-                        "sha256": "c1adac9b29ae39f46d85bfc2e3c9c6cb3db7464f3370cfbe459bda030670f4e6",
+                        "sha256": "defd95ece912ed8cb4bbde1ef0212ce12f4bd4eaeb612afe6ea8d2ee7a250132",
                         "url": "https://codeload.github.com/williballenthin/xray/legacy.zip/03a0dda2ff45d8611327d6f28505834723afd1c3"
                     }
                 ]
