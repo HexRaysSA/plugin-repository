@@ -5683,6 +5683,67 @@
                                 "version": "3.4"
                             }
                         },
+                        "sha256": "1d6302b6c8cb6a023123112302a2daa18cb7567565a8ec51c3454bc330a6440c",
+                        "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/12f72b1683d605a796823a251f46e018e43a3eb3"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@joxeankoret.com",
+                                        "name": "Joxean Koret"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "vulnerability-research-and-exploit-development",
+                                    "other"
+                                ],
+                                "description": "A free and open-source program diffing tool",
+                                "entryPoint": "diaphora_plugin.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "diffing",
+                                    "patch-analysis",
+                                    "reverse-engineering",
+                                    "bindiff"
+                                ],
+                                "license": "AGPL-3.0",
+                                "logoPath": "logo/diaphora-border.png",
+                                "maintainers": [],
+                                "name": "diaphora",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/joxeankoret/diaphora"
+                                },
+                                "version": "3.4"
+                            }
+                        },
                         "sha256": "632c85752a282ec7725bd4c2e6d702840f041c1762ac2bb3cd2f322274be2120",
                         "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/84aa7dd83fd45d13ae4e5cbe10b12effb97b9b99"
                     }
@@ -11750,6 +11811,58 @@
                         "sha256": "19acbea98edc402caccfbd52a0c486a0cb752787ae43b1adc30a7550919ff494",
                         "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.0/ida-bochs-binaries.zip"
                     }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Bundles pre-built Bochs binaries and Windows DLL stubs so that IDA's Bochs debugger works out of the box with no manual Bochs installation.",
+                                "entryPoint": "bochs_binaries_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "bochs",
+                                    "debugger",
+                                    "emulator"
+                                ],
+                                "license": "LGPL-2.1-or-later",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-bochs-binaries",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-bochs-binaries"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "0d8b33c5c685fe08967363d40a84a0b2ebed661e6f37950d793087b3bc455104",
+                        "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.1/ida-bochs-binaries.zip"
+                    }
                 ]
             }
         },
@@ -12669,6 +12782,208 @@
             }
         },
         {
+            "host": "https://github.com/dump-guy/ida-nativeaot",
+            "name": "ida-nativeaot",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Reconstructs .NET Native AOT (.NET 7/8/9/10) metadata in symbol-stripped binaries: rehydrates the runtime metadata, rebuilds the MethodTable/EEType type hierarchy, names virtual methods, and annotates frozen string literals \u2014 then presents it all in a navigable PySide6 metadata browser. IDAPython port of washi1337/ghidra-nativeaot. Requires IDA Pro 9.2+ (PySide6).",
+                                "entryPoint": "nativeaot_browser.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "nativeaot",
+                                    "dotnet",
+                                    "net",
+                                    "aot",
+                                    "readytorun",
+                                    "eetype",
+                                    "methodtable",
+                                    "metadata",
+                                    "type-recovery",
+                                    "reverse-engineering",
+                                    "malware-analysis",
+                                    "decompiler",
+                                    "frozen-objects",
+                                    "ghidra-port",
+                                    "ida-9",
+                                    "pyside6"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nativeaot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ida-nativeaot"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "499dff10ac681fe2c82edac207ecb4a8708207daab13b018f8e69afa5df69407",
+                        "url": "https://codeload.github.com/Dump-GUY/ida-nativeaot/legacy.zip/184fad3a3c18b103f88e5bb04411bed2574fafc1"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Reconstructs .NET Native AOT (.NET 7/8/9/10) metadata in symbol-stripped binaries: rehydrates the runtime metadata, rebuilds the MethodTable/EEType type hierarchy, names virtual methods, and annotates frozen string literals \u2014 then presents it all in a navigable PySide6 metadata browser. IDAPython port of washi1337/ghidra-nativeaot. Requires IDA Pro 9.2+ (PySide6).",
+                                "entryPoint": "ida-nativeaot_browser.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "nativeaot",
+                                    "dotnet",
+                                    "net",
+                                    "aot",
+                                    "readytorun",
+                                    "eetype",
+                                    "methodtable",
+                                    "metadata",
+                                    "type-recovery",
+                                    "reverse-engineering",
+                                    "malware-analysis",
+                                    "decompiler",
+                                    "frozen-objects",
+                                    "ghidra-port",
+                                    "washi",
+                                    "ida-9",
+                                    "pyside6"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nativeaot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ida-nativeaot"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "0915514720ad910fa99a5213c47d27b72393990b046c235e20a4e487eb3463a8",
+                        "url": "https://codeload.github.com/Dump-GUY/ida-nativeaot/legacy.zip/a93072d42ae3e7f66daeba8d7bb497ad4b852b9a"
+                    }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Reconstructs .NET Native AOT (.NET 7/8/9/10) metadata in symbol-stripped binaries: rehydrates the runtime metadata, rebuilds the MethodTable/EEType type hierarchy, names virtual methods, and annotates frozen string literals \u2014 then presents it all in a navigable PySide6 metadata browser. IDAPython port of washi1337/ghidra-nativeaot. Requires IDA Pro 9.2+ (PySide6).",
+                                "entryPoint": "ida-nativeaot_browser.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "nativeaot",
+                                    "dotnet",
+                                    "net",
+                                    "aot",
+                                    "readytorun",
+                                    "eetype",
+                                    "methodtable",
+                                    "metadata",
+                                    "type-recovery",
+                                    "reverse-engineering",
+                                    "malware-analysis",
+                                    "decompiler",
+                                    "frozen-objects",
+                                    "ghidra-port",
+                                    "ida-9",
+                                    "pyside6"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nativeaot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ida-nativeaot"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "58d7c78dfe9d4d58687adcab6b32240b1564303c59a0f51dadc32e39237d2b16",
+                        "url": "https://codeload.github.com/Dump-GUY/ida-nativeaot/legacy.zip/546b831b872622858d835429e7ef01650dadcb36"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/milankovo/ida_outliner",
             "name": "ida-outliner",
             "versions": {
@@ -12882,6 +13197,72 @@
                         },
                         "sha256": "76c64d2c4a404b6253f45ebbee4f45b669bcb2b96445291b9819c94742d50803",
                         "url": "https://codeload.github.com/milankovo/ida_outliner/legacy.zip/e41c569db77893c56ccb0eed07edf0315cb4477e"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/bkerler/ida_rpc",
+            "name": "ida-rpc",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "info@revskills.de",
+                                        "name": "Bjoern Kerler"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "CLI-driven daemon exposing IDA Pro reverse engineering capabilities over a Unix domain socket",
+                                "entryPoint": "ida_rpc_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "ida-pro",
+                                    "ida",
+                                    "reverse-engineering",
+                                    "decompiler",
+                                    "binary-analysis",
+                                    "rpc",
+                                    "json-rpc",
+                                    "automation",
+                                    "llm",
+                                    "agent"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "ida-plugin.png",
+                                "maintainers": [],
+                                "name": "ida-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "click>=8.1.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/bkerler/ida_rpc"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "cd0144e09ea4ebfa7e8e801b8ecda287d3c61c52509711fba69ce59f0fa7cbcf",
+                        "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/dc7dc786ac615c23b3642030121b06d95d3147d1"
                     }
                 ]
             }
@@ -15294,6 +15675,114 @@
             "host": "https://github.com/libtero/idaguides",
             "name": "IDAGuides",
             "versions": {
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "arttson@gmail.com",
+                                        "name": "tero"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Display indent guides in Hex-Rays Decompiler.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "indent-guides",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "icon.png",
+                                "maintainers": [],
+                                "name": "IDAGuides",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/libtero/idaguides"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "54af007d8aeb127006375e7cf0d3dc7b64b32dc5df522ab1b879dd5d87128370",
+                        "url": "https://github.com/libtero/idaguides/releases/download/1.1.0/idaguides.zip"
+                    }
+                ],
                 "1.1.1": [
                     {
                         "metadata": {
@@ -16420,55 +16909,6 @@
             "host": "https://github.com/allthingsida/idasql",
             "name": "IDASQL",
             "versions": {
-                "0.0.1": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "elias.bachaalany@gmail.com",
-                                        "name": "Elias Bachaalany"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation",
-                                    "collaboration-and-productivity"
-                                ],
-                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, remote server mode, and natural language queries via Claude.",
-                                "entryPoint": "idasql",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "IDASQL",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/allthingsida/idasql"
-                                },
-                                "version": "0.0.1"
-                            }
-                        },
-                        "sha256": "078d51ed27fbbf729815dde018addf1e274b595d0ac5adf24b342fe963c4b555",
-                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.7/idasql_plugin-v0.0.7.zip"
-                    }
-                ],
                 "0.0.10": [
                     {
                         "metadata": {
@@ -16514,7 +16954,7 @@
                                 "version": "0.0.10"
                             }
                         },
-                        "sha256": "6c68e5cb98507196b1e3a6a7c04d0392ba32b29dd9bd453b9e882bdbc6841492",
+                        "sha256": "1a4af60d2027789428c9610845dc11f8e117f79042915b1ac8059bd4e63e5166",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.10/idasql_plugin-v0.0.10.zip"
                     }
                 ],
@@ -16808,6 +17248,55 @@
                         },
                         "sha256": "75f10b72dccb993fa08f02e49ecc09922212e3481f925f0d54d874c74e4780f6",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.16/idasql_plugin-v0.0.16.zip"
+                    }
+                ],
+                "0.0.17": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [],
+                                "license": "MPL-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.17"
+                            }
+                        },
+                        "sha256": "98ba57f80edf37d726df6fbc33c7955ec88bb713cf5e8d6c79868a916f27ed44",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.17/idasql_plugin-v0.0.17.zip"
                     }
                 ],
                 "0.0.8": [
@@ -18387,6 +18876,60 @@
                         },
                         "sha256": "c15b2308ad540438625a1db5fd93d6e7cc053fcc1313f4d2e7d989c50eee843b",
                         "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/2a35afe4d64f4e0f521be7d40635a6295166b5a3"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yoav.sternberg@gmail.com",
+                                        "name": "Yoav Sternberg"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "A plugin for IDA Pro 9.0+ to help with iOS code analysis.",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ios",
+                                    "objc",
+                                    "swift",
+                                    "kernel-cache"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "res/logo.png",
+                                "maintainers": [],
+                                "name": "iOSHelper",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-ios-helper==1.0.19"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/yoavst/ida-ios-helper"
+                                },
+                                "version": "1.0.19"
+                            }
+                        },
+                        "sha256": "4c36d903dc51f1f38a54e0c790563821b374083f7271cc72748dafa562f038e5",
+                        "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/3d5b9fa1c3baf9373ef70eaab1bb2105a1c04f9a"
                     },
                     {
                         "metadata": {
@@ -24835,7 +25378,7 @@
                                 "version": "2025.9.24"
                             }
                         },
-                        "sha256": "c1adac9b29ae39f46d85bfc2e3c9c6cb3db7464f3370cfbe459bda030670f4e6",
+                        "sha256": "defd95ece912ed8cb4bbde1ef0212ce12f4bd4eaeb612afe6ea8d2ee7a250132",
                         "url": "https://codeload.github.com/williballenthin/xray/legacy.zip/03a0dda2ff45d8611327d6f28505834723afd1c3"
                     }
                 ]
@@ -25328,6 +25871,112 @@
                         },
                         "sha256": "252ba61ffd67e1b1d1aa343afd1eeb16e189e80e2168159813c353914bf84c2a",
                         "url": "https://github.com/r0ny123/yarg/releases/download/v1.0.4/yarg-1.0.4.zip"
+                    }
+                ],
+                "1.0.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "39289915+immortalp0ny@users.noreply.github.com",
+                                        "name": "immortalp0ny"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Yet another rule generator for Yara",
+                                "entryPoint": "yarg.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "yara-rules",
+                                    "pattern-matching",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yarg",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain==0.5.0",
+                                    "capstone==5.0.9",
+                                    "yara-x==1.17.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/r0ny123/yarg"
+                                },
+                                "version": "1.0.5"
+                            }
+                        },
+                        "sha256": "55f0fee41d40314439974128b8d5cb7b57b278c4aa421d0d6533691dbdd9150d",
+                        "url": "https://codeload.github.com/r0ny123/yarg/legacy.zip/9db646cf47558c15dace42a78658bc00fe7129b0"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "39289915+immortalp0ny@users.noreply.github.com",
+                                        "name": "immortalp0ny"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Yet another rule generator for Yara",
+                                "entryPoint": "yarg.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "yara-rules",
+                                    "pattern-matching",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yarg",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain==0.5.0",
+                                    "capstone==5.0.9",
+                                    "yara-x==1.17.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/r0ny123/yarg"
+                                },
+                                "version": "1.0.5"
+                            }
+                        },
+                        "sha256": "05d2038b15d69de0d1152d2d91dfd277d643780a8261fbd3504e20d35bad15bc",
+                        "url": "https://github.com/r0ny123/yarg/releases/download/v1.0.5/yarg-1.0.5.zip"
                     }
                 ]
             }

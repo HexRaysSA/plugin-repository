@@ -107,6 +107,7 @@ class PluginMetadata(BaseModel):
     prettified_versions: list[str] | None = None
     license_type: str | None = None
     readme_url: str | None = None
+    changelog_url: str | None = None
     dynamic_metadata: DynamicMetadata = DynamicMetadata()
 
 
@@ -220,7 +221,7 @@ def resolve_logo_url(logo_path: str | None, owner: str, repo: str, default_branc
     return f"https://raw.githubusercontent.com/{owner}/{repo}/{default_branch}/{clean_path}"
 
 
-# ─── README URL probing ───────────────────────────────────────────────────────
+# ─── README / changelog URL probing ───────────────────────────────────────────
 
 _SESSION = requests.Session()
 _SESSION.headers.update({"User-Agent": "ida-plugin-merge-script/1.0"})
@@ -242,23 +243,37 @@ _README_FILENAMES: list[str] = [
 ]
 
 
+_CHANGELOG_FILENAMES: list[str] = [
+    "CHANGELOG.md",
+    "CHANGELOG.MD",
+    "changelog.md",
+    "Changelog.md",
+    "CHANGES.md",
+    "changes.md",
+    "HISTORY.md",
+    "history.md",
+    "docs/CHANGELOG.md",
+    "docs/changelog.md",
+]
+
+
 _MIRROR_PUBLIC_BASE = "https://hexrayssa.github.io/plugin-repository/plugins"
 
 
-def _probe_readme_mirror(
-    owner: str, repo: str, plugin_name: str, mirror_dir: Path,
+def _probe_doc_mirror(
+    owner: str, repo: str, plugin_name: str, mirror_dir: Path, filenames: list[str],
 ) -> str | None:
-    """Check the local mirror for a README and return its public URL, or None."""
+    """Check the local mirror for one of *filenames* and return its public URL, or None."""
     local_base = mirror_dir / "github.com" / owner / repo / plugin_name
     if local_base.is_dir():
-        for fn in _README_FILENAMES:
+        for fn in filenames:
             if (local_base / fn).is_file():
                 return f"{_MIRROR_PUBLIC_BASE}/github.com/{owner}/{repo}/{plugin_name}/{fn}"
     return None
 
 
-def _probe_readme_github(
-    owner: str, repo: str, default_branch: str,
+def _probe_doc_github(
+    owner: str, repo: str, default_branch: str, filenames: list[str],
 ) -> str | None:
     """Probe GitHub raw URLs via HEAD requests. Returns first 200, or None."""
     branches = [default_branch]
@@ -270,7 +285,7 @@ def _probe_readme_github(
         branches += ["main", "master"]
 
     raw_base = f"https://raw.githubusercontent.com/{owner}/{repo}"
-    candidates = [f"{raw_base}/{branch}/{fn}" for branch in branches for fn in _README_FILENAMES]
+    candidates = [f"{raw_base}/{branch}/{fn}" for branch in branches for fn in filenames]
 
     for url in candidates:
         try:
@@ -283,26 +298,27 @@ def _probe_readme_github(
     return None
 
 
-def probe_readme(
+def probe_doc(
     owner: str,
     repo: str,
     plugin_name: str | None,
     default_branch: str,
     is_hcli: bool,
+    filenames: list[str],
     mirror_dir: Path | None = None,
 ) -> str | None:
-    """Return a README URL for the plugin, or None.
+    """Return a URL for the first of *filenames* found for the plugin, or None.
 
     HCLI plugins: checks the local mirror first, falls back to GitHub
-    only when the mirror has no README (e.g. archive didn't include one).
+    only when the mirror has no match (e.g. archive didn't include one).
     API-only plugins: probes GitHub raw URLs via HEAD requests.
     """
     if is_hcli and plugin_name and mirror_dir:
-        url = _probe_readme_mirror(owner, repo, plugin_name, mirror_dir)
+        url = _probe_doc_mirror(owner, repo, plugin_name, mirror_dir, filenames)
         if url:
             return url
 
-    return _probe_readme_github(owner, repo, default_branch)
+    return _probe_doc_github(owner, repo, default_branch, filenames)
 
 
 # ─── Build tags map from tags.json ────────────────────────────────────────────
@@ -349,7 +365,7 @@ def parse_github_url(url: str) -> tuple[str, str] | None:
 
 # ─── Transform functions ──────────────────────────────────────────────────────
 
-def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, tags_from_a: list[str] | None = None) -> Plugin | None:
+def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, changelog_url: str | None, tags_from_a: list[str] | None = None) -> Plugin | None:
     """Transform a single HCLI plugin entry into the combined output shape."""
     parsed = parse_github_url(hcli_plugin.get("host", ""))
     if not parsed:
@@ -426,6 +442,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
             prettified_versions=prettified,
             license_type=plugin_meta.get("license"),
             readme_url=readme_url,
+            changelog_url=changelog_url,
             dynamic_metadata=DynamicMetadata(
                 stars=github_meta.get("stargazers_count") or 0,
                 forks=github_meta.get("forks_count") or 0,
@@ -445,7 +462,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
     )
 
 
-def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None) -> Plugin | None:
+def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, changelog_url: str | None) -> Plugin | None:
     """Transform an API-only plugin into the combined output shape.
     Passes through idaplugin_json when present (some API plugins have metadata but aren't in the HCLI index yet).
     """
@@ -521,6 +538,7 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
             prettified_versions=None,
             license_type=license_type,
             readme_url=readme_url,
+            changelog_url=changelog_url,
             dynamic_metadata=DynamicMetadata(
                 stars=github_meta.get("stargazers_count") or api_dyn.get("stars") or 0,
                 forks=github_meta.get("forks_count") or api_dyn.get("forks") or 0,
@@ -618,7 +636,7 @@ def do_merge(
             # slug is already "owner/repo"
             api_map[p["slug"].lower()] = p
 
-    # ── Collect all plugins that need README probing ──────────────────────────
+    # ── Collect all plugins that need README/changelog probing ────────────────
     # Assemble (owner, repo, plugin_name, default_branch, is_hcli) per unique repo
     probe_params: list[tuple[str, str, str | None, str, bool, str]] = []  # + key
 
@@ -642,14 +660,15 @@ def do_merge(
         default_branch = meta.get("default_branch") or "master"
         probe_params.append((owner, repo, None, default_branch, False, key))
 
-    # ── Probe README URLs in parallel ─────────────────────────────────────────
-    logger.info("Probing README URLs for %d plugins (10 workers)...", len(probe_params))
-    readme_results: dict[str, str | None] = {}
+    # ── Probe README/changelog URLs in parallel ───────────────────────────────
+    logger.info("Probing README/changelog URLs for %d plugins (10 workers)...", len(probe_params))
+    probe_results: dict[str, tuple[str | None, str | None]] = {}
 
     def _probe(params):
         owner, repo, plugin_name, default_branch, is_hcli, key = params
-        url = probe_readme(owner, repo, plugin_name, default_branch, is_hcli, mirror_dir)
-        return key, url
+        readme_url = probe_doc(owner, repo, plugin_name, default_branch, is_hcli, _README_FILENAMES, mirror_dir)
+        changelog_url = probe_doc(owner, repo, plugin_name, default_branch, is_hcli, _CHANGELOG_FILENAMES, mirror_dir)
+        return key, readme_url, changelog_url
 
     with rich.progress.Progress(
         rich.progress.SpinnerColumn(),
@@ -659,12 +678,12 @@ def do_merge(
         console=stderr_console,
         transient=True,
     ) as progress:
-        task = progress.add_task("Probing READMEs", total=len(probe_params))
+        task = progress.add_task("Probing READMEs & changelogs", total=len(probe_params))
         with ThreadPoolExecutor(max_workers=10) as executor:
             futures = {executor.submit(_probe, p): p for p in probe_params}
             for future in as_completed(futures):
-                key, url = future.result()
-                readme_results[key] = url
+                key, readme_url, changelog_url = future.result()
+                probe_results[key] = (readme_url, changelog_url)
                 progress.advance(task)
 
     # ── Transform HCLI plugins ────────────────────────────────────────────────
@@ -677,11 +696,11 @@ def do_merge(
             continue
         owner, repo = parsed
         meta = get_meta(owner, repo)
-        readme_url = readme_results.get(key)
+        readme_url, changelog_url = probe_results.get(key) or (None, None)
         # Rule 6: merge tags from A (full tag set: contest years, placements, etc.)
         repo_key = f"{owner}/{repo}".lower()
         tags_from_a = (api_map.get(repo_key, {}).get("metadata") or {}).get("tags") or []
-        transformed = transform_hcli_plugin(p, meta, tags_map, readme_url, tags_from_a)
+        transformed = transform_hcli_plugin(p, meta, tags_map, readme_url, changelog_url, tags_from_a)
         if transformed:
             output_plugins.append(transformed)
             hcli_count += 1
@@ -698,8 +717,8 @@ def do_merge(
             continue
         owner, repo = parsed
         meta = get_meta(owner, repo)
-        readme_url = readme_results.get(key)
-        transformed = transform_legacy_plugin(p, meta, tags_map, readme_url)
+        readme_url, changelog_url = probe_results.get(key) or (None, None)
+        transformed = transform_legacy_plugin(p, meta, tags_map, readme_url, changelog_url)
         if transformed:
             output_plugins.append(transformed)
             legacy_count += 1
@@ -727,8 +746,10 @@ def do_merge(
     # ── Summary ───────────────────────────────────────────────────────────────
     pm_ready = sum(1 for p in output_plugins if "plugin_manager_ready" in p.metadata.tags)
     no_readme = sum(1 for p in output_plugins if not p.metadata.readme_url)
+    no_changelog = sum(1 for p in output_plugins if not p.metadata.changelog_url)
     stderr_console.print(f"\n[bold green]Done![/bold green] {len(output_plugins)} plugins "
-                         f"({pm_ready} PM-ready, {legacy_count} legacy, {no_readme} without README)")
+                         f"({pm_ready} PM-ready, {legacy_count} legacy, {no_readme} without README, "
+                         f"{no_changelog} without changelog)")
 
 
 # ─── CLI ──────────────────────────────────────────────────────────────────────
