@@ -329,3 +329,6 @@ r0ny123/yarg
 
 # Discovered on 2026-06-12 13:45:33
 bkerler/ida_rpc
+
+# Discovered on 2026-06-16 06:12:00
+dump-guy/ida-nativeaot

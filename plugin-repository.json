@@ -5683,6 +5683,67 @@
                                 "version": "3.4"
                             }
                         },
+                        "sha256": "1d6302b6c8cb6a023123112302a2daa18cb7567565a8ec51c3454bc330a6440c",
+                        "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/12f72b1683d605a796823a251f46e018e43a3eb3"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@joxeankoret.com",
+                                        "name": "Joxean Koret"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "vulnerability-research-and-exploit-development",
+                                    "other"
+                                ],
+                                "description": "A free and open-source program diffing tool",
+                                "entryPoint": "diaphora_plugin.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "diffing",
+                                    "patch-analysis",
+                                    "reverse-engineering",
+                                    "bindiff"
+                                ],
+                                "license": "AGPL-3.0",
+                                "logoPath": "logo/diaphora-border.png",
+                                "maintainers": [],
+                                "name": "diaphora",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/joxeankoret/diaphora"
+                                },
+                                "version": "3.4"
+                            }
+                        },
                         "sha256": "632c85752a282ec7725bd4c2e6d702840f041c1762ac2bb3cd2f322274be2120",
                         "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/84aa7dd83fd45d13ae4e5cbe10b12effb97b9b99"
                     }
@@ -12716,6 +12777,208 @@
                         },
                         "sha256": "7adb8695689e05f4b810a567eb2ba669d9005e90deb7506a3b6d7f9e8da5cfcf",
                         "url": "https://codeload.github.com/milankovo/ida_enums_helper/legacy.zip/1f9a0c3b3c63b0b1cd04edac823220a0bbf9b63f"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/dump-guy/ida-nativeaot",
+            "name": "ida-nativeaot",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Reconstructs .NET Native AOT (.NET 7/8/9/10) metadata in symbol-stripped binaries: rehydrates the runtime metadata, rebuilds the MethodTable/EEType type hierarchy, names virtual methods, and annotates frozen string literals \u2014 then presents it all in a navigable PySide6 metadata browser. IDAPython port of washi1337/ghidra-nativeaot. Requires IDA Pro 9.2+ (PySide6).",
+                                "entryPoint": "nativeaot_browser.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "nativeaot",
+                                    "dotnet",
+                                    "net",
+                                    "aot",
+                                    "readytorun",
+                                    "eetype",
+                                    "methodtable",
+                                    "metadata",
+                                    "type-recovery",
+                                    "reverse-engineering",
+                                    "malware-analysis",
+                                    "decompiler",
+                                    "frozen-objects",
+                                    "ghidra-port",
+                                    "ida-9",
+                                    "pyside6"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nativeaot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ida-nativeaot"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "499dff10ac681fe2c82edac207ecb4a8708207daab13b018f8e69afa5df69407",
+                        "url": "https://codeload.github.com/Dump-GUY/ida-nativeaot/legacy.zip/184fad3a3c18b103f88e5bb04411bed2574fafc1"
+                    }
+                ],
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Reconstructs .NET Native AOT (.NET 7/8/9/10) metadata in symbol-stripped binaries: rehydrates the runtime metadata, rebuilds the MethodTable/EEType type hierarchy, names virtual methods, and annotates frozen string literals \u2014 then presents it all in a navigable PySide6 metadata browser. IDAPython port of washi1337/ghidra-nativeaot. Requires IDA Pro 9.2+ (PySide6).",
+                                "entryPoint": "ida-nativeaot_browser.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "nativeaot",
+                                    "dotnet",
+                                    "net",
+                                    "aot",
+                                    "readytorun",
+                                    "eetype",
+                                    "methodtable",
+                                    "metadata",
+                                    "type-recovery",
+                                    "reverse-engineering",
+                                    "malware-analysis",
+                                    "decompiler",
+                                    "frozen-objects",
+                                    "ghidra-port",
+                                    "washi",
+                                    "ida-9",
+                                    "pyside6"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nativeaot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ida-nativeaot"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "0915514720ad910fa99a5213c47d27b72393990b046c235e20a4e487eb3463a8",
+                        "url": "https://codeload.github.com/Dump-GUY/ida-nativeaot/legacy.zip/a93072d42ae3e7f66daeba8d7bb497ad4b852b9a"
+                    }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "",
+                                        "name": "Ji\u0159\u00ed Vinopal"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Reconstructs .NET Native AOT (.NET 7/8/9/10) metadata in symbol-stripped binaries: rehydrates the runtime metadata, rebuilds the MethodTable/EEType type hierarchy, names virtual methods, and annotates frozen string literals \u2014 then presents it all in a navigable PySide6 metadata browser. IDAPython port of washi1337/ghidra-nativeaot. Requires IDA Pro 9.2+ (PySide6).",
+                                "entryPoint": "ida-nativeaot_browser.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "nativeaot",
+                                    "dotnet",
+                                    "net",
+                                    "aot",
+                                    "readytorun",
+                                    "eetype",
+                                    "methodtable",
+                                    "metadata",
+                                    "type-recovery",
+                                    "reverse-engineering",
+                                    "malware-analysis",
+                                    "decompiler",
+                                    "frozen-objects",
+                                    "ghidra-port",
+                                    "ida-9",
+                                    "pyside6"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nativeaot",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Dump-GUY/ida-nativeaot"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "58d7c78dfe9d4d58687adcab6b32240b1564303c59a0f51dadc32e39237d2b16",
+                        "url": "https://codeload.github.com/Dump-GUY/ida-nativeaot/legacy.zip/546b831b872622858d835429e7ef01650dadcb36"
                     }
                 ]
             }
