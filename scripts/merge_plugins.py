@@ -5,6 +5,8 @@
 #   B  plugin-repository.json  HCLI-indexed plugins (from GitHub)
 #   C  tags.json              Curated tags (favourite, plugin_contest_*, etc.)
 #      github-metadata.json   GitHub repo metadata (stars, forks, dates, topics)
+#   Catalog-entry dates (added_at) are reconstructed from the git history of the
+#   HCLI index (plugin-repository.json) — no separate known-repositories input.
 #
 # Output:
 #   combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
@@ -32,7 +34,9 @@
 import argparse
 import json
 import logging
+import os
 import re
+import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -87,6 +91,7 @@ class DynamicMetadata(BaseModel):
     watchers: int = 0
     language: str | None = None
     created_at: str | None = None
+    added_at: str | None = None
     latest_update: str | None = None
     topics: list[str] = []
     homepage: str = ""
@@ -311,12 +316,104 @@ def get_tags_for_plugin(tags_map: dict, host: str, name: str) -> list[str]:
     return tags_map.get(key, [])
 
 
+# ─── Catalog-entry dates from the HCLI index git history ──────────────────────
+
+_GITHUB_HOST_RE = re.compile(r"github\.com/([^/]+/[^/]+)")
+
+
+def build_added_at_map(hcli_path: Path | None) -> dict[str, str]:
+    """Map "owner/repo" (lowercased) -> the UTC date it entered the Hex-Rays catalog.
+
+    A plugin enters the catalog when the indexer first writes its repo into the
+    HCLI index (plugin-repository.json), so the author date of the commit that
+    first introduced that ``host`` is its catalog-entry date. We reconstruct it
+    from the index's own git history — no separate known-repositories list or
+    hand-written marker. Legacy api-only plugins are not in the index (they are a
+    frozen historical dump, all old) and get no date; that is correct, since
+    every *new* plugin arrives through the HCLI index.
+
+    Dates are UTC (``…Z``), homogeneous with the GitHub-sourced ``created_at`` /
+    ``latest_update`` the UI compares against. Returns {} (so added_at is simply
+    omitted) when the file is missing, git is unavailable, or the checkout is
+    shallow — never wrong dates.
+    """
+    if not hcli_path or not hcli_path.exists():
+        return {}
+
+    repo_dir = hcli_path.resolve().parent
+    env = {**os.environ, "TZ": "UTC"}
+
+    def _git(*args: str) -> str:
+        return subprocess.run(
+            ["git", "-C", str(repo_dir), *args],
+            capture_output=True, text=True, check=True, env=env,
+        ).stdout
+
+    try:
+        # A shallow clone lacks the history to date repos correctly — every repo
+        # would collapse onto the shallow boundary commit. Refuse rather than lie.
+        if _git("rev-parse", "--is-shallow-repository").strip() == "true":
+            logger.warning("Shallow checkout — cannot reconstruct added_at; omitting it. "
+                           "Fetch full history (fetch-depth: 0) to enable.")
+            return {}
+        # Oldest-first, non-merge commits that touched the index; "date sha" each.
+        log = _git(
+            "log", "--reverse", "--no-merges",
+            "--date=format-local:%Y-%m-%dT%H:%M:%SZ", "--format=%ad %H",
+            "--", hcli_path.name,
+        )
+    except (subprocess.CalledProcessError, FileNotFoundError, OSError) as e:
+        logger.warning("Cannot read git history for %s (%s); omitting added_at", hcli_path, e)
+        return {}
+
+    result: dict[str, str] = {}
+    rel = hcli_path.name
+    for entry in log.splitlines():
+        date, _, sha = entry.strip().partition(" ")
+        if not sha:
+            continue
+        try:
+            data = json.loads(_git("show", f"{sha}:{rel}"))
+        except (subprocess.CalledProcessError, json.JSONDecodeError):
+            continue  # file absent or unparseable at this revision — skip
+        for plugin in data.get("plugins", []):
+            m = _GITHUB_HOST_RE.search((plugin.get("host") or "").lower())
+            if not m:
+                continue
+            key = m.group(1).rstrip("/").removesuffix(".git")
+            if key not in result:  # earliest commit containing the repo wins
+                result[key] = date
+    return result
+
+
+# ─── Tag merging ──────────────────────────────────────────────────────────────
+
+# Editorial recency tags ("recently added" / "recently updated") describe a date
+# window, not a stable property, and arrive stale in api-plugins.json
+# metadata.tags (EA-771: 169 plugins carried them regardless of date). merge_tags
+# never lets them into combined.json; the UI derives both homepage sections from
+# dynamic_metadata.added_at / .latest_update instead.
+_EDITORIAL_DATE_TAGS = frozenset({"recently_added", "recently_updated"})
+
+
+def merge_tags(*sources: list[str] | None) -> list[str]:
+    """Combine tag lists in order, dropping duplicates and editorial recency tags."""
+    merged: list[str] = []
+    for source in sources:
+        for tag in source or []:
+            if tag in _EDITORIAL_DATE_TAGS or tag in merged:
+                continue
+            merged.append(tag)
+    return merged
+
+
 # ─── Badge generation (ported from DataMerger.generateBadges) ─────────────────
+
 
 def generate_badges(tags: list[str]) -> list[str]:
     badge_set = {
         "favourite", "plugin_contest_2024", "plugin_contest_2023",
-        "plugin_contest_2022", "recently_added", "recently_updated", "hidden_gem",
+        "plugin_contest_2022", "hidden_gem",
     }
     return [t for t in tags if t in badge_set]
 
@@ -332,7 +429,7 @@ def parse_github_url(url: str) -> tuple[str, str] | None:
 
 # ─── Transform functions ──────────────────────────────────────────────────────
 
-def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, changelog_url: str | None, tags_from_a: list[str] | None = None) -> Plugin | None:
+def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, changelog_url: str | None, tags_from_a: list[str] | None = None, added_at: str | None = None) -> Plugin | None:
     """Transform a single HCLI plugin entry into the combined output shape."""
     parsed = parse_github_url(hcli_plugin.get("host", ""))
     if not parsed:
@@ -377,7 +474,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
     # A has the full tag set (contest years, placements, award_winning, favourite, etc.)
     # C may have additions not yet in A
     tags_from_c = get_tags_for_plugin(tags_map, hcli_plugin.get("host", ""), hcli_plugin["name"])
-    tags = list(dict.fromkeys((tags_from_a or []) + tags_from_c + ["plugin_manager_ready"]))
+    tags = merge_tags(tags_from_a, tags_from_c, ["plugin_manager_ready"])
 
     # Categories (slugs only — UI enriches with presentation data)
     categories = plugin_meta.get("categories") or ["other"]
@@ -415,6 +512,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
                 watchers=github_meta.get("watchers_count") or 0,
                 language=github_meta.get("language"),
                 created_at=github_meta.get("created_at"),
+                added_at=added_at,
                 latest_update=github_meta.get("pushed_at") or github_meta.get("updated_at"),
                 topics=github_meta.get("topics") or [],
                 homepage=github_meta.get("homepage") or "",
@@ -428,7 +526,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
     )
 
 
-def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, changelog_url: str | None) -> Plugin | None:
+def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict, readme_url: str | None, changelog_url: str | None, added_at: str | None = None) -> Plugin | None:
     """Transform an API-only plugin into the combined output shape.
     Passes through idaplugin_json when present (some API plugins have metadata but aren't in the HCLI index yet).
     """
@@ -449,7 +547,7 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
     tags_from_a = meta.get("tags") or []
     plugin_name = (raw_idaplugin_json or {}).get("plugin", {}).get("name") or meta.get("repository_name") or repo
     tags_from_c = get_tags_for_plugin(tags_map, url, plugin_name)
-    tags = list(dict.fromkeys(tags_from_a + tags_from_c))
+    tags = merge_tags(tags_from_a, tags_from_c)
 
     # Categories (slugs only — UI enriches with presentation data)
     categories = [
@@ -510,6 +608,7 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
                 watchers=github_meta.get("watchers_count") or 0,
                 language=github_meta.get("language") or api_dyn.get("language"),
                 created_at=github_meta.get("created_at") or api_dyn.get("created_at"),
+                added_at=added_at,
                 latest_update=github_meta.get("pushed_at") or github_meta.get("updated_at") or api_dyn.get("latest_update"),
                 topics=github_meta.get("topics") or [],
                 homepage=github_meta.get("homepage") or "",
@@ -573,8 +672,13 @@ def do_merge(
         return github_metadata_lower.get(f"{owner}/{repo}".lower()) or {}
 
     tags_map = build_tags_map(tags_array)
-    logger.info("Loaded: %d API plugins, %d HCLI plugins, %d tag entries, %d repo metadata entries",
-                len(api_plugins_raw), len(hcli_plugins_raw), len(tags_array), len(github_metadata))
+    added_at_map = build_added_at_map(hcli_path)
+
+    def get_added_at(owner: str, repo: str) -> str | None:
+        return added_at_map.get(f"{owner}/{repo}".lower())
+
+    logger.info("Loaded: %d API plugins, %d HCLI plugins, %d tag entries, %d repo metadata entries, %d catalog-entry dates",
+                len(api_plugins_raw), len(hcli_plugins_raw), len(tags_array), len(github_metadata), len(added_at_map))
 
     # ── Build lookup maps ────────────────────────────────────────────────────
     # HCLI: key = "owner/repo/plugin_name".lower() (one plugin per entry, unique)
@@ -665,7 +769,7 @@ def do_merge(
         # Rule 6: merge tags from A (full tag set: contest years, placements, etc.)
         repo_key = f"{owner}/{repo}".lower()
         tags_from_a = (api_map.get(repo_key, {}).get("metadata") or {}).get("tags") or []
-        transformed = transform_hcli_plugin(p, meta, tags_map, readme_url, changelog_url, tags_from_a)
+        transformed = transform_hcli_plugin(p, meta, tags_map, readme_url, changelog_url, tags_from_a, get_added_at(owner, repo))
         if transformed:
             output_plugins.append(transformed)
             hcli_count += 1
@@ -683,12 +787,20 @@ def do_merge(
         owner, repo = parsed
         meta = get_meta(owner, repo)
         readme_url, changelog_url = probe_results.get(key) or (None, None)
-        transformed = transform_legacy_plugin(p, meta, tags_map, readme_url, changelog_url)
+        transformed = transform_legacy_plugin(p, meta, tags_map, readme_url, changelog_url, get_added_at(owner, repo))
         if transformed:
             output_plugins.append(transformed)
             legacy_count += 1
 
     logger.info("Merged: %d HCLI + %d legacy = %d total plugins", hcli_count, legacy_count, len(output_plugins))
+
+    # Surface how many plugins actually received a catalog-entry date — a path
+    # typo or owner/repo case mismatch would otherwise yield zero coverage silently.
+    added_count = sum(1 for p in output_plugins if p.metadata.dynamic_metadata.added_at)
+    logger.info("Catalog-entry dates: %d/%d plugins have added_at", added_count, len(output_plugins))
+    if added_at_map and added_count == 0:
+        logger.warning("index history yielded %d dates but no plugin matched — check owner/repo keys",
+                       len(added_at_map))
 
     # Verify no duplicates
     slugs = [p.slug for p in output_plugins]
