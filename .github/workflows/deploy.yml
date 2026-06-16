@@ -82,9 +82,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Merge plugins
-        # EA-762: idaVersions are capped at the latest released IDA via
-        # merge_plugins.py's LATEST_RELEASED_IDA. Override with the env var when a
-        # new IDA ships (e.g. LATEST_RELEASED_IDA: "9.5") — no auth/secret needed.
         run: |
           mkdir -p ./public/plugins/
           uv run --script scripts/merge_plugins.py \

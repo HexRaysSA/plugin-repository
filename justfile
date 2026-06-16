@@ -29,9 +29,6 @@ collect-stars:
     uv run scripts/snapshot_github_repo_metadata.py plugin-repository.json public/plugins/
 
 
-# EA-762: idaVersions are capped at the latest released IDA via merge_plugins.py's
-# LATEST_RELEASED_IDA (default baked in; override with the env var when a new IDA
-# ships, e.g. `LATEST_RELEASED_IDA=9.5 just merge-plugins`).
 merge-plugins:
     mkdir -p ./public/plugins/
     uv run --script scripts/merge_plugins.py \
