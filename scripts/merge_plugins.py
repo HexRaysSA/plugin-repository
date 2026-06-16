@@ -5,7 +5,8 @@
 #   B  plugin-repository.json  HCLI-indexed plugins (from GitHub)
 #   C  tags.json              Curated tags (favourite, plugin_contest_*, etc.)
 #      github-metadata.json   GitHub repo metadata (stars, forks, dates, topics)
-#      known-repositories.txt Catalog-entry dates (added_at) from its git history
+#   Catalog-entry dates (added_at) are reconstructed from the git history of the
+#   HCLI index (plugin-repository.json) — no separate known-repositories input.
 #
 # Output:
 #   combined.json     All plugins (HCLI + legacy), enriched and ready for the UI
@@ -19,7 +20,6 @@
 #     --api api-plugins.json \
 #     --metadata public/plugins/github.com/repositories-metadata.json \
 #     --mirror-dir public/plugins/ \
-#     --known-repos known-repositories.txt \
 #     --out public/plugins/
 #
 # /// script
@@ -316,27 +316,31 @@ def get_tags_for_plugin(tags_map: dict, host: str, name: str) -> list[str]:
     return tags_map.get(key, [])
 
 
-# ─── Catalog-entry dates from known-repositories.txt git history ──────────────
+# ─── Catalog-entry dates from the HCLI index git history ──────────────────────
+
+_GITHUB_HOST_RE = re.compile(r"github\.com/([^/]+/[^/]+)")
 
 
-def build_discovered_map(known_repos_path: Path | None) -> dict[str, str]:
+def build_added_at_map(hcli_path: Path | None) -> dict[str, str]:
     """Map "owner/repo" (lowercased) -> the UTC date it entered the Hex-Rays catalog.
 
-    A repo's catalog-entry date is the author date of the commit that first added
-    its line to known-repositories.txt — the indexer appends newly-discovered
-    repos in that commit, so the commit timestamp *is* the discovery event. We
-    read it from git history rather than parsing the human-written "# Discovered
-    on" / "# added" comments, so that comment format is not load-bearing.
+    A plugin enters the catalog when the indexer first writes its repo into the
+    HCLI index (plugin-repository.json), so the author date of the commit that
+    first introduced that ``host`` is its catalog-entry date. We reconstruct it
+    from the index's own git history — no separate known-repositories list or
+    hand-written marker. Legacy api-only plugins are not in the index (they are a
+    frozen historical dump, all old) and get no date; that is correct, since
+    every *new* plugin arrives through the HCLI index.
 
     Dates are UTC (``…Z``), homogeneous with the GitHub-sourced ``created_at`` /
     ``latest_update`` the UI compares against. Returns {} (so added_at is simply
     omitted) when the file is missing, git is unavailable, or the checkout is
     shallow — never wrong dates.
     """
-    if not known_repos_path or not known_repos_path.exists():
+    if not hcli_path or not hcli_path.exists():
         return {}
 
-    repo_dir = known_repos_path.resolve().parent
+    repo_dir = hcli_path.resolve().parent
     env = {**os.environ, "TZ": "UTC"}
 
     def _git(*args: str) -> str:
@@ -352,27 +356,33 @@ def build_discovered_map(known_repos_path: Path | None) -> dict[str, str]:
             logger.warning("Shallow checkout — cannot reconstruct added_at; omitting it. "
                            "Fetch full history (fetch-depth: 0) to enable.")
             return {}
+        # Oldest-first, non-merge commits that touched the index; "date sha" each.
         log = _git(
             "log", "--reverse", "--no-merges",
-            "--date=format-local:%Y-%m-%dT%H:%M:%SZ", "--format=commit %ad",
-            "-p", "--", known_repos_path.name,
+            "--date=format-local:%Y-%m-%dT%H:%M:%SZ", "--format=%ad %H",
+            "--", hcli_path.name,
         )
     except (subprocess.CalledProcessError, FileNotFoundError, OSError) as e:
-        logger.warning("Cannot read git history for %s (%s); omitting added_at", known_repos_path, e)
+        logger.warning("Cannot read git history for %s (%s); omitting added_at", hcli_path, e)
         return {}
 
     result: dict[str, str] = {}
-    current_date: str | None = None
-    for line in log.splitlines():
-        if line.startswith("commit "):
-            current_date = line[len("commit "):].strip()
-        elif line.startswith("+") and not line.startswith("+++"):
-            entry = line[1:].strip()
-            if not entry or entry.startswith("#"):
+    rel = hcli_path.name
+    for entry in log.splitlines():
+        date, _, sha = entry.strip().partition(" ")
+        if not sha:
+            continue
+        try:
+            data = json.loads(_git("show", f"{sha}:{rel}"))
+        except (subprocess.CalledProcessError, json.JSONDecodeError):
+            continue  # file absent or unparseable at this revision — skip
+        for plugin in data.get("plugins", []):
+            m = _GITHUB_HOST_RE.search((plugin.get("host") or "").lower())
+            if not m:
                 continue
-            key = entry.lower().rstrip("/").removesuffix(".git")
-            if key and key not in result:  # earliest add wins (--reverse)
-                result[key] = current_date
+            key = m.group(1).rstrip("/").removesuffix(".git")
+            if key not in result:  # earliest commit containing the repo wins
+                result[key] = date
     return result
 
 
@@ -621,7 +631,6 @@ def do_merge(
     metadata_path: Path | None,
     out_path: Path,
     mirror_dir: Path | None = None,
-    known_repos_path: Path | None = None,
 ) -> None:
     # ── Load inputs ──────────────────────────────────────────────────────────
     logger.info("Loading inputs...")
@@ -663,13 +672,13 @@ def do_merge(
         return github_metadata_lower.get(f"{owner}/{repo}".lower()) or {}
 
     tags_map = build_tags_map(tags_array)
-    discovered_map = build_discovered_map(known_repos_path)
+    added_at_map = build_added_at_map(hcli_path)
 
     def get_added_at(owner: str, repo: str) -> str | None:
-        return discovered_map.get(f"{owner}/{repo}".lower())
+        return added_at_map.get(f"{owner}/{repo}".lower())
 
     logger.info("Loaded: %d API plugins, %d HCLI plugins, %d tag entries, %d repo metadata entries, %d catalog-entry dates",
-                len(api_plugins_raw), len(hcli_plugins_raw), len(tags_array), len(github_metadata), len(discovered_map))
+                len(api_plugins_raw), len(hcli_plugins_raw), len(tags_array), len(github_metadata), len(added_at_map))
 
     # ── Build lookup maps ────────────────────────────────────────────────────
     # HCLI: key = "owner/repo/plugin_name".lower() (one plugin per entry, unique)
@@ -789,9 +798,9 @@ def do_merge(
     # typo or owner/repo case mismatch would otherwise yield zero coverage silently.
     added_count = sum(1 for p in output_plugins if p.metadata.dynamic_metadata.added_at)
     logger.info("Catalog-entry dates: %d/%d plugins have added_at", added_count, len(output_plugins))
-    if discovered_map and added_count == 0:
-        logger.warning("known-repos supplied %d dates but no plugin matched — check owner/repo keys",
-                       len(discovered_map))
+    if added_at_map and added_count == 0:
+        logger.warning("index history yielded %d dates but no plugin matched — check owner/repo keys",
+                       len(added_at_map))
 
     # Verify no duplicates
     slugs = [p.slug for p in output_plugins]
@@ -837,8 +846,6 @@ def main() -> None:
                         help="Output directory for combined.json")
     parser.add_argument("--mirror-dir", type=Path, default=None,
                         help="Local mirror directory (e.g. public/plugins/) — avoids GitHub HTTP requests for HCLI plugins")
-    parser.add_argument("--known-repos", type=Path, default=None,
-                        help="known-repositories.txt — supplies catalog-entry dates (dynamic_metadata.added_at) reconstructed from the file's git history")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
@@ -862,7 +869,6 @@ def main() -> None:
         metadata_path=args.metadata,
         out_path=args.out,
         mirror_dir=args.mirror_dir,
-        known_repos_path=args.known_repos,
     )
 
 
