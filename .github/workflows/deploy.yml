@@ -82,30 +82,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Merge plugins
-        env:
-          # Hex-Rays portal API key, used only to read the IDA download catalog
-          # (`hcli download --list-tags`) so idaVersions can be capped at the
-          # latest released IDA (EA-762). hcli authenticates from this env var
-          # automatically. If the secret is unset/invalid the derivation yields
-          # nothing and merge_plugins.py falls back to its built-in default —
-          # the build never fails on this.
-          HCLI_API_KEY: ${{ secrets.HCLI_API_KEY }}
-          HCLI_DISABLE_UPDATES: 1
+        # EA-762: idaVersions are capped at the latest released IDA via
+        # merge_plugins.py's LATEST_RELEASED_IDA. Override with the env var when a
+        # new IDA ships (e.g. LATEST_RELEASED_IDA: "9.5") — no auth/secret needed.
         run: |
           mkdir -p ./public/plugins/
-
-          # EA-762: derive the latest released IDA from the hcli download catalog.
-          # Keeps only numeric ida-pro:X.Y[spN] tags (excludes betas / ida-pro:latest
-          # / OS-suffixed dupes) and takes the max.
-          latest=$(uvx --from ida-hcli hcli --disable-updates download --list-tags 2>/dev/null \
-            | grep -oE 'ida-pro:[0-9]+\.[0-9]+(sp[0-9]+)?\b' | cut -d: -f2 | sort -V | tail -1 || true)
-          if [ -n "$latest" ]; then
-            echo "Latest released IDA from hcli: $latest"
-            export LATEST_RELEASED_IDA="$latest"
-          else
-            echo "hcli unavailable/unauthenticated; using merge_plugins.py default for LATEST_RELEASED_IDA"
-          fi
-
           uv run --script scripts/merge_plugins.py \
             --hcli plugin-repository.json \
             --tags tags.json \

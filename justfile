@@ -29,35 +29,11 @@ collect-stars:
     uv run scripts/snapshot_github_repo_metadata.py plugin-repository.json public/plugins/
 
 
-# Print the latest released IDA version, derived from the hcli download catalog
-# (EA-762). Requires `hcli login`; prints nothing if hcli is unavailable or
-# unauthenticated, so callers can fall back to merge_plugins.py's default.
-# NOTE: confirm the tag format against real `hcli download --list-tags` output —
-# the regex excludes betas/rcs (ida-pro:9.5beta) and tolerates OS-suffixed tags
-# (ida-pro:9.2:armmac), keeping only numeric ida-pro:X.Y[spN].
-latest-ida:
-    #!/usr/bin/env bash
-    uvx --from ida-hcli hcli --disable-updates download --list-tags 2>/dev/null \
-        | grep -oE 'ida-pro:[0-9]+\.[0-9]+(sp[0-9]+)?\b' \
-        | cut -d: -f2 \
-        | sort -V \
-        | tail -1 || true
-
-
+# EA-762: idaVersions are capped at the latest released IDA via merge_plugins.py's
+# LATEST_RELEASED_IDA (default baked in; override with the env var when a new IDA
+# ships, e.g. `LATEST_RELEASED_IDA=9.5 just merge-plugins`).
 merge-plugins:
-    #!/usr/bin/env bash
-    set -euo pipefail
     mkdir -p ./public/plugins/
-    # EA-762: cap idaVersions at the latest released IDA. Derive it dynamically
-    # from the hcli download catalog; if hcli is unavailable/unauthenticated,
-    # fall back to the reviewed default baked into merge_plugins.py.
-    latest="$(just latest-ida)"
-    if [ -n "$latest" ]; then
-        echo "Latest released IDA from hcli: $latest"
-        export LATEST_RELEASED_IDA="$latest"
-    else
-        echo "hcli unavailable/unauthenticated; using merge_plugins.py default for LATEST_RELEASED_IDA"
-    fi
     uv run --script scripts/merge_plugins.py \
         --hcli plugin-repository.json \
         --tags tags.json \
