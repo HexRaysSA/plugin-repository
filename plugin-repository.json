@@ -18501,6 +18501,64 @@
             }
         },
         {
+            "host": "https://github.com/chichou/idasvg",
+            "name": "idasvg",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "codecolorist@gmail.com",
+                                        "name": "chichou"
+                                    }
+                                ],
+                                "categories": [
+                                    "other"
+                                ],
+                                "description": "Export IDA graph view layouts to SVG",
+                                "entryPoint": "idasvg.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "graph",
+                                    "svg",
+                                    "export",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "idasvg",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/chichou/idasvg"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "e2147b28aaf3ae3564345253fa2217e846d7308b84daf5891c9e490799ae3765",
+                        "url": "https://codeload.github.com/ChiChou/idasvg/legacy.zip/fe9120b4a0d275d500da45b81d307721bdfcd24c"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/hasherezade/ida_ifl",
             "name": "IFL",
             "versions": {

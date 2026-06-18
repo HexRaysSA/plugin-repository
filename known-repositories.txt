@@ -332,3 +332,6 @@ bkerler/ida_rpc
 
 # Discovered on 2026-06-16 06:12:00
 dump-guy/ida-nativeaot
+
+# Discovered on 2026-06-18 22:33:45
+chichou/idasvg
