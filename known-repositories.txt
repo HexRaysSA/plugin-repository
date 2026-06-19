@@ -36,7 +36,6 @@ azzonfire/msdocsviewer-ex
 azzonfire/yarka
 berk000x/binarylens
 binarly-io/efixplorer
-binarly-io/idalib
 binarly-io/idapcode
 binsync/binsync
 bizarrus/assemport
