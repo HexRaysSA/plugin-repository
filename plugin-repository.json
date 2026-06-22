@@ -19659,6 +19659,61 @@
             }
         },
         {
+            "host": "https://github.com/nevergiveupcpp/oh-my-dump",
+            "name": "oh-my-dump",
+            "versions": {
+                "1.0.15": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nevergiveupcxx@gmail.com",
+                                        "name": "nevergiveupcpp"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "IDA Pro plugin for transferring analysis data between different versions of the same binary.",
+                                "entryPoint": "oh-my-dump",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "automatic",
+                                    "binary-analysis",
+                                    "reverse-engineering",
+                                    "ida-pro",
+                                    "ida"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "./omd-logo.png",
+                                "maintainers": [],
+                                "name": "oh-my-dump",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nevergiveupcpp/oh-my-dump"
+                                },
+                                "version": "1.0.15"
+                            }
+                        },
+                        "sha256": "2360090b5faf68b249d03133d3ef5a4c771df2efad0aacfc3c2304352f26a436",
+                        "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/1.0.15/hcli-omd-plugin.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/idawilli",
             "name": "oplog",
             "versions": {

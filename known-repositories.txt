@@ -334,3 +334,6 @@ dump-guy/ida-nativeaot
 
 # Discovered on 2026-06-18 22:33:45
 chichou/idasvg
+
+# Discovered on 2026-06-22 01:41:50
+nevergiveupcpp/oh-my-dump
