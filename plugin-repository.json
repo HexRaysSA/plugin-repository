@@ -11803,6 +11803,94 @@
                         "sha256": "cfc78d9351b847ab0f8a9b0d44508b253a5a968f45e3e93fb6afbe6a469b40e7",
                         "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.8.94/hrtng-ida9.3.zip"
                     }
+                ],
+                "3.9.105": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.105"
+                            }
+                        },
+                        "sha256": "56dfb421b3bc6b0a3429a61b59d99847f61ca3fceaeaab9a7a4038bd7fbc66f7",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.105/hrtng-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.105"
+                            }
+                        },
+                        "sha256": "005ba304e04b1138c9610b860a0481ae7a9345860ae3e770d9ac915c81f8480c",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.105/hrtng-ida9.2.zip"
+                    }
                 ]
             }
         },
@@ -19192,6 +19280,60 @@
                                 "version": "1.0.19"
                             }
                         },
+                        "sha256": "c6373e0e556e6f8973a671a2e781f914791ea6697b674bbd986b1148d8da49f1",
+                        "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/449815b95496a0f4c05cd49cb340ddccba9c862d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yoav.sternberg@gmail.com",
+                                        "name": "Yoav Sternberg"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "A plugin for IDA Pro 9.0+ to help with iOS code analysis.",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "ios",
+                                    "objc",
+                                    "swift",
+                                    "kernel-cache"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "res/logo.png",
+                                "maintainers": [],
+                                "name": "iOSHelper",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-ios-helper==1.0.19"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/yoavst/ida-ios-helper"
+                                },
+                                "version": "1.0.19"
+                            }
+                        },
                         "sha256": "27e41cb75922e8c718b43c24d375f6286a9557ff1433e11985915f381e8e49e0",
                         "url": "https://codeload.github.com/yoavst/ida-ios-helper/legacy.zip/4ff8ac504443d717ce24c29c31fa84ff686aadcc"
                     }
@@ -24557,6 +24699,128 @@
                         },
                         "sha256": "a2f4753a80230ff92b561f7f10eb92258b8b62fd8382ed1129764eec0f5e3f67",
                         "url": "https://github.com/threatray/plugin-ida/releases/download/v3.0.0/threatray-ida-v3.0.0.zip"
+                    }
+                ],
+                "3.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@threatray.com",
+                                        "name": "Threatray AG"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Attribute functions to malware families and libraries, find function clusters across samples, and retrohunt similar functions on the Threatray platform.",
+                                "entryPoint": "threatray_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "threat-intelligence",
+                                    "malware",
+                                    "retrohunt",
+                                    "code-similarity",
+                                    "function-clustering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "threatray",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests>=2.27"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://threatray.com",
+                                    "repository": "https://github.com/threatray/plugin-ida"
+                                },
+                                "version": "3.0.2"
+                            }
+                        },
+                        "sha256": "fc9e5a63990812af056ce9bd2713ab2383ed5f84cb0d9773a26bbac291eee05d",
+                        "url": "https://codeload.github.com/threatray/plugin-ida/legacy.zip/277b3cb49f6c7dbc8f37885661aab6c6ca92360d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@threatray.com",
+                                        "name": "Threatray AG"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Attribute functions to malware families and libraries, find function clusters across samples, and retrohunt similar functions on the Threatray platform.",
+                                "entryPoint": "threatray_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "threat-intelligence",
+                                    "malware",
+                                    "retrohunt",
+                                    "code-similarity",
+                                    "function-clustering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "threatray",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests>=2.27"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://threatray.com",
+                                    "repository": "https://github.com/threatray/plugin-ida"
+                                },
+                                "version": "3.0.2"
+                            }
+                        },
+                        "sha256": "ec82734e49a6a80d430461a29854bf031775814092aabf3359332f5eb695f7a0",
+                        "url": "https://github.com/threatray/plugin-ida/releases/download/v3.0.2/threatray-ida-v3.0.2.zip"
                     }
                 ]
             }
