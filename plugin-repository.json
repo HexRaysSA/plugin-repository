@@ -15457,6 +15457,148 @@
                         "sha256": "1e847bc340590a00eafec4207f693994ea11dfe5742655b44dbf5e9e6b66fbb9",
                         "url": "https://codeload.github.com/williballenthin/ida-settings/legacy.zip/0afde3a4b1957df32ed5e8f002539f3f4ab4bfd8"
                     }
+                ],
+                "1.2.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Settings manager UI for IDA Pro plugins",
+                                "entryPoint": "./plugin/entrypoint.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "settings",
+                                    "configuration",
+                                    "preferences",
+                                    "plugin-manager",
+                                    "ui",
+                                    "editor"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-settings-editor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-hcli",
+                                    "ida-settings"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": "Required API key for authentication (cannot be deleted)",
+                                        "key": "required_api_key",
+                                        "name": "Demo API Key",
+                                        "prompt": true,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "default-value",
+                                        "documentation": "A demo string setting to test the settings editor",
+                                        "key": "key1",
+                                        "name": "Demo String Setting",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "A demo boolean setting to test the settings editor",
+                                        "key": "key2",
+                                        "name": "Demo Boolean Setting",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": [
+                                            "debug",
+                                            "info",
+                                            "warning",
+                                            "error"
+                                        ],
+                                        "default": "info",
+                                        "documentation": "Logging verbosity level",
+                                        "key": "log_level",
+                                        "name": "Demo Log Level",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "https://api.example.com",
+                                        "documentation": "URL for the API endpoint (must start with https://)",
+                                        "key": "api_endpoint",
+                                        "name": "Demo API Endpoint",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "string",
+                                        "validation_pattern": "^https://.*$"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose debug logging and diagnostics",
+                                        "key": "enable_debug_mode",
+                                        "name": "Demo Enable Debug Mode",
+                                        "prompt": true,
+                                        "required": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Request timeout in seconds (must be a positive integer)",
+                                        "key": "timeout",
+                                        "name": "Demo Timeout",
+                                        "prompt": true,
+                                        "required": true,
+                                        "type": "string",
+                                        "validation_pattern": "^[1-9][0-9]*$"
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/ida-settings"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "9c5cd634077f1cb76dd293d7037dba5c71916152ffbc3b1c9ac3de6a2b1c632c",
+                        "url": "https://codeload.github.com/williballenthin/ida-settings/legacy.zip/e4f483c15cfa9356121e6334adc00f173e8c3c92"
+                    }
                 ]
             }
         },
