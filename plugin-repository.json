@@ -5828,6 +5828,81 @@
                         "sha256": "5f555324ad2a0ae9b3ee30adce4237a5d626f9b93db35d0564837ed53883ce56",
                         "url": "https://codeload.github.com/VoidSec/DriverBuddyReloaded/legacy.zip/66f8d39a36d43a815cd134ee36afd44d692fa3f3"
                     }
+                ],
+                "2.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "voidsec@voidsec.com",
+                                        "name": "Paolo Stagno"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis"
+                                ],
+                                "description": "Automated triage for Windows kernel drivers: IOCTL discovery and decoding, WDM/WDF/KMDF/UMDF structure labelling, heuristic vulnerability checks, pool tag extraction, device name detection, risk scoring, call-chain tracing, and JSON/HTML/PoC reporting.",
+                                "entryPoint": "DriverBuddyReloaded.py",
+                                "idaVersions": [
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "windows",
+                                    "kernel",
+                                    "driver",
+                                    "IOCTL",
+                                    "WDM",
+                                    "WDF",
+                                    "vulnerability",
+                                    "triage",
+                                    "security",
+                                    "exploit"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "img/logo.png",
+                                "maintainers": [],
+                                "name": "DriverBuddyReloaded",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://voidsec.com",
+                                    "repository": "https://github.com/VoidSec/DriverBuddyReloaded"
+                                },
+                                "version": "2.2.0"
+                            }
+                        },
+                        "sha256": "581a0e959cba375ac6ae9e7f6f1795fab73b7c28ba8995282175c91076fadfbc",
+                        "url": "https://codeload.github.com/VoidSec/DriverBuddyReloaded/legacy.zip/52883ff068079f498afc28e94cb83778fa2aaf3a"
+                    }
                 ]
             }
         },
@@ -13612,6 +13687,66 @@
                         },
                         "sha256": "06c3fea60178b6381677e9a52b2f2550a69b072f38f2b9cc27c895d553eefcf3",
                         "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/fdefd3e7132bb849e56e96cb01933ec1f0edc175"
+                    }
+                ],
+                "0.1.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "info@revskills.de",
+                                        "name": "Bjoern Kerler"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "CLI-driven daemon exposing IDA Pro reverse engineering capabilities over a Unix domain socket",
+                                "entryPoint": "ida_rpc_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "ida-pro",
+                                    "ida",
+                                    "reverse-engineering",
+                                    "decompiler",
+                                    "binary-analysis",
+                                    "rpc",
+                                    "json-rpc",
+                                    "automation",
+                                    "llm",
+                                    "agent"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "ida-plugin.png",
+                                "maintainers": [],
+                                "name": "ida-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "click>=8.1.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/bkerler/ida_rpc"
+                                },
+                                "version": "0.1.4"
+                            }
+                        },
+                        "sha256": "32b62a8feb5917b999f0da93be3e06961a7b860c7c72a1bd70e995808ecc4b35",
+                        "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/55e61b37575cea45643d0a9de26cceeb34f5989c"
                     }
                 ]
             }
