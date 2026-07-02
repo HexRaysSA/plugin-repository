@@ -15841,6 +15841,65 @@
                         "sha256": "9c5cd634077f1cb76dd293d7037dba5c71916152ffbc3b1c9ac3de6a2b1c632c",
                         "url": "https://codeload.github.com/williballenthin/ida-settings/legacy.zip/e4f483c15cfa9356121e6334adc00f173e8c3c92"
                     }
+                ],
+                "1.2.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Settings manager UI for IDA Pro plugins",
+                                "entryPoint": "./plugin/entrypoint.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "settings",
+                                    "configuration",
+                                    "preferences",
+                                    "plugin-manager",
+                                    "ui",
+                                    "editor"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-settings-editor",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-hcli",
+                                    "ida-settings"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/ida-settings"
+                                },
+                                "version": "1.2.3"
+                            }
+                        },
+                        "sha256": "28a5fe913450675f15115e83d9729e71318bd326f2e30b8b162be2b4a799aa88",
+                        "url": "https://codeload.github.com/williballenthin/ida-settings/legacy.zip/5462ad1b6055a7c39d34794466af69277e484969"
+                    }
                 ]
             }
         },
