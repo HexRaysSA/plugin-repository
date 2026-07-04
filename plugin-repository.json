@@ -5903,6 +5903,81 @@
                         "sha256": "581a0e959cba375ac6ae9e7f6f1795fab73b7c28ba8995282175c91076fadfbc",
                         "url": "https://codeload.github.com/VoidSec/DriverBuddyReloaded/legacy.zip/52883ff068079f498afc28e94cb83778fa2aaf3a"
                     }
+                ],
+                "2.4.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "voidsec@voidsec.com",
+                                        "name": "Paolo Stagno"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis"
+                                ],
+                                "description": "Automated triage for Windows kernel drivers: IOCTL discovery and decoding, WDM/WDF/KMDF/UMDF structure labelling, heuristic vulnerability checks, pool tag extraction, device name detection, risk scoring, call-chain tracing, and JSON/HTML reporting.",
+                                "entryPoint": "DriverBuddyReloaded.py",
+                                "idaVersions": [
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "windows",
+                                    "kernel",
+                                    "driver",
+                                    "IOCTL",
+                                    "WDM",
+                                    "WDF",
+                                    "vulnerability",
+                                    "triage",
+                                    "security",
+                                    "exploit"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "img/logo_small.png",
+                                "maintainers": [],
+                                "name": "DriverBuddyReloaded",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://voidsec.com",
+                                    "repository": "https://github.com/VoidSec/DriverBuddyReloaded"
+                                },
+                                "version": "2.4.0"
+                            }
+                        },
+                        "sha256": "0509c6f8d2ca64c0045831774a436df96b693a43b43b804ad872ee0a67e75685",
+                        "url": "https://codeload.github.com/VoidSec/DriverBuddyReloaded/legacy.zip/c289af16e2a9cad9f9cdb72fbd58594a10975b83"
+                    }
                 ]
             }
         },
