@@ -13044,6 +13044,63 @@
             }
         },
         {
+            "host": "https://github.com/reversedcodes/ida-rpc",
+            "name": "IDA-Discord-RPC",
+            "versions": {
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "echtedeveloper@gmail.com",
+                                        "name": "Reversed Codes"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "IDA Discord RPC integrates Discord Rich Presence into IDA, displaying real-time information about your reverse engineering activity directly in your Discord profile: current function, view, file, debugging status and more - all configurable from a settings dialog.",
+                                "entryPoint": "ida_discord_rpc",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "discord",
+                                    "rich-presence",
+                                    "rpc",
+                                    "presence",
+                                    "status"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": "assets/ida-discord.png",
+                                "maintainers": [],
+                                "name": "IDA-Discord-RPC",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/reversedcodes/IDA-RPC"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "106fff18d7e156e0873c955f23b31f94ba0eb4a5f39d587080bd966d90c0a22a",
+                        "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/9.3-1.0/ida_discord_rpc-9.3-1.0.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/milankovo/ida_enums_helper",
             "name": "ida-enums-helper",
             "versions": {
