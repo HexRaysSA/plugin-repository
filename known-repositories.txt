@@ -337,3 +337,6 @@ chichou/idasvg
 
 # Discovered on 2026-06-22 01:41:50
 nevergiveupcpp/oh-my-dump
+
+# added 2026-07-05
+pgarba/ida-llm-explainer
