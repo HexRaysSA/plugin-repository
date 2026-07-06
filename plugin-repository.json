@@ -20135,6 +20135,64 @@
             }
         },
         {
+            "host": "https://github.com/pgarba/ida-llm-explainer",
+            "name": "llm-explainer",
+            "versions": {
+                "1.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "42b17cc72a0f3373a5bcd34bcb4015331d6129a7f88437be00d936755edf6792",
+                        "url": "https://codeload.github.com/pgarba/ida-llm-explainer/legacy.zip/1d5c26cd7d16489698e2f102e3a74da649e61001"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/milankovo/navcolor",
             "name": "navcolor",
             "versions": {
