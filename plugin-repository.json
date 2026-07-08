@@ -5978,6 +5978,81 @@
                         "sha256": "0509c6f8d2ca64c0045831774a436df96b693a43b43b804ad872ee0a67e75685",
                         "url": "https://codeload.github.com/VoidSec/DriverBuddyReloaded/legacy.zip/c289af16e2a9cad9f9cdb72fbd58594a10975b83"
                     }
+                ],
+                "2.5.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "voidsec@voidsec.com",
+                                        "name": "Paolo Stagno"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis"
+                                ],
+                                "description": "Automated triage for Windows kernel drivers: IOCTL discovery and decoding, WDM/WDF/KMDF/UMDF structure labelling, heuristic vulnerability checks, pool tag extraction, device name detection, risk scoring, call-chain tracing, and JSON/HTML reporting.",
+                                "entryPoint": "DriverBuddyReloaded.py",
+                                "idaVersions": [
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "windows",
+                                    "kernel",
+                                    "driver",
+                                    "IOCTL",
+                                    "WDM",
+                                    "WDF",
+                                    "vulnerability",
+                                    "triage",
+                                    "security",
+                                    "exploit"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "img/logo_small.png",
+                                "maintainers": [],
+                                "name": "DriverBuddyReloaded",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://voidsec.com",
+                                    "repository": "https://github.com/VoidSec/DriverBuddyReloaded"
+                                },
+                                "version": "2.5.1"
+                            }
+                        },
+                        "sha256": "31a8eeaa81a04737d7e3acff4455fc32ed6f4ff7d79a87755b54c38bdace00d3",
+                        "url": "https://codeload.github.com/VoidSec/DriverBuddyReloaded/legacy.zip/f983af7be5e00421881c6223b6638880a242f9ba"
+                    }
                 ]
             }
         },
@@ -13237,6 +13312,62 @@
                         },
                         "sha256": "e5237c13a237a6f9b507286bb2cb81b82ba5762a7b4d81a56512fa01d5630539",
                         "url": "https://codeload.github.com/HexRaysSA/ida-cyberchef/legacy.zip/17948e9610e82973d740c55cbe71c450ecaf18ff"
+                    }
+                ],
+                "0.3.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "CyberChef in IDA",
+                                "entryPoint": "entrypoint.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "encoding",
+                                    "decoding",
+                                    "encryption",
+                                    "decryption",
+                                    "data",
+                                    "transformation"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-cyberchef",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pydantic>=2",
+                                    "pythonmonkey>=1.3.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-cyberchef"
+                                },
+                                "version": "0.3.2"
+                            }
+                        },
+                        "sha256": "da9994444fdd714af0608c569b082465485356fece11d4f89fce7bd0ca17dd4b",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-cyberchef/legacy.zip/1eaf10b76cb2541d52dc2194d79038282ee20e18"
                     }
                 ]
             }
