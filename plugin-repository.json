@@ -20634,6 +20634,210 @@
                         "sha256": "42b17cc72a0f3373a5bcd34bcb4015331d6129a7f88437be00d936755edf6792",
                         "url": "https://codeload.github.com/pgarba/ida-llm-explainer/legacy.zip/1d5c26cd7d16489698e2f102e3a74da649e61001"
                     }
+                ],
+                "1.6.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.6.2"
+                            }
+                        },
+                        "sha256": "120370e7c1fa020ce75d731b3c3219afe48f79fed9108445cc6ab9c4584d8fe6",
+                        "url": "https://codeload.github.com/pgarba/ida-llm-explainer/legacy.zip/21d60a5544fa1842917bbe334bda255c0017bd1d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.6.2"
+                            }
+                        },
+                        "sha256": "4a051f0042eaa5913f6fb304fa357f45d95fff1ec4b2130a3c78c9042f8d11e1",
+                        "url": "https://github.com/pgarba/ida-llm-explainer/releases/download/v1.6.2/llm-explainer-1.6.2.zip"
+                    }
+                ],
+                "1.7.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.7.0"
+                            }
+                        },
+                        "sha256": "9ae7efb25de96d06edcb83a46e0de1c9da49382759d7fa16d138150752f994db",
+                        "url": "https://codeload.github.com/pgarba/ida-llm-explainer/legacy.zip/bc97e2b6b42771e77e936a507f0321b844f314db"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.7.0"
+                            }
+                        },
+                        "sha256": "5cbdb6d3db6647ee7f2c326baf87e0b7bf0ac8bed80eccd5d965b1dc8a516bf9",
+                        "url": "https://github.com/pgarba/ida-llm-explainer/releases/download/v1.7.0/llm-explainer-1.7.0.zip"
+                    }
                 ]
             }
         },
@@ -21191,6 +21395,558 @@
                         },
                         "sha256": "538714ffa5309af6933029022d050759f37d535ab2ad980aad1529fa3cfae8f3",
                         "url": "https://github.com/danielplohmann/mcrit-plugin/releases/download/v1.1.7/mcrit-ida-1.1.7.zip"
+                    }
+                ],
+                "1.1.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "daniel.plohmann@fkie.fraunhofer.de",
+                                        "name": "Daniel Plohmann"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Integration with MCRIT server for code similarity analysis.",
+                                "entryPoint": "ida_mcrit.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcrit",
+                                    "minhash",
+                                    "smda",
+                                    "code-similarity",
+                                    "malware-analysis",
+                                    "yara"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "icons/mcrit.png",
+                                "maintainers": [],
+                                "name": "mcrit-ida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "smda>=2.4.6",
+                                    "ida-settings>=3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Username for MCRITWeb (optional if API Token is provided).",
+                                        "key": "mcritweb_username",
+                                        "name": "MCRITWeb Username",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "http://127.0.0.1:8000/",
+                                        "documentation": "URL of the MCRIT server.",
+                                        "key": "mcrit_server",
+                                        "name": "MCRIT Server URL",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "10",
+                                        "documentation": "Timeout for MCRIT API requests.",
+                                        "key": "mcrit_request_timeout",
+                                        "name": "MCRIT Request Timeout (seconds)",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Restrict MCRIT matching requests to samples in the server-side sample group.",
+                                        "key": "sample_group_only",
+                                        "name": "Restrict Matches to Sample Group",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "API Token for MCRITWeb authentication.",
+                                        "key": "mcritweb_api_token",
+                                        "name": "MCRITWeb API Token",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically convert IDB to SMDA on plugin startup.",
+                                        "key": "auto_analyze_smda_on_startup",
+                                        "name": "Auto Analyze SMDA on Startup",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Use SMDA for code analysis instead of IDA's engine.",
+                                        "key": "use_smda_for_analysis",
+                                        "name": "Use SMDA for Analysis",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Ask to upload updated function names to MCRIT server on close.",
+                                        "key": "submit_function_names_on_close",
+                                        "name": "Submit Function Names on Close",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Block Scope Widget.",
+                                        "key": "blocks_filter_library_functions",
+                                        "name": "Blocks: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Block Scope Widget.",
+                                        "key": "blocks_live_query",
+                                        "name": "Blocks: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "4",
+                                        "documentation": "Minimum block size for Block Scope Widget.",
+                                        "key": "blocks_min_size",
+                                        "name": "Blocks: Minimum Size",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Function Scope Widget.",
+                                        "key": "function_filter_library_functions",
+                                        "name": "Functions: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Function Scope Widget.",
+                                        "key": "function_live_query",
+                                        "name": "Functions: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Scope Widget.",
+                                        "key": "function_min_score",
+                                        "name": "Functions: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically fetch labels in Function Overview Widget.",
+                                        "key": "overview_fetch_labels_automatically",
+                                        "name": "Overview: Fetch Labels Automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to labels in Function Overview Widget.",
+                                        "key": "overview_filter_to_labels",
+                                        "name": "Overview: Filter to Labels",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to conflicts in Function Overview Widget.",
+                                        "key": "overview_filter_to_conflicts",
+                                        "name": "Overview: Filter to Conflicts",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Overview Widget.",
+                                        "key": "overview_min_score",
+                                        "name": "Overview: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/danielplohmann/mcrit-plugin"
+                                },
+                                "version": "1.1.8"
+                            }
+                        },
+                        "sha256": "e5ef29e5930dda93202046b459473389f212ba5116b6c34be8fa7a42d93cf838",
+                        "url": "https://codeload.github.com/danielplohmann/mcrit-plugin/legacy.zip/d531fd8b8391162d28c221680ff8773db0caf8d6"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "daniel.plohmann@fkie.fraunhofer.de",
+                                        "name": "Daniel Plohmann"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Integration with MCRIT server for code similarity analysis.",
+                                "entryPoint": "ida_mcrit.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcrit",
+                                    "minhash",
+                                    "smda",
+                                    "code-similarity",
+                                    "malware-analysis",
+                                    "yara"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "icons/mcrit.png",
+                                "maintainers": [],
+                                "name": "mcrit-ida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "smda>=2.4.6",
+                                    "ida-settings>=3.3.0"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Username for MCRITWeb (optional if API Token is provided).",
+                                        "key": "mcritweb_username",
+                                        "name": "MCRITWeb Username",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "http://127.0.0.1:8000/",
+                                        "documentation": "URL of the MCRIT server.",
+                                        "key": "mcrit_server",
+                                        "name": "MCRIT Server URL",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "10",
+                                        "documentation": "Timeout for MCRIT API requests.",
+                                        "key": "mcrit_request_timeout",
+                                        "name": "MCRIT Request Timeout (seconds)",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Restrict MCRIT matching requests to samples in the server-side sample group.",
+                                        "key": "sample_group_only",
+                                        "name": "Restrict Matches to Sample Group",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "API Token for MCRITWeb authentication.",
+                                        "key": "mcritweb_api_token",
+                                        "name": "MCRITWeb API Token",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically convert IDB to SMDA on plugin startup.",
+                                        "key": "auto_analyze_smda_on_startup",
+                                        "name": "Auto Analyze SMDA on Startup",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Use SMDA for code analysis instead of IDA's engine.",
+                                        "key": "use_smda_for_analysis",
+                                        "name": "Use SMDA for Analysis",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Ask to upload updated function names to MCRIT server on close.",
+                                        "key": "submit_function_names_on_close",
+                                        "name": "Submit Function Names on Close",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Block Scope Widget.",
+                                        "key": "blocks_filter_library_functions",
+                                        "name": "Blocks: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Block Scope Widget.",
+                                        "key": "blocks_live_query",
+                                        "name": "Blocks: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "4",
+                                        "documentation": "Minimum block size for Block Scope Widget.",
+                                        "key": "blocks_min_size",
+                                        "name": "Blocks: Minimum Size",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Function Scope Widget.",
+                                        "key": "function_filter_library_functions",
+                                        "name": "Functions: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Function Scope Widget.",
+                                        "key": "function_live_query",
+                                        "name": "Functions: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Scope Widget.",
+                                        "key": "function_min_score",
+                                        "name": "Functions: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically fetch labels in Function Overview Widget.",
+                                        "key": "overview_fetch_labels_automatically",
+                                        "name": "Overview: Fetch Labels Automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to labels in Function Overview Widget.",
+                                        "key": "overview_filter_to_labels",
+                                        "name": "Overview: Filter to Labels",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to conflicts in Function Overview Widget.",
+                                        "key": "overview_filter_to_conflicts",
+                                        "name": "Overview: Filter to Conflicts",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Overview Widget.",
+                                        "key": "overview_min_score",
+                                        "name": "Overview: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/danielplohmann/mcrit-plugin"
+                                },
+                                "version": "1.1.8"
+                            }
+                        },
+                        "sha256": "5e24625082783d764144a4d92732a8d62c09ab36a4a58ddc3aecb98f09fbda7f",
+                        "url": "https://github.com/danielplohmann/mcrit-plugin/releases/download/v1.1.8/mcrit-ida-1.1.8.zip"
                     }
                 ]
             }
