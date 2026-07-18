@@ -25447,6 +25447,64 @@
                         "sha256": "3c6548d361de1a57712a95ca3cd1bf212052608360d172f8d060e776ac3c107d",
                         "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/59756416b8b41e7dd725daaca17a3de0ebea29e4"
                     }
+                ],
+                "1.14.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "decompilation",
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Create and search resilient byte signatures for functions and addresses in IDA Pro.",
+                                "entryPoint": "src/sigmaker/__init__.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "binary-patterns",
+                                    "function-identification",
+                                    "signature-generation",
+                                    "signature-search"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/sigmaker-logo.png",
+                                "maintainers": [],
+                                "name": "SigMaker",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "sigmaker==1.14.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/ida-sigmaker"
+                                },
+                                "version": "1.14.0"
+                            }
+                        },
+                        "sha256": "be8afaba6cec1b7e00c6424bbccca1d32eb1e38b37326853e84c5ac313bd5e06",
+                        "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/fb9069d9087db7352cfd099e774b03ae76b258fe"
+                    }
                 ]
             }
         },
