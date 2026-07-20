@@ -16788,6 +16788,206 @@
             }
         },
         {
+            "host": "https://github.com/mahmoudimus/ida-taskr",
+            "name": "ida-taskr",
+            "versions": {
+                "1.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A Qt-based multiprocessing framework for IDA Pro that enables parallel computing without blocking the UI. Features simple decorator API (@cpu_task, @parallel, @shared_memory_task), process-based executors, and bidirectional worker IPC.",
+                                "entryPoint": "entry_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "multiprocessing",
+                                    "parallel",
+                                    "threading",
+                                    "background-tasks",
+                                    "worker",
+                                    "async",
+                                    "qt",
+                                    "executor",
+                                    "process-pool",
+                                    "shared-memory",
+                                    "decorator",
+                                    "cpu-intensive",
+                                    "non-blocking"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-taskr",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-taskr==1.0.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/ida-taskr"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "bf61584dedaa09579566374cb5eec4a3cba59e9ba90374c9fc2ad0694006b95b",
+                        "url": "https://codeload.github.com/mahmoudimus/ida-taskr/legacy.zip/d399f4a24cb8dccf4edafb7ec3171b7aa96aeb52"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A Qt-based multiprocessing framework for IDA Pro that enables parallel computing without blocking the UI. Features simple decorator API (@cpu_task, @parallel, @shared_memory_task), process-based executors, and bidirectional worker IPC.",
+                                "entryPoint": "entry_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "multiprocessing",
+                                    "parallel",
+                                    "threading",
+                                    "background-tasks",
+                                    "worker",
+                                    "async",
+                                    "qt",
+                                    "executor",
+                                    "process-pool",
+                                    "shared-memory",
+                                    "decorator",
+                                    "cpu-intensive",
+                                    "non-blocking"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-taskr",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-taskr==1.0.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/ida-taskr"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "5fc723049db85fb558972c98a0e3ec8ae83e4e1b9a376b70b27863c8678e4eb6",
+                        "url": "https://github.com/mahmoudimus/ida-taskr/releases/download/v1.0.3/ida-taskr-1.0.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A Qt-based multiprocessing framework for IDA Pro that enables parallel computing without blocking the UI. Features simple decorator API (@cpu_task, @parallel, @shared_memory_task), process-based executors, and bidirectional worker IPC.",
+                                "entryPoint": "entry_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "multiprocessing",
+                                    "parallel",
+                                    "threading",
+                                    "background-tasks",
+                                    "worker",
+                                    "async",
+                                    "qt",
+                                    "executor",
+                                    "process-pool",
+                                    "shared-memory",
+                                    "decorator",
+                                    "cpu-intensive",
+                                    "non-blocking"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-taskr",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-taskr==1.0.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/ida-taskr"
+                                },
+                                "version": "1.0.3"
+                            }
+                        },
+                        "sha256": "5fc723049db85fb558972c98a0e3ec8ae83e4e1b9a376b70b27863c8678e4eb6",
+                        "url": "https://github.com/mahmoudimus/ida-taskr/releases/download/v1.0.3/ida-taskr-latest.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/hexrayssa/ida-terminal-plugin",
             "name": "ida-terminal-plugin",
             "versions": {
@@ -19964,6 +20164,124 @@
                         },
                         "sha256": "e2147b28aaf3ae3564345253fa2217e846d7308b84daf5891c9e490799ae3765",
                         "url": "https://codeload.github.com/ChiChou/idasvg/legacy.zip/fe9120b4a0d275d500da45b81d307721bdfcd24c"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/mahmoudimus/idavator",
+            "name": "idavator",
+            "versions": {
+                "0.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "IDAvator is a bi-directional bridge between IDA Pro's Hex-Rays microcode and LLVM IR. It lets you lift decompiler microcode into LLVM for analysis, optimization, or deobfuscation. Then, drop it back into IDA, patched and ready for further exploration.",
+                                "entryPoint": "entry_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "llvm",
+                                    "microcode",
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "ida2llvm"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "idavator",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "idavator==0.1.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/idavator"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "d5eb4eea5aa07de4bef234ba411333579158f344dd9dfab4c670634a18d80c4d",
+                        "url": "https://codeload.github.com/mahmoudimus/idavator/legacy.zip/e79b7f6afdb26623702a5bf0de5e7ef8d2072faf"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "description": "IDAvator is a bi-directional bridge between IDA Pro's Hex-Rays microcode and LLVM IR. It lets you lift decompiler microcode into LLVM for analysis, optimization, or deobfuscation. Then, drop it back into IDA, patched and ready for further exploration.",
+                                "entryPoint": "entry_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "llvm",
+                                    "microcode",
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "ida2llvm"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "idavator",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "idavator==0.1.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/idavator"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "1826b63ce87eb3971715bc37ff85de8456309d346d43d60e5bed961a0970548f",
+                        "url": "https://github.com/mahmoudimus/idavator/releases/download/v0.1.1/idavator-0.1.1.zip"
                     }
                 ]
             }
@@ -25444,8 +25762,8 @@
                                 "version": "1.13.0"
                             }
                         },
-                        "sha256": "3c6548d361de1a57712a95ca3cd1bf212052608360d172f8d060e776ac3c107d",
-                        "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/59756416b8b41e7dd725daaca17a3de0ebea29e4"
+                        "sha256": "cc8a427435f07e4144befa1bb63f4998c845af23f4951d083e02f3c37db7cc2e",
+                        "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/144d42986f8d0499b62a5cff7a522ca84bfafe1c"
                     }
                 ],
                 "1.14.0": [
@@ -25502,8 +25820,8 @@
                                 "version": "1.14.0"
                             }
                         },
-                        "sha256": "be8afaba6cec1b7e00c6424bbccca1d32eb1e38b37326853e84c5ac313bd5e06",
-                        "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/fb9069d9087db7352cfd099e774b03ae76b258fe"
+                        "sha256": "54aed289ed8d8d1ba6021f5bc53fc31bc20a9f85cc150c1d579a20cf58409ee6",
+                        "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/7fd35fce0b1749b66e08f866cd0342d312d4ae31"
                     }
                 ]
             }

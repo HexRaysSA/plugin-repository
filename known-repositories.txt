@@ -340,3 +340,7 @@ nevergiveupcpp/oh-my-dump
 
 # added 2026-07-05
 pgarba/ida-llm-explainer
+
+# Discovered on 2026-07-20 05:56:13
+mahmoudimus/ida-taskr
+mahmoudimus/idavator
