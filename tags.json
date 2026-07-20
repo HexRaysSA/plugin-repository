@@ -1,4 +1,40 @@
-[
+[ 
+  {
+    "host": "https://github.com/yoavst/ida-ios-helper",
+    "name": "iOSHelper",
+    "tag": "plugin_contest_2025",
+    "applied_at": "2026-07-20T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/yoavst/ida-ios-helper",
+    "name": "iOSHelper",
+    "tag": "first_place",
+    "applied_at": "2026-07-20T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/binsync/binsync",
+    "name": "BinSync",
+    "tag": "plugin_contest_2025",
+    "applied_at": "2026-07-20T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/binsync/binsync",
+    "name": "BinSync",
+    "tag": "second_place",
+    "applied_at": "2026-07-20T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/nico-posada/crystalre",
+    "name": "CrystalRE",
+    "tag": "plugin_contest_2025",
+    "applied_at": "2026-07-20T00:00:00Z"
+  },
+  {
+    "host": "https://github.com/nico-posada/crystalre",
+    "name": "CrystalRE",
+    "tag": "third_place",
+    "applied_at": "2026-07-20T00:00:00Z"
+  },
   {
     "host": "https://github.com/illera88/Ponce",
     "name": "Ponce",
