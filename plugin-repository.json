@@ -1,196 +1,6 @@
 {
     "plugins": [
         {
-            "host": "https://github.com/o1y/aida",
-            "name": "aida",
-            "versions": {
-                "1.0.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "",
-                                        "name": "Oliver Mesieh"
-                                    }
-                                ],
-                                "categories": [
-                                    "decompilation",
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "AI-powered analysis plugin for IDA Pro. Uses cloud LLMs (Anthropic Claude, OpenAI GPT) to rename functions and variables, generate comments, batch rename call graphs, analyze data references, and export analysis for AI agent workflows.",
-                                "entryPoint": "aida_plugin.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "ai",
-                                    "llm",
-                                    "rename",
-                                    "decompiler",
-                                    "hex-rays",
-                                    "anthropic",
-                                    "openai",
-                                    "reverse-engineering"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "aida",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "anthropic>=0.40.0",
-                                    "openai>=1.0.0"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/o1y/aida"
-                                },
-                                "version": "1.0.0"
-                            }
-                        },
-                        "sha256": "19918f8b23f8401d07c80994e8d14ca3ff2295180769512d02cb4cb4058fc0e3",
-                        "url": "https://codeload.github.com/o1y/AIDA/legacy.zip/90d390647b9df39a7e6bd75516e84f95d01c0796"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "",
-                                        "name": "Oliver Mesieh"
-                                    }
-                                ],
-                                "categories": [
-                                    "decompilation",
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "AI-powered analysis plugin for IDA Pro. Uses cloud LLMs (Anthropic Claude, OpenAI GPT) to rename functions and variables, generate comments, batch rename call graphs, analyze data references, and export analysis for AI agent workflows.",
-                                "entryPoint": "aida_plugin.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "ai",
-                                    "llm",
-                                    "rename",
-                                    "decompiler",
-                                    "hex-rays",
-                                    "anthropic",
-                                    "openai",
-                                    "reverse-engineering"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "aida",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "anthropic>=0.40.0",
-                                    "openai>=1.0.0"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/o1y/aida"
-                                },
-                                "version": "1.0.0"
-                            }
-                        },
-                        "sha256": "6e74409b0a29f2800959d9a71459da9ae45e9c81cc1b93c25992743eeb9d9908",
-                        "url": "https://github.com/o1y/AIDA/releases/download/v1.0.0/aida-1.0.0.zip"
-                    }
-                ],
-                "1.1.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "",
-                                        "name": "Oliver Mesieh"
-                                    }
-                                ],
-                                "categories": [
-                                    "decompilation",
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "AI-powered analysis plugin for IDA Pro. Uses cloud LLMs (Anthropic Claude, OpenAI GPT) to rename functions and variables, generate comments, batch rename call graphs, analyze data references, and export analysis for AI agent workflows.",
-                                "entryPoint": "aida_plugin.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "ai",
-                                    "llm",
-                                    "rename",
-                                    "decompiler",
-                                    "hex-rays",
-                                    "anthropic",
-                                    "openai",
-                                    "reverse-engineering"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": ".github/logo.png",
-                                "maintainers": [],
-                                "name": "aida",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "anthropic>=0.40.0",
-                                    "openai>=1.0.0"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/o1y/aida"
-                                },
-                                "version": "1.1.0"
-                            }
-                        },
-                        "sha256": "80c87419f97120460c9075440eb05f932ae41ca3c9613a2109919d5404ae576e",
-                        "url": "https://codeload.github.com/o1y/AIDA/legacy.zip/134cc06a6bbbe9d01c1bc363f382e8034cba8b9f"
-                    }
-                ]
-            }
-        },
-        {
             "host": "https://github.com/dump-guy/applycalleetypeex",
             "name": "ApplyCalleeTypeEx",
             "versions": {
@@ -996,6 +806,234 @@
                                 "description": "Compare binary files to quickly find differences and similarities in disassembled code",
                                 "entryPoint": "bindiff8_ida64",
                                 "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "66336888cd5bcc5383bb39b7041f13a522e5ccc3713929b12cb0a6be9ce649e6",
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "85075025f0d58e7704e2adaecf5dc9d3085b5092a7f67abea36adefaf56e4973",
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.4.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "76ba6ecfdec8967f55795b9590efe6e871c581764d568edecddb539167c6675f",
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "ee262473a6de349e13ae9eba14790d2befe34076ea287a3659ed57f1b70f526c",
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
                                     "9.0",
                                     "9.0sp1"
                                 ],
@@ -1032,6 +1070,64 @@
                         },
                         "sha256": "c9814f5b2cf2cef9742495c1c7cf527f346f3b8050fc4cd625326a8a073e7aaf",
                         "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "bindiff-team@google.com",
+                                        "name": "BinDiff Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
+                                "entryPoint": "bindiff8_ida64",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "binary-diffing",
+                                    "comparison",
+                                    "vulnerability-research",
+                                    "patch-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "bindiff",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
+                                },
+                                "version": "8.0.0"
+                            }
+                        },
+                        "sha256": "f88d96ec42a3c9eecbf854d1bab2ae4e490bcedc2b1ec6153e1e9a2ade16d0bc",
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.0.zip"
                     },
                     {
                         "metadata": {
@@ -1111,7 +1207,7 @@
                                 "description": "Compare binary files to quickly find differences and similarities in disassembled code",
                                 "entryPoint": "bindiff8_ida64",
                                 "idaVersions": [
-                                    "9.3"
+                                    "9.1"
                                 ],
                                 "keywords": [
                                     "bindiff",
@@ -1144,8 +1240,8 @@
                                 "version": "8.0.0"
                             }
                         },
-                        "sha256": "76ba6ecfdec8967f55795b9590efe6e871c581764d568edecddb539167c6675f",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.3.zip"
+                        "sha256": "d570668ae17a7ef118674ea944b1cb433ae5ae4591a9658a2ed4939c9f6acbcf",
+                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.1.zip"
                     }
                 ]
             }
@@ -1155,6 +1251,177 @@
             "name": "binexport",
             "versions": {
                 "12.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "e466a18bc4c16c517d9ef8703ef8dfb5a9dde0c326ade060aaca54c13d1945cc",
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "77aeb5236a907fe4b8275db8cad3f40656bf4220005a186043ad8641dfca473e",
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "e84c824c5459ff2992b4209338bfd1e6489667ca8329ef05f01527a2ba05ee0a",
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.4.zip"
+                    },
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -1234,6 +1501,64 @@
                                 "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
                                 "entryPoint": "binexport12_ida64",
                                 "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "9f266cac90ada434a15feba04feea26268411478a4e9ebd7ff815368004ebdda",
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.0.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
                                     "9.1"
                                 ],
                                 "keywords": [
@@ -1269,6 +1594,63 @@
                         },
                         "sha256": "d4968be51e40e783f2ebc1ad407ddeb8fa1254dae521bcabfb1fc5adc5803933",
                         "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.1.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "cblichmann@google.com",
+                                        "name": "Christian Blichmann"
+                                    },
+                                    {
+                                        "email": "binexport-team@google.com",
+                                        "name": "BinExport Authors"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
+                                "entryPoint": "binexport12_ida64",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "bindiff",
+                                    "export",
+                                    "protocol-buffers",
+                                    "binary-diffing",
+                                    "disassembly-export"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "name": "binexport",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
+                                },
+                                "version": "12.0.0"
+                            }
+                        },
+                        "sha256": "77503f7fa2b620b3c62bf2d83e72ece4defab6a7a73bfd365c22012740a34d1c",
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.1.zip"
                     },
                     {
                         "metadata": {
@@ -1348,7 +1730,7 @@
                                 "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
                                 "entryPoint": "binexport12_ida64",
                                 "idaVersions": [
-                                    "9.3"
+                                    "9.2"
                                 ],
                                 "keywords": [
                                     "bindiff",
@@ -1381,8 +1763,8 @@
                                 "version": "12.0.0"
                             }
                         },
-                        "sha256": "e466a18bc4c16c517d9ef8703ef8dfb5a9dde0c326ade060aaca54c13d1945cc",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.3.zip"
+                        "sha256": "5a09bf1704c4089586fcd640b11aef21a64b3c163e8705faf19ede4162bfb0c6",
+                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.2.zip"
                     }
                 ]
             }
@@ -21464,6 +21846,210 @@
                         },
                         "sha256": "e08e8ac6fe15f5857eaa938c0d3657d515237bab66450d77499d8758ffbe6377",
                         "url": "https://github.com/pgarba/ida-llm-explainer/releases/download/v1.7.3/llm-explainer-1.7.3.zip"
+                    }
+                ],
+                "1.8.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.8.0"
+                            }
+                        },
+                        "sha256": "de3dd1fcf37c546d903d58158c8278cddbf6efe3cf69bc19e6a4a7615d07a253",
+                        "url": "https://codeload.github.com/pgarba/ida-llm-explainer/legacy.zip/fd77cf1fca98f4c2fc32b47e677f7cbbb82914b3"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.8.0"
+                            }
+                        },
+                        "sha256": "6cd0fcb1c5dfe9ad42551cd459a4dc84c7e2fcba371992957b141f2c34fd4595",
+                        "url": "https://github.com/pgarba/ida-llm-explainer/releases/download/v1.8.0/llm-explainer-1.8.0.zip"
+                    }
+                ],
+                "1.9.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.9.0"
+                            }
+                        },
+                        "sha256": "c0d4835bdb39c5e6dec0cb32997c5a14a8093ee4909928e3695452855b9620d2",
+                        "url": "https://codeload.github.com/pgarba/ida-llm-explainer/legacy.zip/de3945894052f34b609981cae9e36d9a9f13a288"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.9.0"
+                            }
+                        },
+                        "sha256": "c14b2a99acf8e74e9b2bb41ed3f30a7ea2ddb4b65558335b48a16b02d05d1c4d",
+                        "url": "https://github.com/pgarba/ida-llm-explainer/releases/download/v1.9.0/llm-explainer-1.9.0.zip"
                     }
                 ]
             }
