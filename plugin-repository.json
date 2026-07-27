@@ -18527,6 +18527,58 @@
             "host": "https://github.com/idalib-rs/idalib",
             "name": "idalib-rust-bindings",
             "versions": {
+                "0.10.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Idiomatic Rust bindings to IDA SDK",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "bindings"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": "resources/logo.png",
+                                "maintainers": [],
+                                "name": "idalib-rust-bindings",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/idalib-rs/idalib"
+                                },
+                                "version": "0.10.0"
+                            }
+                        },
+                        "sha256": "7409e9f7fa429d76dae782d519c8107bcf8b8e04596b0edf75c477891d3ef5cc",
+                        "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/9b38a13e79998f36bf573ca1ed1ba2543f17d3a6"
+                    }
+                ],
                 "0.8.0": [
                     {
                         "metadata": {
@@ -19386,102 +19438,6 @@
                         },
                         "sha256": "a553bd6a14277387d95fc966b334a506e736e4edc55ec88447ba435217808f0b",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.18/idasql_plugin-v0.0.18.zip"
-                    }
-                ],
-                "0.0.8": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "elias.bachaalany@gmail.com",
-                                        "name": "Elias Bachaalany"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation",
-                                    "collaboration-and-productivity"
-                                ],
-                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional AI agent integration.",
-                                "entryPoint": "idasql",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "IDASQL",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/allthingsida/idasql"
-                                },
-                                "version": "0.0.8"
-                            }
-                        },
-                        "sha256": "93d0269dfde61f2ce6b6e548cb42aa00bc5732626c8c1bc8b23bd8287c66a343",
-                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.9/idasql_plugin-no-agent-v0.0.9.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "elias.bachaalany@gmail.com",
-                                        "name": "Elias Bachaalany"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation",
-                                    "collaboration-and-productivity"
-                                ],
-                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional AI agent integration.",
-                                "entryPoint": "idasql",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "IDASQL",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/allthingsida/idasql"
-                                },
-                                "version": "0.0.8"
-                            }
-                        },
-                        "sha256": "53f381226e37c097880daeb2b74bdbe3f725dd02a3184dbcbe7be82094648420",
-                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.9/idasql_plugin-v0.0.9.zip"
                     }
                 ]
             }
@@ -24303,53 +24259,6 @@
                         },
                         "sha256": "9e4286375295d8b94c1ce2580915ca7862d3ed186e3dbe144ec07ac19ea02c18",
                         "url": "https://github.com/allthingsida/qscripts/releases/download/v1.2.6/qscripts-v1.2.6.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "elias.bachaalany@gmail.com",
-                                        "name": "Elias Bachaalany"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation",
-                                    "collaboration-and-productivity"
-                                ],
-                                "description": "Develop IDA scripts faster with hot-reload and automatic execution on file changes. Supports Python, IDC, and compiled plugins with dependency tracking.",
-                                "entryPoint": "qscripts",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "QScripts",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/allthingsida/qscripts"
-                                },
-                                "version": "1.2.6"
-                            }
-                        },
-                        "sha256": "0902fe2ede9bb4adfd2b7968d991af329a7c944c31d07c725f4091562367b49b",
-                        "url": "https://github.com/allthingsida/qscripts/releases/download/v1.2.7/qscripts-v1.2.7.zip"
                     }
                 ]
             }
