@@ -59,12 +59,14 @@ stderr_console = rich.console.Console(stderr=True)
 
 
 class Author(BaseModel):
-    """An author entry inside idaplugin_json.plugin.authors."""
-    login: str
+    """An author entry inside idaplugin_json.plugin.authors.
+
+    Display-only credits passed through from the plugin's self-declared
+    metadata. Publisher identity (grouping, avatars, author pages) comes from
+    ``metadata.repository_owner`` — the GitHub URL owner — not from here.
+    """
     name: str = ""
     email: str = ""
-    repository_owner: str = ""
-    derivedFromName: bool = False
 
 
 class PluginInfo(BaseModel):
@@ -130,27 +132,6 @@ class CombinedOutput(BaseModel):
     """Top-level wrapper for combined.json."""
     generated_at: str
     plugins: list[Plugin]
-
-
-# ─── Author login derivation (ported from DataMerger.deriveLogin) ─────────────
-
-def derive_login(author: dict, fallback: str) -> tuple[str, bool]:
-    """Return (login, derived_from_name) for an author dict."""
-    name = (author.get("name") or "").strip()
-    if not name:
-        return fallback, False
-    # Looks like a GitHub username already?
-    if re.fullmatch(r"[a-zA-Z0-9-]+", name):
-        return name, False
-    # Try email prefix
-    email = author.get("email") or ""
-    if email:
-        email_user = email.split("@")[0]
-        if email_user and re.fullmatch(r"[a-zA-Z0-9._-]+", email_user):
-            return email_user, False
-    # Normalize display name
-    login = re.sub(r"[^a-z0-9-]", "", name.lower().replace(" ", "-"))
-    return login, True
 
 
 # ─── IDA version range (ported from DataMerger prettifiedVersions) ────────────
@@ -484,20 +465,13 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
         owner, repo, default_branch,
     )
 
-    # Authors
-    raw_authors = plugin_meta.get("authors") or []
-    normalized_authors: list[Author] = []
-    for author in raw_authors:
-        login, derived = derive_login(author, owner)
-        normalized_authors.append(Author(
-            login=login,
-            name=author.get("name") or "",
-            email=author.get("email") or "",
-            repository_owner=owner,
-            derivedFromName=derived,
-        ))
+    # Authors: display-only credits, passed through as declared
+    normalized_authors = [
+        Author(name=author.get("name") or "", email=author.get("email") or "")
+        for author in plugin_meta.get("authors") or []
+    ]
     if not normalized_authors:
-        normalized_authors = [Author(login=owner, name=owner, email="", repository_owner=owner, derivedFromName=False)]
+        normalized_authors = [Author(name=owner)]
 
     # Versions
     ida_versions = cap_ida_versions(plugin_meta.get("idaVersions") or [])
@@ -611,7 +585,12 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
             plugin=PluginInfo(
                 name=raw_plugin.get("name") or plugin_name,
                 description=raw_plugin.get("description") or "",
-                authors=[Author(**a) if isinstance(a, dict) else Author(login=str(a)) for a in (raw_plugin.get("authors") or [])],
+                authors=[
+                    Author(name=a.get("name") or "", email=a.get("email") or "")
+                    if isinstance(a, dict)
+                    else Author(name=str(a))
+                    for a in (raw_plugin.get("authors") or [])
+                ],
                 keywords=raw_plugin.get("keywords") or [],
                 absoluteLogoUrl=raw_plugin.get("absoluteLogoUrl"),
                 version=raw_plugin.get("version"),
