@@ -77,18 +77,37 @@ def get_github_repo_metadata(org: str, repo: str, token: str) -> dict:
     return response.json()
 
 
-def do_snapshot(json_path: Path, out_path: Path, token: str):
+def load_legacy_plugin_urls(api_path: Path) -> list[str]:
+    """Repo URLs from the legacy api-plugins.json dump.
+
+    Legacy plugins are not in the HCLI index, so without this their repos get
+    no GitHub metadata at all — no stars, no owner avatar, and no owner type
+    (the UI then can't label publishers as Organization/Individual).
+    """
+    raw = json.loads(api_path.read_text())
+    if "plugins" in raw and "hits" in raw["plugins"]:
+        hits = raw["plugins"]["hits"]
+    elif "hits" in raw:
+        hits = raw["hits"]
+    else:
+        hits = raw if isinstance(raw, list) else []
+    return [p.get("url") or "" for p in hits]
+
+
+def do_snapshot(json_path: Path, out_path: Path, token: str, api_path: Path | None = None):
     repo = JSONFilePluginRepo.from_file(json_path)
     plugins = repo.get_plugins()
+
+    plugin_urls = [plugin.host for plugin in plugins]
+    if api_path:
+        plugin_urls += load_legacy_plugin_urls(api_path)
 
     seen_repos = set()
     all_metadata = {}
 
-    for plugin in rich.progress.track(
-        plugins, description="Fetching repo metadata", transient=True, console=stderr_console
+    for plugin_url in rich.progress.track(
+        plugin_urls, description="Fetching repo metadata", transient=True, console=stderr_console
     ):
-        plugin_url = plugin.host
-
         github_info = extract_github_org_repo(plugin_url)
         if not github_info:
             logger.debug("skipping: %s (not a GitHub URL)", plugin_url)
@@ -147,6 +166,11 @@ def main() -> None:
     parser.add_argument(
         "output_path", type=Path, metavar="output-path", help="path to output directory"
     )
+    parser.add_argument(
+        "--api",
+        type=Path,
+        help="path to the legacy api-plugins.json dump; its repos are snapshotted too",
+    )
     parser.add_argument("--verbose", action="store_true", help="enable verbose logging")
     args = parser.parse_args()
 
@@ -159,6 +183,9 @@ def main() -> None:
     if not args.plugin_repo_json.exists():
         raise ValueError("`plugin-repo.json` does not exist")
 
+    if args.api and not args.api.exists():
+        raise ValueError(f"--api file does not exist: {args.api}")
+
     if not args.output_path.exists():
         raise ValueError("output-path does not exist")
 
@@ -166,7 +193,7 @@ def main() -> None:
     if not token:
         raise ValueError("GITHUB_TOKEN environment variable is not set")
 
-    do_snapshot(args.plugin_repo_json, args.output_path, token)
+    do_snapshot(args.plugin_repo_json, args.output_path, token, api_path=args.api)
 
 
 if __name__ == "__main__":

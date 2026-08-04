@@ -77,7 +77,7 @@ jobs:
       - name: Fetch star counts
         run: |
           mkdir -p ./public/plugins/
-          uv run scripts/snapshot_github_repo_metadata.py plugin-repository.json public/plugins/
+          uv run scripts/snapshot_github_repo_metadata.py --api api-plugins.json plugin-repository.json public/plugins/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

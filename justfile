@@ -26,7 +26,7 @@ mirror-content:
 
 collect-stars:
     mkdir -p ./public/plugins/
-    uv run scripts/snapshot_github_repo_metadata.py plugin-repository.json public/plugins/
+    uv run scripts/snapshot_github_repo_metadata.py --api api-plugins.json plugin-repository.json public/plugins/
 
 
 # Print the latest released IDA version, derived from the hcli download catalog
