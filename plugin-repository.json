@@ -23117,6 +23117,560 @@
                         "sha256": "5e24625082783d764144a4d92732a8d62c09ab36a4a58ddc3aecb98f09fbda7f",
                         "url": "https://github.com/danielplohmann/mcrit-plugin/releases/download/v1.1.8/mcrit-ida-1.1.8.zip"
                     }
+                ],
+                "1.1.9": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "daniel.plohmann@fkie.fraunhofer.de",
+                                        "name": "Daniel Plohmann"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Integration with MCRIT server for code similarity analysis.",
+                                "entryPoint": "ida_mcrit.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcrit",
+                                    "minhash",
+                                    "smda",
+                                    "code-similarity",
+                                    "malware-analysis",
+                                    "yara"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "icons/mcrit.png",
+                                "maintainers": [],
+                                "name": "mcrit-ida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "smda>=4.3.10",
+                                    "ida-settings>=3.5.1",
+                                    "requests"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Username for MCRITWeb (optional if API Token is provided).",
+                                        "key": "mcritweb_username",
+                                        "name": "MCRITWeb Username",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "http://127.0.0.1:8000/",
+                                        "documentation": "URL of the MCRIT server.",
+                                        "key": "mcrit_server",
+                                        "name": "MCRIT Server URL",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "10",
+                                        "documentation": "Timeout for MCRIT API requests.",
+                                        "key": "mcrit_request_timeout",
+                                        "name": "MCRIT Request Timeout (seconds)",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Restrict MCRIT matching requests to samples in the server-side sample group.",
+                                        "key": "sample_group_only",
+                                        "name": "Restrict Matches to Sample Group",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "API Token for MCRITWeb authentication.",
+                                        "key": "mcritweb_api_token",
+                                        "name": "MCRITWeb API Token",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically convert IDB to SMDA on plugin startup.",
+                                        "key": "auto_analyze_smda_on_startup",
+                                        "name": "Auto Analyze SMDA on Startup",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Use SMDA for code analysis instead of IDA's engine.",
+                                        "key": "use_smda_for_analysis",
+                                        "name": "Use SMDA for Analysis",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Ask to upload updated function names to MCRIT server on close.",
+                                        "key": "submit_function_names_on_close",
+                                        "name": "Submit Function Names on Close",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Block Scope Widget.",
+                                        "key": "blocks_filter_library_functions",
+                                        "name": "Blocks: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Block Scope Widget.",
+                                        "key": "blocks_live_query",
+                                        "name": "Blocks: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "4",
+                                        "documentation": "Minimum block size for Block Scope Widget.",
+                                        "key": "blocks_min_size",
+                                        "name": "Blocks: Minimum Size",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Function Scope Widget.",
+                                        "key": "function_filter_library_functions",
+                                        "name": "Functions: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Function Scope Widget.",
+                                        "key": "function_live_query",
+                                        "name": "Functions: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Scope Widget.",
+                                        "key": "function_min_score",
+                                        "name": "Functions: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically fetch labels in Function Overview Widget.",
+                                        "key": "overview_fetch_labels_automatically",
+                                        "name": "Overview: Fetch Labels Automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to labels in Function Overview Widget.",
+                                        "key": "overview_filter_to_labels",
+                                        "name": "Overview: Filter to Labels",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to conflicts in Function Overview Widget.",
+                                        "key": "overview_filter_to_conflicts",
+                                        "name": "Overview: Filter to Conflicts",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Overview Widget.",
+                                        "key": "overview_min_score",
+                                        "name": "Overview: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/danielplohmann/mcrit-plugin"
+                                },
+                                "version": "1.1.9"
+                            }
+                        },
+                        "sha256": "c0bf856c950fef784278e5c12d0e5644bc37012f0cfaec2ab7b60684bff9ed8a",
+                        "url": "https://codeload.github.com/danielplohmann/mcrit-plugin/legacy.zip/ffffca60b05045fdb201b9335634eb22ba0760ba"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "daniel.plohmann@fkie.fraunhofer.de",
+                                        "name": "Daniel Plohmann"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "Integration with MCRIT server for code similarity analysis.",
+                                "entryPoint": "ida_mcrit.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcrit",
+                                    "minhash",
+                                    "smda",
+                                    "code-similarity",
+                                    "malware-analysis",
+                                    "yara"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "icons/mcrit.png",
+                                "maintainers": [],
+                                "name": "mcrit-ida",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "smda>=4.3.10",
+                                    "ida-settings>=3.5.1",
+                                    "requests"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Username for MCRITWeb (optional if API Token is provided).",
+                                        "key": "mcritweb_username",
+                                        "name": "MCRITWeb Username",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "http://127.0.0.1:8000/",
+                                        "documentation": "URL of the MCRIT server.",
+                                        "key": "mcrit_server",
+                                        "name": "MCRIT Server URL",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "10",
+                                        "documentation": "Timeout for MCRIT API requests.",
+                                        "key": "mcrit_request_timeout",
+                                        "name": "MCRIT Request Timeout (seconds)",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Restrict MCRIT matching requests to samples in the server-side sample group.",
+                                        "key": "sample_group_only",
+                                        "name": "Restrict Matches to Sample Group",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "API Token for MCRITWeb authentication.",
+                                        "key": "mcritweb_api_token",
+                                        "name": "MCRITWeb API Token",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically convert IDB to SMDA on plugin startup.",
+                                        "key": "auto_analyze_smda_on_startup",
+                                        "name": "Auto Analyze SMDA on Startup",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Use SMDA for code analysis instead of IDA's engine.",
+                                        "key": "use_smda_for_analysis",
+                                        "name": "Use SMDA for Analysis",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Ask to upload updated function names to MCRIT server on close.",
+                                        "key": "submit_function_names_on_close",
+                                        "name": "Submit Function Names on Close",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Block Scope Widget.",
+                                        "key": "blocks_filter_library_functions",
+                                        "name": "Blocks: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Block Scope Widget.",
+                                        "key": "blocks_live_query",
+                                        "name": "Blocks: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "4",
+                                        "documentation": "Minimum block size for Block Scope Widget.",
+                                        "key": "blocks_min_size",
+                                        "name": "Blocks: Minimum Size",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Function Scope Widget.",
+                                        "key": "function_filter_library_functions",
+                                        "name": "Functions: Filter Library Functions",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Function Scope Widget.",
+                                        "key": "function_live_query",
+                                        "name": "Functions: Live Query",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Scope Widget.",
+                                        "key": "function_min_score",
+                                        "name": "Functions: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically fetch labels in Function Overview Widget.",
+                                        "key": "overview_fetch_labels_automatically",
+                                        "name": "Overview: Fetch Labels Automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to labels in Function Overview Widget.",
+                                        "key": "overview_filter_to_labels",
+                                        "name": "Overview: Filter to Labels",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to conflicts in Function Overview Widget.",
+                                        "key": "overview_filter_to_conflicts",
+                                        "name": "Overview: Filter to Conflicts",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Overview Widget.",
+                                        "key": "overview_min_score",
+                                        "name": "Overview: Minimum Score",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/danielplohmann/mcrit-plugin"
+                                },
+                                "version": "1.1.9"
+                            }
+                        },
+                        "sha256": "e2443df8ecf8b88c4f2565e39e240979a537697c67d01bb00b4b82682b36ec8f",
+                        "url": "https://github.com/danielplohmann/mcrit-plugin/releases/download/v1.1.9/mcrit-ida-1.1.9.zip"
+                    }
                 ]
             }
         },
