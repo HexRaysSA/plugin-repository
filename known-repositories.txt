@@ -344,3 +344,6 @@ pgarba/ida-llm-explainer
 # Discovered on 2026-07-20 05:56:13
 mahmoudimus/ida-taskr
 mahmoudimus/idavator
+
+# Discovered on 2026-08-05 20:54:18
+hexrayssa/ida-codemode
