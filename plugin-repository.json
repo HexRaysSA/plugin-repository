@@ -137,6 +137,62 @@
                         "sha256": "3693bc0bb58226bb089e9a95efee9b3e0e54c1974ca362f7b557fe58310dac82",
                         "url": "https://codeload.github.com/milankovo/array-helper/legacy.zip/0f134e1a7d1bb027f21141b5d5cf86bb98f09745"
                     }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "array-helper@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Create and resize arrays with hotkeys in the disassembly, stack frame and Local Types views",
+                                "entryPoint": "array_helpers.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "array",
+                                    "sizing",
+                                    "utility",
+                                    "stack-frame",
+                                    "struct"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "array-helper",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/array-helper"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "ba0e4d54969e662bc7e7974db24372d8eb631460fbc7e51493efacfd6b35f60f",
+                        "url": "https://codeload.github.com/milankovo/array-helper/legacy.zip/d5932833e399af1bf2b9a39ef1c618c20926a29b"
+                    }
                 ]
             }
         },
@@ -13757,6 +13813,206 @@
                         "sha256": "32fcaa84a8532fcc64bac83ed88f644b8ed6a75fa10071a779a10d307fd410ad",
                         "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.2.0/ida-codemode-plugin-0.2.0.zip"
                     }
+                ],
+                "0.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "b313263efc2a7e48a28c413957308db254d5c99d5aaf34141c5bcea6b04c993b",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/341149326b10750d54d06de7bb9c7eea83ffee44"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "f69bf8cec2fe9be9ad50dc98b11809c8def3942da0210c90085f38a931a07e4a",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.3.0/ida-codemode-plugin-0.3.0.zip"
+                    }
+                ],
+                "0.3.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.3.1"
+                            }
+                        },
+                        "sha256": "5470d0147e62c228d119b108453b850acb50f0d7b8bcb478828bb17174fc30d8",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/4195f21d41f01d073bc07a9b6abe637807c54e9f"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.3.1"
+                            }
+                        },
+                        "sha256": "3a278753ed89aa7661b6a66c5eac4de19ed947d9e1787244efac97c828564315",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.3.1/ida-codemode-plugin-0.3.1.zip"
+                    }
                 ]
             }
         },
@@ -14100,6 +14356,57 @@
                         },
                         "sha256": "7adb8695689e05f4b810a567eb2ba669d9005e90deb7506a3b6d7f9e8da5cfcf",
                         "url": "https://codeload.github.com/milankovo/ida_enums_helper/legacy.zip/1f9a0c3b3c63b0b1cd04edac823220a0bbf9b63f"
+                    }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida_enums_helper@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "A plugin to work with enum members from the pseudocode view: collects the constants of a whole variable group, names them in one go, and retypes the group to the enum.",
+                                "entryPoint": "enums_helper.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "enums",
+                                    "pseudocode",
+                                    "decompiler",
+                                    "hexrays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "ida-enums-helper",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida_enums_helper"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "edc39dc5f488d4736f29bd362a08086e0a7f373da905e56affaaca3b120834a3",
+                        "url": "https://codeload.github.com/milankovo/ida_enums_helper/legacy.zip/e192907ab1cf9522bd49d5a4361ece2d86d71ee5"
                     }
                 ]
             }
@@ -30809,6 +31116,61 @@
                         },
                         "sha256": "34e5bde0c003e1b300262589292bb26a9c1c0fb8e9f095ec5b7b0c541c8ebf24",
                         "url": "https://codeload.github.com/milankovo/ida-yank-type/legacy.zip/98e6d91bd5621fb57e762d1e45687e03b56c7b8f"
+                    }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ida-yank-type@noreply.github.com",
+                                        "name": "Milankovo"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Copy and paste types between the decompiler, Local Types and stack frames.",
+                                "entryPoint": "yank-type.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "types",
+                                    "hex-rays",
+                                    "yank",
+                                    "paste",
+                                    "decompiler"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "yank_type",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/milankovo/ida-yank-type"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "9c15e12ca9e995db7c954f6e14344c592067466400979b269a2b5502d875d9df",
+                        "url": "https://codeload.github.com/milankovo/ida-yank-type/legacy.zip/b42f512b817530bbbd4bdd54acc142ad8cded7f0"
                     }
                 ]
             }
