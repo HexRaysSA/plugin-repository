@@ -14013,6 +14013,306 @@
                         "sha256": "3a278753ed89aa7661b6a66c5eac4de19ed947d9e1787244efac97c828564315",
                         "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.3.1/ida-codemode-plugin-0.3.1.zip"
                     }
+                ],
+                "0.3.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.3.2"
+                            }
+                        },
+                        "sha256": "8019e2aa205b286295ac796c70ee811d963b40957ea2193ed2eee3bb84253c12",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/93e8aadf13b9889d67709b062711867ac1d58318"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.3.2"
+                            }
+                        },
+                        "sha256": "b8c1c14f9c12f06f2d803008d9dc01537d9831506cdee0806cbb1007e5d2e9ac",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.3.2/ida-codemode-plugin-0.3.2.zip"
+                    }
+                ],
+                "0.4.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.4.0"
+                            }
+                        },
+                        "sha256": "0fefc3c4eaf8ba5db583e586d4378acaf6e502e98e6ec0baa971fbd972980970",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/f615eb517983268b80d47ea551083ea335620281"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.4.0"
+                            }
+                        },
+                        "sha256": "c93c511501715828db719569cef32bc627084161b8506717bad48afdce655592",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.4.0/ida-codemode-plugin-0.4.0.zip"
+                    }
+                ],
+                "0.4.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.4.1"
+                            }
+                        },
+                        "sha256": "8a621752099889b2754bfe370986a3006aeb0b180a0e50bdba4a5d912bab67ff",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/8a2e00ef7765e8f7e04689596e4d8569ad0fa2df"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.5.1.dev2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.4.1"
+                            }
+                        },
+                        "sha256": "27bd7a8f49dd47bd8e18c738808099b0579b5235a35a25dec1faf053c4db69f6",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.4.1/ida-codemode-plugin-0.4.1.zip"
+                    }
                 ]
             }
         },
