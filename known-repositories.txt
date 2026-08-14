@@ -347,3 +347,6 @@ mahmoudimus/idavator
 
 # Discovered on 2026-08-05 20:54:18
 hexrayssa/ida-codemode
+
+# Discovered on 2026-08-14 12:56:07
+allthingsida/eject_idb

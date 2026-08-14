@@ -6858,6 +6858,155 @@
             }
         },
         {
+            "host": "https://github.com/allthingsida/eject_idb",
+            "name": "eject_idb",
+            "versions": {
+                "0.0.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Emergency IDB saver that spawns a separate thread waiting for a signal to save your database when IDA hangs or crashes.",
+                                "entryPoint": "eject_plugin",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "crash-recovery",
+                                    "emergency-save",
+                                    "idb",
+                                    "backup",
+                                    "recovery"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "eject_idb",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/eject_idb"
+                                },
+                                "version": "0.0.3"
+                            }
+                        },
+                        "sha256": "166f34ae8430bbf75bb20d243554bcdf1ed2cbaf623fb7aa455462c8b1de2771",
+                        "url": "https://github.com/allthingsida/eject_idb/releases/download/v0.0.3/eject_plugin-v0.0.3-ida9.4.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Emergency IDB saver that spawns a separate thread waiting for a signal to save your database when IDA hangs or crashes.",
+                                "entryPoint": "eject_plugin",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "crash-recovery",
+                                    "emergency-save",
+                                    "idb",
+                                    "backup",
+                                    "recovery"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "eject_idb",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/eject_idb"
+                                },
+                                "version": "0.0.3"
+                            }
+                        },
+                        "sha256": "07db423d82f9d13bfd5d8721f4af7a874128e83b2901b6ca0ea4dd03b7a18f91",
+                        "url": "https://github.com/allthingsida/eject_idb/releases/download/v0.0.3/eject_plugin-v0.0.3-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Emergency IDB saver that spawns a separate thread waiting for a signal to save your database when IDA hangs or crashes.",
+                                "entryPoint": "eject_plugin",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "crash-recovery",
+                                    "emergency-save",
+                                    "idb",
+                                    "backup",
+                                    "recovery"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "eject_idb",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/eject_idb"
+                                },
+                                "version": "0.0.3"
+                            }
+                        },
+                        "sha256": "d30507802ce0fda7501aa0926471c9ebeaf312a4287f05b0222409dba23cab43",
+                        "url": "https://github.com/allthingsida/eject_idb/releases/download/v0.0.3/eject_plugin-v0.0.3-ida9.3.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/azzonfire/emuit",
             "name": "EmuIt",
             "versions": {
@@ -13763,55 +13912,6 @@
                         },
                         "sha256": "477e7268b9f95b7e1a2ac06686a0841c47b9340828dc115aceae3ed9a88e773a",
                         "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/d91cf913de426c7037f3070b26d8d5d62bd7e5d5"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
-                                "entryPoint": "ida_codemode_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "idalib",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-codemode",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-domain>=0.5.1.dev2"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
-                                },
-                                "version": "0.2.0"
-                            }
-                        },
-                        "sha256": "32fcaa84a8532fcc64bac83ed88f644b8ed6a75fa10071a779a10d307fd410ad",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.2.0/ida-codemode-plugin-0.2.0.zip"
                     }
                 ],
                 "0.3.0": [
@@ -13863,55 +13963,6 @@
                         },
                         "sha256": "b313263efc2a7e48a28c413957308db254d5c99d5aaf34141c5bcea6b04c993b",
                         "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/341149326b10750d54d06de7bb9c7eea83ffee44"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
-                                "entryPoint": "ida_codemode_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "idalib",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-codemode",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-domain>=0.5.1.dev2"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
-                                },
-                                "version": "0.3.0"
-                            }
-                        },
-                        "sha256": "f69bf8cec2fe9be9ad50dc98b11809c8def3942da0210c90085f38a931a07e4a",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.3.0/ida-codemode-plugin-0.3.0.zip"
                     }
                 ],
                 "0.3.1": [
@@ -14612,6 +14663,306 @@
                         },
                         "sha256": "f948a0e51c37e6e5e4087fd58359d1dd9098eba40d81cd74da9494ddea2d8b55",
                         "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.5.2/ida-codemode-plugin-0.5.2.zip"
+                    }
+                ],
+                "0.5.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-codemode==0.5.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.5.3"
+                            }
+                        },
+                        "sha256": "dbfcadd97341d07df88d0d3c15b97d309d523419421fe31b417fa190169864e8",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/b274b4e4e95e090a0261fbc8ba9d0ab602f8f2c4"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-codemode==0.5.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.5.3"
+                            }
+                        },
+                        "sha256": "0269b4af0bc0b159ecf3b01c8ab16255d3223a9ca281f72b5ef820c950d0a960",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.5.3/ida-codemode-plugin-0.5.3.zip"
+                    }
+                ],
+                "0.6.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-codemode==0.6.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.6.0"
+                            }
+                        },
+                        "sha256": "670317eacada86c861f659a632d54705bd70c85fd3164754cf209e17edbd7b1c",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/1bf94167f50444c754cc1bae4e13febaad9bf0d5"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-codemode==0.6.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.6.0"
+                            }
+                        },
+                        "sha256": "6e0e8dc0119a9148f8618f659d67aa3799e327b88a569862d4900ca742db1a14",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.6.0/ida-codemode-plugin-0.6.0.zip"
+                    }
+                ],
+                "0.6.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-codemode==0.6.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.6.1"
+                            }
+                        },
+                        "sha256": "b53e9c350e38912848958baf93de3f91835de1b559b79ead7d92cd66f43eb077",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/439289f58bf779e7451e17096e76d17fe4d5b2ab"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_codemode_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-codemode",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-codemode==0.6.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
+                                },
+                                "version": "0.6.1"
+                            }
+                        },
+                        "sha256": "944884c88c5d742f75fcc6f880cf86308131a21c822492b542ea3fabcb7aa1e9",
+                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.6.1/ida-codemode-plugin-0.6.1.zip"
                     }
                 ]
             }
@@ -16696,6 +17047,1524 @@
                         },
                         "sha256": "c8c14fdc79a444f9e0823788dc13cd6c99cbf0c7ffd3631058be9c3660199f6c",
                         "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.6.3/main.zip"
+                    }
+                ],
+                "0.7.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fastmcp>=4.0.0b1,<5",
+                                    "mcp>=2.0.0,<3",
+                                    "starlette>=1.0.1,<2",
+                                    "uvicorn>=0.35,<1",
+                                    "pydantic>=2.12,<3",
+                                    "ida-settings>=3,<4"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": [
+                                            "idle",
+                                            "start",
+                                            "stop",
+                                            "restart"
+                                        ],
+                                        "default": "idle",
+                                        "documentation": "Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle. No gateway action runs automatically on a fresh install.",
+                                        "key": "gateway",
+                                        "name": "Gateway lifecycle action",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
+                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
+                                        "key": "gateway_token",
+                                        "name": "Gateway token (generated automatically on first IDA launch)",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": true,
+                                        "type": "string",
+                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Enter the Python executable used by this IDA installation, or keep auto to resolve it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
+                                        "key": "auto_start",
+                                        "name": "Start MCP automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
+                                        "key": "enable_unsafe",
+                                        "name": "Enable unsafe tools",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
+                                        "key": "open_in_ida_autonomous",
+                                        "name": "Open IDA autonomously",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "127.0.0.1",
+                                        "documentation": "Address used by the standalone MCP gateway.",
+                                        "key": "http_host",
+                                        "name": "Gateway bind address",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "11338",
+                                        "documentation": "TCP port used by the standalone MCP gateway.",
+                                        "key": "http_port",
+                                        "name": "Gateway port",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]{1,5}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "/mcp",
+                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
+                                        "key": "http_path",
+                                        "name": "Gateway MCP path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "/.*"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "2026-07-28",
+                                        "documentation": "Modern sessionless MCP protocol revision advertised by the gateway.",
+                                        "key": "mcp_protocol_version",
+                                        "name": "MCP protocol version",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Use per-request MCP HTTP without Mcp-Session-Id.",
+                                        "key": "mcp_sessionless",
+                                        "name": "Sessionless MCP HTTP",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Return one application/json response for modern requests instead of SSE framing.",
+                                        "key": "mcp_json_response",
+                                        "name": "MCP JSON responses",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Continue accepting pre-2026 initialize/session clients.",
+                                        "key": "mcp_legacy_protocol",
+                                        "name": "Legacy MCP compatibility",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Gateway request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.7.0"
+                            }
+                        },
+                        "sha256": "38c95c8f498bc621c9e6ba07bbc5275685c62324ff4ecadb79fb32f29265ecd2",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/d9b460227e3d4cc74ba641497aeb27905d6affab"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fastmcp>=4.0.0b1,<5",
+                                    "mcp>=2.0.0,<3",
+                                    "starlette>=1.0.1,<2",
+                                    "uvicorn>=0.35,<1",
+                                    "pydantic>=2.12,<3",
+                                    "ida-settings>=3,<4"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": [
+                                            "idle",
+                                            "start",
+                                            "stop",
+                                            "restart"
+                                        ],
+                                        "default": "idle",
+                                        "documentation": "Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle. No gateway action runs automatically on a fresh install.",
+                                        "key": "gateway",
+                                        "name": "Gateway lifecycle action",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
+                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
+                                        "key": "gateway_token",
+                                        "name": "Gateway token (generated automatically on first IDA launch)",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": true,
+                                        "type": "string",
+                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Enter the Python executable used by this IDA installation, or keep auto to resolve it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
+                                        "key": "auto_start",
+                                        "name": "Start MCP automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
+                                        "key": "enable_unsafe",
+                                        "name": "Enable unsafe tools",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
+                                        "key": "open_in_ida_autonomous",
+                                        "name": "Open IDA autonomously",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "127.0.0.1",
+                                        "documentation": "Address used by the standalone MCP gateway.",
+                                        "key": "http_host",
+                                        "name": "Gateway bind address",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "11338",
+                                        "documentation": "TCP port used by the standalone MCP gateway.",
+                                        "key": "http_port",
+                                        "name": "Gateway port",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]{1,5}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "/mcp",
+                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
+                                        "key": "http_path",
+                                        "name": "Gateway MCP path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "/.*"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "2026-07-28",
+                                        "documentation": "Modern sessionless MCP protocol revision advertised by the gateway.",
+                                        "key": "mcp_protocol_version",
+                                        "name": "MCP protocol version",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Use per-request MCP HTTP without Mcp-Session-Id.",
+                                        "key": "mcp_sessionless",
+                                        "name": "Sessionless MCP HTTP",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Return one application/json response for modern requests instead of SSE framing.",
+                                        "key": "mcp_json_response",
+                                        "name": "MCP JSON responses",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Continue accepting pre-2026 initialize/session clients.",
+                                        "key": "mcp_legacy_protocol",
+                                        "name": "Legacy MCP compatibility",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Gateway request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.7.0"
+                            }
+                        },
+                        "sha256": "6aecd630dbf8526694dc02ea79e2f63b3e3e1960e497c2216493ef1881a66777",
+                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.7.0/main.zip"
+                    }
+                ],
+                "0.7.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fastmcp>=4.0.0b1,<5",
+                                    "mcp>=2.0.0,<3",
+                                    "starlette>=1.0.1,<2",
+                                    "uvicorn>=0.35,<1",
+                                    "pydantic>=2.12,<3",
+                                    "ida-settings>=3,<4"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": [
+                                            "idle",
+                                            "start",
+                                            "stop",
+                                            "restart"
+                                        ],
+                                        "default": "idle",
+                                        "documentation": "Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle. No gateway action runs automatically on a fresh install.",
+                                        "key": "gateway",
+                                        "name": "Gateway lifecycle action",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
+                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
+                                        "key": "gateway_token",
+                                        "name": "Gateway token (generated automatically on first IDA launch)",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": true,
+                                        "type": "string",
+                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Enter the Python executable used by this IDA installation, or keep auto to resolve it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
+                                        "key": "auto_start",
+                                        "name": "Start MCP automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
+                                        "key": "enable_unsafe",
+                                        "name": "Enable unsafe tools",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
+                                        "key": "open_in_ida_autonomous",
+                                        "name": "Open IDA autonomously",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "127.0.0.1",
+                                        "documentation": "Address used by the standalone MCP gateway.",
+                                        "key": "http_host",
+                                        "name": "Gateway bind address",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "11338",
+                                        "documentation": "TCP port used by the standalone MCP gateway.",
+                                        "key": "http_port",
+                                        "name": "Gateway port",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]{1,5}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "/mcp",
+                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
+                                        "key": "http_path",
+                                        "name": "Gateway MCP path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "/.*"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Use per-request MCP HTTP without Mcp-Session-Id.",
+                                        "key": "mcp_sessionless",
+                                        "name": "Sessionless MCP HTTP",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Return one application/json response for modern requests instead of SSE framing.",
+                                        "key": "mcp_json_response",
+                                        "name": "MCP JSON responses",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Continue accepting pre-2026 initialize/session clients.",
+                                        "key": "mcp_legacy_protocol",
+                                        "name": "Legacy MCP compatibility",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Gateway request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.7.1"
+                            }
+                        },
+                        "sha256": "9c13f2254cd8ebd7b4e26853f2c8df36af41f9f942b99e24b2b95c688e96e186",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/766e51c97d77e3bec7c4dee3c540da42814a5d51"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fastmcp>=4.0.0b1,<5",
+                                    "mcp>=2.0.0,<3",
+                                    "starlette>=1.0.1,<2",
+                                    "uvicorn>=0.35,<1",
+                                    "pydantic>=2.12,<3",
+                                    "ida-settings>=3,<4"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": [
+                                            "idle",
+                                            "start",
+                                            "stop",
+                                            "restart"
+                                        ],
+                                        "default": "idle",
+                                        "documentation": "Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle. No gateway action runs automatically on a fresh install.",
+                                        "key": "gateway",
+                                        "name": "Gateway lifecycle action",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
+                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
+                                        "key": "gateway_token",
+                                        "name": "Gateway token (generated automatically on first IDA launch)",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": true,
+                                        "type": "string",
+                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Enter the Python executable used by this IDA installation, or keep auto to resolve it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
+                                        "key": "auto_start",
+                                        "name": "Start MCP automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
+                                        "key": "enable_unsafe",
+                                        "name": "Enable unsafe tools",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
+                                        "key": "open_in_ida_autonomous",
+                                        "name": "Open IDA autonomously",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "127.0.0.1",
+                                        "documentation": "Address used by the standalone MCP gateway.",
+                                        "key": "http_host",
+                                        "name": "Gateway bind address",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "11338",
+                                        "documentation": "TCP port used by the standalone MCP gateway.",
+                                        "key": "http_port",
+                                        "name": "Gateway port",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]{1,5}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "/mcp",
+                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
+                                        "key": "http_path",
+                                        "name": "Gateway MCP path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "/.*"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Use per-request MCP HTTP without Mcp-Session-Id.",
+                                        "key": "mcp_sessionless",
+                                        "name": "Sessionless MCP HTTP",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Return one application/json response for modern requests instead of SSE framing.",
+                                        "key": "mcp_json_response",
+                                        "name": "MCP JSON responses",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Continue accepting pre-2026 initialize/session clients.",
+                                        "key": "mcp_legacy_protocol",
+                                        "name": "Legacy MCP compatibility",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Gateway request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.7.1"
+                            }
+                        },
+                        "sha256": "0308868fc04823faa0ca0c2a9a656f952673a8d3b728ca5aa20638d4539aeb9a",
+                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.7.1/main.zip"
+                    }
+                ],
+                "0.8.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fastmcp>=4.0.0b1,<5",
+                                    "mcp>=2.0.0,<3",
+                                    "starlette>=1.0.1,<2",
+                                    "uvicorn>=0.35,<1",
+                                    "pydantic>=2.12,<3",
+                                    "ida-settings>=3,<4"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": [
+                                            "idle",
+                                            "start",
+                                            "stop",
+                                            "restart"
+                                        ],
+                                        "default": "idle",
+                                        "documentation": "Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle. No gateway action runs automatically on a fresh install.",
+                                        "key": "gateway",
+                                        "name": "Gateway lifecycle action",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
+                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
+                                        "key": "gateway_token",
+                                        "name": "Gateway token (generated automatically on first IDA launch)",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": true,
+                                        "type": "string",
+                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Enter the Python executable used by this IDA installation, or keep auto to resolve it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
+                                        "key": "auto_start",
+                                        "name": "Start MCP automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
+                                        "key": "enable_unsafe",
+                                        "name": "Enable unsafe tools",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
+                                        "key": "open_in_ida_autonomous",
+                                        "name": "Open IDA autonomously",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "127.0.0.1",
+                                        "documentation": "Address used by the standalone MCP gateway.",
+                                        "key": "http_host",
+                                        "name": "Gateway bind address",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "11338",
+                                        "documentation": "TCP port used by the standalone MCP gateway.",
+                                        "key": "http_port",
+                                        "name": "Gateway port",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]{1,5}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "/mcp",
+                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
+                                        "key": "http_path",
+                                        "name": "Gateway MCP path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "/.*"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Use per-request MCP HTTP without Mcp-Session-Id.",
+                                        "key": "mcp_sessionless",
+                                        "name": "Sessionless MCP HTTP",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Return one application/json response for modern requests instead of SSE framing.",
+                                        "key": "mcp_json_response",
+                                        "name": "MCP JSON responses",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Continue accepting pre-2026 initialize/session clients.",
+                                        "key": "mcp_legacy_protocol",
+                                        "name": "Legacy MCP compatibility",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Gateway request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.8.0"
+                            }
+                        },
+                        "sha256": "58d359ca4fd86d15847514fcaf172a4323e51e6aac68cd9a415cdc69b52fb2af",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/deb4be371f542ce6441c8a9fecd05bf94479a56e"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "fastmcp>=4.0.0b1,<5",
+                                    "mcp>=2.0.0,<3",
+                                    "starlette>=1.0.1,<2",
+                                    "uvicorn>=0.35,<1",
+                                    "pydantic>=2.12,<3",
+                                    "ida-settings>=3,<4"
+                                ],
+                                "settings": [
+                                    {
+                                        "choices": [
+                                            "idle",
+                                            "start",
+                                            "stop",
+                                            "restart"
+                                        ],
+                                        "default": "idle",
+                                        "documentation": "Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle. No gateway action runs automatically on a fresh install.",
+                                        "key": "gateway",
+                                        "name": "Gateway lifecycle action",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
+                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
+                                        "key": "gateway_token",
+                                        "name": "Gateway token (generated automatically on first IDA launch)",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": true,
+                                        "type": "string",
+                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Enter the Python executable used by this IDA installation, or keep auto to resolve it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
+                                        "key": "auto_start",
+                                        "name": "Start MCP automatically",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
+                                        "key": "enable_unsafe",
+                                        "name": "Enable unsafe tools",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
+                                        "key": "open_in_ida_autonomous",
+                                        "name": "Open IDA autonomously",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "127.0.0.1",
+                                        "documentation": "Address used by the standalone MCP gateway.",
+                                        "key": "http_host",
+                                        "name": "Gateway bind address",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "11338",
+                                        "documentation": "TCP port used by the standalone MCP gateway.",
+                                        "key": "http_port",
+                                        "name": "Gateway port",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]{1,5}"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "/mcp",
+                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
+                                        "key": "http_path",
+                                        "name": "Gateway MCP path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "/.*"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Use per-request MCP HTTP without Mcp-Session-Id.",
+                                        "key": "mcp_sessionless",
+                                        "name": "Sessionless MCP HTTP",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Return one application/json response for modern requests instead of SSE framing.",
+                                        "key": "mcp_json_response",
+                                        "name": "MCP JSON responses",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Continue accepting pre-2026 initialize/session clients.",
+                                        "key": "mcp_legacy_protocol",
+                                        "name": "Legacy MCP compatibility",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Gateway request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.8.0"
+                            }
+                        },
+                        "sha256": "8aff1c3f606823855bed91707f2667d7702c1edd6e6261d5fe214a20fec8460d",
+                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.8.0/main.zip"
                     }
                 ]
             }
@@ -27516,6 +29385,134 @@
                         "sha256": "9e4286375295d8b94c1ce2580915ca7862d3ed186e3dbe144ec07ac19ea02c18",
                         "url": "https://github.com/allthingsida/qscripts/releases/download/v1.2.6/qscripts-v1.2.6.zip"
                     }
+                ],
+                "1.2.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Develop IDA scripts faster with hot-reload and automatic execution on file changes. Supports Python, IDC, and compiled plugins with dependency tracking.",
+                                "entryPoint": "qscripts",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "QScripts",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/qscripts"
+                                },
+                                "version": "1.2.8"
+                            }
+                        },
+                        "sha256": "a6e87c52b06c31a2e9f0204748a86db704d3a485c0dd891c3b69a68bdfcece5d",
+                        "url": "https://github.com/allthingsida/qscripts/releases/download/v1.2.8/qscripts-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Develop IDA scripts faster with hot-reload and automatic execution on file changes. Supports Python, IDC, and compiled plugins with dependency tracking.",
+                                "entryPoint": "qscripts",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "QScripts",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/qscripts"
+                                },
+                                "version": "1.2.8"
+                            }
+                        },
+                        "sha256": "33c93489d360b51059e9a233b12dd51f2e3b7070af15f80a2454b8587085c22e",
+                        "url": "https://github.com/allthingsida/qscripts/releases/download/v1.2.8/qscripts-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Develop IDA scripts faster with hot-reload and automatic execution on file changes. Supports Python, IDC, and compiled plugins with dependency tracking.",
+                                "entryPoint": "qscripts",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "QScripts",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/qscripts"
+                                },
+                                "version": "1.2.8"
+                            }
+                        },
+                        "sha256": "170c1d361434af4589fbed16320d6ddd2fe15cf456264317e0eabda0ebe9dcf9",
+                        "url": "https://github.com/allthingsida/qscripts/releases/download/v1.2.8/qscripts-ida9.4.zip"
+                    }
                 ]
             }
         },
@@ -29754,6 +31751,72 @@
                         },
                         "sha256": "6615db6a021c688ea327b7134a01beff2be24306f138e0771b24c393b967f818",
                         "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/3e4652fec7760e97c2542beee7bb5a6d71d580a7"
+                    }
+                ],
+                "1.14.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "decompilation",
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Create and search resilient byte signatures for functions and addresses in IDA Pro, with processor-aware operand wildcarding for x86, x64, ARMv6-M Thumb, ARMv7 A32, AArch64, MIPS, and MIPSEL binaries.",
+                                "entryPoint": "src/sigmaker/__init__.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "binary-patterns",
+                                    "function-identification",
+                                    "x86",
+                                    "x64",
+                                    "arm",
+                                    "armv7",
+                                    "aarch64",
+                                    "thumb",
+                                    "mips",
+                                    "mipsel",
+                                    "signature-generation",
+                                    "signature-search"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/sigmaker-logo.png",
+                                "maintainers": [],
+                                "name": "SigMaker",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "sigmaker==1.14.3"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/ida-sigmaker"
+                                },
+                                "version": "1.14.3"
+                            }
+                        },
+                        "sha256": "28f262c565258369ad3ece5d5a6be65c9a29070b0928c2a55dfe4346e89be778",
+                        "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/bf31d68c0feafaba4f21c5aa79d44414618fc8e5"
                     }
                 ]
             }
