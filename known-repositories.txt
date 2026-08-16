@@ -350,3 +350,6 @@ hexrayssa/ida-codemode
 
 # Discovered on 2026-08-14 12:56:07
 allthingsida/eject_idb
+
+# Discovered on 2026-08-16 16:45:43
+allthingsida/climacros

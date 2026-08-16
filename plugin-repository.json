@@ -3375,6 +3375,155 @@
             }
         },
         {
+            "host": "https://github.com/allthingsida/climacros",
+            "name": "climacros",
+            "versions": {
+                "1.0.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Productivity tool for defining and using static or dynamic macros in IDA's command line interfaces (IDC, Python, WinDbg, BochDbg, gdb, etc.).",
+                                "entryPoint": "climacros",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "cli",
+                                    "macros",
+                                    "command-line",
+                                    "productivity",
+                                    "scripting"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "climacros",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/climacros"
+                                },
+                                "version": "1.0.5"
+                            }
+                        },
+                        "sha256": "a8daf3b7d7fe095a9f58eb9edd5ff482e81094acda735bf1b200eeb4a9a3aa47",
+                        "url": "https://github.com/allthingsida/climacros/releases/download/v1.0.5/climacros-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Productivity tool for defining and using static or dynamic macros in IDA's command line interfaces (IDC, Python, WinDbg, BochDbg, gdb, etc.).",
+                                "entryPoint": "climacros",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "cli",
+                                    "macros",
+                                    "command-line",
+                                    "productivity",
+                                    "scripting"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "climacros",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/climacros"
+                                },
+                                "version": "1.0.5"
+                            }
+                        },
+                        "sha256": "704bd34975d1f539fe1f610d4c6c4dd9bd762786c058374d652be5b432a15253",
+                        "url": "https://github.com/allthingsida/climacros/releases/download/v1.0.5/climacros-ida9.4.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Productivity tool for defining and using static or dynamic macros in IDA's command line interfaces (IDC, Python, WinDbg, BochDbg, gdb, etc.).",
+                                "entryPoint": "climacros",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "cli",
+                                    "macros",
+                                    "command-line",
+                                    "productivity",
+                                    "scripting"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "climacros",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/climacros"
+                                },
+                                "version": "1.0.5"
+                            }
+                        },
+                        "sha256": "01ef63e5284706b5673f36d5387456f49754cfe7cd5e903da138e3a746cec2e9",
+                        "url": "https://github.com/allthingsida/climacros/releases/download/v1.0.5/climacros-ida9.3.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/williballenthin/idawilli",
             "name": "colorize-calls",
             "versions": {
