@@ -6333,6 +6333,69 @@
                         "sha256": "632c85752a282ec7725bd4c2e6d702840f041c1762ac2bb3cd2f322274be2120",
                         "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/84aa7dd83fd45d13ae4e5cbe10b12effb97b9b99"
                     }
+                ],
+                "3.4.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@joxeankoret.com",
+                                        "name": "Joxean Koret"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "vulnerability-research-and-exploit-development",
+                                    "other"
+                                ],
+                                "description": "A free and open-source program diffing tool",
+                                "entryPoint": "diaphora_plugin.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "diffing",
+                                    "patch-analysis",
+                                    "reverse-engineering",
+                                    "bindiff"
+                                ],
+                                "license": "AGPL-3.0",
+                                "logoPath": "logo/diaphora-border.png",
+                                "maintainers": [],
+                                "name": "diaphora",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/joxeankoret/diaphora"
+                                },
+                                "version": "3.4.1"
+                            }
+                        },
+                        "sha256": "0b9b7ade554afb1a04bf5c00b6a893e41889f94fc1c520dd7ff201105b74dc1e",
+                        "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/31282dee52e12f908ad7f0e9a8a5b3b0e0d3483f"
+                    }
                 ]
             }
         },
@@ -7151,6 +7214,149 @@
                         },
                         "sha256": "d30507802ce0fda7501aa0926471c9ebeaf312a4287f05b0222409dba23cab43",
                         "url": "https://github.com/allthingsida/eject_idb/releases/download/v0.0.3/eject_plugin-v0.0.3-ida9.3.zip"
+                    }
+                ],
+                "0.0.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Emergency IDB saver that spawns a separate thread waiting for a signal to save your database when IDA hangs or crashes.",
+                                "entryPoint": "eject_plugin",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "crash-recovery",
+                                    "emergency-save",
+                                    "idb",
+                                    "backup",
+                                    "recovery"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "eject_idb",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/eject_idb"
+                                },
+                                "version": "0.0.4"
+                            }
+                        },
+                        "sha256": "40d41d766e19ff058275b15c188c7485922eb8782a9bdc4a6edcab1137d38a0d",
+                        "url": "https://github.com/allthingsida/eject_idb/releases/download/v0.0.4/eject_plugin-v0.0.4-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Emergency IDB saver that spawns a separate thread waiting for a signal to save your database when IDA hangs or crashes.",
+                                "entryPoint": "eject_plugin",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "crash-recovery",
+                                    "emergency-save",
+                                    "idb",
+                                    "backup",
+                                    "recovery"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "eject_idb",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/eject_idb"
+                                },
+                                "version": "0.0.4"
+                            }
+                        },
+                        "sha256": "2f404625c19497aafde02c12f5e6cc5c1872e869a94f0ccbb3288cf4e3d0f8d1",
+                        "url": "https://github.com/allthingsida/eject_idb/releases/download/v0.0.4/eject_plugin-v0.0.4-ida9.4.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Emergency IDB saver that spawns a separate thread waiting for a signal to save your database when IDA hangs or crashes.",
+                                "entryPoint": "eject_plugin",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "crash-recovery",
+                                    "emergency-save",
+                                    "idb",
+                                    "backup",
+                                    "recovery"
+                                ],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "eject_idb",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/eject_idb"
+                                },
+                                "version": "0.0.4"
+                            }
+                        },
+                        "sha256": "3c978115a378d9d83e1dfd6c396cc21c6118788ba6f8289d7eb65af0b52db3fa",
+                        "url": "https://github.com/allthingsida/eject_idb/releases/download/v0.0.4/eject_plugin-v0.0.4-ida9.3.zip"
                     }
                 ]
             }
