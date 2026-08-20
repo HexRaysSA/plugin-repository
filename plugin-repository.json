@@ -776,6 +776,115 @@
                         "sha256": "97b374f86edc70ccca25e36100d65be2a2fda30a5fb5c74e1c53f436a45536d5",
                         "url": "https://codeload.github.com/a1ext/auto_re/legacy.zip/4c2f062f4eaf8079d02abeb1e298c00dd3e42517"
                     }
+                ],
+                "2.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "a13x4nd3r.t@gmail.com",
+                                        "name": "Aliaksandr Trafimchuk"
+                                    }
+                                ],
+                                "categories": [],
+                                "description": "IDA PRO auto-renaming plugin with tagging support",
+                                "entryPoint": "auto_re.py",
+                                "idaVersions": [
+                                    "3.0",
+                                    "4.0",
+                                    "4.1",
+                                    "4.2",
+                                    "4.3",
+                                    "4.4",
+                                    "4.5",
+                                    "4.6",
+                                    "4.7",
+                                    "4.8",
+                                    "4.9",
+                                    "4.9sp1",
+                                    "5.0",
+                                    "5.1",
+                                    "5.2",
+                                    "5.3",
+                                    "5.4",
+                                    "5.5",
+                                    "5.6",
+                                    "5.7",
+                                    "6.0",
+                                    "6.1",
+                                    "6.2",
+                                    "6.3",
+                                    "6.4",
+                                    "6.5",
+                                    "6.6",
+                                    "6.7",
+                                    "6.8",
+                                    "6.9",
+                                    "6.95",
+                                    "7.0",
+                                    "7.0sp1",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "automatic",
+                                    "renaming",
+                                    "tagging",
+                                    "AutoRE",
+                                    "pwn"
+                                ],
+                                "license": null,
+                                "logoPath": ".img/Logo.png",
+                                "maintainers": [],
+                                "name": "AutoRE",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/a1ext/auto_re"
+                                },
+                                "version": "2.3.0"
+                            }
+                        },
+                        "sha256": "46b23fdc5bb7e253e45686abb4dce7bb722324c8fffe3b907307ead1d2ff62ce",
+                        "url": "https://codeload.github.com/a1ext/auto_re/legacy.zip/ee35223dc0ff73d5e4da046e0671826637b10ceb"
+                    }
                 ]
             }
         },
@@ -7065,6 +7174,66 @@
                         },
                         "sha256": "18b3a91984091ad05a7b29f8fccdb62b242b8bdadb87bb54ab1cd0388104efbb",
                         "url": "https://github.com/REhints/efiXplorer/releases/download/v6.2.0/efiXplorer-v6.2.0.zip"
+                    }
+                ],
+                "6.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yv@yegor.cc",
+                                        "name": "yeggor"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "IDA plugin and loader for UEFI firmware analysis and reverse engineering automation",
+                                "entryPoint": "efiXplorer",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "firmware",
+                                    "uefi",
+                                    "efi"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": "pics/efiXplorer.png",
+                                "maintainers": [],
+                                "name": "efiXplorer",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/rehints/efixplorer"
+                                },
+                                "version": "6.3.0"
+                            }
+                        },
+                        "sha256": "cb153a5bd9fe4bb934e60f4997d65947f496a02d6cfb404f9409f9437b3e4fd0",
+                        "url": "https://github.com/REhints/efiXplorer/releases/download/v6.3.0/efiXplorer-v6.3.0.zip"
                     }
                 ]
             }
@@ -14266,7 +14435,7 @@
                             }
                         },
                         "sha256": "477e7268b9f95b7e1a2ac06686a0841c47b9340828dc115aceae3ed9a88e773a",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/d91cf913de426c7037f3070b26d8d5d62bd7e5d5"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/d91cf913de426c7037f3070b26d8d5d62bd7e5d5"
                     }
                 ],
                 "0.3.0": [
@@ -14317,7 +14486,7 @@
                             }
                         },
                         "sha256": "b313263efc2a7e48a28c413957308db254d5c99d5aaf34141c5bcea6b04c993b",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/341149326b10750d54d06de7bb9c7eea83ffee44"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/341149326b10750d54d06de7bb9c7eea83ffee44"
                     }
                 ],
                 "0.3.1": [
@@ -14368,56 +14537,7 @@
                             }
                         },
                         "sha256": "5470d0147e62c228d119b108453b850acb50f0d7b8bcb478828bb17174fc30d8",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/4195f21d41f01d073bc07a9b6abe637807c54e9f"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
-                                "entryPoint": "ida_codemode_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "idalib",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-codemode",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-domain>=0.5.1.dev2"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
-                                },
-                                "version": "0.3.1"
-                            }
-                        },
-                        "sha256": "3a278753ed89aa7661b6a66c5eac4de19ed947d9e1787244efac97c828564315",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.3.1/ida-codemode-plugin-0.3.1.zip"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/4195f21d41f01d073bc07a9b6abe637807c54e9f"
                     }
                 ],
                 "0.3.2": [
@@ -14468,7 +14588,7 @@
                             }
                         },
                         "sha256": "8019e2aa205b286295ac796c70ee811d963b40957ea2193ed2eee3bb84253c12",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/93e8aadf13b9889d67709b062711867ac1d58318"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/93e8aadf13b9889d67709b062711867ac1d58318"
                     },
                     {
                         "metadata": {
@@ -14517,7 +14637,7 @@
                             }
                         },
                         "sha256": "b8c1c14f9c12f06f2d803008d9dc01537d9831506cdee0806cbb1007e5d2e9ac",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.3.2/ida-codemode-plugin-0.3.2.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.3.2/ida-codemode-plugin-0.3.2.zip"
                     }
                 ],
                 "0.4.0": [
@@ -14568,7 +14688,7 @@
                             }
                         },
                         "sha256": "0fefc3c4eaf8ba5db583e586d4378acaf6e502e98e6ec0baa971fbd972980970",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/f615eb517983268b80d47ea551083ea335620281"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/f615eb517983268b80d47ea551083ea335620281"
                     },
                     {
                         "metadata": {
@@ -14617,7 +14737,7 @@
                             }
                         },
                         "sha256": "c93c511501715828db719569cef32bc627084161b8506717bad48afdce655592",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.4.0/ida-codemode-plugin-0.4.0.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.4.0/ida-codemode-plugin-0.4.0.zip"
                     }
                 ],
                 "0.4.1": [
@@ -14668,7 +14788,7 @@
                             }
                         },
                         "sha256": "8a621752099889b2754bfe370986a3006aeb0b180a0e50bdba4a5d912bab67ff",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/8a2e00ef7765e8f7e04689596e4d8569ad0fa2df"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/8a2e00ef7765e8f7e04689596e4d8569ad0fa2df"
                     },
                     {
                         "metadata": {
@@ -14717,7 +14837,7 @@
                             }
                         },
                         "sha256": "27bd7a8f49dd47bd8e18c738808099b0579b5235a35a25dec1faf053c4db69f6",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.4.1/ida-codemode-plugin-0.4.1.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.4.1/ida-codemode-plugin-0.4.1.zip"
                     }
                 ],
                 "0.5.0": [
@@ -14768,7 +14888,7 @@
                             }
                         },
                         "sha256": "1e9ea7586afa5f971ffc9c9cb71758c4fc516d6ae9858ae9224bd85d0a4e4910",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/eb4553bcd6166f4c9cacf480551146a35fff505a"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/eb4553bcd6166f4c9cacf480551146a35fff505a"
                     },
                     {
                         "metadata": {
@@ -14817,7 +14937,7 @@
                             }
                         },
                         "sha256": "b2dd51a5fb12f07dfe98290e5d8554db768db78ba2873237f1d48032982aec93",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.5.0/ida-codemode-plugin-0.5.0.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.5.0/ida-codemode-plugin-0.5.0.zip"
                     }
                 ],
                 "0.5.1": [
@@ -14868,7 +14988,7 @@
                             }
                         },
                         "sha256": "d71cc75a21a85a03f455796438032bb0bc774dab8d02693c96265ee57ca5a773",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/96a2e441e0113c136559fc41c4aa5d8924065318"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/96a2e441e0113c136559fc41c4aa5d8924065318"
                     },
                     {
                         "metadata": {
@@ -14917,7 +15037,7 @@
                             }
                         },
                         "sha256": "60f997680eae461cfb6f2f30f8740e64c7a0fe118d52340bc1b39b8ea4b6fd06",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.5.1/ida-codemode-plugin-0.5.1.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.5.1/ida-codemode-plugin-0.5.1.zip"
                     }
                 ],
                 "0.5.2": [
@@ -14968,7 +15088,7 @@
                             }
                         },
                         "sha256": "2be258d4514c4ef33d008d5093374d919bcd2384ec907fb0bf82c127fb572a2c",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/e92f30f8ec9ebc4ac1f312b3cf78b716e699d9fe"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/e92f30f8ec9ebc4ac1f312b3cf78b716e699d9fe"
                     },
                     {
                         "metadata": {
@@ -15017,7 +15137,7 @@
                             }
                         },
                         "sha256": "f948a0e51c37e6e5e4087fd58359d1dd9098eba40d81cd74da9494ddea2d8b55",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.5.2/ida-codemode-plugin-0.5.2.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.5.2/ida-codemode-plugin-0.5.2.zip"
                     }
                 ],
                 "0.5.3": [
@@ -15068,7 +15188,7 @@
                             }
                         },
                         "sha256": "dbfcadd97341d07df88d0d3c15b97d309d523419421fe31b417fa190169864e8",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/b274b4e4e95e090a0261fbc8ba9d0ab602f8f2c4"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/b274b4e4e95e090a0261fbc8ba9d0ab602f8f2c4"
                     },
                     {
                         "metadata": {
@@ -15117,7 +15237,7 @@
                             }
                         },
                         "sha256": "0269b4af0bc0b159ecf3b01c8ab16255d3223a9ca281f72b5ef820c950d0a960",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.5.3/ida-codemode-plugin-0.5.3.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.5.3/ida-codemode-plugin-0.5.3.zip"
                     }
                 ],
                 "0.6.0": [
@@ -15168,7 +15288,7 @@
                             }
                         },
                         "sha256": "670317eacada86c861f659a632d54705bd70c85fd3164754cf209e17edbd7b1c",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/1bf94167f50444c754cc1bae4e13febaad9bf0d5"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/1bf94167f50444c754cc1bae4e13febaad9bf0d5"
                     },
                     {
                         "metadata": {
@@ -15217,7 +15337,7 @@
                             }
                         },
                         "sha256": "6e0e8dc0119a9148f8618f659d67aa3799e327b88a569862d4900ca742db1a14",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.6.0/ida-codemode-plugin-0.6.0.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.6.0/ida-codemode-plugin-0.6.0.zip"
                     }
                 ],
                 "0.6.1": [
@@ -15268,7 +15388,7 @@
                             }
                         },
                         "sha256": "b53e9c350e38912848958baf93de3f91835de1b559b79ead7d92cd66f43eb077",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-codemode/legacy.zip/439289f58bf779e7451e17096e76d17fe4d5b2ab"
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/439289f58bf779e7451e17096e76d17fe4d5b2ab"
                     },
                     {
                         "metadata": {
@@ -15317,7 +15437,7 @@
                             }
                         },
                         "sha256": "944884c88c5d742f75fcc6f880cf86308131a21c822492b542ea3fabcb7aa1e9",
-                        "url": "https://github.com/HexRaysSA/ida-codemode/releases/download/v0.6.1/ida-codemode-plugin-0.6.1.zip"
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.6.1/ida-codemode-plugin-0.6.1.zip"
                     }
                 ]
             }
@@ -19722,6 +19842,112 @@
                         },
                         "sha256": "58d7c78dfe9d4d58687adcab6b32240b1564303c59a0f51dadc32e39237d2b16",
                         "url": "https://codeload.github.com/Dump-GUY/ida-nativeaot/legacy.zip/546b831b872622858d835429e7ef01650dadcb36"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/hexrayssa/ida-nexus",
+            "name": "ida-nexus",
+            "versions": {
+                "0.6.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_nexus_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nexus",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus==0.6.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-nexus"
+                                },
+                                "version": "0.6.2"
+                            }
+                        },
+                        "sha256": "da3907b7c1a49c91c9ed76af7d8f168f2716ae90ffd3a3152e574764d5842834",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/3757fdf3c2dc6bb5eec600136bc466f5503b899b"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_nexus_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nexus",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus==0.6.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-nexus"
+                                },
+                                "version": "0.6.2"
+                            }
+                        },
+                        "sha256": "e889a42ea7ab5943d01b221586b48e4b83c4c1778909ff5d0c4bd7a53c4bfa16",
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.6.2/ida-nexus-plugin-0.6.2.zip"
                     }
                 ]
             }

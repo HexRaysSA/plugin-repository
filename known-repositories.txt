@@ -353,3 +353,6 @@ allthingsida/eject_idb
 
 # Discovered on 2026-08-16 16:45:43
 allthingsida/climacros
+
+# Discovered on 2026-08-20 20:56:04
+hexrayssa/ida-nexus
