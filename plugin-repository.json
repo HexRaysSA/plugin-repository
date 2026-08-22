@@ -1938,60 +1938,6 @@
             "host": "https://github.com/binsync/binsync",
             "name": "BinSync",
             "versions": {
-                "5.11.2": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "binsync@mahaloz.re",
-                                        "name": "The BinSync Team"
-                                    }
-                                ],
-                                "categories": [
-                                    "collaboration-and-productivity"
-                                ],
-                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
-                                "entryPoint": "binsync_plugin.py",
-                                "idaVersions": [
-                                    "8.4",
-                                    "9.0",
-                                    "9.1",
-                                    "9.2"
-                                ],
-                                "keywords": [
-                                    "activity-tracking",
-                                    "collaboration",
-                                    "ai-integration",
-                                    "translation",
-                                    "converter"
-                                ],
-                                "license": "BSD 2 Simplified",
-                                "logoPath": "binsync.png",
-                                "maintainers": [],
-                                "name": "BinSync",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "binsync==5.11.2"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/binsync/binsync"
-                                },
-                                "version": "5.11.2"
-                            }
-                        },
-                        "sha256": "fa7a1c307e3c1bcea85b39f706263bd0ddbd0e507a38353c444c53ee50264b48",
-                        "url": "https://github.com/binsync/binsync/releases/download/v5.11.2/binsync-ida-plugin.zip"
-                    }
-                ],
                 "5.12.0": [
                     {
                         "metadata": {
@@ -2475,6 +2421,59 @@
                         },
                         "sha256": "11f75f399b651491532695079a8012318cc46de034a38f8fd0af4c6f5ec54f79",
                         "url": "https://github.com/binsync/binsync/releases/download/v5.15.2/binsync-ida-plugin.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "binsync@mahaloz.re",
+                                        "name": "The BinSync Team"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "A reversing plugin for cross-decompiler collaboration, built on git. Supports IDA, Ghidra, Binary Ninja, and angr-management!",
+                                "entryPoint": "binsync_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "collaboration",
+                                    "ai-integration",
+                                    "translation",
+                                    "converter"
+                                ],
+                                "license": "BSD 2 Simplified",
+                                "logoPath": "binsync.png",
+                                "maintainers": [],
+                                "name": "BinSync",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "binsync==5.15.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/binsync/binsync"
+                                },
+                                "version": "5.15.2"
+                            }
+                        },
+                        "sha256": "97531324a7a683fce978168ca87783a77c229f2be17b1dee13a4e9a6da5bd1e8",
+                        "url": "https://github.com/binsync/binsync/releases/download/v5.15.4/binsync-ida-plugin.zip"
                     }
                 ]
             }
@@ -14589,55 +14588,6 @@
                         },
                         "sha256": "8019e2aa205b286295ac796c70ee811d963b40957ea2193ed2eee3bb84253c12",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/93e8aadf13b9889d67709b062711867ac1d58318"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
-                                "entryPoint": "ida_codemode_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "idalib",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-codemode",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-domain>=0.5.1.dev2"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
-                                },
-                                "version": "0.3.2"
-                            }
-                        },
-                        "sha256": "b8c1c14f9c12f06f2d803008d9dc01537d9831506cdee0806cbb1007e5d2e9ac",
-                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.3.2/ida-codemode-plugin-0.3.2.zip"
                     }
                 ],
                 "0.4.0": [
@@ -19949,6 +19899,106 @@
                         "sha256": "e889a42ea7ab5943d01b221586b48e4b83c4c1778909ff5d0c4bd7a53c4bfa16",
                         "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.6.2/ida-nexus-plugin-0.6.2.zip"
                     }
+                ],
+                "0.7.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_nexus_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nexus",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus==0.7.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-nexus"
+                                },
+                                "version": "0.7.0"
+                            }
+                        },
+                        "sha256": "4e216a5d76915405462ebf794acde689944429b650196ad4b3f6612e34a3751b",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/3c194b45fb4bc36eae9ced17f07a5819b9d83ff0"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_nexus_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nexus",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus==0.7.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-nexus"
+                                },
+                                "version": "0.7.0"
+                            }
+                        },
+                        "sha256": "d5b081fb0dbd36e89dcea8379720ff7bf228cf1e6ea9288e23f4ee7163dfa098",
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.7.0/ida-nexus-plugin-0.7.0.zip"
+                    }
                 ]
             }
         },
@@ -20654,6 +20704,67 @@
                         },
                         "sha256": "28e10b0d34392470c77707e5b4a2fc5846182b0f485e9db2fdb568bbce97806a",
                         "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/4cd26f04da30f3b98b8145e83579f0da0d3a6c35"
+                    }
+                ],
+                "0.1.9": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "info@revskills.de",
+                                        "name": "Bjoern Kerler"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "description": "CLI-driven daemon exposing IDA Pro reverse engineering capabilities over a Unix domain socket",
+                                "entryPoint": "ida_rpc_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "ida-pro",
+                                    "ida",
+                                    "reverse-engineering",
+                                    "decompiler",
+                                    "binary-analysis",
+                                    "rpc",
+                                    "json-rpc",
+                                    "automation",
+                                    "llm",
+                                    "agent"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "ida-plugin.png",
+                                "maintainers": [],
+                                "name": "ida-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "click>=8.1.0"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/bkerler/ida_rpc"
+                                },
+                                "version": "0.1.9"
+                            }
+                        },
+                        "sha256": "5353235d68d64e21af633a076ebac3da8de7979b2b7e24499da7e18a1ea2c715",
+                        "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/68ca0f874e1f9f850902e60b72a09b96919e2fee"
                     }
                 ]
             }
