@@ -15890,6 +15890,66 @@
             }
         },
         {
+            "host": "https://github.com/uky007/ida-func-call-rank",
+            "name": "ida-func-call-rank",
+            "versions": {
+                "0.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "yuki.detective@gmail.com",
+                                        "name": "Yuki (uky007)"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "malware-analysis",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Rank functions by whole-program direct-call relationships in a sortable IDA view for fast reverse-engineering triage.",
+                                "entryPoint": "ida_func_call_rank.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "9.1",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "call graph",
+                                    "function ranking",
+                                    "cross references",
+                                    "triage",
+                                    "malware analysis",
+                                    "IDAPython"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/case1_emotet_api_hash_decrypt_func.png",
+                                "maintainers": [],
+                                "name": "ida-func-call-rank",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/uky007/ida-func-call-rank"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "9d698e52a51b90ca4093e211b8ad477d5e5e383b5a754a22da213f231317fac7",
+                        "url": "https://codeload.github.com/uky007/ida-func-call-rank/legacy.zip/919d023ef72eda9c3dbfbf5fa09f22f548869a57"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/captain-ai-hub/ida-mcp",
             "name": "IDA-MCP",
             "versions": {

@@ -356,3 +356,6 @@ allthingsida/climacros
 
 # Discovered on 2026-08-20 20:56:04
 hexrayssa/ida-nexus
+
+# Discovered on 2026-08-24 04:51:27
+uky007/ida-func-call-rank
