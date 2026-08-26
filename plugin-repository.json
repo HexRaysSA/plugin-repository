@@ -60,9 +60,11 @@
                                 "maintainers": [],
                                 "name": "ApplyCalleeTypeEx",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -234,9 +236,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -286,9 +290,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -338,9 +344,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -391,9 +399,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -444,9 +454,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -494,9 +506,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -544,9 +558,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -594,9 +610,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -644,9 +662,11 @@
                                 "maintainers": [],
                                 "name": "augur",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -759,9 +779,11 @@
                                 "maintainers": [],
                                 "name": "AutoRE",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -868,9 +890,11 @@
                                 "maintainers": [],
                                 "name": "AutoRE",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -1972,9 +1996,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2026,9 +2052,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2078,9 +2106,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2132,9 +2162,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2186,9 +2218,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2240,9 +2274,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2295,9 +2331,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2350,9 +2388,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2403,9 +2443,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2456,9 +2498,11 @@
                                 "maintainers": [],
                                 "name": "BinSync",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2519,9 +2563,11 @@
                                 "maintainers": [],
                                 "name": "Binwalk",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -2594,9 +2640,11 @@
                                 "maintainers": [],
                                 "name": "bitopt",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -2661,9 +2709,11 @@
                                 "maintainers": [],
                                 "name": "bitopt",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -2722,9 +2772,11 @@
                                 "maintainers": [],
                                 "name": "bookmark-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -2773,9 +2825,11 @@
                                 "maintainers": [],
                                 "name": "bookmark-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -2822,9 +2876,11 @@
                                 "maintainers": [],
                                 "name": "bookmark-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -2871,9 +2927,11 @@
                                 "maintainers": [],
                                 "name": "bookmark-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -2920,9 +2978,11 @@
                                 "maintainers": [],
                                 "name": "bookmark-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -2969,9 +3029,11 @@
                                 "maintainers": [],
                                 "name": "bookmark-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3069,9 +3131,11 @@
                                 "maintainers": [],
                                 "name": "capa",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -3165,9 +3229,11 @@
                                 "maintainers": [],
                                 "name": "capa",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -3261,9 +3327,11 @@
                                 "maintainers": [],
                                 "name": "capa",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -3324,9 +3392,11 @@
                                 "maintainers": [],
                                 "name": "clang-include",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3393,9 +3463,11 @@
                                 "maintainers": [],
                                 "name": "clang-include",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3462,9 +3534,11 @@
                                 "maintainers": [],
                                 "name": "clang-include",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3672,9 +3746,11 @@
                                 "maintainers": [],
                                 "name": "colorize-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3723,9 +3799,11 @@
                                 "maintainers": [],
                                 "name": "colorize-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3772,9 +3850,11 @@
                                 "maintainers": [],
                                 "name": "colorize-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3821,9 +3901,11 @@
                                 "maintainers": [],
                                 "name": "colorize-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3870,9 +3952,11 @@
                                 "maintainers": [],
                                 "name": "colorize-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -3919,9 +4003,11 @@
                                 "maintainers": [],
                                 "name": "colorize-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -4151,9 +4237,11 @@
                                 "maintainers": [],
                                 "name": "CrystalRE",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -4209,9 +4297,11 @@
                                 "maintainers": [],
                                 "name": "CrystalRE",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -4269,9 +4359,11 @@
                                 "maintainers": [],
                                 "name": "CrystalRE",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -4329,9 +4421,11 @@
                                 "maintainers": [],
                                 "name": "CrystalRE",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -4446,9 +4540,11 @@
                                 "maintainers": [],
                                 "name": "DBImporter",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -4552,9 +4648,11 @@
                                 "maintainers": [],
                                 "name": "DBImporter",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -4660,9 +4758,11 @@
                                 "maintainers": [],
                                 "name": "DBImporter",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -4768,9 +4868,11 @@
                                 "maintainers": [],
                                 "name": "DBImporter",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -4820,9 +4922,11 @@
                                 "maintainers": [],
                                 "name": "decode_instruction",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -6294,9 +6398,11 @@
                                 "maintainers": [],
                                 "name": "deREferencing",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -6363,9 +6469,11 @@
                                 "maintainers": [],
                                 "name": "diaphora",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -6424,9 +6532,11 @@
                                 "maintainers": [],
                                 "name": "diaphora",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -6487,9 +6597,11 @@
                                 "maintainers": [],
                                 "name": "diaphora",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -6965,9 +7077,11 @@
                                 "maintainers": [],
                                 "name": "edit-function-prototype",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -7576,9 +7690,11 @@
                                 "maintainers": [],
                                 "name": "EmuIt",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -7702,9 +7818,11 @@
                                 "maintainers": [],
                                 "name": "extensible-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -7753,9 +7871,11 @@
                                 "maintainers": [],
                                 "name": "extensible-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -7802,9 +7922,11 @@
                                 "maintainers": [],
                                 "name": "extensible-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -7851,9 +7973,11 @@
                                 "maintainers": [],
                                 "name": "extensible-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -7900,9 +8024,11 @@
                                 "maintainers": [],
                                 "name": "extensible-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -7949,9 +8075,11 @@
                                 "maintainers": [],
                                 "name": "extensible-hints",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8008,9 +8136,11 @@
                                 "maintainers": [],
                                 "name": "FeelingLucky",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8059,9 +8189,11 @@
                                 "maintainers": [],
                                 "name": "FeelingLucky",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8112,9 +8244,11 @@
                                 "maintainers": [],
                                 "name": "FeelingLucky",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8165,9 +8299,11 @@
                                 "maintainers": [],
                                 "name": "FeelingLucky",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8216,9 +8352,11 @@
                                 "maintainers": [],
                                 "name": "FeelingLucky",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8269,9 +8407,11 @@
                                 "maintainers": [],
                                 "name": "FeelingLucky",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8320,9 +8460,11 @@
                                 "maintainers": [],
                                 "name": "FeelingLucky",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8563,9 +8705,11 @@
                                 "maintainers": [],
                                 "name": "funcfiletree",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8610,9 +8754,11 @@
                                 "maintainers": [],
                                 "name": "funcfiletree",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8666,9 +8812,11 @@
                                 "maintainers": [],
                                 "name": "function-string-associate",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8716,9 +8864,11 @@
                                 "maintainers": [],
                                 "name": "function-string-associate",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -8926,9 +9076,11 @@
                                 "maintainers": [],
                                 "name": "gepetto",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -9395,9 +9547,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -9454,9 +9608,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -9519,9 +9675,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -9693,9 +9851,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -9869,9 +10029,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -10043,9 +10205,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -10219,9 +10383,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -10393,9 +10559,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -10569,9 +10737,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -10743,9 +10913,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -10919,9 +11091,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -11093,9 +11267,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -11269,9 +11445,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -11443,9 +11621,11 @@
                                 "maintainers": [],
                                 "name": "HappyIDA",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -11612,9 +11792,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -11664,9 +11846,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -11716,9 +11900,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -11769,9 +11955,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -11822,9 +12010,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -11872,9 +12062,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -11922,9 +12114,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -11972,9 +12166,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12022,9 +12218,11 @@
                                 "maintainers": [],
                                 "name": "haruspex",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12104,9 +12302,11 @@
                                 "maintainers": [],
                                 "name": "HashDB",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -12180,9 +12380,11 @@
                                 "maintainers": [],
                                 "name": "HashDB",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -12600,9 +12802,11 @@
                                 "maintainers": [],
                                 "name": "hint-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12651,9 +12855,11 @@
                                 "maintainers": [],
                                 "name": "hint-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12700,9 +12906,11 @@
                                 "maintainers": [],
                                 "name": "hint-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12749,9 +12957,11 @@
                                 "maintainers": [],
                                 "name": "hint-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12798,9 +13008,11 @@
                                 "maintainers": [],
                                 "name": "hint-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12847,9 +13059,11 @@
                                 "maintainers": [],
                                 "name": "hint-calls",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12925,9 +13139,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -12997,9 +13213,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13067,9 +13285,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13112,9 +13332,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13155,9 +13377,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13200,9 +13424,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13243,9 +13469,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13288,9 +13516,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13331,9 +13561,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13374,9 +13606,11 @@
                                 "maintainers": [],
                                 "name": "hrtng",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13428,9 +13662,11 @@
                                 "maintainers": [],
                                 "name": "icp",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -13646,9 +13882,11 @@
                                 ],
                                 "name": "ida-chat",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -13738,9 +13976,11 @@
                                 ],
                                 "name": "ida-chat",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -13838,9 +14078,11 @@
                                 ],
                                 "name": "ida-chat",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -13981,9 +14223,11 @@
                                 ],
                                 "name": "ida-chat",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14126,9 +14370,11 @@
                                 ],
                                 "name": "ida-chat",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14269,9 +14515,11 @@
                                 ],
                                 "name": "ida-chat",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14417,9 +14665,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14468,9 +14718,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14519,9 +14771,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14570,9 +14824,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14621,9 +14877,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14670,9 +14928,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14721,9 +14981,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14770,9 +15032,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14821,9 +15085,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14870,9 +15136,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14921,9 +15189,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -14970,9 +15240,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15021,9 +15293,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15070,9 +15344,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15121,9 +15397,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15170,9 +15448,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15221,9 +15501,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15270,9 +15552,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15321,9 +15605,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15370,9 +15656,11 @@
                                 "maintainers": [],
                                 "name": "ida-codemode",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15431,9 +15719,11 @@
                                 "maintainers": [],
                                 "name": "ida-cyberchef",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15487,9 +15777,11 @@
                                 "maintainers": [],
                                 "name": "ida-cyberchef",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15543,9 +15835,11 @@
                                 "maintainers": [],
                                 "name": "ida-cyberchef",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15599,9 +15893,11 @@
                                 "maintainers": [],
                                 "name": "ida-cyberchef",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -15992,9 +16288,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -16207,9 +16505,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -16403,9 +16703,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -16614,9 +16916,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -16827,9 +17131,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -17038,9 +17344,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -17251,9 +17559,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -17462,9 +17772,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -17675,9 +17987,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -17935,9 +18249,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -18197,9 +18513,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -18445,9 +18763,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -18695,9 +19015,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -18943,9 +19265,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -19193,9 +19517,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -19441,9 +19767,11 @@
                                 "maintainers": [],
                                 "name": "IDA-MCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -19705,9 +20033,11 @@
                                 "maintainers": [],
                                 "name": "ida-nativeaot",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -19771,9 +20101,11 @@
                                 "maintainers": [],
                                 "name": "ida-nativeaot",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -19836,9 +20168,11 @@
                                 "maintainers": [],
                                 "name": "ida-nativeaot",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -19891,9 +20225,11 @@
                                 "maintainers": [],
                                 "name": "ida-nexus",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -19940,9 +20276,11 @@
                                 "maintainers": [],
                                 "name": "ida-nexus",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -19991,9 +20329,11 @@
                                 "maintainers": [],
                                 "name": "ida-nexus",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -20040,9 +20380,11 @@
                                 "maintainers": [],
                                 "name": "ida-nexus",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -20101,9 +20443,11 @@
                                 "maintainers": [],
                                 "name": "ida-outliner",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -20154,9 +20498,11 @@
                                 "maintainers": [],
                                 "name": "ida-outliner",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -20207,9 +20553,11 @@
                                 "maintainers": [],
                                 "name": "ida-outliner",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -20260,9 +20608,11 @@
                                 "maintainers": [],
                                 "name": "ida-outliner",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -21570,9 +21920,11 @@
                                 "maintainers": [],
                                 "name": "ida-security-scanner",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -21838,9 +22190,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -21984,9 +22338,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -22130,9 +22486,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -22274,9 +22632,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -22418,9 +22778,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -22567,9 +22929,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -22716,9 +23080,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -22865,9 +23231,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -23014,9 +23382,11 @@
                                 "maintainers": [],
                                 "name": "ida-settings-editor",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -23142,9 +23512,11 @@
                                 "maintainers": [],
                                 "name": "ida-taskr",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -23206,9 +23578,11 @@
                                 "maintainers": [],
                                 "name": "ida-taskr",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -23270,9 +23644,11 @@
                                 "maintainers": [],
                                 "name": "ida-taskr",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -23328,9 +23704,11 @@
                                 ],
                                 "name": "ida-terminal-plugin",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -23390,9 +23768,11 @@
                                 "maintainers": [],
                                 "name": "IDA-Theme-Explorer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -23444,9 +23824,11 @@
                                 "maintainers": [],
                                 "name": "IDA-Theme-Explorer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -23500,9 +23882,11 @@
                                 "maintainers": [],
                                 "name": "IDA-Theme-Explorer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -23556,9 +23940,11 @@
                                 "maintainers": [],
                                 "name": "IDA-Theme-Explorer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -23784,9 +24170,11 @@
                                 "maintainers": [],
                                 "name": "IDAGuides",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -23892,9 +24280,11 @@
                                 "maintainers": [],
                                 "name": "IDAGuides",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -23998,9 +24388,11 @@
                                 "maintainers": [],
                                 "name": "IDAGuides",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24106,9 +24498,11 @@
                                 "maintainers": [],
                                 "name": "IDAGuides",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24212,9 +24606,11 @@
                                 "maintainers": [],
                                 "name": "IDAGuides",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24320,9 +24716,11 @@
                                 "maintainers": [],
                                 "name": "IDAGuides",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24426,9 +24824,11 @@
                                 "maintainers": [],
                                 "name": "IDAGuides",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24484,9 +24884,11 @@
                                 "maintainers": [],
                                 "name": "idalib-rust-bindings",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24535,9 +24937,11 @@
                                 "maintainers": [],
                                 "name": "idalib-rust-bindings",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24586,9 +24990,11 @@
                                 "maintainers": [],
                                 "name": "idalib-rust-bindings",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24637,9 +25043,11 @@
                                 "maintainers": [],
                                 "name": "idalib-rust-bindings",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -24695,9 +25103,11 @@
                                 "maintainers": [],
                                 "name": "idamagicstrings",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -25405,9 +25815,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25469,9 +25881,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25533,9 +25947,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25597,9 +26013,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25661,9 +26079,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25725,9 +26145,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25789,9 +26211,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25853,9 +26277,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25918,9 +26344,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -25981,9 +26409,11 @@
                                 "maintainers": [],
                                 "name": "IDAssist",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26053,9 +26483,11 @@
                                 "maintainers": [],
                                 "name": "IDAssistMCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26111,9 +26543,11 @@
                                 "maintainers": [],
                                 "name": "IDAssistMCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26170,9 +26604,11 @@
                                 "maintainers": [],
                                 "name": "IDAssistMCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26229,9 +26665,11 @@
                                 "maintainers": [],
                                 "name": "IDAssistMCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26288,9 +26726,11 @@
                                 "maintainers": [],
                                 "name": "IDAssistMCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26345,9 +26785,11 @@
                                 "maintainers": [],
                                 "name": "IDAssistMCP",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26409,9 +26851,11 @@
                                 "maintainers": [],
                                 "name": "idasvg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -26470,9 +26914,11 @@
                                 "maintainers": [],
                                 "name": "idavator",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26525,9 +26971,11 @@
                                 "maintainers": [],
                                 "name": "idavator",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26648,9 +27096,11 @@
                                 "maintainers": [],
                                 "name": "IFL",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -26849,9 +27299,11 @@
                                 "maintainers": [],
                                 "name": "iOSHelper",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26905,9 +27357,11 @@
                                 "maintainers": [],
                                 "name": "iOSHelper",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -26959,9 +27413,11 @@
                                 "maintainers": [],
                                 "name": "iOSHelper",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -27013,9 +27469,11 @@
                                 "maintainers": [],
                                 "name": "iOSHelper",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -27067,9 +27525,11 @@
                                 "maintainers": [],
                                 "name": "iOSHelper",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -27121,9 +27581,11 @@
                                 "maintainers": [],
                                 "name": "iOSHelper",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -27403,9 +27865,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27455,9 +27919,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27505,9 +27971,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27557,9 +28025,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27607,9 +28077,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27659,9 +28131,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27709,9 +28183,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27761,9 +28237,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27811,9 +28289,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27863,9 +28343,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27913,9 +28395,11 @@
                                 "maintainers": [],
                                 "name": "llm-explainer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -27976,9 +28460,11 @@
                                 "maintainers": [],
                                 "name": "mcrit-ida",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -28251,9 +28737,11 @@
                                 "maintainers": [],
                                 "name": "mcrit-ida",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -28528,9 +29016,11 @@
                                 "maintainers": [],
                                 "name": "mcrit-ida",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -28803,9 +29293,11 @@
                                 "maintainers": [],
                                 "name": "mcrit-ida",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -29080,9 +29572,11 @@
                                 "maintainers": [],
                                 "name": "mcrit-ida",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -29356,9 +29850,11 @@
                                 "maintainers": [],
                                 "name": "mcrit-ida",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -29921,9 +30417,11 @@
                                 "maintainers": [],
                                 "name": "navigator",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -29969,9 +30467,11 @@
                                 "maintainers": [],
                                 "name": "navigator",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -30083,9 +30583,11 @@
                                 "maintainers": [],
                                 "name": "oplog",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -30136,9 +30638,11 @@
                                 "maintainers": [],
                                 "name": "oplog",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -30190,9 +30694,11 @@
                                 "maintainers": [],
                                 "name": "oplog",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -30242,9 +30748,11 @@
                                 "maintainers": [],
                                 "name": "oplog",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -30299,9 +30807,11 @@
                                 "maintainers": [],
                                 "name": "oplog",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -30355,9 +30865,11 @@
                                 "maintainers": [],
                                 "name": "oplog",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -30524,9 +31036,11 @@
                                 ],
                                 "name": "Patching",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -30571,9 +31085,11 @@
                                 ],
                                 "name": "Patching",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -30618,9 +31134,11 @@
                                 ],
                                 "name": "Patching",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -30665,9 +31183,11 @@
                                 ],
                                 "name": "Patching",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32019,9 +32539,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32070,9 +32592,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32121,9 +32645,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32172,9 +32698,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32224,9 +32752,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32276,9 +32806,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32325,9 +32857,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32374,9 +32908,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32423,9 +32959,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32472,9 +33010,11 @@
                                 "maintainers": [],
                                 "name": "rhabdomancer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32737,9 +33277,11 @@
                                 "maintainers": [],
                                 "name": "ShowComments",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32784,9 +33326,11 @@
                                 "maintainers": [],
                                 "name": "ShowComments",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32833,9 +33377,11 @@
                                 "maintainers": [],
                                 "name": "showcomments",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -32895,9 +33441,11 @@
                                 "maintainers": [],
                                 "name": "SigMaker",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -32953,9 +33501,11 @@
                                 "maintainers": [],
                                 "name": "SigMaker",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -33019,9 +33569,11 @@
                                 "maintainers": [],
                                 "name": "SigMaker",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -33085,9 +33637,11 @@
                                 "maintainers": [],
                                 "name": "SigMaker",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -33151,9 +33705,11 @@
                                 "maintainers": [],
                                 "name": "SigMaker",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -33267,9 +33823,11 @@
                                 "maintainers": [],
                                 "name": "Structline",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33373,9 +33931,11 @@
                                 "maintainers": [],
                                 "name": "Structline",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33429,9 +33989,11 @@
                                 "maintainers": [],
                                 "name": "SuperHint",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33477,9 +34039,11 @@
                                 "maintainers": [],
                                 "name": "SuperHint",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33523,9 +34087,11 @@
                                 "maintainers": [],
                                 "name": "SuperHint",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33569,9 +34135,11 @@
                                 "maintainers": [],
                                 "name": "SuperHint",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33684,9 +34252,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33791,9 +34361,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -33898,9 +34470,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34007,9 +34581,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34116,9 +34692,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34223,9 +34801,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34272,9 +34852,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34319,9 +34901,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34369,9 +34953,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34417,9 +35003,11 @@
                                 "maintainers": [],
                                 "name": "Suture",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34478,9 +35066,11 @@
                                 "maintainers": [],
                                 "name": "tag-func",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34529,9 +35119,11 @@
                                 "maintainers": [],
                                 "name": "tag-func",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34578,9 +35170,11 @@
                                 "maintainers": [],
                                 "name": "tag-func",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34627,9 +35221,11 @@
                                 "maintainers": [],
                                 "name": "tag-func",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34676,9 +35272,11 @@
                                 "maintainers": [],
                                 "name": "tag-func",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34725,9 +35323,11 @@
                                 "maintainers": [],
                                 "name": "tag-func",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34834,9 +35434,11 @@
                                 "maintainers": [],
                                 "name": "tc_deer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -34937,9 +35539,11 @@
                                 "maintainers": [],
                                 "name": "tc_deer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -35040,9 +35644,11 @@
                                 "maintainers": [],
                                 "name": "tc_deer",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -35346,9 +35952,11 @@
                                 "maintainers": [],
                                 "name": "unicorn-tracer-arm64",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35397,9 +36005,11 @@
                                 "maintainers": [],
                                 "name": "unicorn-tracer-arm64",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35450,9 +36060,11 @@
                                 "maintainers": [],
                                 "name": "unicorn-tracer-arm64",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35503,9 +36115,11 @@
                                 "maintainers": [],
                                 "name": "unicorn-tracer-arm64",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35556,9 +36170,11 @@
                                 "maintainers": [],
                                 "name": "unicorn-tracer-arm64",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35609,9 +36225,11 @@
                                 "maintainers": [],
                                 "name": "unicorn-tracer-arm64",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35660,9 +36278,11 @@
                                 "maintainers": [],
                                 "name": "unicorn-tracer-arm64",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35857,9 +36477,11 @@
                                 "maintainers": [],
                                 "name": "vt-ida-plugin",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35924,9 +36546,11 @@
                                 "maintainers": [],
                                 "name": "vt-ida-plugin",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -35991,9 +36615,11 @@
                                 "maintainers": [],
                                 "name": "vt-ida-plugin",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36076,9 +36702,11 @@
                                 "maintainers": [],
                                 "name": "vtable-context-tools",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -36128,9 +36756,11 @@
                                 "maintainers": [],
                                 "name": "vtable-context-tools",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -36180,9 +36810,11 @@
                                 "maintainers": [],
                                 "name": "vtable-context-tools",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -36233,9 +36865,11 @@
                                 "maintainers": [],
                                 "name": "vtable-context-tools",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -36326,9 +36960,11 @@
                                 ],
                                 "name": "xray",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -36498,9 +37134,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36550,9 +37188,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36604,9 +37244,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36656,9 +37298,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36710,9 +37354,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36762,9 +37408,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36816,9 +37464,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36868,9 +37518,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36922,9 +37574,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -36974,9 +37628,11 @@
                                 "maintainers": [],
                                 "name": "yarg",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [
@@ -37050,9 +37706,11 @@
                                 "maintainers": [],
                                 "name": "yarka",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
@@ -37126,9 +37784,11 @@
                                 "maintainers": [],
                                 "name": "ZoomAllViews",
                                 "platforms": [
+                                    "linux-aarch64",
                                     "linux-x86_64",
                                     "macos-aarch64",
                                     "macos-x86_64",
+                                    "windows-aarch64",
                                     "windows-x86_64"
                                 ],
                                 "pythonDependencies": [],
