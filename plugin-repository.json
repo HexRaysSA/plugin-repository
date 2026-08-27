@@ -6325,6 +6325,91 @@
             }
         },
         {
+            "host": "https://github.com/eset/delphihelper",
+            "name": "DelphiHelper",
+            "versions": {
+                "1.25": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "juraj.hornak@eset.com",
+                                        "name": "Juraj Hor\u0148\u00e1k"
+                                    },
+                                    {
+                                        "email": "thomas.dupuy@eset.com",
+                                        "name": "Tom Dupuy"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Analyzes Delphi binaries with VMT parsing, form viewing, and IDR Knowledge Base integration.",
+                                "entryPoint": "DelphiHelper.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "delphi",
+                                    "borland",
+                                    "embarcadero",
+                                    "rtti",
+                                    "vmt",
+                                    "virtual-method-table",
+                                    "dfm",
+                                    "form-viewer",
+                                    "idr",
+                                    "knowledge-base",
+                                    "pascal",
+                                    "object-pascal",
+                                    "windows-forms",
+                                    "vcl",
+                                    "rad-studio"
+                                ],
+                                "license": "BSD 2-Clause",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "DelphiHelper",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "py7zr"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/eset/DelphiHelper"
+                                },
+                                "version": "1.25"
+                            }
+                        },
+                        "sha256": "fad6d6615a3bcfe81fd951a236d420d6cf95ccc2d4f7d29ce1d9bac2be857ff6",
+                        "url": "https://codeload.github.com/eset/DelphiHelper/legacy.zip/4cf182af9b10b4d168065a6a8f13de43fda0cf58"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/danigargu/dereferencing",
             "name": "deREferencing",
             "versions": {
@@ -13841,6 +13926,60 @@
                         "sha256": "0d8b33c5c685fe08967363d40a84a0b2ebed661e6f37950d793087b3bc455104",
                         "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.1/ida-bochs-binaries.zip"
                     }
+                ],
+                "1.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "description": "Bundles pre-built Bochs binaries and Windows DLL stubs so that IDA's Bochs debugger works out of the box with no manual Bochs installation.",
+                                "entryPoint": "bochs_binaries_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "bochs",
+                                    "debugger",
+                                    "emulator"
+                                ],
+                                "license": "LGPL-2.1-or-later",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-bochs-binaries",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-bochs-binaries"
+                                },
+                                "version": "1.0.2"
+                            }
+                        },
+                        "sha256": "9180fa76578e566e123ab0dc020c946d8a2d47caeb2a7630b2da36593bc54205",
+                        "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.2/ida-bochs-binaries.zip"
+                    }
                 ]
             }
         },
@@ -14683,7 +14822,7 @@
                                 "version": "0.2.0"
                             }
                         },
-                        "sha256": "477e7268b9f95b7e1a2ac06686a0841c47b9340828dc115aceae3ed9a88e773a",
+                        "sha256": "fbe61d38a0814e0eb01dbe1517c24eb40644e3579e7c62294979cca9999b7599",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/d91cf913de426c7037f3070b26d8d5d62bd7e5d5"
                     }
                 ],
@@ -14736,7 +14875,7 @@
                                 "version": "0.3.0"
                             }
                         },
-                        "sha256": "b313263efc2a7e48a28c413957308db254d5c99d5aaf34141c5bcea6b04c993b",
+                        "sha256": "7a3875dbb9b6f1ab5f7a2f233a3b1b0a6d4dff926988a8e412d74e9ca8878b3a",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/341149326b10750d54d06de7bb9c7eea83ffee44"
                     }
                 ],
@@ -14789,7 +14928,7 @@
                                 "version": "0.3.1"
                             }
                         },
-                        "sha256": "5470d0147e62c228d119b108453b850acb50f0d7b8bcb478828bb17174fc30d8",
+                        "sha256": "97c7eb3c95e335cd08c010387d9c7c4ebc759d9b1192951cf44fa1bf0d1ee6d6",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/4195f21d41f01d073bc07a9b6abe637807c54e9f"
                     }
                 ],
@@ -14842,7 +14981,7 @@
                                 "version": "0.3.2"
                             }
                         },
-                        "sha256": "8019e2aa205b286295ac796c70ee811d963b40957ea2193ed2eee3bb84253c12",
+                        "sha256": "e4343da8e8b9364b8fbfaca8e50e7c2d0498dc6a850a2fdfa536cfaf54bd9fe7",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/93e8aadf13b9889d67709b062711867ac1d58318"
                     }
                 ],
@@ -14895,7 +15034,7 @@
                                 "version": "0.4.0"
                             }
                         },
-                        "sha256": "0fefc3c4eaf8ba5db583e586d4378acaf6e502e98e6ec0baa971fbd972980970",
+                        "sha256": "193a7efee16152f7c1f2af401db9d8b5acbbc82b9740ba6729395e69f19845b9",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/f615eb517983268b80d47ea551083ea335620281"
                     },
                     {
@@ -14999,7 +15138,7 @@
                                 "version": "0.4.1"
                             }
                         },
-                        "sha256": "8a621752099889b2754bfe370986a3006aeb0b180a0e50bdba4a5d912bab67ff",
+                        "sha256": "ae05ea2829ceb0f7b6a014f0c87c8c01cc5eecbb6efff764fcad98153594cd7f",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/8a2e00ef7765e8f7e04689596e4d8569ad0fa2df"
                     },
                     {
@@ -15103,7 +15242,7 @@
                                 "version": "0.5.0"
                             }
                         },
-                        "sha256": "1e9ea7586afa5f971ffc9c9cb71758c4fc516d6ae9858ae9224bd85d0a4e4910",
+                        "sha256": "4d2f6ed8e9fbcab59e8926ef3c574d6a366ca05d75e783e213c2432e253b8f9c",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/eb4553bcd6166f4c9cacf480551146a35fff505a"
                     },
                     {
@@ -15207,7 +15346,7 @@
                                 "version": "0.5.1"
                             }
                         },
-                        "sha256": "d71cc75a21a85a03f455796438032bb0bc774dab8d02693c96265ee57ca5a773",
+                        "sha256": "ff014a10c69092a1db6b553b556fee9e0e41be97046bdfd0a3076825fddecc80",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/96a2e441e0113c136559fc41c4aa5d8924065318"
                     },
                     {
@@ -15311,7 +15450,7 @@
                                 "version": "0.5.2"
                             }
                         },
-                        "sha256": "2be258d4514c4ef33d008d5093374d919bcd2384ec907fb0bf82c127fb572a2c",
+                        "sha256": "a64728c899f750098d3c24d173472e252a318ea26dae1888543d6d3a41e7e529",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/e92f30f8ec9ebc4ac1f312b3cf78b716e699d9fe"
                     },
                     {
@@ -15415,7 +15554,7 @@
                                 "version": "0.5.3"
                             }
                         },
-                        "sha256": "dbfcadd97341d07df88d0d3c15b97d309d523419421fe31b417fa190169864e8",
+                        "sha256": "45c59cbf7a540748f006bd8cd65a1b59f17c84eab0e4a21b517f242a54ba52c0",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/b274b4e4e95e090a0261fbc8ba9d0ab602f8f2c4"
                     },
                     {
@@ -15519,7 +15658,7 @@
                                 "version": "0.6.0"
                             }
                         },
-                        "sha256": "670317eacada86c861f659a632d54705bd70c85fd3164754cf209e17edbd7b1c",
+                        "sha256": "9cba25c97febd16614dca9b3a9994b18a31b3b52bd3b5a409b99b39713bf1df9",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/1bf94167f50444c754cc1bae4e13febaad9bf0d5"
                     },
                     {
@@ -15623,7 +15762,7 @@
                                 "version": "0.6.1"
                             }
                         },
-                        "sha256": "b53e9c350e38912848958baf93de3f91835de1b559b79ead7d92cd66f43eb077",
+                        "sha256": "da5469e04d7f96503fcfc7a00eba461b21d9d1dfd4d29605cdff1db09cfeeedb",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/439289f58bf779e7451e17096e76d17fe4d5b2ab"
                     },
                     {
