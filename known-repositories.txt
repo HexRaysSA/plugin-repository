@@ -359,3 +359,6 @@ hexrayssa/ida-nexus
 
 # Discovered on 2026-08-24 04:51:27
 uky007/ida-func-call-rank
+
+# Discovered on 2026-08-28 12:23:51
+hexrayssa/ida-mcp
