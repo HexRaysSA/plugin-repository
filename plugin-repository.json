@@ -1436,6 +1436,137 @@
             }
         },
         {
+            "host": "https://github.com/mahmoudimus/bindiff-ng",
+            "name": "BinDiff-NG",
+            "versions": {
+                "8.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.1"
+                            }
+                        },
+                        "sha256": "1278ea45a84bd3fc1e56404d4babff67569f94f06ca9891873d827ff46bc5231",
+                        "url": "https://codeload.github.com/mahmoudimus/bindiff-ng/legacy.zip/7143dbc50a61add940ef87a9473e94f04e928918"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.1/bindiff_ng-8.1.1-cp313-cp313-macosx_10_15_universal2.whl ; sys_platform == 'darwin' and python_version == '3.13'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.1/bindiff_ng-8.1.1-cp313-cp313-manylinux_2_28_aarch64.whl ; sys_platform == 'linux' and platform_machine == 'aarch64' and python_version == '3.13'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.1/bindiff_ng-8.1.1-cp313-cp313-manylinux_2_28_x86_64.whl ; sys_platform == 'linux' and platform_machine == 'x86_64' and python_version == '3.13'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.1/bindiff_ng-8.1.1-cp313-cp313-win_amd64.whl ; sys_platform == 'win32' and python_version == '3.13'"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.1"
+                            }
+                        },
+                        "sha256": "4f0158e5a14dbd375d42b739e627d4541e162d24b93ea578798e9afb1dc030ed",
+                        "url": "https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.1/bindiff-plugin-v8.1.1.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/hexrays-plugin-contributions/binexport",
             "name": "binexport",
             "versions": {
@@ -26398,72 +26529,6 @@
             "host": "https://github.com/symgraph/idassist",
             "name": "IDAssist",
             "versions": {
-                "1.2.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "jason.tang@badc0ded.net",
-                                        "name": "Jason Tang"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
-                                "entryPoint": "idassist_plugin.py",
-                                "idaVersions": [
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4"
-                                ],
-                                "keywords": [
-                                    "llm",
-                                    "ai",
-                                    "reverse-engineering",
-                                    "analysis",
-                                    "knowledge-graph",
-                                    "symgraph"
-                                ],
-                                "license": "MIT",
-                                "logoPath": "docs/screenshots/icon.png",
-                                "maintainers": [],
-                                "name": "IDAssist",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "openai",
-                                    "anthropic",
-                                    "pysqlite3",
-                                    "markdown",
-                                    "httpx",
-                                    "anyio>=4.6",
-                                    "mcp==1.23.3",
-                                    "whoosh",
-                                    "aiohttp"
-                                ],
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/symgraph/IDAssist"
-                                },
-                                "version": "1.2.0"
-                            }
-                        },
-                        "sha256": "2ebd0efb7814ee5ec0c179f3d7abb3691e79b9b6c3717789e44cc9d9e984c128",
-                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/eefc4c8792c02f7583e6dc535e7e40a24195a033"
-                    }
-                ],
                 "1.3.0": [
                     {
                         "metadata": {
@@ -27057,6 +27122,73 @@
                         },
                         "sha256": "569274893efacb0184e0cb59102df5828b20f76f1371eaf7d547127d884a343f",
                         "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/7b9e2dea6229a91ec79994a8178ba0eebf4fa0ee"
+                    }
+                ],
+                "2.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "jason.tang@badc0ded.net",
+                                        "name": "Jason Tang"
+                                    }
+                                ],
+                                "categories": [
+                                    "integration-with-third-parties-interoperability",
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "AI-powered reverse engineering plugin with LLM analysis, semantic knowledge graphs, RAG search, and SymGraph collaboration",
+                                "entryPoint": "idassist_plugin.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "ai",
+                                    "reverse-engineering",
+                                    "analysis",
+                                    "knowledge-graph",
+                                    "symgraph"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/screenshots/icon.png",
+                                "maintainers": [],
+                                "name": "IDAssist",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "openai",
+                                    "anthropic",
+                                    "pysqlite3",
+                                    "markdown",
+                                    "httpx",
+                                    "anyio>=4.6",
+                                    "mcp==1.23.3",
+                                    "whoosh",
+                                    "aiohttp",
+                                    "pywin32; platform_system == \"Windows\""
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/symgraph/IDAssist"
+                                },
+                                "version": "2.3.0"
+                            }
+                        },
+                        "sha256": "468518c83845461d8417690d34b3a317f8f5dccb816a2525d39dde3d7fc761d0",
+                        "url": "https://codeload.github.com/symgraph/IDAssist/legacy.zip/df056c44f87a5176b85d510816470f4b189a4c33"
                     }
                 ]
             }
