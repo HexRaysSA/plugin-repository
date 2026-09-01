@@ -1563,6 +1563,381 @@
                         "sha256": "4f0158e5a14dbd375d42b739e627d4541e162d24b93ea578798e9afb1dc030ed",
                         "url": "https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.1/bindiff-plugin-v8.1.1.zip"
                     }
+                ],
+                "8.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.2"
+                            }
+                        },
+                        "sha256": "f88a69a6f42e91418cce7f32ca9e22a2a9d2a9376a3c556b0bf3693b280bc72f",
+                        "url": "https://codeload.github.com/mahmoudimus/bindiff-ng/legacy.zip/5e282620dd5ad900cc219be3a8ac6f9455f51769"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.2/bindiff_ng-8.1.2-cp310-abi3-macosx_10_15_universal2.whl ; sys_platform == 'darwin' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.2/bindiff_ng-8.1.2-cp310-abi3-manylinux_2_28_aarch64.whl ; sys_platform == 'linux' and platform_machine == 'aarch64' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.2/bindiff_ng-8.1.2-cp310-abi3-manylinux_2_28_x86_64.whl ; sys_platform == 'linux' and platform_machine == 'x86_64' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.2/bindiff_ng-8.1.2-cp310-abi3-win_amd64.whl ; sys_platform == 'win32' and python_version >= '3.10'"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.2"
+                            }
+                        },
+                        "sha256": "2d50a8957b290bce1874e3d7cb2d9b76b067cd9b6c3dec69654466e509a8de43",
+                        "url": "https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.2/bindiff-plugin-v8.1.2.zip"
+                    }
+                ],
+                "8.1.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.3"
+                            }
+                        },
+                        "sha256": "93599e1ea64ab285ea7b8982d0cefdd09501242e6fb2876dbac51b071259ec0c",
+                        "url": "https://codeload.github.com/mahmoudimus/bindiff-ng/legacy.zip/8a95a39e033a149172bc3ead03deb2357aa25b87"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.3/bindiff_ng-8.1.3-cp310-abi3-macosx_10_15_universal2.whl ; sys_platform == 'darwin' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.3/bindiff_ng-8.1.3-cp310-abi3-manylinux_2_28_aarch64.whl ; sys_platform == 'linux' and platform_machine == 'aarch64' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.3/bindiff_ng-8.1.3-cp310-abi3-manylinux_2_28_x86_64.whl ; sys_platform == 'linux' and platform_machine == 'x86_64' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.3/bindiff_ng-8.1.3-cp310-abi3-win_amd64.whl ; sys_platform == 'win32' and python_version >= '3.10'"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.3"
+                            }
+                        },
+                        "sha256": "27857ecd1ea75cd58b184873d43638e0e185e781e1306b4d9bb0d92f7c84df3e",
+                        "url": "https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.3/bindiff-plugin-v8.1.3.zip"
+                    }
+                ],
+                "8.1.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.4"
+                            }
+                        },
+                        "sha256": "4124548d3077872d093637d832ca39f6237c7dacf42fe342662405e532dbbe3c",
+                        "url": "https://codeload.github.com/mahmoudimus/bindiff-ng/legacy.zip/c6156d1198c977c82dcd76a887eb989d2d9ab6b8"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis",
+                                    "decompilation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "description": "Structural comparison of executable objects. Identifies identical and similar functions across two disassemblies, ports names, comments and local names between them, and highlights what changed between two builds of the same binary. This is the Python plugin, built on Cython bindings to the BinDiff core engine.",
+                                "entryPoint": "python/ida_plugin/bindiff_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "binary-diffing",
+                                    "patch-analysis",
+                                    "binary-similarity",
+                                    "function-matching",
+                                    "symbol-porting",
+                                    "malware-analysis",
+                                    "vulnerability-research"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinDiff-NG",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.4/bindiff_ng-8.1.4-cp310-abi3-macosx_10_15_universal2.whl ; sys_platform == 'darwin' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.4/bindiff_ng-8.1.4-cp310-abi3-manylinux_2_28_aarch64.whl ; sys_platform == 'linux' and platform_machine == 'aarch64' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.4/bindiff_ng-8.1.4-cp310-abi3-manylinux_2_28_x86_64.whl ; sys_platform == 'linux' and platform_machine == 'x86_64' and python_version >= '3.10'",
+                                    "bindiff-ng @ https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.4/bindiff_ng-8.1.4-cp310-abi3-win_amd64.whl ; sys_platform == 'win32' and python_version >= '3.10'"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/google/bindiff",
+                                    "repository": "https://github.com/mahmoudimus/bindiff-ng"
+                                },
+                                "version": "8.1.4"
+                            }
+                        },
+                        "sha256": "491b88d2e65666e6f565bd16bee0478fd5cb03828b228e5a13baaf3c9a733b87",
+                        "url": "https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.4/bindiff-plugin-v8.1.4.zip"
+                    }
                 ]
             }
         },
@@ -8882,6 +9257,65 @@
                         },
                         "sha256": "6fde80d6655a401c01a3d07cad5ff799ac88d5a26b27f9cadedf85f14baf6b37",
                         "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/b78a82d9e37940ed6d851e197e33b7309baf73af"
+                    }
+                ],
+                "0.0.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ys1231@126.com",
+                                        "name": "iyue"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "decompilation"
+                                ],
+                                "description": "\u4e00\u4e2a\u7528\u4e8e\u751f\u6210frida\u811a\u672c\u7684ida/mcp\u63d2\u4ef6/An ida/mcp plug-in for generating frida scripts",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "hook",
+                                    "generate frida script",
+                                    "frida tools",
+                                    "frida",
+                                    "mcp"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "resources/main.png",
+                                "maintainers": [],
+                                "name": "FridaTools",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "loguru>=0.7.3",
+                                    "mcp[cli]==2.1.1",
+                                    "pyqt5>=5.15.11",
+                                    "pyside6==6.11.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/ys1231/idafridascript"
+                                },
+                                "version": "0.0.4"
+                            }
+                        },
+                        "sha256": "53a88c85856c928ad0a8e900f195f80f3a8bcc8fd1bb55f437226396e1dd25a4",
+                        "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/bda766b178181052a08be58c8dc837c0bc9e5478"
                     }
                 ]
             }
