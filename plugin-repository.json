@@ -9317,6 +9317,65 @@
                         "sha256": "53a88c85856c928ad0a8e900f195f80f3a8bcc8fd1bb55f437226396e1dd25a4",
                         "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/bda766b178181052a08be58c8dc837c0bc9e5478"
                     }
+                ],
+                "0.0.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ys1231@126.com",
+                                        "name": "iyue"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "decompilation"
+                                ],
+                                "description": "\u4e00\u4e2a\u7528\u4e8e\u751f\u6210frida\u811a\u672c\u7684ida/mcp\u63d2\u4ef6/An ida/mcp plug-in for generating frida scripts",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "hook",
+                                    "generate frida script",
+                                    "frida tools",
+                                    "frida",
+                                    "mcp"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "resources/main.png",
+                                "maintainers": [],
+                                "name": "FridaTools",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "loguru>=0.7.3",
+                                    "mcp[cli]==2.1.1",
+                                    "pyqt5>=5.15.11",
+                                    "pyside6==6.11.2"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/ys1231/idafridascript"
+                                },
+                                "version": "0.0.5"
+                            }
+                        },
+                        "sha256": "2c7baf1c64c24ce25c59481874d550c5d37fd9c4162e8700487afe7aac318023",
+                        "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/ac0783b2d86143eca7f4a3bd3907b2c2913b1a92"
+                    }
                 ]
             }
         },
@@ -14274,6 +14333,143 @@
                         },
                         "sha256": "943e893151866fe164e192096093a1d984c6471de3ab66b85bea152aebffebf8",
                         "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.108/hrtng-ida9.2.zip"
+                    }
+                ],
+                "3.9.114": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.114"
+                            }
+                        },
+                        "sha256": "e6b119b3aca9e5b4a62450e8ac5c6ed9ff4a731dbadcec8b8af9c2ea0bb4a9b0",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.114/hrtng-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.114"
+                            }
+                        },
+                        "sha256": "2c766ae0a1305926acb1aad145a050582a2536fd4c4ef630d64c66fd5ee22c87",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.114/hrtng-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.114"
+                            }
+                        },
+                        "sha256": "5c6e3ed2e189c7025f69b33d1e7a9349e63f5744bdf5491fa41acf4337ff8866",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.114/hrtng-ida9.4.zip"
                     }
                 ]
             }
@@ -20746,6 +20942,110 @@
                         },
                         "sha256": "40f645cc2bd3050983387c2dfcffe55bdd6f812ce55666c31a176e8043cca27a",
                         "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v0.8.1/ida-mcp-plugin-0.8.1.zip"
+                    }
+                ],
+                "0.9.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
+                                "entryPoint": "ida_mcp_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "mcp",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus>=0.9.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
+                                },
+                                "version": "0.9.0"
+                            }
+                        },
+                        "sha256": "deb4c571ee331d853ca3968a328a8790c75ab42059f18ea3c8bea9505cb3252c",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-mcp/legacy.zip/362be0a20b1bcb672a0ae916df70759f8f805d1d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
+                                "entryPoint": "ida_mcp_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "mcp",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus>=0.9.1"
+                                ],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
+                                },
+                                "version": "0.9.0"
+                            }
+                        },
+                        "sha256": "4cc65727fb8ab2488fc28236df84de5333e8420e898af62435719a8562793fb6",
+                        "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v0.9.0/ida-mcp-plugin-0.9.0.zip"
                     }
                 ]
             }
@@ -29141,6 +29441,60 @@
             "host": "https://github.com/pgarba/ida-llm-explainer",
             "name": "llm-explainer",
             "versions": {
+                "1.12.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "peter.garba@reversing.software",
+                                        "name": "Peter Garba"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "description": "Explains functions using a local llama.cpp LLM - proposes renames, types, and structs, all human-reviewed before anything is written.",
+                                "entryPoint": "llm_explainer.py",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "llm",
+                                    "llama.cpp",
+                                    "ai-assistant",
+                                    "reverse-engineering",
+                                    "hex-rays",
+                                    "decompiler",
+                                    "code-explanation",
+                                    "function-renaming"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "llm-explainer",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/pgarba/ida-llm-explainer"
+                                },
+                                "version": "1.12.1"
+                            }
+                        },
+                        "sha256": "57b764a09851ed03c33e89bfa0104b629253a345f66b4be27b9bda1be0c50e07",
+                        "url": "https://codeload.github.com/pgarba/ida-llm-explainer/legacy.zip/ebc2cf5068e129101869b063df179b80cae5720d"
+                    }
+                ],
                 "1.3.0": [
                     {
                         "metadata": {
