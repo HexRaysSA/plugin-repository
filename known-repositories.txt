@@ -365,3 +365,6 @@ hexrayssa/ida-mcp
 
 # Discovered on 2026-08-31 12:49:44
 mahmoudimus/bindiff-ng
+
+# added 2026-09-08
+Lumice/BinaryLens
