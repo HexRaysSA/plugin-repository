@@ -913,6 +913,71 @@
             }
         },
         {
+            "host": "https://github.com/lumice/binarylens",
+            "name": "BinaryLens",
+            "versions": {
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "lumice@users.noreply.github.com",
+                                        "name": "Lumice"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity",
+                                    "malware-analysis"
+                                ],
+                                "description": "An IDA plugin that uses language models to speed up binary analysis with batch subroutine renaming, variable inference, and explanations.",
+                                "entryPoint": "binarylens.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "ai",
+                                    "llm",
+                                    "decompiler",
+                                    "pseudocode",
+                                    "reverse-engineering",
+                                    "renaming",
+                                    "hexrays"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "BinaryLens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Lumice/BinaryLens"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "358cd3a0884a7ecaedaeba05a8b6946d80899f69b0806d4db5ffe58d8b02ccae",
+                        "url": "https://github.com/Lumice/BinaryLens/releases/download/v1.2.0/BinaryLens-v1.2.0.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/hexrays-plugin-contributions/bindiff",
             "name": "bindiff",
             "versions": {
