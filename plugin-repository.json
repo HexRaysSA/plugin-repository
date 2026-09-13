@@ -6745,6 +6745,154 @@
                         "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.13/DeepExtractIDA.zip"
                     }
                 ],
+                "0.9.14": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.14"
+                            }
+                        },
+                        "sha256": "5cd9d081ea3b3f51635f9c3c6f7841d91a25e7bd94680b37f9d6db8a35c0f50e",
+                        "url": "https://codeload.github.com/marcosd4h/DeepExtractIDA/legacy.zip/af6b01df3ce5774016f6e3cf336ed0ca2f47b512"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "moviedo@gmail.com",
+                                        "name": "Marcos Oviedo"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "vulnerability-research-and-exploit-development",
+                                    "api-scripting-and-automation",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "description": "A headless IDA Pro plugin that extracts PE binaries into structured SQLite databases and AI-ready C++ source files\u2014capturing metadata, decompiled code, cross-references, vtable hierarchies, and dangerous API calls. DeepExtract powers autonomous vulnerability discovery agents, grounds manual code review in tools like Claude Code and Cursor with clean decompiled exports, and enables enterprise-scale threat hunting across thousands of executables.",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "decompiler",
+                                    "extraction",
+                                    "sqlite",
+                                    "ai",
+                                    "headless",
+                                    "vulnerability-research",
+                                    "binary-analysis",
+                                    "pe-analysis",
+                                    "cross-references",
+                                    "vtable",
+                                    "callgraph",
+                                    "batch-processing",
+                                    "llm",
+                                    "agentic",
+                                    "threat-hunting",
+                                    "code-export",
+                                    "langgraph",
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "cyber-reasoning-system",
+                                    "static-analysis",
+                                    "loop-analysis",
+                                    "vtable-reconstruction",
+                                    "semantic-analysis",
+                                    "data-flow",
+                                    "dotnet",
+                                    "clr-metadata"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "DeepExtract",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/marcosd4h/DeepExtractIDA"
+                                },
+                                "version": "0.9.14"
+                            }
+                        },
+                        "sha256": "010af6677fdd17f84016cd845bb7f6e24ed2653b2411df4f99b398fabbf5e818",
+                        "url": "https://github.com/marcosd4h/DeepExtractIDA/releases/download/v0.9.14/DeepExtractIDA.zip"
+                    }
+                ],
                 "0.9.8": [
                     {
                         "metadata": {
