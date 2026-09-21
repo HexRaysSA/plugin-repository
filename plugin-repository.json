@@ -4176,6 +4176,77 @@
                         "sha256": "fa2da2593d576aa644feb9db3f099153afffaa9b83e52b11102296927360f1df",
                         "url": "https://codeload.github.com/oxiKKK/ida-clang-include/legacy.zip/a11bdcfee2522a7206d4654594a19cf437edbc3a"
                     }
+                ],
+                "1.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "oxsscze@gmail.com",
+                                        "name": "oxiKKK"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "description": "Import C and C++ headers into Local Types from a dockable UI with previewed refreshes and clang-compatible parser settings",
+                                "entryPoint": "ida_clang_include.py",
+                                "idaVersions": [
+                                    "7.0",
+                                    "7.1",
+                                    "7.2",
+                                    "7.3",
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "8.5",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "clang",
+                                    "idaclang",
+                                    "local-types",
+                                    "c",
+                                    "c++",
+                                    "headers",
+                                    "type-import"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "clang-include",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/oxiKKK/ida-clang-include"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "232a09909f961ac9695402a4d655c200597c0bc6bb69ffb2050c458dcea09782",
+                        "url": "https://codeload.github.com/oxiKKK/ida-clang-include/legacy.zip/bb266fe28b5194dc8a510427b9532d4dfd9ce1cd"
+                    }
                 ]
             }
         },
@@ -12872,6 +12943,58 @@
                         },
                         "sha256": "7ae151d44b6d20fcf2d70e070cbf24d21d9584e0728f6ab94f5eb5d2946d734d",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/954fb7c6a0dc9696871d36ec64e57988e3d87a8e"
+                    }
+                ],
+                "0.10.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "0.10.1"
+                            }
+                        },
+                        "sha256": "a0af445a40b213e6ac31efec9ba52e49b5fd33e1c5b65edd2b6a1656055c4532",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/eb6f4668eadda90ad5ec23c87c734743eede7f2a"
                     }
                 ],
                 "0.7.3": [
@@ -36251,6 +36374,57 @@
                         },
                         "sha256": "f40bb187e2f80d96f8e7cd129a193131c38d10a0fcf990224b6fa26b53a4f14b",
                         "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/87222236e744a5db822c7cc719297127b7d582a9"
+                    }
+                ],
+                "0.10.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "description": "Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "rhabdomancer",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/rhabdomancer/rhabdomancer/",
+                                    "repository": "https://github.com/0xdea/rhabdomancer"
+                                },
+                                "version": "0.10.1"
+                            }
+                        },
+                        "sha256": "62d49a707752d4a29bdb7ddfd0cb9ef8be6ac3148c53918672282904300df075",
+                        "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/cd34874da4c490fe1c6f15e766c925fd041aa64d"
                     }
                 ],
                 "0.7.4": [
