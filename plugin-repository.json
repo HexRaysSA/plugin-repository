@@ -254,6 +254,58 @@
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/81a4ad14c160a2204d453a69b27ae692d540abc2"
                     }
                 ],
+                "0.10.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.10.1"
+                            }
+                        },
+                        "sha256": "82921932dea78bd9c8db5cf4e4d39a187f575ce6dd2510a7b7996a8a21ff7b5f",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/6de8fc399df33b48a18f5985805e72cdc5caa187"
+                    }
+                ],
                 "0.7.3": [
                     {
                         "metadata": {
