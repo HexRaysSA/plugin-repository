@@ -379,6 +379,61 @@
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/7ff30d3e212983bd2c425e6cf78e718d3e520ed1"
                     }
                 ],
+                "0.10.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "0.10.3"
+                            }
+                        },
+                        "sha256": "cf791c2d50b60628cdb0932a898cd0fef2e096f91567e036603ae5ef2e127bae",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/d3e40f7a9930e745a1e93b201e4d81b2f21d1879"
+                    }
+                ],
                 "0.7.3": [
                     {
                         "metadata": {
@@ -26195,6 +26250,70 @@
                         "sha256": "5353235d68d64e21af633a076ebac3da8de7979b2b7e24499da7e18a1ea2c715",
                         "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/68ca0f874e1f9f850902e60b72a09b96919e2fee"
                     }
+                ],
+                "0.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "info@revskills.de",
+                                        "name": "Bjoern Kerler"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "CLI-driven daemon exposing IDA Pro reverse engineering capabilities over a Unix domain socket",
+                                "entryPoint": "ida_rpc_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "ida-pro",
+                                    "ida",
+                                    "reverse-engineering",
+                                    "decompiler",
+                                    "binary-analysis",
+                                    "rpc",
+                                    "json-rpc",
+                                    "automation",
+                                    "llm",
+                                    "agent"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "ida-plugin.png",
+                                "maintainers": [],
+                                "name": "ida-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "click>=8.1.0"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/bkerler/ida_rpc"
+                                },
+                                "version": "0.2.0"
+                            }
+                        },
+                        "sha256": "8e7c3511a9636ee385f3639207a0bb66842cb822e2af7923b0a239b974f39428",
+                        "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/6678b88375bfbd120037fd2a5c102b116d67e94d"
+                    }
                 ]
             }
         },
@@ -37936,7 +38055,7 @@
                             }
                         },
                         "sha256": "99376eb1476eab88183a622d66a4aff52a688c44a4249cb39b87e7aaffb0c8a5",
-                        "url": "https://codeload.github.com/mahmoudimus/patching/legacy.zip/5c52eac6143148e0ea826643229e08aab166bd4f"
+                        "url": "https://codeload.github.com/mahmoudimus/patching-ng/legacy.zip/5c52eac6143148e0ea826643229e08aab166bd4f"
                     },
                     {
                         "metadata": {
@@ -38013,7 +38132,325 @@
                             }
                         },
                         "sha256": "56bb0b1f68c328389fadaac04f2ed9ddd8310c8cab09925e90554fe836fe10db",
-                        "url": "https://github.com/mahmoudimus/patching/releases/download/v0.3.0/patching.zip"
+                        "url": "https://github.com/mahmoudimus/patching-ng/releases/download/v0.3.0/patching.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/mahmoudimus/patching-ng",
+            "name": "patching-ng",
+            "versions": {
+                "0.4.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "contact@ret2.io",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Interactive binary patching for IDA Pro: assemble, NOP, force jumps, revert, and apply patches back to the executable",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "patching",
+                                    "binary-patching",
+                                    "assembler",
+                                    "keystone",
+                                    "nop",
+                                    "force-jump",
+                                    "x86",
+                                    "x64",
+                                    "arm",
+                                    "aarch64",
+                                    "thumb",
+                                    "ppc",
+                                    "mips",
+                                    "sparc",
+                                    "systemz",
+                                    "hexagon",
+                                    "evm"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "mabdelkader@gmail.com",
+                                        "name": "Mahmoud Rusty Abdelkader"
+                                    }
+                                ],
+                                "name": "patching-ng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/gaasedelen/patching",
+                                    "repository": "https://github.com/mahmoudimus/patching-ng"
+                                },
+                                "version": "0.4.0"
+                            }
+                        },
+                        "sha256": "95e15e8ac1471601a8bea0bc164b3e1d07e55228bebfd7b93e6c3b5f46bd3a93",
+                        "url": "https://codeload.github.com/mahmoudimus/patching-ng/legacy.zip/a453013e2dc88fecb7cd5c22b117b1ec2621bd42"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "contact@ret2.io",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Interactive binary patching for IDA Pro: assemble, NOP, force jumps, revert, and apply patches back to the executable",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "patching",
+                                    "binary-patching",
+                                    "assembler",
+                                    "keystone",
+                                    "nop",
+                                    "force-jump",
+                                    "x86",
+                                    "x64",
+                                    "arm",
+                                    "aarch64",
+                                    "thumb",
+                                    "ppc",
+                                    "mips",
+                                    "sparc",
+                                    "systemz",
+                                    "hexagon",
+                                    "evm"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "mabdelkader@gmail.com",
+                                        "name": "Mahmoud Rusty Abdelkader"
+                                    }
+                                ],
+                                "name": "patching-ng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/gaasedelen/patching",
+                                    "repository": "https://github.com/mahmoudimus/patching-ng"
+                                },
+                                "version": "0.4.0"
+                            }
+                        },
+                        "sha256": "3cf2641e14d04340f91c770f0bf8a85633ae16b3269a1a781c60fc4563c5456f",
+                        "url": "https://github.com/mahmoudimus/patching-ng/releases/download/v0.4.0/patching.zip"
+                    }
+                ],
+                "0.5.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "contact@ret2.io",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Interactive binary patching for IDA Pro: assemble, NOP, force jumps, revert, and apply patches back to the executable",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "patching",
+                                    "binary-patching",
+                                    "assembler",
+                                    "keystone",
+                                    "nop",
+                                    "force-jump",
+                                    "x86",
+                                    "x64",
+                                    "arm",
+                                    "aarch64",
+                                    "thumb",
+                                    "ppc",
+                                    "mips",
+                                    "sparc",
+                                    "systemz",
+                                    "hexagon",
+                                    "evm"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "mabdelkader@gmail.com",
+                                        "name": "Mahmoud Rusty Abdelkader"
+                                    }
+                                ],
+                                "name": "patching-ng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/gaasedelen/patching",
+                                    "repository": "https://github.com/mahmoudimus/patching-ng"
+                                },
+                                "version": "0.5.0"
+                            }
+                        },
+                        "sha256": "b83cc0970961a59cca63a108a36bbb964b68aff73c9677375a10a0fdda3973f9",
+                        "url": "https://codeload.github.com/mahmoudimus/patching-ng/legacy.zip/b2566d31f830c860283b578e8860bf285c7008e6"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "contact@ret2.io",
+                                        "name": "Markus Gaasedelen"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "vulnerability-research-and-exploit-development",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Interactive binary patching for IDA Pro: assemble, NOP, force jumps, revert, and apply patches back to the executable",
+                                "entryPoint": "patching.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "patching",
+                                    "binary-patching",
+                                    "assembler",
+                                    "keystone",
+                                    "nop",
+                                    "force-jump",
+                                    "x86",
+                                    "x64",
+                                    "arm",
+                                    "aarch64",
+                                    "thumb",
+                                    "ppc",
+                                    "mips",
+                                    "sparc",
+                                    "systemz",
+                                    "hexagon",
+                                    "evm"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "mabdelkader@gmail.com",
+                                        "name": "Mahmoud Rusty Abdelkader"
+                                    }
+                                ],
+                                "name": "patching-ng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://github.com/gaasedelen/patching",
+                                    "repository": "https://github.com/mahmoudimus/patching-ng"
+                                },
+                                "version": "0.5.0"
+                            }
+                        },
+                        "sha256": "d8d54240c667bf9dee4849ab9cac3bf7001463a88d43149d72315757760749d8",
+                        "url": "https://github.com/mahmoudimus/patching-ng/releases/download/v0.5.0/patching.zip"
                     }
                 ]
             }
