@@ -22364,61 +22364,6 @@
                         },
                         "sha256": "a6fa6f9337c423d54a8a2c129afb10ba7e5436783716296fb4ebed56906c3134",
                         "url": "https://codeload.github.com/HexRaysSA/ida-mcp/legacy.zip/66b60cd07384376e86cd8632aa38eb3a0152a6b5"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
-                                "entryPoint": "ida_mcp_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "mcp",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-mcp",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-nexus>=0.11.2"
-                                ],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
-                                },
-                                "version": "2026.917.1"
-                            }
-                        },
-                        "sha256": "d576d403da6db56f2a309d21710c50a500a28491e405ee69d8ef9554f1132763",
-                        "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v2026.917.1/ida-mcp-plugin-2026.917.1.zip"
                     }
                 ],
                 "2026.917.2": [
@@ -23427,6 +23372,118 @@
                         },
                         "sha256": "f3e840a3fa7dee304193a309514184e6f245feb33820b0ce50c94187bc8633cb",
                         "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v20260924.0.3/ida-mcp-plugin-20260924.0.3.zip"
+                    }
+                ],
+                "20260929.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
+                                "entryPoint": "ida_mcp_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "mcp",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus>=0.13.0"
+                                ],
+                                "requiresPython": ">=3.11",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
+                                },
+                                "version": "20260929.0.1"
+                            }
+                        },
+                        "sha256": "f79defdf29f7105e7aa8e013ebdaa868a44b1c758151402c0371d0cacbd45f57",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-mcp/legacy.zip/cb2735f4ef8fbb31c666c411f4c8819ff42e25cb"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
+                                "entryPoint": "ida_mcp_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "mcp",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus>=0.13.0"
+                                ],
+                                "requiresPython": ">=3.11",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
+                                },
+                                "version": "20260929.0.1"
+                            }
+                        },
+                        "sha256": "b5e9856bc2e0f72a8b2d2cf11c49a8d3d9efe643509ac75ada97da1ac1ee487d",
+                        "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v20260929.0.1/ida-mcp-plugin-20260929.0.1.zip"
                     }
                 ]
             }
@@ -34520,6 +34577,284 @@
                         },
                         "sha256": "c14b2a99acf8e74e9b2bb41ed3f30a7ea2ddb4b65558335b48a16b02d05d1c4d",
                         "url": "https://github.com/pgarba/ida-llm-explainer/releases/download/v1.9.0/llm-explainer-1.9.0.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/familiary/mcrit-plugin",
+            "name": "mcrit-ida",
+            "versions": {
+                "2.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "daniel.plohmann@fkie.fraunhofer.de",
+                                        "name": "Daniel Plohmann"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Integration with MCRIT server for code similarity analysis.",
+                                "entryPoint": "ida_mcrit.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcrit",
+                                    "minhash",
+                                    "smda",
+                                    "code-similarity",
+                                    "malware-analysis",
+                                    "yara"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "icons/mcrit.png",
+                                "maintainers": [],
+                                "name": "mcrit-ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "smda>=4.3.10",
+                                    "ida-settings>=3.5.1",
+                                    "requests"
+                                ],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Username for MCRITWeb (optional if API Token is provided).",
+                                        "key": "mcritweb_username",
+                                        "name": "MCRITWeb Username",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "http://127.0.0.1:8000/",
+                                        "documentation": "URL of the MCRIT server.",
+                                        "key": "mcrit_server",
+                                        "name": "MCRIT Server URL",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "10",
+                                        "documentation": "Timeout for MCRIT API requests.",
+                                        "key": "mcrit_request_timeout",
+                                        "name": "MCRIT Request Timeout (seconds)",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "API Token for MCRITWeb authentication.",
+                                        "key": "mcritweb_api_token",
+                                        "name": "MCRITWeb API Token",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically convert the database to an SMDA report on plugin startup.",
+                                        "key": "auto_analyze_smda_on_startup",
+                                        "name": "Auto Analyze SMDA on Startup",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Additionally disassemble with SMDA and use its report instead of the disassembler's own analysis.",
+                                        "key": "use_smda_for_analysis",
+                                        "name": "Use SMDA for Analysis",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Ask to upload updated function names to MCRIT server on close.",
+                                        "key": "submit_function_names_on_close",
+                                        "name": "Submit Function Names on Close",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Block Scope Widget.",
+                                        "key": "blocks_filter_library_functions",
+                                        "name": "Blocks: Filter Library Functions",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Block Scope Widget.",
+                                        "key": "blocks_live_query",
+                                        "name": "Blocks: Live Query",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "4",
+                                        "documentation": "Minimum block size for Block Scope Widget.",
+                                        "key": "blocks_min_size",
+                                        "name": "Blocks: Minimum Size",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter out library functions in Function Scope Widget.",
+                                        "key": "function_filter_library_functions",
+                                        "name": "Functions: Filter Library Functions",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable live query in Function Scope Widget.",
+                                        "key": "function_live_query",
+                                        "name": "Functions: Live Query",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Scope Widget.",
+                                        "key": "function_min_score",
+                                        "name": "Functions: Minimum Score",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Automatically fetch labels in Function Overview Widget.",
+                                        "key": "overview_fetch_labels_automatically",
+                                        "name": "Overview: Fetch Labels Automatically",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to labels in Function Overview Widget.",
+                                        "key": "overview_filter_to_labels",
+                                        "name": "Overview: Filter to Labels",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Filter to conflicts in Function Overview Widget.",
+                                        "key": "overview_filter_to_conflicts",
+                                        "name": "Overview: Filter to Conflicts",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "50",
+                                        "documentation": "Minimum score for Function Overview Widget.",
+                                        "key": "overview_min_score",
+                                        "name": "Overview: Minimum Score",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/familiary/mcrit-plugin"
+                                },
+                                "version": "2.0.0"
+                            }
+                        },
+                        "sha256": "255daef68732b9f5ff3d500da5c7c69bc8f91aef4fd61457b42d82c09c3cbfac",
+                        "url": "https://github.com/familiary/mcrit-plugin/releases/download/ida-v2.0.0/mcrit-ida-2.0.0.zip"
                     }
                 ]
             }
