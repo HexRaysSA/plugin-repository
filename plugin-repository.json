@@ -17061,62 +17061,6 @@
             "host": "https://github.com/hexrayssa/ida-codemode",
             "name": "ida-codemode",
             "versions": {
-                "0.6.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
-                                "entryPoint": "ida_codemode_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "idalib",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-codemode",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-codemode==0.6.0"
-                                ],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-codemode"
-                                },
-                                "version": "0.6.0"
-                            }
-                        },
-                        "sha256": "9cba25c97febd16614dca9b3a9994b18a31b3b52bd3b5a409b99b39713bf1df9",
-                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/1bf94167f50444c754cc1bae4e13febaad9bf0d5"
-                    }
-                ],
                 "0.6.1": [
                     {
                         "metadata": {
@@ -22421,61 +22365,6 @@
                         },
                         "sha256": "428d3c62ecacc4803c0a2e0b2322d2590e14204559a8ef26824191eea7e5e241",
                         "url": "https://codeload.github.com/HexRaysSA/ida-mcp/legacy.zip/0b6345749e6cc22cb5d3581acf46d7166fc9f366"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
-                                "entryPoint": "ida_mcp_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "mcp",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-mcp",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-nexus>=0.12.2"
-                                ],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
-                                },
-                                "version": "2026.917.2"
-                            }
-                        },
-                        "sha256": "b79150dd1b60ea5f8c6458908c6068db61f8a2961538356c25c636221dc314b4",
-                        "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v2026.917.2/ida-mcp-plugin-2026.917.2.zip"
                     }
                 ],
                 "20260918.0.1": [
@@ -23485,6 +23374,118 @@
                         "sha256": "b5e9856bc2e0f72a8b2d2cf11c49a8d3d9efe643509ac75ada97da1ac1ee487d",
                         "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v20260929.0.1/ida-mcp-plugin-20260929.0.1.zip"
                     }
+                ],
+                "20260930.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
+                                "entryPoint": "ida_mcp_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "mcp",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus>=0.13.1"
+                                ],
+                                "requiresPython": ">=3.11",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
+                                },
+                                "version": "20260930.0.1"
+                            }
+                        },
+                        "sha256": "6aec30a82f88aacd454b420987ae739f20c6de7616faf4336404ebe298e7e817",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-mcp/legacy.zip/8bdaadeeb41509a483787990fea986b9fcf6d59d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Expose IDA GUI databases through IDA Nexus for the official IDA MCP server.",
+                                "entryPoint": "ida_mcp_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "mcp",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus>=0.13.1"
+                                ],
+                                "requiresPython": ">=3.11",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-mcp"
+                                },
+                                "version": "20260930.0.1"
+                            }
+                        },
+                        "sha256": "1215485297a786c45a2b775cee48068a85fca59b89f7da1aac09dc948716e97c",
+                        "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v20260930.0.1/ida-mcp-plugin-20260930.0.1.zip"
+                    }
                 ]
             }
         },
@@ -24102,60 +24103,6 @@
                         },
                         "sha256": "f9bdd60477f2b88fcab4a93f4e325a049c833f06c5ead5b6b53beb4497aca944",
                         "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/3c43fced579029c265c049f98ac8e461d3a3a354"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "support@hex-rays.com",
-                                        "name": "Hex-Rays SA"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
-                                "entryPoint": "ida_nexus_plugin.py",
-                                "idaVersions": [
-                                    "9.4",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "python",
-                                    "automation",
-                                    "idalib",
-                                    "ai"
-                                ],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-nexus",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "ida-nexus==0.10.6"
-                                ],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-nexus"
-                                },
-                                "version": "0.10.6"
-                            }
-                        },
-                        "sha256": "e893bf6bd054b2e571ad097567df7456bb9f8a92c91c5e7a5ec0134346636782",
-                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.10.6/ida-nexus-plugin-0.10.6.zip"
                     }
                 ],
                 "0.10.7": [
@@ -25152,6 +25099,118 @@
                         },
                         "sha256": "776c9dc6ffb25330f9e080566958d474fe77bfe2f77aa927ecf1ad5f555e1a77",
                         "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.13.0/ida-nexus-plugin-0.13.0.zip"
+                    }
+                ],
+                "0.13.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_nexus_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nexus",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus==0.13.1"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-nexus"
+                                },
+                                "version": "0.13.1"
+                            }
+                        },
+                        "sha256": "3f66c309ef71618043615fe34dbfe9786cef6e36c4c9200e809c55ed8ba3c51a",
+                        "url": "https://codeload.github.com/HexRaysSA/ida-nexus/legacy.zip/60208764639d8ca83a1c78ffc7d6cda782ac4509"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@hex-rays.com",
+                                        "name": "Hex-Rays SA"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Authenticated local Python execution for IDA GUI and command-line idalib sessions.",
+                                "entryPoint": "ida_nexus_plugin.py",
+                                "idaVersions": [
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "python",
+                                    "automation",
+                                    "idalib",
+                                    "ai"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-nexus",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-nexus==0.13.1"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-nexus"
+                                },
+                                "version": "0.13.1"
+                            }
+                        },
+                        "sha256": "daf9a258fd2aa13f25159101cd33326ff95083bb7cc275995486301f6e810c56",
+                        "url": "https://github.com/HexRaysSA/ida-nexus/releases/download/v0.13.1/ida-nexus-plugin-0.13.1.zip"
                     }
                 ],
                 "0.6.2": [
