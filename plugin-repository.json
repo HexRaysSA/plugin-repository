@@ -940,6 +940,61 @@
                         "sha256": "bc60626c7961e6cf9bc43c1ed694b80139409bd2ecfe5b89570f0e12b88fc091",
                         "url": "https://codeload.github.com/0xdea/augur/legacy.zip/7d929ad2ae4002e0539d76edd800fa70d718b3c9"
                     }
+                ],
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineering assistant that extracts strings and related pseudocode from a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "augur",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/augur/augur/",
+                                    "repository": "https://github.com/0xdea/augur"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "52835fa46acf540fefcfe8034b3478459917c54420bab7903ae997b92e4a829c",
+                        "url": "https://codeload.github.com/0xdea/augur/legacy.zip/03943341282c2b67547ab6a79cc8412027998198"
+                    }
                 ]
             }
         },
@@ -14284,6 +14339,61 @@
                         },
                         "sha256": "f52e7b2d0290011c57e79ef635e28dde1073cab8fbe8fe3ffadde338d1f0c768",
                         "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/acae1c08b4e98a8bbf52effd09b7e18bd289ad86"
+                    }
+                ],
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Vulnerability research assistant that extracts pseudocode from the IDA Hex-Rays decompiler.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "haruspex",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/haruspex/haruspex/",
+                                    "repository": "https://github.com/0xdea/haruspex"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "0a0bc2765a21f2eb28056d8d4b26c7a8b35f84f475e567da23e41eae5b49a275",
+                        "url": "https://codeload.github.com/0xdea/haruspex/legacy.zip/5f65eff6fcd5e3d4936fcd5e6256021777f27bee"
                     }
                 ]
             }
@@ -38629,6 +38739,60 @@
                         },
                         "sha256": "43ff00d635636bbbdffbe8d48768a8d79b97bcc62a07e31ae621c9dbee268006",
                         "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/7b589b61c8aa9e1906334cc0d1ddcf7081d0780d"
+                    }
+                ],
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "raptor@0xdeadbeef.info",
+                                        "name": "Marco Ivaldi"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.",
+                                "entryPoint": "ida-plugin-stub.py",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "vulnerability-research",
+                                    "static-analysis",
+                                    "security",
+                                    "idalib",
+                                    "rust"
+                                ],
+                                "license": "MIT",
+                                "logoPath": ".img/logo.png",
+                                "maintainers": [],
+                                "name": "rhabdomancer",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://0xdeadbeef.info/rhabdomancer/rhabdomancer/",
+                                    "repository": "https://github.com/0xdea/rhabdomancer"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "23c12c505593d9e6b8020a94f777044a74aee27bb2e02dc47539dfd51cdd5a05",
+                        "url": "https://codeload.github.com/0xdea/rhabdomancer/legacy.zip/772cc7a4da30d70612096986e2d6969f3cc31ddf"
                     }
                 ]
             }
