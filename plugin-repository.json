@@ -31308,59 +31308,6 @@
             "host": "https://github.com/allthingsida/idasql",
             "name": "IDASQL",
             "versions": {
-                "0.0.10": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "elias.bachaalany@gmail.com",
-                                        "name": "Elias Bachaalany"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
-                                "entryPoint": "idasql",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "IDASQL",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/allthingsida/idasql"
-                                },
-                                "version": "0.0.10"
-                            }
-                        },
-                        "sha256": "1a4af60d2027789428c9610845dc11f8e117f79042915b1ac8059bd4e63e5166",
-                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.10/idasql_plugin-v0.0.10.zip"
-                    }
-                ],
                 "0.0.11": [
                     {
                         "metadata": {
@@ -31781,6 +31728,140 @@
                         },
                         "sha256": "a553bd6a14277387d95fc966b334a506e736e4edc55ec88447ba435217808f0b",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.18/idasql_plugin-v0.0.18.zip"
+                    }
+                ],
+                "0.0.19": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.19"
+                            }
+                        },
+                        "sha256": "79ee02e7cbe89ae6fe31d73b1b4098d07dc8f5227a1b3b50b01e667858235122",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.19/idasql-v0.0.19-ida94-plugin.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.19"
+                            }
+                        },
+                        "sha256": "fd0f00a6278496d8219e567cef7f4bfebf98d76569e6b5afea4e06bc1e74e418",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.19/idasql-v0.0.19-ida92-plugin.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.19"
+                            }
+                        },
+                        "sha256": "8bc542f1782370299732fd03331316484daeb98eef4c2d970d264b465af9ed0b",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.19/idasql-v0.0.19-ida93-plugin.zip"
                     }
                 ]
             }
