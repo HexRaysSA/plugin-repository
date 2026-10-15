@@ -5367,6 +5367,67 @@
             }
         },
         {
+            "host": "https://github.com/tien0246/constloader",
+            "name": "const-loader",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "doantien541@gmail.com",
+                                        "name": "tien0246"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Fold constant-address memory reads in Hex-Rays microcode to expose values hidden by obfuscation.",
+                                "entryPoint": "ConstLoader.py",
+                                "idaVersions": [
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "constant-folding",
+                                    "microcode",
+                                    "Hex-Rays",
+                                    "obfuscation",
+                                    "memory-loads"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "const-loader",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/tien0246/ConstLoader"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "68e4ce30634166c694f6881f33bdb89046e275e1c85c9a0ce53a2f9cb43fada7",
+                        "url": "https://codeload.github.com/tien0246/ConstLoader/legacy.zip/07ffa7739c66f92a896ca774188d08edec64aeea"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/nico-posada/crystalre",
             "name": "CrystalRE",
             "versions": {
@@ -10688,6 +10749,64 @@
                         },
                         "sha256": "c81aa77af8ad5305dd1fa67cfc00c468f97efe2c7189b02900eb8ee671e0baab",
                         "url": "https://codeload.github.com/oxiKKK/ida-function-string-associate/legacy.zip/0475a1a9fbcd2c83097188d29f39b0012e555461"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/tien0246/functionloader",
+            "name": "functionloader",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "60417827+tien0246@users.noreply.github.com",
+                                        "name": "tien0246"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Select functions and inline resolved calls before Hex-Rays decompiler optimization.",
+                                "entryPoint": "FunctionLoader.py",
+                                "idaVersions": [
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "function-inlining",
+                                    "decompiler",
+                                    "reverse-engineering"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "functionloader",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/tien0246/functionloader"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "2a116601c4124c373cfc7b3f5a7787457055fc9cddb09e8c2419b9be8f86cd2b",
+                        "url": "https://codeload.github.com/tien0246/functionloader/legacy.zip/3945f11b79b0b6859f512381a0379b892c953485"
                     }
                 ]
             }
@@ -17834,223 +17953,6 @@
                                 "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
                                 "entryPoint": "ida_mcp.py",
                                 "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "mcp",
-                                    "automation",
-                                    "reverse-engineering",
-                                    "debugging"
-                                ],
-                                "license": "GPL-3.0-only",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "IDA-MCP",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "fastmcp",
-                                    "starlette",
-                                    "uvicorn",
-                                    "pydantic",
-                                    "ida-settings>=3,<4"
-                                ],
-                                "requiresPython": null,
-                                "settings": [
-                                    {
-                                        "choices": [
-                                            "idle",
-                                            "start",
-                                            "stop",
-                                            "restart"
-                                        ],
-                                        "default": "start",
-                                        "documentation": "Defaults to start. Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle.",
-                                        "key": "gateway",
-                                        "name": "Gateway lifecycle action",
-                                        "prompt": false,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
-                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
-                                        "key": "gateway_token",
-                                        "name": "Gateway token (generated automatically on first IDA launch)",
-                                        "prompt": false,
-                                        "required": false,
-                                        "secret": true,
-                                        "type": "string",
-                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "",
-                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
-                                        "key": "ida_path",
-                                        "name": "IDA executable path",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "auto",
-                                        "documentation": "Use auto to detect the Python executable from the running IDA process. The detected path is saved and displayed on first launch.",
-                                        "key": "ida_python",
-                                        "name": "IDAPython interpreter path (auto-detect on first IDA launch)",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
-                                        "key": "auto_start",
-                                        "name": "Start MCP automatically",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": false,
-                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
-                                        "key": "enable_unsafe",
-                                        "name": "Enable unsafe tools",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
-                                        "key": "open_in_ida_autonomous",
-                                        "name": "Open IDA autonomously",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "127.0.0.1",
-                                        "documentation": "Address used by the standalone MCP gateway.",
-                                        "key": "http_host",
-                                        "name": "Gateway bind address",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "11338",
-                                        "documentation": "TCP port used by the standalone MCP gateway.",
-                                        "key": "http_port",
-                                        "name": "Gateway port",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": "[0-9]{1,5}"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "/mcp",
-                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
-                                        "key": "http_path",
-                                        "name": "Gateway MCP path",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": "/.*"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "30",
-                                        "documentation": "Gateway request timeout in seconds.",
-                                        "key": "request_timeout",
-                                        "name": "Request timeout",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": "[0-9]+"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": false,
-                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
-                                        "key": "debug",
-                                        "name": "Debug logging",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    }
-                                ],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
-                                },
-                                "version": "0.6.0"
-                            }
-                        },
-                        "sha256": "4c97e2d3fe28cf8b8e1dc67cc513dc90d8518c2f708405eedf82b0696432921a",
-                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.6.0/main.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "97788570+jelasin@users.noreply.github.com",
-                                        "name": "Jelasin"
-                                    }
-                                ],
-                                "categories": [
-                                    "disassembly-and-processor-modules",
-                                    "decompilation",
-                                    "debugging-and-tracing",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
-                                "entryPoint": "ida_mcp.py",
-                                "idaVersions": [
                                     "8.4",
                                     "8.4sp1",
                                     "8.4sp2",
@@ -23575,6 +23477,802 @@
                         },
                         "sha256": "4cdbc0e36d167306632a6f0517bae809e4ed1ec12ab6db3ca7602d1ea5694fbf",
                         "url": "https://github.com/HexRaysSA/ida-mcp/releases/download/v20261008.0.1/ida-mcp-plugin-20261008.0.1.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/captain-ai-hub/ida-mcp",
+            "name": "IDA-MCP-Hub",
+            "versions": {
+                "0.9.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python executable used by this IDA installation; auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Python with the official idalib bindings activated (idapro importable). Used by headless open_database workers; auto-detected from ida_python when empty.",
+                                        "key": "idalib_python",
+                                        "name": "idalib Python (headless workers)",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.0"
+                            }
+                        },
+                        "sha256": "9a2e6eef897389ac69f462cb8eed6c9778fcaa433cdf4f841ba4a22d2ce4ee1f",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/2f474447019dbedcaeb66592da2113d39d8e6663"
+                    }
+                ],
+                "0.9.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.1"
+                            }
+                        },
+                        "sha256": "f1e4252130e76771e91b65972465120fc3091f3ce9b21e0e832d94e73c1ad437",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/f05205f897289162520800c1119faaacebfac185"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.1"
+                            }
+                        },
+                        "sha256": "567aab43174e084ae3131e088e50f774ab2af8c50e1c577e8405fddd929e2841",
+                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.9.1/main.zip"
+                    }
+                ],
+                "0.9.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.2"
+                            }
+                        },
+                        "sha256": "f0f6e0bb200fa7d1c4cf1b59970ec613bf80c85304133b1e41067f533d8f4428",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/505aac85ee950187ef3781ad021d64ec1dd7734d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.2"
+                            }
+                        },
+                        "sha256": "ef0d6e49279df363dc8c937740517ded01a7572da4fe48bdf85a193fd03c0d05",
+                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.9.2/main.zip"
+                    }
+                ],
+                "0.9.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.3"
+                            }
+                        },
+                        "sha256": "3237f1ede988a58d618ceb2711bc3d4397f6a4e50d1976741a8c191b458d8bac",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/0a2c01b45074ef99b2a923cf749354f1c4bf1cfb"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.3"
+                            }
+                        },
+                        "sha256": "7ec00008a5f56228be443eb8615ca25ccb61a47c4ef268a653b4b50721c109cd",
+                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.9.3/main.zip"
                     }
                 ]
             }
