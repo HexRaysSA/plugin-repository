@@ -4090,6 +4090,108 @@
             "host": "https://github.com/mandiant/capa",
             "name": "capa",
             "versions": {
+                "10.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    },
+                                    {
+                                        "email": "moritzraabe@google.com",
+                                        "name": "Moritz Raabe"
+                                    },
+                                    {
+                                        "email": "mike.hunhoff@gmail.com",
+                                        "name": "Mike Hunhoff"
+                                    },
+                                    {
+                                        "email": "elhamer.yacine@gmail.com",
+                                        "name": "Yacine Elhamer"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "api-scripting-and-automation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Identify capabilities in executable files using FLARE's capa framework",
+                                "entryPoint": "capa_explorer.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.4sp1",
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "capability-detection",
+                                    "malware-analysis",
+                                    "behavior-analysis",
+                                    "reverse-engineering",
+                                    "att&ck",
+                                    "rule-engine",
+                                    "feature-extraction",
+                                    "yara-like-rules",
+                                    "static-analysis",
+                                    "dynamic-analysis"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "capa",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "flare-capa==10.0.0"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/mandiant/capa"
+                                },
+                                "version": "10.0.0"
+                            }
+                        },
+                        "sha256": "ebb5dc7555663724d6e03bb53fce2512c3d798a3d16aa5ceb2bb00fd666031a5",
+                        "url": "https://codeload.github.com/mandiant/capa/legacy.zip/85813ebc5b99ccdbe43147e46796d0bd6700f30a"
+                    }
+                ],
                 "9.3.0": [
                     {
                         "metadata": {
