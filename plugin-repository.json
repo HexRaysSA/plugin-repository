@@ -8456,6 +8456,73 @@
                         },
                         "sha256": "52bf8bd2686e027e30606936e5b4b93887f8726c579907f7ee6ad5cbc378424b",
                         "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/f91e77f4f9f072a52f55a5b45c9783e1a6f78e70"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@joxeankoret.com",
+                                        "name": "Joxean Koret"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "vulnerability-research-and-exploit-development",
+                                    "other"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "A free and open-source program diffing tool",
+                                "entryPoint": "diaphora_plugin.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "diffing",
+                                    "patch-analysis",
+                                    "reverse-engineering",
+                                    "bindiff"
+                                ],
+                                "license": "AGPL-3.0",
+                                "logoPath": "logo/diaphora-border.png",
+                                "maintainers": [],
+                                "name": "diaphora",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/joxeankoret/diaphora"
+                                },
+                                "version": "3.4.1"
+                            }
+                        },
+                        "sha256": "4f8604e99e0b4f9ebeb595d470d7e0392a81a723bf1cc18a0d00e265851cc04b",
+                        "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/7bf142b389c0be49b2e45da5bfa64ea716a20d86"
                     }
                 ]
             }
@@ -19470,260 +19537,6 @@
                         },
                         "sha256": "9c13f2254cd8ebd7b4e26853f2c8df36af41f9f942b99e24b2b95c688e96e186",
                         "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/766e51c97d77e3bec7c4dee3c540da42814a5d51"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "97788570+jelasin@users.noreply.github.com",
-                                        "name": "Jelasin"
-                                    }
-                                ],
-                                "categories": [
-                                    "disassembly-and-processor-modules",
-                                    "decompilation",
-                                    "debugging-and-tracing",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "FastMCP server, gateway, and automation tools for IDA Pro.",
-                                "entryPoint": "ida_mcp.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "mcp",
-                                    "automation",
-                                    "reverse-engineering",
-                                    "debugging"
-                                ],
-                                "license": "GPL-3.0-only",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "IDA-MCP",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "fastmcp>=4.0.0b1,<5",
-                                    "mcp>=2.0.0,<3",
-                                    "starlette>=1.0.1,<2",
-                                    "uvicorn>=0.35,<1",
-                                    "pydantic>=2.12,<3",
-                                    "ida-settings>=3,<4"
-                                ],
-                                "requiresPython": null,
-                                "settings": [
-                                    {
-                                        "choices": [
-                                            "idle",
-                                            "start",
-                                            "stop",
-                                            "restart"
-                                        ],
-                                        "default": "idle",
-                                        "documentation": "Set with HCLI to start, stop, or restart; IDA-MCP consumes the action and resets it to idle. No gateway action runs automatically on a fresh install.",
-                                        "key": "gateway",
-                                        "name": "Gateway lifecycle action",
-                                        "prompt": false,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "__AUTO_GENERATE_GATEWAY_TOKEN__",
-                                        "documentation": "IDA-MCP replaces the packaged sentinel with a random per-machine token on first IDA launch, saves it through ida-settings, and displays it once.",
-                                        "key": "gateway_token",
-                                        "name": "Gateway token (generated automatically on first IDA launch)",
-                                        "prompt": false,
-                                        "required": false,
-                                        "secret": true,
-                                        "type": "string",
-                                        "validation_pattern": "(?:__AUTO_GENERATE_GATEWAY_TOKEN__|.{20,})"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "",
-                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by the open_in_ida tool.",
-                                        "key": "ida_path",
-                                        "name": "IDA executable path",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "auto",
-                                        "documentation": "Enter the Python executable used by this IDA installation, or keep auto to resolve it from the running IDA process on first launch.",
-                                        "key": "ida_python",
-                                        "name": "IDAPython interpreter path",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": false,
-                                        "documentation": "Start the IDA-MCP instance server automatically when an IDA database opens.",
-                                        "key": "auto_start",
-                                        "name": "Start MCP automatically",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": false,
-                                        "documentation": "Enable py_eval, binary patching, and debugger tools. Keep disabled unless explicitly needed.",
-                                        "key": "enable_unsafe",
-                                        "name": "Enable unsafe tools",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Append -A when the open_in_ida tool launches IDA.",
-                                        "key": "open_in_ida_autonomous",
-                                        "name": "Open IDA autonomously",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "127.0.0.1",
-                                        "documentation": "Address used by the standalone MCP gateway.",
-                                        "key": "http_host",
-                                        "name": "Gateway bind address",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "11338",
-                                        "documentation": "TCP port used by the standalone MCP gateway.",
-                                        "key": "http_port",
-                                        "name": "Gateway port",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": "[0-9]{1,5}"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "/mcp",
-                                        "documentation": "HTTP path exposed by the standalone MCP gateway.",
-                                        "key": "http_path",
-                                        "name": "Gateway MCP path",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": "/.*"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Use per-request MCP HTTP without Mcp-Session-Id.",
-                                        "key": "mcp_sessionless",
-                                        "name": "Sessionless MCP HTTP",
-                                        "prompt": false,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Return one application/json response for modern requests instead of SSE framing.",
-                                        "key": "mcp_json_response",
-                                        "name": "MCP JSON responses",
-                                        "prompt": false,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": true,
-                                        "documentation": "Continue accepting pre-2026 initialize/session clients.",
-                                        "key": "mcp_legacy_protocol",
-                                        "name": "Legacy MCP compatibility",
-                                        "prompt": false,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": "30",
-                                        "documentation": "Gateway request timeout in seconds.",
-                                        "key": "request_timeout",
-                                        "name": "Request timeout",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "string",
-                                        "validation_pattern": "[0-9]+"
-                                    },
-                                    {
-                                        "choices": null,
-                                        "default": false,
-                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
-                                        "key": "debug",
-                                        "name": "Debug logging",
-                                        "prompt": true,
-                                        "required": false,
-                                        "secret": false,
-                                        "type": "boolean",
-                                        "validation_pattern": null
-                                    }
-                                ],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
-                                },
-                                "version": "0.7.1"
-                            }
-                        },
-                        "sha256": "0308868fc04823faa0ca0c2a9a656f952673a8d3b728ca5aa20638d4539aeb9a",
-                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.7.1/main.zip"
                     }
                 ],
                 "0.8.0": [
@@ -24398,6 +24211,228 @@
                         },
                         "sha256": "d8f4784f4a87e5f7399d9f694be89133df3f70f1fcc997a565d1ad213a51e631",
                         "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.9.7/main.zip"
+                    }
+                ],
+                "0.9.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.8"
+                            }
+                        },
+                        "sha256": "3bb475d6b1dd34c7e71eaee5b54f5cc76c79d630705a1fac6478baecd09c5c3b",
+                        "url": "https://codeload.github.com/Captain-AI-Hub/IDA-MCP/legacy.zip/22c0640f8510cd54c59370199fe6989d5b33f24d"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "97788570+jelasin@users.noreply.github.com",
+                                        "name": "Jelasin"
+                                    }
+                                ],
+                                "categories": [
+                                    "disassembly-and-processor-modules",
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "JSON-RPC bridge for the IDA-MCP standalone server (stdio default, http optional) with headless idalib workers.",
+                                "entryPoint": "ida_mcp.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "automation",
+                                    "reverse-engineering",
+                                    "debugging"
+                                ],
+                                "license": "GPL-3.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDA-MCP-Hub",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Optional full path to ida.exe (Windows) or ida. Needed by GUI launches (open_database with headless=gui).",
+                                        "key": "ida_path",
+                                        "name": "IDA executable path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "auto",
+                                        "documentation": "Python runtime used by this IDA installation; it also drives headless idalib workers. auto resolves it from the running IDA process on first launch.",
+                                        "key": "ida_python",
+                                        "name": "IDAPython interpreter path",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "30",
+                                        "documentation": "Tool request timeout in seconds.",
+                                        "key": "request_timeout",
+                                        "name": "Request timeout",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "[0-9]+"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Enable verbose IDA-MCP diagnostic logging.",
+                                        "key": "debug",
+                                        "name": "Debug logging",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Captain-AI-Hub/IDA-MCP"
+                                },
+                                "version": "0.9.8"
+                            }
+                        },
+                        "sha256": "6837480718b2d0b67415056841a67104649ad9cfe241d41fbdfe5ddb9044e455",
+                        "url": "https://github.com/Captain-AI-Hub/IDA-MCP/releases/download/v0.9.8/main.zip"
                     }
                 ]
             }
@@ -37057,6 +37092,338 @@
                         },
                         "sha256": "2360090b5faf68b249d03133d3ef5a4c771df2efad0aacfc3c2304352f26a436",
                         "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/1.0.15/hcli-omd-plugin.zip"
+                    }
+                ],
+                "1.0.17": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nevergiveupcxx@gmail.com",
+                                        "name": "nevergiveupcpp"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin for transferring analysis data between different versions of the same binary.",
+                                "entryPoint": "oh-my-dump",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "idb",
+                                    "metadata",
+                                    "signatures",
+                                    "annotations",
+                                    "pattern-matching",
+                                    "analysis-transfer",
+                                    "omd"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "./docs/images/omd-logo.png",
+                                "maintainers": [],
+                                "name": "oh-my-dump",
+                                "platforms": [
+                                    "linux-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nevergiveupcpp/oh-my-dump"
+                                },
+                                "version": "1.0.17"
+                            }
+                        },
+                        "sha256": "ffde2265e63816edbc723696b4b6ad66128210658939a261995a4b42314cd4c5",
+                        "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/v1.0.17/oh-my-dump-v1.0.17-linux-aarch64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nevergiveupcxx@gmail.com",
+                                        "name": "nevergiveupcpp"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin for transferring analysis data between different versions of the same binary.",
+                                "entryPoint": "oh-my-dump",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "idb",
+                                    "metadata",
+                                    "signatures",
+                                    "annotations",
+                                    "pattern-matching",
+                                    "analysis-transfer",
+                                    "omd"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "./docs/images/omd-logo.png",
+                                "maintainers": [],
+                                "name": "oh-my-dump",
+                                "platforms": [
+                                    "linux-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nevergiveupcpp/oh-my-dump"
+                                },
+                                "version": "1.0.17"
+                            }
+                        },
+                        "sha256": "9555135e3eaed02c88e8a1d8d4699071f501831ed29c503009f3459a4f7de126",
+                        "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/v1.0.17/oh-my-dump-v1.0.17-linux-x86_64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nevergiveupcxx@gmail.com",
+                                        "name": "nevergiveupcpp"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin for transferring analysis data between different versions of the same binary.",
+                                "entryPoint": "oh-my-dump",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "idb",
+                                    "metadata",
+                                    "signatures",
+                                    "annotations",
+                                    "pattern-matching",
+                                    "analysis-transfer",
+                                    "omd"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "./docs/images/omd-logo.png",
+                                "maintainers": [],
+                                "name": "oh-my-dump",
+                                "platforms": [
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nevergiveupcpp/oh-my-dump"
+                                },
+                                "version": "1.0.17"
+                            }
+                        },
+                        "sha256": "5d7a5367197ddbe48149526d0a4e855f24a3ae837736ba8bc8e55afe772ce3b5",
+                        "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/v1.0.17/oh-my-dump-v1.0.17-macos-aarch64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nevergiveupcxx@gmail.com",
+                                        "name": "nevergiveupcpp"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin for transferring analysis data between different versions of the same binary.",
+                                "entryPoint": "oh-my-dump",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "idb",
+                                    "metadata",
+                                    "signatures",
+                                    "annotations",
+                                    "pattern-matching",
+                                    "analysis-transfer",
+                                    "omd"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "./docs/images/omd-logo.png",
+                                "maintainers": [],
+                                "name": "oh-my-dump",
+                                "platforms": [
+                                    "macos-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nevergiveupcpp/oh-my-dump"
+                                },
+                                "version": "1.0.17"
+                            }
+                        },
+                        "sha256": "b0a3f164e799a24bf2635d60ea8c4795e690b348b96f2bce79a19f2ab33b0a94",
+                        "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/v1.0.17/oh-my-dump-v1.0.17-macos-x86_64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nevergiveupcxx@gmail.com",
+                                        "name": "nevergiveupcpp"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin for transferring analysis data between different versions of the same binary.",
+                                "entryPoint": "oh-my-dump",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "idb",
+                                    "metadata",
+                                    "signatures",
+                                    "annotations",
+                                    "pattern-matching",
+                                    "analysis-transfer",
+                                    "omd"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "./docs/images/omd-logo.png",
+                                "maintainers": [],
+                                "name": "oh-my-dump",
+                                "platforms": [
+                                    "windows-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nevergiveupcpp/oh-my-dump"
+                                },
+                                "version": "1.0.17"
+                            }
+                        },
+                        "sha256": "667a23ba261bfb297e4bb01a81acb5f5a8a21dd26b86308d4fcc64ef6fa12af0",
+                        "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/v1.0.17/oh-my-dump-v1.0.17-windows-aarch64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nevergiveupcxx@gmail.com",
+                                        "name": "nevergiveupcpp"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin for transferring analysis data between different versions of the same binary.",
+                                "entryPoint": "oh-my-dump",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "idb",
+                                    "metadata",
+                                    "signatures",
+                                    "annotations",
+                                    "pattern-matching",
+                                    "analysis-transfer",
+                                    "omd"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "./docs/images/omd-logo.png",
+                                "maintainers": [],
+                                "name": "oh-my-dump",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nevergiveupcpp/oh-my-dump"
+                                },
+                                "version": "1.0.17"
+                            }
+                        },
+                        "sha256": "3df03f3b892eb6f2e5e3b10690a09aa5b0d25cbd2b618c7df7ec4fdbfe67be1a",
+                        "url": "https://github.com/nevergiveupcpp/oh-my-dump/releases/download/v1.0.17/oh-my-dump-v1.0.17-windows-x86_64.zip"
                     }
                 ]
             }
