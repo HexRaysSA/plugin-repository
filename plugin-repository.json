@@ -8521,6 +8521,73 @@
                                 "version": "3.4.1"
                             }
                         },
+                        "sha256": "eb9a8e84146433e3ea028ca3f4da89239ed880ee0e0905af282f438aa0ef2419",
+                        "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/652d876d5886fd622bcba4b2b8479f96bc8e62ff"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "admin@joxeankoret.com",
+                                        "name": "Joxean Koret"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "vulnerability-research-and-exploit-development",
+                                    "other"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "A free and open-source program diffing tool",
+                                "entryPoint": "diaphora_plugin.py",
+                                "idaVersions": [
+                                    "7.4",
+                                    "7.5",
+                                    "7.6",
+                                    "7.7",
+                                    "8.0",
+                                    "8.1",
+                                    "8.2",
+                                    "8.3",
+                                    "8.4",
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "diffing",
+                                    "patch-analysis",
+                                    "reverse-engineering",
+                                    "bindiff"
+                                ],
+                                "license": "AGPL-3.0",
+                                "logoPath": "logo/diaphora-border.png",
+                                "maintainers": [],
+                                "name": "diaphora",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/joxeankoret/diaphora"
+                                },
+                                "version": "3.4.1"
+                            }
+                        },
                         "sha256": "4f8604e99e0b4f9ebeb595d470d7e0392a81a723bf1cc18a0d00e265851cc04b",
                         "url": "https://codeload.github.com/joxeankoret/diaphora/legacy.zip/7bf142b389c0be49b2e45da5bfa64ea716a20d86"
                     }
@@ -14838,6 +14905,90 @@
                         },
                         "sha256": "d71498029ae6bfa4f708d21fad13071fabed974ac104d41ec8a05e3adf431360",
                         "url": "https://codeload.github.com/OALabs/hashdb-ida/legacy.zip/deddbdee829a3c5fb93086481f78b7494defe020"
+                    }
+                ],
+                "1.13.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "sergei@openanalysis.net",
+                                        "name": "herrcore"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "deobfuscation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Malware string hash lookup plugin connecting to the OALABS HashDB service for algorithm identification and bulk import.",
+                                "entryPoint": "hashdb.py",
+                                "idaVersions": [
+                                    "7.5",
+                                    "7.5sp1",
+                                    "7.5sp2",
+                                    "7.5sp3",
+                                    "7.6",
+                                    "7.6sp1",
+                                    "7.7",
+                                    "7.7sp1",
+                                    "8.0",
+                                    "8.0sp1",
+                                    "8.1",
+                                    "8.2",
+                                    "8.2sp1",
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "hash",
+                                    "malware",
+                                    "string-lookup",
+                                    "reverse-engineering",
+                                    "obfuscation",
+                                    "api-resolution",
+                                    "shellcode"
+                                ],
+                                "license": "BSD-3-Clause",
+                                "logoPath": "hashi.png",
+                                "maintainers": [],
+                                "name": "HashDB",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/OALabs/hashdb-ida"
+                                },
+                                "version": "1.13.0"
+                            }
+                        },
+                        "sha256": "efdc7a8ab44452dee58243d1dab17aabdc5b7a7281f766ba226066a72ea9ae28",
+                        "url": "https://codeload.github.com/OALabs/hashdb-ida/legacy.zip/2bd07f6e952d850ed2df69b3b66d7aa1b9fb711c"
                     }
                 ]
             }
