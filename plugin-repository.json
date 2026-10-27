@@ -7989,6 +7989,89 @@
                         "sha256": "fad6d6615a3bcfe81fd951a236d420d6cf95ccc2d4f7d29ce1d9bac2be857ff6",
                         "url": "https://codeload.github.com/eset/DelphiHelper/legacy.zip/4cf182af9b10b4d168065a6a8f13de43fda0cf58"
                     }
+                ],
+                "1.26": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "juraj.hornak@eset.com",
+                                        "name": "Juraj Hor\u0148\u00e1k"
+                                    },
+                                    {
+                                        "email": "thomas.dupuy@eset.com",
+                                        "name": "Tom Dupuy"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Analyzes Delphi binaries with VMT parsing, form viewing, and IDR Knowledge Base integration.",
+                                "entryPoint": "DelphiHelper.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "delphi",
+                                    "borland",
+                                    "embarcadero",
+                                    "rtti",
+                                    "vmt",
+                                    "virtual-method-table",
+                                    "dfm",
+                                    "form-viewer",
+                                    "idr",
+                                    "knowledge-base",
+                                    "pascal",
+                                    "object-pascal",
+                                    "windows-forms",
+                                    "vcl",
+                                    "rad-studio"
+                                ],
+                                "license": "BSD 2-Clause",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "DelphiHelper",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "py7zr"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/eset/DelphiHelper"
+                                },
+                                "version": "1.26"
+                            }
+                        },
+                        "sha256": "17ae0e2c8a23b644cabdbdcddd1e66fecd88cd5231381992095ec7c7bb9bb5e3",
+                        "url": "https://codeload.github.com/eset/DelphiHelper/legacy.zip/82a5790800524b2c7e412637d20169293192a74c"
+                    }
                 ]
             }
         },
