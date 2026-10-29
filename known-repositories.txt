@@ -374,3 +374,6 @@ mahmoudimus/patching-ng
 # Discovered on 2026-10-15 08:51:21
 tien0246/constloader
 tien0246/functionloader
+
+# added 2026-10-29
+cod3nym/yarmaker
