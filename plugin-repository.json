@@ -45984,6 +45984,462 @@
             }
         },
         {
+            "host": "https://github.com/cod3nym/yarmaker",
+            "name": "yarmaker",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "malanov.io@gmail.com",
+                                        "name": "AzzOnFire"
+                                    },
+                                    {
+                                        "email": "jonathan.peters@nextron-systems.com",
+                                        "name": "Jonathan Peters"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA plugin to create YARA signatures from x86 instructions, with fine grained masking controls.",
+                                "entryPoint": "yarmaker.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "malware-analysis",
+                                    "pattern-matching",
+                                    "rule-creation",
+                                    "disassembly-selection",
+                                    "decompiler",
+                                    "strings-extraction",
+                                    "hunting-rules",
+                                    "threat-detection"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "yarmaker",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/cod3nym/yarmaker"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "a71c294025b13f9cb78416ce8961895b9d0783cbfc196254fb58108fc4c20a52",
+                        "url": "https://codeload.github.com/cod3nym/yarmaker/legacy.zip/bf33cd2e210761b4e1be276c22cb4df69c8c7b44"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "malanov.io@gmail.com",
+                                        "name": "AzzOnFire"
+                                    },
+                                    {
+                                        "email": "jonathan.peters@nextron-systems.com",
+                                        "name": "Jonathan Peters"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA plugin to create YARA signatures from x86 instructions, with fine grained masking controls.",
+                                "entryPoint": "yarmaker.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "malware-analysis",
+                                    "pattern-matching",
+                                    "rule-creation",
+                                    "disassembly-selection",
+                                    "decompiler",
+                                    "strings-extraction",
+                                    "hunting-rules",
+                                    "threat-detection"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "yarmaker",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/cod3nym/yarmaker"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "53522753d8d46c80fba1ff30372fa571be744b44f3f1ceff09febe788222526d",
+                        "url": "https://github.com/cod3nym/yarmaker/releases/download/v0.1.0/yarmaker-0.1.0.zip"
+                    }
+                ],
+                "0.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "malanov.io@gmail.com",
+                                        "name": "AzzOnFire"
+                                    },
+                                    {
+                                        "email": "jonathan.peters@nextron-systems.com",
+                                        "name": "Jonathan Peters"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA plugin to create YARA signatures from x86 instructions, with fine grained masking controls.",
+                                "entryPoint": "yarmaker.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "malware-analysis",
+                                    "pattern-matching",
+                                    "rule-creation",
+                                    "disassembly-selection",
+                                    "decompiler",
+                                    "strings-extraction",
+                                    "hunting-rules",
+                                    "threat-detection"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "yarmaker",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/cod3nym/yarmaker"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "af2062c59ffdaf1894a0b2972f3aa56b6a4a23bacdf82e7bc93409eddf64eebb",
+                        "url": "https://codeload.github.com/cod3nym/yarmaker/legacy.zip/14a04b23f5be9ab90265d6360953289d6cde9818"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "malanov.io@gmail.com",
+                                        "name": "AzzOnFire"
+                                    },
+                                    {
+                                        "email": "jonathan.peters@nextron-systems.com",
+                                        "name": "Jonathan Peters"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA plugin to create YARA signatures from x86 instructions, with fine grained masking controls.",
+                                "entryPoint": "yarmaker.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "malware-analysis",
+                                    "pattern-matching",
+                                    "rule-creation",
+                                    "disassembly-selection",
+                                    "decompiler",
+                                    "strings-extraction",
+                                    "hunting-rules",
+                                    "threat-detection"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "yarmaker",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/cod3nym/yarmaker"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "37d989128f8df5f8374a102a6100141b123b37d1a0bb9d6dd799384dc87f3999",
+                        "url": "https://github.com/cod3nym/yarmaker/releases/download/v0.1.1/yarmaker-0.1.1.zip"
+                    }
+                ],
+                "0.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "malanov.io@gmail.com",
+                                        "name": "AzzOnFire"
+                                    },
+                                    {
+                                        "email": "jonathan.peters@nextron-systems.com",
+                                        "name": "Jonathan Peters"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA plugin to create YARA signatures from x86 instructions, with fine grained masking controls.",
+                                "entryPoint": "yarmaker.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "malware-analysis",
+                                    "pattern-matching",
+                                    "rule-creation",
+                                    "disassembly-selection",
+                                    "decompiler",
+                                    "strings-extraction",
+                                    "hunting-rules",
+                                    "threat-detection"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "yarmaker",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/cod3nym/yarmaker"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "512578518cf9547cb36a5f838e465982e065e0beb1b261f9e715bea2abf9ab30",
+                        "url": "https://codeload.github.com/cod3nym/yarmaker/legacy.zip/882d5e4813f39808b5928b1912b3898092c4ab90"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "malanov.io@gmail.com",
+                                        "name": "AzzOnFire"
+                                    },
+                                    {
+                                        "email": "jonathan.peters@nextron-systems.com",
+                                        "name": "Jonathan Peters"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA plugin to create YARA signatures from x86 instructions, with fine grained masking controls.",
+                                "entryPoint": "yarmaker.py",
+                                "idaVersions": [
+                                    "8.3",
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "yara",
+                                    "signature-generation",
+                                    "malware-analysis",
+                                    "pattern-matching",
+                                    "rule-creation",
+                                    "disassembly-selection",
+                                    "decompiler",
+                                    "strings-extraction",
+                                    "hunting-rules",
+                                    "threat-detection"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "yarmaker",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/cod3nym/yarmaker"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "4486ce0b160bf32ba9329c0a9d95572a6362b90fe7efb6bba150106c681b75ca",
+                        "url": "https://github.com/cod3nym/yarmaker/releases/download/v0.1.2/yarmaker-0.1.2.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/dump-guy/zoomallviews",
             "name": "ZoomAllViews",
             "versions": {
