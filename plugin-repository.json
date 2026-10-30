@@ -10590,6 +10590,234 @@
             }
         },
         {
+            "host": "https://github.com/c8c78cf6c6/freelumina",
+            "name": "freelumina",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anonymous@example.invalid",
+                                        "name": "Anonymous"
+                                    }
+                                ],
+                                "categories": [],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "resident plugin experiment in C and Fortran",
+                                "entryPoint": "freelumina",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "freelumina",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/c8c78cf6c6/freelumina"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "bfd84d12f3751357b28060963d0de63ca489314e36932f4fc4f3150108298e97",
+                        "url": "https://github.com/c8c78cf6c6/freelumina/releases/download/1.0/freelumina-1.0-windows-x86_64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anonymous@example.invalid",
+                                        "name": "Anonymous"
+                                    }
+                                ],
+                                "categories": [],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "resident plugin experiment in C and Fortran",
+                                "entryPoint": "freelumina",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "freelumina",
+                                "platforms": [
+                                    "macos-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/c8c78cf6c6/freelumina"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "72e3e5ad684e72bc7c1ba0cc9aedca8a04f45a0c41779846b8ddac4f718a578b",
+                        "url": "https://github.com/c8c78cf6c6/freelumina/releases/download/1.0/freelumina-1.0-macos-x86_64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anonymous@example.invalid",
+                                        "name": "Anonymous"
+                                    }
+                                ],
+                                "categories": [],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "resident plugin experiment in C and Fortran",
+                                "entryPoint": "freelumina",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "freelumina",
+                                "platforms": [
+                                    "linux-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/c8c78cf6c6/freelumina"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "bc060430b3a26decc9ca7db66011f0b37ca43471a7d22358d6a00300aea94e60",
+                        "url": "https://github.com/c8c78cf6c6/freelumina/releases/download/1.0/freelumina-1.0-linux-aarch64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anonymous@example.invalid",
+                                        "name": "Anonymous"
+                                    }
+                                ],
+                                "categories": [],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "resident plugin experiment in C and Fortran",
+                                "entryPoint": "freelumina",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "freelumina",
+                                "platforms": [
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/c8c78cf6c6/freelumina"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "2538424d65b96f7c9eabae01e71c0044a98de31b6bff8694726d244b8e45a2bf",
+                        "url": "https://github.com/c8c78cf6c6/freelumina/releases/download/1.0/freelumina-1.0-macos-aarch64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "anonymous@example.invalid",
+                                        "name": "Anonymous"
+                                    }
+                                ],
+                                "categories": [],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "resident plugin experiment in C and Fortran",
+                                "entryPoint": "freelumina",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "freelumina",
+                                "platforms": [
+                                    "linux-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/c8c78cf6c6/freelumina"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "194625921beec98bd34ddce92c9c1e1d5a4663969a1a9a0de0adf789589f94cf",
+                        "url": "https://github.com/c8c78cf6c6/freelumina/releases/download/1.0/freelumina-1.0-linux-x86_64.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/ys1231/idafridascript",
             "name": "Frida_Tools",
             "versions": {
