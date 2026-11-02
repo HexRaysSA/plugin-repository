@@ -31718,6 +31718,64 @@
                         "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/71c70a04bc8d2d8531e2c6b9746440a2eb030b2d"
                     }
                 ],
+                "0.11.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "s@ghost.sh",
+                                        "name": "Sam L. Thomas"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Idiomatic Rust bindings to IDA SDK",
+                                "entryPoint": "ida_plugin_stub.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "rust",
+                                    "idalib",
+                                    "bindings"
+                                ],
+                                "license": "MIT OR Apache-2.0",
+                                "logoPath": "resources/logo.png",
+                                "maintainers": [],
+                                "name": "idalib-rust-bindings",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/idalib-rs/idalib"
+                                },
+                                "version": "0.11.0"
+                            }
+                        },
+                        "sha256": "cc0263cc6e2ea0e429fa2a1105ef9b58d0e498d3320dd860aa2eacee5cf34945",
+                        "url": "https://codeload.github.com/idalib-rs/idalib/legacy.zip/d588e9dd7953556626a41bf19cef4236fca6ea79"
+                    }
+                ],
                 "0.8.0": [
                     {
                         "metadata": {
