@@ -26881,69 +26881,6 @@
             "host": "https://github.com/bkerler/ida_rpc",
             "name": "ida-rpc",
             "versions": {
-                "0.1.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "info@revskills.de",
-                                        "name": "Bjoern Kerler"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation",
-                                    "integration-with-third-parties-interoperability"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "CLI-driven daemon exposing IDA Pro reverse engineering capabilities over a Unix domain socket",
-                                "entryPoint": "ida_rpc_plugin.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3"
-                                ],
-                                "keywords": [
-                                    "ida-pro",
-                                    "ida",
-                                    "reverse-engineering",
-                                    "decompiler",
-                                    "binary-analysis",
-                                    "rpc",
-                                    "json-rpc",
-                                    "automation",
-                                    "llm",
-                                    "agent"
-                                ],
-                                "license": "MIT",
-                                "logoPath": "ida-plugin.png",
-                                "maintainers": [],
-                                "name": "ida-rpc",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [
-                                    "click>=8.1.0"
-                                ],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/bkerler/ida_rpc"
-                                },
-                                "version": "0.1.0"
-                            }
-                        },
-                        "sha256": "cd0144e09ea4ebfa7e8e801b8ecda287d3c61c52509711fba69ce59f0fa7cbcf",
-                        "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/dc7dc786ac615c23b3642030121b06d95d3147d1"
-                    }
-                ],
                 "0.1.1": [
                     {
                         "metadata": {
@@ -27513,6 +27450,71 @@
                         },
                         "sha256": "8e7c3511a9636ee385f3639207a0bb66842cb822e2af7923b0a239b974f39428",
                         "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/6678b88375bfbd120037fd2a5c102b116d67e94d"
+                    }
+                ],
+                "0.2.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "info@revskills.de",
+                                        "name": "Bjoern Kerler"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "CLI-driven daemon exposing IDA Pro reverse engineering capabilities over a Unix domain socket",
+                                "entryPoint": "ida_rpc_plugin.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "ida-pro",
+                                    "ida",
+                                    "reverse-engineering",
+                                    "decompiler",
+                                    "binary-analysis",
+                                    "rpc",
+                                    "json-rpc",
+                                    "automation",
+                                    "llm",
+                                    "agent"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "ida-plugin.png",
+                                "maintainers": [],
+                                "name": "ida-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "click>=8.1.0"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/bkerler/ida_rpc"
+                                },
+                                "version": "0.2.1"
+                            }
+                        },
+                        "sha256": "d9ab0065bb2019eee648c563f9ba2524fd8c6f1d3db8590cee7e89ea7cb264a0",
+                        "url": "https://codeload.github.com/bkerler/ida_rpc/legacy.zip/efebca6b59cf3d2409514869d40bbd92bb048c51"
                     }
                 ]
             }
