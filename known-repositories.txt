@@ -382,3 +382,4 @@ cod3nym/yarmaker
 c8c78cf6c6/freelumina
 nightshift-labs-ai/memlens
 nightshift-labs-ai/btf2ida
+nightshift-labs-ai/cfiscope
