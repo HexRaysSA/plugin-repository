@@ -1,9 +1,9 @@
 # URLs of archives that hold no valid plugin for the repository that publishes them.
 #
-# The sync (`hcli plugin --repo github --with-ignored-urls-list=ignored-urls.txt ...`) does not
-# download these again. When it downloads an archive and finds no valid plugin in it (no
-# ida-plugin.json, invalid metadata, or a host that does not match the repository), it appends
-# the URL below, under a "# Discovered on" line.
+# The sync gives this list to `hcli plugin --repo github --with-ignored-urls-list=...`, so hcli
+# does not download these archives again. When hcli finds no valid plugin in an archive (no
+# ida-plugin.json, invalid metadata, or a host that does not match the repository), it logs the
+# URL, and scripts/update_ignored_urls.py appends it below, under a "# Discovered on" line.
 #
 # Delete a line to have the next sync check that archive again, for example after hcli starts
 # accepting metadata it used to reject. A new release of a plugin has new URLs, so the sync

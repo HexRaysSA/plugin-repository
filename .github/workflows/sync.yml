@@ -32,10 +32,12 @@ jobs:
 
     - name: snapshot repo
       run: |
-          uvx --from ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt --with-ignored-urls-list=ignored-urls.txt repo snapshot > plugin-repository.json
+          # hcli logs the archives with no valid plugin to stderr. Keep a copy of the log
+          # for the "update ignored URLs" step, which needs HCLI_DEBUG to find them.
+          set -o pipefail
+          uvx --from ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt --with-ignored-urls-list=ignored-urls.txt repo snapshot 2>&1 > plugin-repository.json | tee hcli.log
           cat plugin-repository.json
           git diff plugin-repository.json
-          git diff ignored-urls.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         HCLI_CACHE_DIR: .cache/hcli
@@ -43,6 +45,11 @@ jobs:
         HCLI_DEBUG: 1
         TTY_COMPATIBLE: 0
         TTY_INTERACTIVE: 0
+
+    - name: update ignored URLs
+      run: |
+          uv run scripts/update_ignored_urls.py hcli.log ignored-urls.txt
+          git diff ignored-urls.txt
 
     - name: update known repositories
       run: |
