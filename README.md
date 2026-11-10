@@ -10,6 +10,7 @@ In summary:
 - The JSON manifest is here: [./plugin-repository.json](./plugin-repository.json).
 - The periodic index job is done via the GitHub Action named [sync](./.github/workflows/sync.yml). Results and logs can be seen here: [actions/workflows/sync.yml](https://github.com/HexRaysSA/plugin-repository/actions/workflows/sync.yml).
 - The explicitly known and ignored repositories are here: [./known-repositories.txt](./known-repositories.txt) and [./ignored-repositories.txt](./ignored-repositories.txt).
+- The indexer does not download the archive URLs in [./ignored-urls.txt](./ignored-urls.txt), because it found no valid plugin in them.
 
 Watch the Git history to see plugin additions and (hopefully unlikely) moderation events.
 Commits like [3c0f21c](https://github.com/HexRaysSA/plugin-repository/commit/3c0f21c6672c46ff3cbb071b86e5389bc64583cb) are made by the indexer, and include a nice summary in the commit message:
@@ -40,5 +41,5 @@ If you're having trouble getting your plugin recognized:
 1. run the linter: `hcli plugin lint /path/to/plugin-archive.zip`
 2. check the indexer log report: https://hexrayssa.github.io/plugin-repository/logs/indexer.html
    a. Has the indexer run since you published? If not, wait 4 hours and check back.
-   b. Is your repo recognized anywhere? If so, find and fix the listed errors.
+   b. Is your repo recognized anywhere? If so, find and fix the listed errors. If the report says `skipping ignored URL`, the indexer found no valid plugin in that archive on an earlier run and does not download it again. Run the linter to see the errors, fix them, and publish a new release.
    c. Otherwise, open an issue or PR adding your repo to [./known-repositories.txt](./known-repositories.txt)

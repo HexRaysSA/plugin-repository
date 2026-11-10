@@ -35,7 +35,7 @@ jobs:
           uvx --from ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt --with-ignored-urls-list=ignored-urls.txt repo snapshot > plugin-repository.json
           cat plugin-repository.json
           git diff plugin-repository.json
-          git diff --stat ignored-urls.txt
+          git diff ignored-urls.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         HCLI_CACHE_DIR: .cache/hcli

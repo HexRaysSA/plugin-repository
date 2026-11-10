@@ -1,4 +1,4 @@
-# Archive URLs that hold no valid plugin for the repository they were found in.
+# URLs of archives that hold no valid plugin for the repository that publishes them.
 #
 # The sync (`hcli plugin --repo github --with-ignored-urls-list=ignored-urls.txt ...`) does not
 # download these again. When it downloads an archive and finds no valid plugin in it (no
@@ -6,7 +6,8 @@
 # the URL below, under a "# Discovered on" line.
 #
 # Delete a line to have the next sync check that archive again, for example after hcli starts
-# accepting metadata it used to reject. A new release of a plugin has new URLs, so it is always checked.
+# accepting metadata it used to reject. A new release of a plugin has new URLs, so the sync
+# always checks it.
 
 # Seeded on 2026-11-10 from the log of sync run 42562649155 (2026-11-09)
 https://codeload.github.com/0xdea/augur/legacy.zip/9e1a9e7955e7889bf06c16745356cd926e45afd1
