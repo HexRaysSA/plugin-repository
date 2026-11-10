@@ -41,8 +41,8 @@ def get_rejected_urls(log: str) -> set[str]:
     return urls
 
 
-def read_list(path: Path) -> set[str]:
-    lines = (line.strip() for line in path.read_text(encoding="utf-8").splitlines())
+def get_listed_urls(text: str) -> set[str]:
+    lines = (line.strip() for line in text.splitlines())
     return {line for line in lines if line and not line.startswith("#")}
 
 
@@ -52,7 +52,8 @@ def main() -> None:
     parser.add_argument("ignored_urls", type=Path, help="path to ignored-urls.txt")
     args = parser.parse_args()
 
-    new_urls = sorted(get_rejected_urls(args.log.read_text(encoding="utf-8")) - read_list(args.ignored_urls))
+    text = args.ignored_urls.read_text(encoding="utf-8")
+    new_urls = sorted(get_rejected_urls(args.log.read_text(encoding="utf-8")) - get_listed_urls(text))
     if not new_urls:
         print("No new ignored URLs found")
         return
@@ -61,7 +62,6 @@ def main() -> None:
     for url in new_urls:
         print(f"  {url}")
 
-    text = args.ignored_urls.read_text(encoding="utf-8")
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     with args.ignored_urls.open("a", encoding="utf-8") as f:
         if text and not text.endswith("\n"):

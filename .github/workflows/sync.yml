@@ -31,10 +31,13 @@ jobs:
           hcli-cache-
 
     - name: snapshot repo
+      # With HCLI_DEBUG set, hcli logs each archive with no valid plugin to stderr. tee keeps a
+      # copy of the log for the "update ignored URLs" step. `shell: bash` sets pipefail, so the
+      # step still fails when hcli fails. Keep uvx on the first line of the script:
+      # scripts/summarize_github_indexer_logs.py looks for "Run uvx --from ida-hcli" to find
+      # the log of this step.
+      shell: bash
       run: |
-          # hcli logs the archives with no valid plugin to stderr. Keep a copy of the log
-          # for the "update ignored URLs" step, which needs HCLI_DEBUG to find them.
-          set -o pipefail
           uvx --from ida-hcli hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt --with-ignored-urls-list=ignored-urls.txt repo snapshot 2>&1 > plugin-repository.json | tee hcli.log
           cat plugin-repository.json
           git diff plugin-repository.json
