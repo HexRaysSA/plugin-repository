@@ -1,7 +1,7 @@
-HexRays-plugin-contributions/xray
-HexRays-plugin-contributions/bindiff
-HexRays-plugin-contributions/binexport
-HexRays-plugin-contributions/mkYARA
+williballenthin/xray
+HexRaysSA/bindiff
+HexRaysSA/binexport
+williballenthin/mkYARA
 williballenthin/idawilli
 williballenthin/ida-settings
 HexRaysSA/ida-cyberchef
