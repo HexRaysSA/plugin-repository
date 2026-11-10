@@ -42,7 +42,12 @@ jobs:
           cat plugin-repository.json
           git diff plugin-repository.json
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # hcli reads its token from GITHUB_TOKEN. GitHub rejects code search with the
+        # workflow's own GITHUB_TOKEN (429, see run 42844526756), so pass a fine-grained
+        # personal access token: resource owner HexRaysSA, public repositories, no
+        # permissions. williballenthin created it on 2026-11-10. It expires on 2027-11-11,
+        # and this step then fails with HTTP 401: create a new token and replace the secret.
+        GITHUB_TOKEN: ${{ secrets.SEARCH_GH_TOKEN }}
         HCLI_CACHE_DIR: .cache/hcli
         HCLI_DISABLE_UPDATES: 1
         HCLI_DEBUG: 1
