@@ -1413,556 +1413,6 @@
             }
         },
         {
-            "host": "https://github.com/hexrays-plugin-contributions/bindiff",
-            "name": "bindiff",
-            "versions": {
-                "8.0.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.2"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "4b34b272426abd841e7a660e36272c7eee982553c400528b13a1fe4406688323",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.2.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.2"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "66336888cd5bcc5383bb39b7041f13a522e5ccc3713929b12cb0a6be9ce649e6",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.2.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.4"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "85075025f0d58e7704e2adaecf5dc9d3085b5092a7f67abea36adefaf56e4973",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.4.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.3"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "76ba6ecfdec8967f55795b9590efe6e871c581764d568edecddb539167c6675f",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.3.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.3"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "ee262473a6de349e13ae9eba14790d2befe34076ea287a3659ed57f1b70f526c",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.3.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "c9814f5b2cf2cef9742495c1c7cf527f346f3b8050fc4cd625326a8a073e7aaf",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.0.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "f88d96ec42a3c9eecbf854d1bab2ae4e490bcedc2b1ec6153e1e9a2ade16d0bc",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.0.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "dd21ea0b81b42190ee0cf31f1cc8d4834de92881250ab09b54a4aba7525c7148",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.0/bindiff-ida9.1.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "bindiff-team@google.com",
-                                        "name": "BinDiff Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Compare binary files to quickly find differences and similarities in disassembled code",
-                                "entryPoint": "bindiff8_ida64",
-                                "idaVersions": [
-                                    "9.1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "binary-diffing",
-                                    "comparison",
-                                    "vulnerability-research",
-                                    "patch-analysis"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "bindiff",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/bindiff"
-                                },
-                                "version": "8.0.0"
-                            }
-                        },
-                        "sha256": "d570668ae17a7ef118674ea944b1cb433ae5ae4591a9658a2ed4939c9f6acbcf",
-                        "url": "https://github.com/HexRaysSA/bindiff/releases/download/v8.0.1/bindiff-ida9.1.zip"
-                    }
-                ]
-            }
-        },
-        {
             "host": "https://github.com/mahmoudimus/bindiff-ng",
             "name": "BinDiff-NG",
             "versions": {
@@ -2488,556 +1938,6 @@
                         },
                         "sha256": "491b88d2e65666e6f565bd16bee0478fd5cb03828b228e5a13baaf3c9a733b87",
                         "url": "https://github.com/mahmoudimus/bindiff-ng/releases/download/v8.1.4/bindiff-plugin-v8.1.4.zip"
-                    }
-                ]
-            }
-        },
-        {
-            "host": "https://github.com/hexrays-plugin-contributions/binexport",
-            "name": "binexport",
-            "versions": {
-                "12.0.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.3"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "e466a18bc4c16c517d9ef8703ef8dfb5a9dde0c326ade060aaca54c13d1945cc",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.3.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.3"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "77aeb5236a907fe4b8275db8cad3f40656bf4220005a186043ad8641dfca473e",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.3.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.4"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "e84c824c5459ff2992b4209338bfd1e6489667ca8329ef05f01527a2ba05ee0a",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.4.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "87014f2fa36bb42baa2aadb7f51b6ef9ae8e9950e3b3acc842b4914178ef6831",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.0.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "9f266cac90ada434a15feba04feea26268411478a4e9ebd7ff815368004ebdda",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.0.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "d4968be51e40e783f2ebc1ad407ddeb8fa1254dae521bcabfb1fc5adc5803933",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.1.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.1"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "77503f7fa2b620b3c62bf2d83e72ece4defab6a7a73bfd365c22012740a34d1c",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.1.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.2"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "6cb4b44080e88453e92d8645931701781e768319d02a62f556e62edd61a1a84f",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.0/binexport-ida9.2.zip"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "cblichmann@google.com",
-                                        "name": "Christian Blichmann"
-                                    },
-                                    {
-                                        "email": "binexport-team@google.com",
-                                        "name": "BinExport Authors"
-                                    }
-                                ],
-                                "categories": [
-                                    "integration-with-third-parties-interoperability",
-                                    "api-scripting-and-automation"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Export IDA Pro disassembly to the BinExport2 Protocol Buffer format",
-                                "entryPoint": "binexport12_ida64",
-                                "idaVersions": [
-                                    "9.2"
-                                ],
-                                "keywords": [
-                                    "bindiff",
-                                    "export",
-                                    "protocol-buffers",
-                                    "binary-diffing",
-                                    "disassembly-export"
-                                ],
-                                "license": "Apache-2.0",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "binexport",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/binexport"
-                                },
-                                "version": "12.0.0"
-                            }
-                        },
-                        "sha256": "5a09bf1704c4089586fcd640b11aef21a64b3c163e8705faf19ede4162bfb0c6",
-                        "url": "https://github.com/HexRaysSA/binexport/releases/download/v12.0.1/binexport-ida9.2.zip"
                     }
                 ]
             }
@@ -4197,6 +3097,317 @@
             }
         },
         {
+            "host": "https://github.com/nightshift-labs-ai/btf2ida",
+            "name": "btf2ida",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports all types and applies function prototypes by name.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "07da0537772ecf77509d98c690aac7028c794bca47e95ccef414c845c3761a7b",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/2e5ebdddbef132f701ba1f193a14a7966d50a72c"
+                    }
+                ],
+                "0.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports all types and applies function prototypes by name.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "6b3a82607411622af483a7ea40afd154d8c6111e3a7a2d411cb38d2e891a91a0",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/1226e37e8ead23289df3af548e6ee755c6c37b8a"
+                    }
+                ],
+                "0.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports all types and applies function prototypes by name.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "fb9efd5a14c60b854d3cbe2903c1b09d8e08b2a2075c356ea2d99f27559e8bc3",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/a52c09149fabe5ae1673cc0a9bf68b1ff4b853e8"
+                    }
+                ],
+                "0.1.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports all types and applies function prototypes by name.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "087c1ae42e8440e6a599291e593dafb2336129300ea63e8f025d51dfdde5bcea",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/c22f32bbc93df0f16858f5cd68635961345238bc"
+                    }
+                ],
+                "0.1.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports all types and applies function prototypes by name.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.4"
+                            }
+                        },
+                        "sha256": "337ed80b56d105145e8d66dad8d46f06ffcffd3ad2e0d732f675eda7827924fb",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/e6713ec5eeb3faae18e70c9b4dd27e8a2ac1343e"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/mandiant/capa",
             "name": "capa",
             "versions": {
@@ -4606,6 +3817,260 @@
                         },
                         "sha256": "4bfade61d2d7baa96b9c650e49c91cda3868cb6910008c797a74782201fee081",
                         "url": "https://codeload.github.com/mandiant/capa/legacy.zip/7a79f799a70f052e8382cdbeaec8115daba14a5b"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/nightshift-labs-ai/cfiscope",
+            "name": "cfiscope",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "4b623340d8f26fe39a792dae338d53951865d7680679f49e96d31a39db9d03fc",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/bd6bdd053d79cdf94a66425066a90dee25100084"
+                    }
+                ],
+                "0.1.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.1"
+                            }
+                        },
+                        "sha256": "7330dccd08aa5232c71a4071dbd73cf9a998b65d540c2d8583d49b5bfe22edbe",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/d4c0751f12336cf720ac159b242be3056fc5f7c1"
+                    }
+                ],
+                "0.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "77afd1f06570b7567798c1a054604794d6578752fba4d99c02b9154ee637a8c7",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/e70c87ed91a6736d768f3e89c024f5efcc22b726"
+                    }
+                ],
+                "0.1.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "4acaeac28dda5cfcc4b394f8cdd3d4c74ea1af1d5edb337fb5ae4378f68eb91d",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/6057c1cef31b8ea55baef38ac19350aade075335"
                     }
                 ]
             }
@@ -11178,6 +10643,70 @@
                         },
                         "sha256": "2c7baf1c64c24ce25c59481874d550c5d37fd9c4162e8700487afe7aac318023",
                         "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/ac0783b2d86143eca7f4a3bd3907b2c2913b1a92"
+                    }
+                ],
+                "0.0.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "ys1231@126.com",
+                                        "name": "iyue"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization",
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "\u4e00\u4e2a\u7528\u4e8e\u751f\u6210frida\u811a\u672c\u7684ida/mcp\u63d2\u4ef6/An ida/mcp plug-in for generating frida scripts",
+                                "entryPoint": "main.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "hook",
+                                    "generate frida script",
+                                    "frida tools",
+                                    "frida",
+                                    "mcp"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "resources/main.png",
+                                "maintainers": [],
+                                "name": "FridaTools",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "loguru>=0.7.3",
+                                    "mcp[cli]==2.3.0",
+                                    "pyrefly>=0.60.0",
+                                    "pyqt5>=5.15.11",
+                                    "pyside6==6.11.2"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/ys1231/idafridascript"
+                                },
+                                "version": "0.0.6"
+                            }
+                        },
+                        "sha256": "adb3c770478da1a457ea2c620f9affb29d01a2c3c03435228ef6b9cf125ac429",
+                        "url": "https://codeload.github.com/ys1231/idafridascript/legacy.zip/796591c4559b35619fc5a7bb9cd9e20a44a06fbe"
                     }
                 ]
             }
@@ -36608,6 +36137,376 @@
             }
         },
         {
+            "host": "https://github.com/nightshift-labs-ai/memlens",
+            "name": "memlens",
+            "versions": {
+                "0.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "c7cf3219ed18b7f689984d7256908f3d17b03ad31d55accfbfb806c2daa35467",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/29c1e2b406b37f30f163303dba758e37df21242b"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.0"
+                            }
+                        },
+                        "sha256": "c7cf3219ed18b7f689984d7256908f3d17b03ad31d55accfbfb806c2daa35467",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/29c1e2b406b37f30f163303dba758e37df21242b"
+                    }
+                ],
+                "0.3.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.1"
+                            }
+                        },
+                        "sha256": "40a809f0c7498ac99bdde5248010b83945760138f9ea8626bb952c3700e4eaeb",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/d4f1a8c4804a0dc44e866a3c5f6be9c173692065"
+                    }
+                ],
+                "0.3.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.2"
+                            }
+                        },
+                        "sha256": "72f41f3eaa5dcc8102af456fe300e0f2aa0999f8c70912be632f783437ea81e7",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/589789fd59c27e6dd17c32e4667d089a51718b19"
+                    }
+                ],
+                "0.3.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.3"
+                            }
+                        },
+                        "sha256": "d0b97d7d7f1efa854cbbd950bdb26bea28588e2ee8f1c034b19afff71f1d3173",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/2470c4ae1d8a1f671a34974b90801b29bd617741"
+                    }
+                ],
+                "0.3.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.4"
+                            }
+                        },
+                        "sha256": "80d69e0a3c7da5b2eb7b5a90ff4cce53edaada41f03a7cc67f48295fb17468e1",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/0c3423df10959bacdf86ec2f0e32d25f700d7a46"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/milankovo/navcolor",
             "name": "navcolor",
             "versions": {
@@ -45035,105 +44934,6 @@
                         },
                         "sha256": "ae46e39873964bb36a5627ca8d711586735ada9a234edbc9eade3d39e2d008b0",
                         "url": "https://codeload.github.com/oxiKKK/ida-vtable-tools/legacy.zip/2c5afc0153a9de7f4845fa2ce56f2ebb7455c66d"
-                    }
-                ]
-            }
-        },
-        {
-            "host": "https://github.com/hexrays-plugin-contributions/xray",
-            "name": "xray",
-            "versions": {
-                "2025.9.24": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "dennis@backtrace.de",
-                                        "name": "Dennis Elser"
-                                    }
-                                ],
-                                "categories": [
-                                    "decompilation",
-                                    "ui-ux-and-visualization",
-                                    "malware-analysis",
-                                    "vulnerability-research-and-exploit-development"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Filter and colorize Hex-Rays decompiler output using configurable regular expressions",
-                                "entryPoint": "xray.py",
-                                "idaVersions": [
-                                    "7.2",
-                                    "7.3",
-                                    "7.4",
-                                    "7.4sp1",
-                                    "7.5",
-                                    "7.5sp1",
-                                    "7.5sp2",
-                                    "7.5sp3",
-                                    "7.6",
-                                    "7.6sp1",
-                                    "7.7",
-                                    "7.7sp1",
-                                    "8.0",
-                                    "8.0sp1",
-                                    "8.1",
-                                    "8.2",
-                                    "8.2sp1",
-                                    "8.3",
-                                    "8.4",
-                                    "8.4sp1",
-                                    "8.4sp2",
-                                    "8.5",
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "decompiler-filtering",
-                                    "regex-highlighting",
-                                    "code-pattern-matching",
-                                    "malware-analysis",
-                                    "vulnerability-identification",
-                                    "hexrays-decompiler",
-                                    "color-coding"
-                                ],
-                                "license": "Beer-Ware License",
-                                "logoPath": null,
-                                "maintainers": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "name": "xray",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRays-plugin-contributions/xray"
-                                },
-                                "version": "2025.9.24"
-                            }
-                        },
-                        "sha256": "defd95ece912ed8cb4bbde1ef0212ce12f4bd4eaeb612afe6ea8d2ee7a250132",
-                        "url": "https://codeload.github.com/williballenthin/xray/legacy.zip/03a0dda2ff45d8611327d6f28505834723afd1c3"
                     }
                 ]
             }
