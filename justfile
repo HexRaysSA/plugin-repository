@@ -95,7 +95,7 @@ export HCLI_DISABLE_UPDATES := "1"
 export HCLI_DEBUG := "1"
 
 build-repo:
-    uv run --with ~/code/hex-rays/ida-hcli --no-cache hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt repo snapshot > plugin-repository.json
+    uv run --with ~/code/hex-rays/ida-hcli --no-cache hcli plugin --repo github --with-repos-list=known-repositories.txt --with-ignored-repos-list=ignored-repositories.txt --with-ignored-urls-list=ignored-urls.txt repo snapshot > plugin-repository.json
 
 
 update-known-repos:
