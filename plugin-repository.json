@@ -2928,6 +2928,60 @@
                                 "version": "0.1.3"
                             }
                         },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Show a hoverable icon on lines with a bookmark.",
+                                "entryPoint": "bookmark_hints.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "bookmarks",
+                                    "navigation",
+                                    "ui-enhancement",
+                                    "tooltips",
+                                    "disassembly-view"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "bookmark-hints",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
                         "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
@@ -3222,6 +3276,494 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/1226e37e8ead23289df3af548e6ee755c6c37b8a"
                     }
                 ],
+                "0.1.10": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.10"
+                            }
+                        },
+                        "sha256": "2bd1c4762a37efeff23c74049ecf3bab48d88eedd05578405fb25601f4604f43",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/bdebe8ce899f0a53a3566e2c4a5515210423b914"
+                    }
+                ],
+                "0.1.11": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.11"
+                            }
+                        },
+                        "sha256": "d49ae5f3740bba96813f7af49ae497a5ca74dd0e14293d78dc95c60ad86632b5",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/1ba28ac3b79518088087677e5560d3c324d7354a"
+                    }
+                ],
+                "0.1.12": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.12"
+                            }
+                        },
+                        "sha256": "472b52f01dc9f2db9a7432d55b2a6f05b7d2242e6d25262c07c6dfb903e803c9",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/79af28fa49cdf150af7dc1d246171dcf726e2fab"
+                    }
+                ],
+                "0.1.13": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.13"
+                            }
+                        },
+                        "sha256": "ebe3ecac7e2d71a7b54461e6655f2624dd272de2a9864b1768b32e9b8d0c54ac",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/d7a05b69df29a02fce404c54c295df8e5014468c"
+                    }
+                ],
+                "0.1.14": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.14"
+                            }
+                        },
+                        "sha256": "a733bd0918637ea4b8a3d0a0de1738345bb30bda0890b8887094a107ca7f49bc",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/cd200481879877f1638256cbf635aeb96b1335f0"
+                    }
+                ],
+                "0.1.15": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.15"
+                            }
+                        },
+                        "sha256": "d744384638a73febc12503c7eb536516c60b14186ef0fac8efa7c0c5b863ac2f",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/e638f6417aff9632c9eb641a53cb7b0b80acbf81"
+                    }
+                ],
+                "0.1.16": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.16"
+                            }
+                        },
+                        "sha256": "cf80dc69c1b90ef3a5a76653fd1f374d5afeb476681aaba910e596351d81fdd5",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/3c4614eef1f9f30bcdc838a31880a4e84e19f7e9"
+                    }
+                ],
+                "0.1.17": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.17"
+                            }
+                        },
+                        "sha256": "1de214ccbc45529931557eea007c066eea601ce5fce2b31631b349aaed413102",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/3a5fe08cdd5d8736afec6756436ffd305259e588"
+                    }
+                ],
                 "0.1.2": [
                     {
                         "metadata": {
@@ -3403,6 +3945,311 @@
                         },
                         "sha256": "337ed80b56d105145e8d66dad8d46f06ffcffd3ad2e0d732f675eda7827924fb",
                         "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/e6713ec5eeb3faae18e70c9b4dd27e8a2ac1343e"
+                    }
+                ],
+                "0.1.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports all types and applies function prototypes by name.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.5"
+                            }
+                        },
+                        "sha256": "57cfa52bd70c34aa5e553cb99bf60a8ee790f742dcdf6be26d2301f563f63ce6",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/c788887311eab68a285b5884d332e2614b018ba4"
+                    }
+                ],
+                "0.1.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.6"
+                            }
+                        },
+                        "sha256": "7b0fd499cbbcee90f77952e91b8aef993e647237433a585216eaf7bb4257fc88",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/070d205d3e99c01849047605e68086952dce4994"
+                    }
+                ],
+                "0.1.7": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.7"
+                            }
+                        },
+                        "sha256": "3cbb218903ef32ed7422a0e49aada58102c7177630133c09066df5333a254e3d",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/3f012dfb9c8223ac5321ad4e61815d6ea00f5961"
+                    }
+                ],
+                "0.1.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.8"
+                            }
+                        },
+                        "sha256": "78500f12d388ebf675ca7884feaa00afbd1cc95eeb252f7adae768b3ae0ccf85",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/df0d6d2e4c1eb259ceb264832d7816676881cffd"
+                    }
+                ],
+                "0.1.9": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.9"
+                            }
+                        },
+                        "sha256": "b4ac4839138a1df101c266b1fe2fc7e3c7d483334528676eabb98fd9a0ec61b1",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/fa48f5afcee571d19dd278f5ff5ec0893e3be035"
                     }
                 ]
             }
@@ -3949,6 +4796,378 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/d4c0751f12336cf720ac159b242be3056fc5f7c1"
                     }
                 ],
+                "0.1.10": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.10"
+                            }
+                        },
+                        "sha256": "3bb07a03239b85f7e1f3b3efe4f8189d0fd7715986e84addd96a2c3678663811",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/406d756f16df10487e2983b77d4a487d3eb45e97"
+                    }
+                ],
+                "0.1.11": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.11"
+                            }
+                        },
+                        "sha256": "4d975debe82769da079b82897030165f5cd3cbf0f10c009c03f1276d8c2ef567",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/8f3580383fd5bbd3a0df02cbc027d72e17784312"
+                    }
+                ],
+                "0.1.12": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.12"
+                            }
+                        },
+                        "sha256": "395223e4e63c3f34d44e2c1b87907e053e9924a4739aa7e0cd1120e51807aadd",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/b3b98e53c98e29bb6d5ff7d6a0491044a1ca5bc4"
+                    }
+                ],
+                "0.1.13": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.13"
+                            }
+                        },
+                        "sha256": "7dfd0734941591fde39d1575db3a556d448ea20a7cfcb64f0f1a9309c452227b",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/efd98254959b7f827da7186d5c69a14c3f148b5b"
+                    }
+                ],
+                "0.1.14": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.14"
+                            }
+                        },
+                        "sha256": "9f7c335015064c57c21bb9fb8b3bd2fbf925633c265109f73de318069200c8d5",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/a49766d2ca6507f02d55cf6db3c8054284fb91d3"
+                    }
+                ],
+                "0.1.15": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.15"
+                            }
+                        },
+                        "sha256": "2c7c3c633cc31f2696174c8a396d20cc7a15d0a92090f36919d50c4bbc1ae4d9",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/828157f8b202d483c220ce415e6dd012a385458f"
+                    }
+                ],
                 "0.1.2": [
                     {
                         "metadata": {
@@ -4071,6 +5290,378 @@
                         },
                         "sha256": "4acaeac28dda5cfcc4b394f8cdd3d4c74ea1af1d5edb337fb5ae4378f68eb91d",
                         "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/6057c1cef31b8ea55baef38ac19350aade075335"
+                    }
+                ],
+                "0.1.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.4"
+                            }
+                        },
+                        "sha256": "eb270c543bdba5cb2a7e5e16dbd1c0c76d60fdc80149fc9c85488c793e0b0476",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/efa7bf1d2627585b505593114c9226da20dd5f8d"
+                    }
+                ],
+                "0.1.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.5"
+                            }
+                        },
+                        "sha256": "3a075ae919ece5595d58fbb606f7ce1b3cdf5e981f08a44cce1ac1edbd1f4321",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/ff5c23f5f90d0395b37c13ba9832670a3dc69ff2"
+                    }
+                ],
+                "0.1.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.6"
+                            }
+                        },
+                        "sha256": "7d3d1599f99fd8b803dbb49c380af632ee352885f11484efab5678f640dda5fb",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/28535cfd4732c2fe237debd26bf88b90f0150845"
+                    }
+                ],
+                "0.1.7": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.7"
+                            }
+                        },
+                        "sha256": "2940813f9f1da8a2c4b070e84487e98748f0b361c6ce2ca816bca65f451bb058",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/89c0f02d2f6de56dfc2ee5bcb41bb72905a7c2fb"
+                    }
+                ],
+                "0.1.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.8"
+                            }
+                        },
+                        "sha256": "a48672438f3bd537c07c153eb6bd19821acca00c42c9d2573882d3b99075cfca",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/8c38925b428f1113558676d0cd59c19f1e91046b"
+                    }
+                ],
+                "0.1.9": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.9"
+                            }
+                        },
+                        "sha256": "2e6aa80488c4425b5faf8ca1d78844135b04799f718355b37578151b5e7e9c60",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/dae598937cd882c491e1c0031b1e930be8683390"
                     }
                 ]
             }
@@ -4856,6 +6447,62 @@
                         },
                         "sha256": "9728b90014e8b6716d5d3ea782a623ac082374c3cc36dd5d95a5903b15e2812e",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/e3452081919b58e9517cdaa64cd1ed5881fcb381"
+                    }
+                ],
+                "0.1.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Colors call instructions and adds a prefix in the disassembly listing.",
+                                "entryPoint": "colorize_calls.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "visual-enhancement",
+                                    "code-analysis",
+                                    "disassembly-highlighting",
+                                    "reverse-engineering",
+                                    "ui-improvement"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "colorize-calls",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.4"
+                            }
+                        },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
                     }
                 ]
             }
@@ -9516,6 +11163,60 @@
                                 "version": "0.1.3"
                             }
                         },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Demonstrate how to display dynamic hints.",
+                                "entryPoint": "extensible_hints.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "ui-customization",
+                                    "tooltips",
+                                    "dynamic-hints",
+                                    "disassembly-enhancement",
+                                    "developer-example"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "extensible-hints",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
                         "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
@@ -11445,6 +13146,61 @@
                         },
                         "sha256": "3169ef18861c94190e341a35256ef113b5440d6b9b066ee476f4d48ba8716e06",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/de3859595b86e385e3726540a1ba5293498f232b"
+                    }
+                ],
+                "0.1.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Renders structure instances in global data with explicit field names, offsets, and values.",
+                                "entryPoint": "global_struct_dissector_entry.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "structure",
+                                    "formatting",
+                                    "data",
+                                    "disassembly"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "global-struct-dissector",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.2"
+                            }
+                        },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
                     }
                 ]
             }
@@ -15605,6 +17361,60 @@
                                 "version": "0.1.3"
                             }
                         },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Displays popup function hints for the referenced calls and strings.",
+                                "entryPoint": "hint_calls.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "reverse-engineering",
+                                    "function-analysis",
+                                    "ui-enhancement",
+                                    "code-navigation",
+                                    "popup-hints"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "hint-calls",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
                         "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
@@ -15769,6 +17579,62 @@
                         },
                         "sha256": "9728b90014e8b6716d5d3ea782a623ac082374c3cc36dd5d95a5903b15e2812e",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/e3452081919b58e9517cdaa64cd1ed5881fcb381"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/williballenthin/idawilli",
+            "name": "hint-lumina",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Shows the Lumina record and name history of a function as a hint on the function name.",
+                                "entryPoint": "hint_lumina_entry.py",
+                                "idaVersions": [
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "lumina",
+                                    "function-analysis",
+                                    "popup-hints"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "hint-lumina",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
                     }
                 ]
             }
@@ -36199,65 +38065,6 @@
                         },
                         "sha256": "c7cf3219ed18b7f689984d7256908f3d17b03ad31d55accfbfb806c2daa35467",
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/29c1e2b406b37f30f163303dba758e37df21242b"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "nightshiftlabs-api@agentmail.to",
-                                        "name": "Nightshift Labs (AI agent)"
-                                    }
-                                ],
-                                "categories": [
-                                    "file-parsers-and-loaders"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
-                                "entryPoint": "memlens_entry.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "linux",
-                                    "kernel",
-                                    "memory-forensics",
-                                    "volatility",
-                                    "rootkit"
-                                ],
-                                "license": "MIT",
-                                "logoPath": "assets/logo.png",
-                                "maintainers": [],
-                                "name": "memlens",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
-                                },
-                                "version": "0.3.0"
-                            }
-                        },
-                        "sha256": "c7cf3219ed18b7f689984d7256908f3d17b03ad31d55accfbfb806c2daa35467",
-                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/29c1e2b406b37f30f163303dba758e37df21242b"
                     }
                 ],
                 "0.3.1": [
@@ -36319,6 +38126,616 @@
                         },
                         "sha256": "40a809f0c7498ac99bdde5248010b83945760138f9ea8626bb952c3700e4eaeb",
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/d4f1a8c4804a0dc44e866a3c5f6be9c173692065"
+                    }
+                ],
+                "0.3.10": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.10"
+                            }
+                        },
+                        "sha256": "59928e6741b0fe966b6772778171507dc96cbe97b2ebf11f424da46a5b3f3e99",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/40fd4e707fd1192371051f8bd3a988b9f0d99e1c"
+                    }
+                ],
+                "0.3.11": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.11"
+                            }
+                        },
+                        "sha256": "169722b5359b9c36ec267accf8375579e25f1c24730b6b7f2b284b5676fafda0",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/c25a70b9bbc3721471b6bca7e6729aa419c40900"
+                    }
+                ],
+                "0.3.12": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.12"
+                            }
+                        },
+                        "sha256": "1fff12ea8fc916e0994e896a2c7118136282fd1a1039c7b740aaa4b8e97ffcd3",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/919e587414696627e033513132520e8f7f5fc58f"
+                    }
+                ],
+                "0.3.13": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.13"
+                            }
+                        },
+                        "sha256": "17afd806d5532fa9cd514a09ad408ced4f167df5b3386fae693a45daafa52ef1",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/dfee752776e7ae4c66a7e55036f6c4f9142de65f"
+                    }
+                ],
+                "0.3.14": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.14"
+                            }
+                        },
+                        "sha256": "0cd021e579e0e58d682550ef200e43a7414feb124d68a1a334a268ed0354ea4a",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/5415d8ac56bbb9bead5cdf25788030bf0f452ea2"
+                    }
+                ],
+                "0.3.15": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.15"
+                            }
+                        },
+                        "sha256": "c77002d7fb1d04b04285a46b3a755dcbcec105d45ece48187b2a0a0b661e73d7",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/dee7ce448f8bc2d78d2f20acaa8689529de6e80f"
+                    }
+                ],
+                "0.3.16": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.16"
+                            }
+                        },
+                        "sha256": "69f6095953f70abbdd1381e6bafeb5a9e1b3470d3a2fe32892f287597d532900",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/d006d076e3d10ef26ef479c839ebbc191745cc9f"
+                    }
+                ],
+                "0.3.17": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.17"
+                            }
+                        },
+                        "sha256": "029aa4e6c789b19307a91e3141173c6d1f69c3619f3fae7a142baf20674e260d",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/9dd8eba9c7a8bdaaf937d30e8d890ce537930142"
+                    }
+                ],
+                "0.3.18": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.18"
+                            }
+                        },
+                        "sha256": "91122f0d6e0f0a68221d2016a86a4808862545498f7b37d9a0c8d8ffcda5df14",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/c22aa2dffe9813582ee0b2c03d1dd96549b8d757"
+                    }
+                ],
+                "0.3.19": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.19"
+                            }
+                        },
+                        "sha256": "7771117dd08adf28599663964fef45c0572e67854420f920382a248bac717881",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/e970d554a7aee1fb39ed1cefb8efd3e7fd365d9a"
                     }
                 ],
                 "0.3.2": [
@@ -36502,6 +38919,373 @@
                         },
                         "sha256": "80d69e0a3c7da5b2eb7b5a90ff4cce53edaada41f03a7cc67f48295fb17468e1",
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/0c3423df10959bacdf86ec2f0e32d25f700d7a46"
+                    }
+                ],
+                "0.3.5": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.5"
+                            }
+                        },
+                        "sha256": "1cce42bb73dc691186f9dbeb012aeb39b60690cf44d2e82e77b3eafafcaaa3ff",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/ebda7c532c7a3a67d22fdb578736d6832176f815"
+                    }
+                ],
+                "0.3.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.6"
+                            }
+                        },
+                        "sha256": "73bf7dac0804985055b5f0d87059eeeeea57f7918becac780cbb6d1953fe6fc8",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/3664131a4b4a5d8fc891233b2545d9c14a42aac0"
+                    }
+                ],
+                "0.3.7": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.7"
+                            }
+                        },
+                        "sha256": "71d4bcceba7d69f268b09293b3d65fc3f65e23fe26036fff5e82366cbf7ad771",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/e1c92350b50ce5053d48c1b3b6014f3605530ac0"
+                    }
+                ],
+                "0.3.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.8"
+                            }
+                        },
+                        "sha256": "43865627dd5b2204c6a87acaf69a8a9a2aede8deca001bd0c9d4702ca0cae2a5",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/5e2752534f152a99525ed573e2a40f0ce465ead3"
+                    }
+                ],
+                "0.3.9": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.9"
+                            }
+                        },
+                        "sha256": "c77c382e2edab7bcbcffe0834b1193f051dbc5d6dcdc31cc51501d2fa7a8f9a3",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/19c915cfcc1087592df7c3e3b06c701fbcfe94be"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/williballenthin/idawilli",
+            "name": "navband-visited",
+            "versions": {
+                "0.1.3": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Tracks and records all disassembly addresses you visit during your analysis, highlighting these visited addresses in IDA's navigation band.",
+                                "entryPoint": "navband_visited.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "navigation-tracking",
+                                    "analysis-visualization",
+                                    "reverse-engineering",
+                                    "ui-enhancement",
+                                    "code-exploration"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "navband-visited",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
                     }
                 ]
             }
@@ -37681,6 +40465,70 @@
                         },
                         "sha256": "9728b90014e8b6716d5d3ea782a623ac082374c3cc36dd5d95a5903b15e2812e",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/e3452081919b58e9517cdaa64cd1ed5881fcb381"
+                    }
+                ],
+                "0.3.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "oplog is an IDA Pro plugin that records operations during analysis.",
+                                "entryPoint": "oplog_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "activity-tracking",
+                                    "workflow-analysis",
+                                    "reverse-engineering-methodology",
+                                    "ai-training-data",
+                                    "analysis-visualization"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "oplog",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "pydantic>=2",
+                                    "qtpy"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.3.1"
+                            }
+                        },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
                     }
                 ]
             }
@@ -42965,6 +45813,60 @@
                                 "version": "0.1.3"
                             }
                         },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Quickly organize functions into tags via hotkey (Z).",
+                                "entryPoint": "tag_func.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "function-organization",
+                                    "reverse-engineering",
+                                    "code-navigation",
+                                    "function-tagging",
+                                    "workflow-optimization"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "tag-func",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "0.1.3"
+                            }
+                        },
                         "sha256": "680d71d9f365a23935731f2a750e6ffe2052cd9c824b9c98d383b455e7fab3e4",
                         "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/65700e95830665be7f771f02cd9ce230573aeba3"
                     },
@@ -44934,6 +47836,84 @@
                         },
                         "sha256": "ae46e39873964bb36a5627ca8d711586735ada9a234edbc9eade3d39e2d008b0",
                         "url": "https://codeload.github.com/oxiKKK/ida-vtable-tools/legacy.zip/2c5afc0153a9de7f4845fa2ce56f2ebb7455c66d"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/williballenthin/idawilli",
+            "name": "vtloader",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Load a file from VirusTotal into IDA without writing it to disk",
+                                "entryPoint": "vtloader_entry.py",
+                                "idaVersions": [
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "loader",
+                                    "virustotal",
+                                    "malware",
+                                    "in-memory",
+                                    "shellcode"
+                                ],
+                                "license": "Apache 2.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "vtloader",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings>=3.5.1"
+                                ],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": null,
+                                        "documentation": "API key used to download files from VirusTotal. Downloads need a key with the file download privilege.",
+                                        "key": "vt_api_key",
+                                        "name": "VirusTotal API key",
+                                        "prompt": true,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/williballenthin/idawilli"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "f7a4f9fd1dc0d744d9274aa7cd6f0e7bc8af330c8479cecf5bef1a4ffe1d95db",
+                        "url": "https://codeload.github.com/williballenthin/idawilli/legacy.zip/4f3e48726a49bd566151ada02de6104b719a9503"
                     }
                 ]
             }
