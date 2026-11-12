@@ -380,6 +380,7 @@ cod3nym/yarmaker
 
 # Discovered on 2026-10-30 08:58:27
 c8c78cf6c6/freelumina
+nightshift-labs-ai/kflow
 nightshift-labs-ai/memlens
 nightshift-labs-ai/btf2ida
 nightshift-labs-ai/cfiscope
