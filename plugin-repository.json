@@ -3764,6 +3764,128 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/3a5fe08cdd5d8736afec6756436ffd305259e588"
                     }
                 ],
+                "0.1.18": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.18"
+                            }
+                        },
+                        "sha256": "4d05f54a2196ecfad175589923017d0fb1d4687a43bc47081b20fa7de3409fdb",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/c81bbf132987643dd6574b82277fbb35f39c09f5"
+                    }
+                ],
+                "0.1.19": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.19"
+                            }
+                        },
+                        "sha256": "809e3cbd9eed20fbd6b97dd4c02b5cdb5c1f28b7389cbee099f4bae7cf24377f",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/18c8c14ccc15d6674049dab5988fc5844a64bc34"
+                    }
+                ],
                 "0.1.2": [
                     {
                         "metadata": {
@@ -5166,6 +5288,130 @@
                         },
                         "sha256": "2c7c3c633cc31f2696174c8a396d20cc7a15d0a92090f36919d50c4bbc1ae4d9",
                         "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/828157f8b202d483c220ce415e6dd012a385458f"
+                    }
+                ],
+                "0.1.16": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.16"
+                            }
+                        },
+                        "sha256": "6d3b536c7b6874101af1140aa62a445de861a60f0c4183e05310971da8ddee0a",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/8c66dd98f02c8b8f871ab18e861575c7a495ed02"
+                    }
+                ],
+                "0.1.17": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates. Also reads the older Linux 5.x jump-table CFI on aarch64 (Android 12/13 GKI). Not yet run in real IDA.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.17"
+                            }
+                        },
+                        "sha256": "d5b09eb0f5415dbe962c98f8f9a6ce10b33696b69311ad8ef98c79eb54dc0de9",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/017a9e53258eb7f3309c907cdfe25aa263e256ee"
                     }
                 ],
                 "0.1.2": [
@@ -18361,6 +18607,200 @@
                         },
                         "sha256": "5c6e3ed2e189c7025f69b33d1e7a9349e63f5744bdf5491fa41acf4337ff8866",
                         "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.114/hrtng-ida9.4.zip"
+                    }
+                ],
+                "3.9.118": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.118"
+                            }
+                        },
+                        "sha256": "336c30e6531ddbe9c98a55bb73db00adcf0fbe1c6e84abc16ca809c4dcf725f9",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.118/hrtng-ida9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.5"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.118"
+                            }
+                        },
+                        "sha256": "cc1d4328d8209fdb4d20c43effd98e1cae87eff5a130f9337e2d8cfa188825c6",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.118/hrtng-ida9.5.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.118"
+                            }
+                        },
+                        "sha256": "366147ee03f510cf123f121753a4e644922393c3ddafeb701f3ecf91bbd99821",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.118/hrtng-ida9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "bes@kaspersky.com",
+                                        "name": null
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "deobfuscation",
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Pro plugin with a rich set of features: decryption, deobfuscation, patching, lib code recognition and various pseudocode transformations",
+                                "entryPoint": "hrtng",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [],
+                                "license": "GPL-3.0",
+                                "logoPath": "logo.jpg",
+                                "maintainers": [],
+                                "name": "hrtng",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/KasperskyLab/hrtng"
+                                },
+                                "version": "3.9.118"
+                            }
+                        },
+                        "sha256": "88bfe9a2aa9abdff94a57388bdbfec8c1ca5b917d17bf313a99a1a0e10464ff4",
+                        "url": "https://github.com/KasperskyLab/hrtng/releases/download/v3.9.118/hrtng-ida9.4.zip"
                     }
                 ]
             }
@@ -33482,59 +33922,6 @@
             "host": "https://github.com/allthingsida/idasql",
             "name": "IDASQL",
             "versions": {
-                "0.0.11": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "elias.bachaalany@gmail.com",
-                                        "name": "Elias Bachaalany"
-                                    }
-                                ],
-                                "categories": [
-                                    "api-scripting-and-automation",
-                                    "collaboration-and-productivity"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
-                                "entryPoint": "idasql",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [],
-                                "license": "MIT",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "IDASQL",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/allthingsida/idasql"
-                                },
-                                "version": "0.0.11"
-                            }
-                        },
-                        "sha256": "13f5247de46387ef9cd983ca1700a1251ac3aedea368d4989f66746b504da485",
-                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.11/idasql_plugin-v0.0.11.zip"
-                    }
-                ],
                 "0.0.12": [
                     {
                         "metadata": {
@@ -34036,6 +34423,184 @@
                         },
                         "sha256": "8bc542f1782370299732fd03331316484daeb98eef4c2d970d264b465af9ed0b",
                         "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.19/idasql-v0.0.19-ida93-plugin.zip"
+                    }
+                ],
+                "0.0.20": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.20"
+                            }
+                        },
+                        "sha256": "c7f73bffea6f06c1de8aa1d81cbaff0cd520211a2be56d91d18e93fd71f5014c",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida94-plugin.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.20"
+                            }
+                        },
+                        "sha256": "ba68678f80d5742fb24df5df2a8ba14d96e54cfc4a753b014dc8c5ad0155089a",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida93-plugin.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.5"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.20"
+                            }
+                        },
+                        "sha256": "7159dcfce4997ba1f774efe8c52ebec16e79e5919a1a23973f3cc254cfda9399",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida95-plugin.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "elias.bachaalany@gmail.com",
+                                        "name": "Elias Bachaalany"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "SQL interface for IDA databases. Query functions, xrefs, strings, types, and more using SQL. Supports local CLI, HTTP REST server, and optional MCP integration.",
+                                "entryPoint": "idasql",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [],
+                                "license": "LicenseRef-Human-Origin-Source-1.0",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDASQL",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/allthingsida/idasql"
+                                },
+                                "version": "0.0.20"
+                            }
+                        },
+                        "sha256": "e2d40ed76f645141313e716782a97dd26a36b4320bd5d76e737bf88c8c7853bc",
+                        "url": "https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida92-plugin.zip"
                     }
                 ]
             }
@@ -38866,6 +39431,311 @@
                         },
                         "sha256": "72f41f3eaa5dcc8102af456fe300e0f2aa0999f8c70912be632f783437ea81e7",
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/589789fd59c27e6dd17c32e4667d089a51718b19"
+                    }
+                ],
+                "0.3.20": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.20"
+                            }
+                        },
+                        "sha256": "e572a531021b0e64ef5d9862359b338d4b3a6619edfc89e662d48051740bf1b8",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/b1b2b2c3f42e583bb13fb046b6a6d116640eb67a"
+                    }
+                ],
+                "0.3.21": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.21"
+                            }
+                        },
+                        "sha256": "809c15cb50a02e3dde6a703118df882250f2b16de541f7401214c9d80759510c",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/0530bb58c9f0188a5957968297c61048f231c23c"
+                    }
+                ],
+                "0.3.22": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.22"
+                            }
+                        },
+                        "sha256": "1845f8b80d83f96b1b63d1cf5ee9540ae079b1e0d55b99a86d0adb546a55c9b0",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/76ad6578841978d6fafd008e0df0618770a04214"
+                    }
+                ],
+                "0.3.23": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.23"
+                            }
+                        },
+                        "sha256": "79111ca496c9268f44bae9b1a06e5728729a93746848c6796e3ddf206fc143fc",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/4cc5988ee9814f951e35e55bb7c98f8edb3d7f5b"
+                    }
+                ],
+                "0.3.24": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
+                                "entryPoint": "memlens_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "memory-forensics",
+                                    "volatility",
+                                    "rootkit"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "memlens",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/memlens"
+                                },
+                                "version": "0.3.24"
+                            }
+                        },
+                        "sha256": "dfa53ef2f1e3c96bf4384f4b99b9e49c2ebc3ecba8a050540f7110f81c6aaa14",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/fbfe84f16249ef3b04d3a29ee994b6fe39c7cc9c"
                     }
                 ],
                 "0.3.3": [
@@ -46823,6 +47693,134 @@
                         },
                         "sha256": "abd89f4b7979283f49a209960eb07f79900da738c3b4d1b847b28dee40336153",
                         "url": "https://github.com/threatray/plugin-ida/releases/download/v3.0.3/threatray-ida-v3.0.3.zip"
+                    }
+                ],
+                "3.0.4": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@threatray.com",
+                                        "name": "Threatray AG"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Attribute functions to malware families and libraries, find function clusters across samples, and retrohunt similar functions on the Threatray platform.",
+                                "entryPoint": "threatray_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "threat-intelligence",
+                                    "malware",
+                                    "retrohunt",
+                                    "code-similarity",
+                                    "function-clustering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "threatray",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests>=2.27"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://threatray.com",
+                                    "repository": "https://github.com/threatray/plugin-ida"
+                                },
+                                "version": "3.0.4"
+                            }
+                        },
+                        "sha256": "69daf36c5d7a4a0a4e266d6cf5ba2157db448bea4b6c62e2d30754cc8682058d",
+                        "url": "https://codeload.github.com/threatray/plugin-ida/legacy.zip/806a79a034fcb1cbfd131f09ffb6eb1d26b8bdbd"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "support@threatray.com",
+                                        "name": "Threatray AG"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Attribute functions to malware families and libraries, find function clusters across samples, and retrohunt similar functions on the Threatray platform.",
+                                "entryPoint": "threatray_plugin.py",
+                                "idaVersions": [
+                                    "8.4",
+                                    "8.4sp1",
+                                    "8.4sp2",
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "threat-intelligence",
+                                    "malware",
+                                    "retrohunt",
+                                    "code-similarity",
+                                    "function-clustering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "images/logo.png",
+                                "maintainers": [],
+                                "name": "threatray",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests>=2.27"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://threatray.com",
+                                    "repository": "https://github.com/threatray/plugin-ida"
+                                },
+                                "version": "3.0.4"
+                            }
+                        },
+                        "sha256": "b19571a11a1e5ed159b5ca9fca3ddb16bbd25937f8c76ef70bd5068a3523448c",
+                        "url": "https://github.com/threatray/plugin-ida/releases/download/v3.0.4/threatray-ida-v3.0.4.zip"
                     }
                 ]
             }

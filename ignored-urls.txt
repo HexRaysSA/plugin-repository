@@ -957,3 +957,14 @@ https://github.com/familiary/mcrit-plugin/releases/download/v1.1.8/mcrit-ida-1.1
 https://github.com/familiary/mcrit-plugin/releases/download/v1.1.9/mcrit-ida-1.1.9.zip
 https://github.com/mahmoudimus/patching-ng/releases/download/v0.3.0/patching.zip
 https://github.com/nightshift-labs-ai/memlens/releases/download/demo-data/memlens-demo-debian13.zip
+
+# Discovered on 2026-11-12 20:39:08
+https://codeload.github.com/KasperskyLab/hrtng/legacy.zip/a0249eb0a167e2c7d4c3386c35ebb0520ab88e96
+https://codeload.github.com/allthingsida/idasql/legacy.zip/e0bba9a7d2f5e3f9df7d7d8fe8eb30f5435283aa
+https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida92-cli.zip
+https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida93-arm64-plugin.zip
+https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida93-cli.zip
+https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida94-arm64-plugin.zip
+https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida94-cli.zip
+https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida95-arm64-plugin.zip
+https://github.com/allthingsida/idasql/releases/download/v0.0.20/idasql-v0.0.20-ida95-cli.zip
