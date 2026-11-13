@@ -384,3 +384,6 @@ nightshift-labs-ai/kflow
 nightshift-labs-ai/memlens
 nightshift-labs-ai/btf2ida
 nightshift-labs-ai/cfiscope
+
+# Discovered on 2026-11-13 20:41:56
+eitapreulajhol/ida_mcp
