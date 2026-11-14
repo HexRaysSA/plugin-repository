@@ -1005,3 +1005,6 @@ https://github.com/RevEngAI/plugin-ida/releases/download/v3.27.2/reveng_ida_plug
 https://github.com/RevEngAI/plugin-ida/releases/download/v3.27.2/reveng_ida_plugin_windows_x86_64_py3.14.zip
 https://github.com/nightshift-labs-ai/btf2ida/releases/download/try-module/btf2ida-try-module.zip
 https://github.com/seifreed/xrefgen/releases/download/v1.0.0/xrefgen-1.0.0.zip
+
+# Discovered on 2026-11-14 20:35:29
+https://github.com/nightshift-labs-ai/kflow/releases/download/try-module/kflow-try-module.zip
