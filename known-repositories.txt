@@ -387,3 +387,6 @@ nightshift-labs-ai/cfiscope
 
 # Discovered on 2026-11-13 20:41:56
 eitapreulajhol/ida_mcp
+
+# Discovered on 2026-11-15 00:51:53
+thalium/binql

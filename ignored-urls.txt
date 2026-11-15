@@ -1008,3 +1008,6 @@ https://github.com/seifreed/xrefgen/releases/download/v1.0.0/xrefgen-1.0.0.zip
 
 # Discovered on 2026-11-14 20:35:29
 https://github.com/nightshift-labs-ai/kflow/releases/download/try-module/kflow-try-module.zip
+
+# Discovered on 2026-11-15 00:51:52
+https://github.com/EitaPreulaJhol/ida_mcp/releases/download/v0.4.0/ida-mcp-legacy-0.4.0.zip
