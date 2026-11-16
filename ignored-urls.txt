@@ -1011,3 +1011,33 @@ https://github.com/nightshift-labs-ai/kflow/releases/download/try-module/kflow-t
 
 # Discovered on 2026-11-15 00:51:52
 https://github.com/EitaPreulaJhol/ida_mcp/releases/download/v0.4.0/ida-mcp-legacy-0.4.0.zip
+
+# Discovered on 2026-11-16 00:58:11
+https://codeload.github.com/BaiGuQing/IDAProAutoTheme/legacy.zip/48cbf3c9676eac025e766cee0c7bcd25db97506f
+https://codeload.github.com/reversedcodes/IDA-RPC/legacy.zip/91fa4a3129f7030ce47f331f2c3f5541b42ed3d7
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/041c56b4d3938f6450b7804f5117d2615178cd81
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/0a72a9b75793b6a03b90878e35576fce17158431
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/0f67b9324f5bd43216985ecf81ac2bb30520f22e
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/1268b11532ca1c3e63fe159f7d2ebe6f967eb789
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/20f9c945031989c5b133c8fda4b0274de4760962
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/22aaa6298a8c581c21de3821fcdd43d771a6d82c
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/2bafad8c76a616f5aca5b5bfdd1fac6b8fd19c21
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/42a4205aaa79d3b84148cbe6be89c092aff4335c
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/4533e79f63aaeaf66c26941309602c7f4b32c35e
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/48c8179115148fad735e3e133dfe6a61ac7f27fa
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/4e3a47862fbe32b275a701996400d00126ee8651
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/50beba46c7db0064f8e5f195d9ec2818d3ee4f82
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/6dff3994b4ad1ebfc699583122e72bebbb7461a8
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/6efda1035c549815bd461e7f136a68bf142af439
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/7510e100095dac3ec17467869b934320508cb589
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/80f522b7de75e5577cc024827586bd246e3ba9da
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/8a632e0b836c199652713a02457f5843b7b0b456
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/a47157b84ecc5f9e460cf9254aa411769990cc9f
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/b170b4d62fc46fd6e1d95c34b3448fa8e5fa8132
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/b2811a2ea64c48e6b2bda177e791ffe75151ad6a
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/c7c6f10eb1436f68ac501b49cc1d94f3d3b4d6c3
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/cba4f04f0f55ae150056ff4102f83d3c9af1b3d7
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/ce9990d1adef1a4e96e6d87bed557b2f08021eae
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/ea090114ff4e2c61b6fe7a8c1188e852d25c7218
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/fb327ed281d3f1b5497a4dc0893d515a766207e1
+https://github.com/EitaPreulaJhol/ida_mcp/releases/download/v0.4.1/ida-mcp-legacy-0.4.1.zip

@@ -4265,6 +4265,67 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/a0a8a01cc2985119b959997ae5b7b43b904e83c3"
                     }
                 ],
+                "0.1.23": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports its types and applies function prototypes by name where the database has symbols. Not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.23"
+                            }
+                        },
+                        "sha256": "4821ad0f0a7c64ec538c6f23c8b091475d32e2b5b41b8b516ff6e3ff113ca4e1",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/8c34adb69329ee83178fd661bff23b7a3782f8e1"
+                    }
+                ],
                 "0.1.3": [
                     {
                         "metadata": {
@@ -5916,6 +5977,68 @@
                         },
                         "sha256": "77afd1f06570b7567798c1a054604794d6578752fba4d99c02b9154ee637a8c7",
                         "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/e70c87ed91a6736d768f3e89c024f5efcc22b726"
+                    }
+                ],
+                "0.1.20": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates. Also reads the older Linux 5.x jump-table CFI on aarch64 (Android 12/13 GKI). Not yet run in real IDA.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.20"
+                            }
+                        },
+                        "sha256": "fe8205def1f911c54e521cd9c9be60972e42f47ac195e589929b86f3dff53e00",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/c208e6c17a7da2a5f18284c9c33bc246d5f59bd2"
                     }
                 ],
                 "0.1.3": [
@@ -20932,7 +21055,7 @@
         },
         {
             "host": "https://github.com/reversedcodes/ida-rpc",
-            "name": "IDA-Discord-RPC",
+            "name": "ida-discord-rpc",
             "versions": {
                 "1.1.0": [
                     {
@@ -21094,6 +21217,314 @@
                         },
                         "sha256": "787771a291cc5a6cffd1a4d72e1007951fa1b77337e2e469b6f8c34d379d9daa",
                         "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/9.4-1.2-hotfix/ida_discord_rpc-9.4-1.2-hotfix.zip"
+                    }
+                ],
+                "1.3.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "reversedcodes@users.noreply.github.com",
+                                        "name": "Reversed Codes"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Discord RPC integrates Discord Rich Presence into IDA, displaying real-time information about your reverse engineering activity directly in your Discord profile: current function, view, file, debugging status and more - all configurable from a settings dialog.",
+                                "entryPoint": "ida-discord-rpc",
+                                "idaVersions": [
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "discord",
+                                    "rich-presence",
+                                    "rpc",
+                                    "presence",
+                                    "status"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": "assets/ida-discord.png",
+                                "maintainers": [],
+                                "name": "ida-discord-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/reversedcodes/IDA-RPC"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "f9db78a54851a57d4aa50147f11bbe05ad8016ac50e85903ebaefc6cc4c3c96c",
+                        "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/1.3.0/ida-discord-rpc-9.4.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "reversedcodes@users.noreply.github.com",
+                                        "name": "Reversed Codes"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Discord RPC integrates Discord Rich Presence into IDA, displaying real-time information about your reverse engineering activity directly in your Discord profile: current function, view, file, debugging status and more - all configurable from a settings dialog.",
+                                "entryPoint": "ida-discord-rpc",
+                                "idaVersions": [
+                                    "9.3"
+                                ],
+                                "keywords": [
+                                    "discord",
+                                    "rich-presence",
+                                    "rpc",
+                                    "presence",
+                                    "status"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": "assets/ida-discord.png",
+                                "maintainers": [],
+                                "name": "ida-discord-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/reversedcodes/IDA-RPC"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "26bcbc227f07159a0a25af4f7e4cea6554ee729ea56719b25ede150ed00d6f14",
+                        "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/1.3.0/ida-discord-rpc-9.3.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "reversedcodes@users.noreply.github.com",
+                                        "name": "Reversed Codes"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Discord RPC integrates Discord Rich Presence into IDA, displaying real-time information about your reverse engineering activity directly in your Discord profile: current function, view, file, debugging status and more - all configurable from a settings dialog.",
+                                "entryPoint": "ida-discord-rpc",
+                                "idaVersions": [
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "discord",
+                                    "rich-presence",
+                                    "rpc",
+                                    "presence",
+                                    "status"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": "assets/ida-discord.png",
+                                "maintainers": [],
+                                "name": "ida-discord-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/reversedcodes/IDA-RPC"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "cccccc7362012092536d36ef95ded1a9ebf8d4f77dbd83be601ba2b2574f539b",
+                        "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/1.3.0/ida-discord-rpc-9.5.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "reversedcodes@users.noreply.github.com",
+                                        "name": "Reversed Codes"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Discord RPC integrates Discord Rich Presence into IDA, displaying real-time information about your reverse engineering activity directly in your Discord profile: current function, view, file, debugging status and more - all configurable from a settings dialog.",
+                                "entryPoint": "ida-discord-rpc",
+                                "idaVersions": [
+                                    "9.2"
+                                ],
+                                "keywords": [
+                                    "discord",
+                                    "rich-presence",
+                                    "rpc",
+                                    "presence",
+                                    "status"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": "assets/ida-discord.png",
+                                "maintainers": [],
+                                "name": "ida-discord-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/reversedcodes/IDA-RPC"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "97d0ab5f351cf44dfe527467b07ae140649b5598753c547ad9188f5f53e64534",
+                        "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/1.3.0/ida-discord-rpc-9.2.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "reversedcodes@users.noreply.github.com",
+                                        "name": "Reversed Codes"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Discord RPC integrates Discord Rich Presence into IDA, displaying real-time information about your reverse engineering activity directly in your Discord profile: current function, view, file, debugging status and more - all configurable from a settings dialog.",
+                                "entryPoint": "ida-discord-rpc",
+                                "idaVersions": [
+                                    "9.1"
+                                ],
+                                "keywords": [
+                                    "discord",
+                                    "rich-presence",
+                                    "rpc",
+                                    "presence",
+                                    "status"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": "assets/ida-discord.png",
+                                "maintainers": [],
+                                "name": "ida-discord-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/reversedcodes/IDA-RPC"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "81b5975caf42d63061eb6b8953e10dffbf921fb8a4c5976453be06f96624f47f",
+                        "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/1.3.0/ida-discord-rpc-9.1.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "reversedcodes@users.noreply.github.com",
+                                        "name": "Reversed Codes"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "IDA Discord RPC integrates Discord Rich Presence into IDA, displaying real-time information about your reverse engineering activity directly in your Discord profile: current function, view, file, debugging status and more - all configurable from a settings dialog.",
+                                "entryPoint": "ida-discord-rpc",
+                                "idaVersions": [
+                                    "9.0"
+                                ],
+                                "keywords": [
+                                    "discord",
+                                    "rich-presence",
+                                    "rpc",
+                                    "presence",
+                                    "status"
+                                ],
+                                "license": "Apache-2.0",
+                                "logoPath": "assets/ida-discord.png",
+                                "maintainers": [],
+                                "name": "ida-discord-rpc",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/reversedcodes/IDA-RPC"
+                                },
+                                "version": "1.3.0"
+                            }
+                        },
+                        "sha256": "157aa8186c2c0047b218032c7b5831dd6af81a574d20efc646fcabbc4a8a6c90",
+                        "url": "https://github.com/reversedcodes/IDA-RPC/releases/download/1.3.0/ida-discord-rpc-9.0.zip"
                     }
                 ]
             }
@@ -25400,6 +25831,126 @@
                         },
                         "sha256": "88ab3f34dce24fd34245a84887dc2229f58847524bf4c0f7f19c1149472b8714",
                         "url": "https://github.com/EitaPreulaJhol/ida_mcp/releases/download/v0.4.0/ida_mcp-0.4.0.zip"
+                    }
+                ],
+                "0.4.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "carlos.pdesanti@gmail.com",
+                                        "name": "EitaPreulaJhol"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Expose a running IDA Pro session to AI coding agents over the Model Context Protocol (MCP).",
+                                "entryPoint": "ida_mcp_loader.py",
+                                "idaVersions": [
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "ai",
+                                    "automation",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp-bridge",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/EitaPreulaJhol/ida_mcp"
+                                },
+                                "version": "0.4.1"
+                            }
+                        },
+                        "sha256": "583ce1efdbc9ffb2a73a9c3dcf1a8ae21f2f78818d5e11a8e0b9bac891417d3d",
+                        "url": "https://codeload.github.com/EitaPreulaJhol/ida_mcp/legacy.zip/be25e72e3f76f9fd9d63be1a91031ff744d61e6b"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "carlos.pdesanti@gmail.com",
+                                        "name": "EitaPreulaJhol"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation",
+                                    "integration-with-third-parties-interoperability"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Expose a running IDA Pro session to AI coding agents over the Model Context Protocol (MCP).",
+                                "entryPoint": "ida_mcp_loader.py",
+                                "idaVersions": [
+                                    "8.5",
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "mcp",
+                                    "model-context-protocol",
+                                    "ai",
+                                    "automation",
+                                    "reverse-engineering"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-mcp-bridge",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/EitaPreulaJhol/ida_mcp"
+                                },
+                                "version": "0.4.1"
+                            }
+                        },
+                        "sha256": "faffeb3903a06388206b5fa44603365c1ee47d73ae92cccd598ab96de6749a9e",
+                        "url": "https://github.com/EitaPreulaJhol/ida_mcp/releases/download/v0.4.1/ida_mcp-0.4.1.zip"
                     }
                 ]
             }
@@ -33125,6 +33676,67 @@
             }
         },
         {
+            "host": "https://github.com/baiguqing/idaproautotheme",
+            "name": "IDAAutoTheme",
+            "versions": {
+                "1.0.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "3268983565@qq.com",
+                                        "name": "BaiGuQing"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Follows the Windows light/dark app setting and switches IDA's theme at runtime, without restarting IDA. Ships a re-implementation of IDA's theme.css preprocessor (@importtheme / @def / @palette / @ifdef / @lighten / @darken) so QSS and palette are swapped in place.",
+                                "entryPoint": "IDAAutoTheme.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "theme",
+                                    "dark mode",
+                                    "light mode",
+                                    "darkmode",
+                                    "appearance",
+                                    "ui"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "IDAAutoTheme",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/BaiGuQing/IDAProAutoTheme"
+                                },
+                                "version": "1.0.1"
+                            }
+                        },
+                        "sha256": "d421cd8facda6a5bf8f461a97c436dc2a04f6aaa982e63b0dfadb6a416125de2",
+                        "url": "https://codeload.github.com/BaiGuQing/IDAProAutoTheme/legacy.zip/689edcdd3f71209f91be39b3ababda16d63f96ca"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/libtero/idaguides",
             "name": "IDAGuides",
             "versions": {
@@ -40676,7 +41288,7 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/777eb230dc6a71bb7abb16cec6c24fa98833a8e2"
                     }
                 ],
-                "0.3.3": [
+                "0.3.28": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -40692,7 +41304,7 @@
                                 ],
                                 "components": [],
                                 "dependencies": [],
-                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
                                 "entryPoint": "memlens_entry.py",
                                 "idaVersions": [
                                     "9.0",
@@ -40730,11 +41342,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/nightshift-labs-ai/memlens"
                                 },
-                                "version": "0.3.3"
+                                "version": "0.3.28"
                             }
                         },
-                        "sha256": "d0b97d7d7f1efa854cbbd950bdb26bea28588e2ee8f1c034b19afff71f1d3173",
-                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/2470c4ae1d8a1f671a34974b90801b29bd617741"
+                        "sha256": "7204175d3998935890ef075a8a138db06eea23145803de15879e9c4d85a9dbde",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/e24c3d41bf403eacc173faa2c1ae184935e882b8"
                     }
                 ],
                 "0.3.4": [
@@ -46159,6 +46771,78 @@
                         },
                         "sha256": "5fe2967ca06d8ff65f16904b485fc0780c8d32068cbc0e2b42be7721a690c80e",
                         "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/f935645a995c9dd86cccfb705e8bc3216cacfb04"
+                    }
+                ],
+                "1.17.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "m{_no-spam_}@mahmoudimus.com",
+                                        "name": "Mahmoud Abdelkader"
+                                    }
+                                ],
+                                "categories": [
+                                    "collaboration-and-productivity",
+                                    "decompilation",
+                                    "debugging-and-tracing"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Create and search resilient byte signatures for functions and addresses in IDA Pro, with processor-aware operand wildcarding for x86, x64, ARMv6-M Thumb, ARMv7 A32, AArch64, MIPS, and MIPSEL binaries.",
+                                "entryPoint": "src/sigmaker/__init__.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "binary-patterns",
+                                    "function-identification",
+                                    "x86",
+                                    "x64",
+                                    "arm",
+                                    "armv7",
+                                    "aarch64",
+                                    "thumb",
+                                    "mips",
+                                    "mipsel",
+                                    "signature-generation",
+                                    "signature-search"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/sigmaker-logo.png",
+                                "maintainers": [],
+                                "name": "SigMaker",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "sigmaker==1.17.0"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://mahmoudimus.com",
+                                    "repository": "https://github.com/mahmoudimus/ida-sigmaker"
+                                },
+                                "version": "1.17.0"
+                            }
+                        },
+                        "sha256": "0a9d9cc4eb520de4f03fb7115220739be5df2c2ec43f90c361a9ba4d5515a9a0",
+                        "url": "https://codeload.github.com/mahmoudimus/ida-sigmaker/legacy.zip/4b9d8175131d5d2dc70e099d3e828feeaab0dad2"
                     }
                 ]
             }

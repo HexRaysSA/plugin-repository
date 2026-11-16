@@ -390,3 +390,6 @@ eitapreulajhol/ida_mcp
 
 # Discovered on 2026-11-15 00:51:53
 thalium/binql
+
+# Discovered on 2026-11-16 00:58:11
+baiguqing/idaproautotheme
