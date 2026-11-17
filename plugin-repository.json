@@ -45116,6 +45116,152 @@
             }
         },
         {
+            "host": "https://github.com/revengai/plugin-ida",
+            "name": "revengai",
+            "versions": {
+                "3.28.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "contact@reveng.ai",
+                                        "name": "RevEng.AI"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "integration-with-third-parties-interoperability",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "The RevEng.AI plugin integrates AI-powered code analysis and decompilation features into IDA Pro, enhancing reverse engineering workflows with advanced machine learning capabilities.",
+                                "entryPoint": "reai_toolkit_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "reveng.ai",
+                                    "ai",
+                                    "function-matching",
+                                    "binary-similarity",
+                                    "auto-unstrip",
+                                    "ai-decompiler"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "reai_toolkit/app/components/resources/reveng_ai_logo.jpg",
+                                "maintainers": [],
+                                "name": "revengai",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests==2.32.5",
+                                    "loguru==0.7.3",
+                                    "pydantic==2.12.3",
+                                    "revengai==4.75.0",
+                                    "libbs==3.8.1"
+                                ],
+                                "requiresPython": ">=3.10",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://reveng.ai",
+                                    "repository": "https://github.com/RevEngAI/plugin-ida"
+                                },
+                                "version": "3.28.0"
+                            }
+                        },
+                        "sha256": "4957cd28c2f5f96bd22c9e3a1ec61484d219c4a359ed56ec81257e727490a4f3",
+                        "url": "https://codeload.github.com/RevEngAI/plugin-ida/legacy.zip/5f1fe014bd4a7deb9443a526f244d4a5aa7d0023"
+                    }
+                ],
+                "3.29.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "contact@reveng.ai",
+                                        "name": "RevEng.AI"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "integration-with-third-parties-interoperability",
+                                    "malware-analysis",
+                                    "other"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "The RevEng.AI plugin integrates AI-powered code analysis and decompilation features into IDA Pro, enhancing reverse engineering workflows with advanced machine learning capabilities.",
+                                "entryPoint": "reai_toolkit_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "reveng.ai",
+                                    "ai",
+                                    "function-matching",
+                                    "binary-similarity",
+                                    "auto-unstrip",
+                                    "ai-decompiler"
+                                ],
+                                "license": "GPL-3.0",
+                                "logoPath": "reai_toolkit/app/components/resources/reveng_ai_logo.jpg",
+                                "maintainers": [],
+                                "name": "revengai",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "requests==2.32.5",
+                                    "loguru==0.7.3",
+                                    "pydantic==2.12.3",
+                                    "revengai==4.75.0",
+                                    "libbs==3.8.1"
+                                ],
+                                "requiresPython": ">=3.10",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": "https://reveng.ai",
+                                    "repository": "https://github.com/RevEngAI/plugin-ida"
+                                },
+                                "version": "3.29.0"
+                            }
+                        },
+                        "sha256": "2094707b2dfdb0f7f5d683a188a62a9e1eec47be3fb0b15d606e4f463e924be7",
+                        "url": "https://codeload.github.com/RevEngAI/plugin-ida/legacy.zip/499a488c3302a3a650330393ae9efac68e1a50b3"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/0xdea/rhabdomancer",
             "name": "rhabdomancer",
             "versions": {
