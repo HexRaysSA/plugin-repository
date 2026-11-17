@@ -38405,6 +38405,69 @@
                         "sha256": "dd0e248ce62f14527b70a49045820418e182a5a51c6ee8e20f46221927de2c85",
                         "url": "https://codeload.github.com/nightshift-labs-ai/kflow/legacy.zip/752eddf6875624e87ec3be38b2d214b38fc2c442"
                     }
+                ],
+                "0.0.6": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "disassembly-and-processor-modules"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reads a Linux kernel's own __bug_table, __jump_table and __ex_table (64-bit x86_64 and arm64): comments BUG/WARN traps with their source file:line (WARN = execution continues), static-key sites with their key and branch target, and faulting instructions with their fixup, and adds the missing jump references. Tested on seven kernels outside IDA. Not yet run in real IDA.",
+                                "entryPoint": "kflow_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "static-keys",
+                                    "exception-table",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "kflow",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/kflow"
+                                },
+                                "version": "0.0.6"
+                            }
+                        },
+                        "sha256": "d5814deb5dcfde39953014543f5a55eb971c8395b005cf3a8c0420addd303010",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/kflow/legacy.zip/fea55b95933d9636498fed8a65fa64eb675760f2"
+                    }
                 ]
             }
         },
