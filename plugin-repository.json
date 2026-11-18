@@ -1,6 +1,74 @@
 {
     "plugins": [
         {
+            "host": "https://github.com/danielplohmann/apiscout",
+            "name": "apiscout",
+            "versions": {
+                "3.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "daniel.plohmann@mailbox.org",
+                                        "name": "Daniel Plohmann"
+                                    }
+                                ],
+                                "categories": [
+                                    "malware-analysis"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Recover Windows API references from memory dumps: lists the references found with an ApiScout API DB and annotates them with names and types.",
+                                "entryPoint": "ida_scout.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "windows-api",
+                                    "memory-dumps",
+                                    "imports",
+                                    "unpacking"
+                                ],
+                                "license": "BSD-2-Clause",
+                                "logoPath": "ida-plugin.png",
+                                "maintainers": [],
+                                "name": "apiscout",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "apiscout>=3.0.0"
+                                ],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/danielplohmann/apiscout"
+                                },
+                                "version": "3.0.0"
+                            }
+                        },
+                        "sha256": "a6b723b831e13020fe7dd4db7bd8fbab4b195c0f390f61911e37752a6b19ff7c",
+                        "url": "https://codeload.github.com/danielplohmann/apiscout/legacy.zip/8ac70a58bd23025507abb4903a078980b860526a"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/dump-guy/applycalleetypeex",
             "name": "ApplyCalleeTypeEx",
             "versions": {
@@ -6100,6 +6168,68 @@
                         },
                         "sha256": "846d367c9fcacb34540274659c4dc976e8aff4a4907c9299dcfade0728040e38",
                         "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/719c36824d9b734b12bbdbe215ef211dc806414b"
+                    }
+                ],
+                "0.1.22": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates. Also reads the older Linux 5.x jump-table CFI on aarch64 (Android 12/13 GKI). Not yet run in real IDA.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.22"
+                            }
+                        },
+                        "sha256": "ba7f276a6bbb22f94e3cb29556568c65eb7f3999b7b7ea7b4afcdd328806bed1",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/4dd40d942efac847901d494ad3c6620d1c9f7cda"
                     }
                 ],
                 "0.1.3": [
@@ -38583,6 +38713,67 @@
                         "sha256": "d5814deb5dcfde39953014543f5a55eb971c8395b005cf3a8c0420addd303010",
                         "url": "https://codeload.github.com/nightshift-labs-ai/kflow/legacy.zip/fea55b95933d9636498fed8a65fa64eb675760f2"
                     }
+                ],
+                "0.0.7": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "disassembly-and-processor-modules"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reads a Linux kernel's own __bug_table, __jump_table and __ex_table (64-bit x86_64 and arm64): comments BUG/WARN traps with their source file:line (WARN = execution continues), static-key sites with their key and branch target, and faulting instructions with their fixup, and adds the missing jump references. Tested on seven kernels outside IDA. Not yet run in real IDA.",
+                                "entryPoint": "kflow_entry.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "static-keys",
+                                    "exception-table",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "kflow",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/kflow"
+                                },
+                                "version": "0.0.7"
+                            }
+                        },
+                        "sha256": "c8cabfe38bbf03f88ea26a235b49b955bac04805bc3d29fbee9d1c530ae9036c",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/kflow/legacy.zip/982b92e3b0a6737da5d920ecfaa197468ccde7ae"
+                    }
                 ]
             }
         },
@@ -41650,7 +41841,7 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/e8a06ce4e7ac1328c7a9d13ed734ea630b7d7ff0"
                     }
                 ],
-                "0.3.5": [
+                "0.3.30": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -41666,11 +41857,9 @@
                                 ],
                                 "components": [],
                                 "dependencies": [],
-                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
                                 "entryPoint": "memlens_entry.py",
                                 "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
                                     "9.1",
                                     "9.2",
                                     "9.3",
@@ -41682,8 +41871,7 @@
                                     "linux",
                                     "kernel",
                                     "memory-forensics",
-                                    "volatility",
-                                    "rootkit"
+                                    "volatility"
                                 ],
                                 "license": "MIT",
                                 "logoPath": "assets/logo.png",
@@ -41704,11 +41892,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/nightshift-labs-ai/memlens"
                                 },
-                                "version": "0.3.5"
+                                "version": "0.3.30"
                             }
                         },
-                        "sha256": "1cce42bb73dc691186f9dbeb012aeb39b60690cf44d2e82e77b3eafafcaaa3ff",
-                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/ebda7c532c7a3a67d22fdb578736d6832176f815"
+                        "sha256": "958e0f0402c875aa1e0aa711193896abf53c819f00e966f8b0c47b115839c110",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/55dea4b3746fde7bbdbe0c9c3686a1497e78cefa"
                     }
                 ],
                 "0.3.6": [

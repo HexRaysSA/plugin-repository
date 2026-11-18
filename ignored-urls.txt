@@ -1092,3 +1092,7 @@ https://codeload.github.com/HexRaysSA/ida-bochs-binaries/legacy.zip/fb37e2cc07ee
 https://codeload.github.com/ShadowStrike-Labs/CryptoLens/legacy.zip/1b3d6e12e235550c9f7b91277a23036116d68e40
 https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/5ee90cd4f188737ced6e7e7a9958727f03e60c70
 https://github.com/ShadowStrike-Labs/CryptoLens/releases/download/v.0.3/CryptoLens-v0.3.0.zip
+
+# Discovered on 2026-11-18 16:54:43
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/8c8c2e534cd884913cb73cff29844c2c7fa35fcb
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/d169ff0d2f0778e269692a41d7fae1d6cc55705e
