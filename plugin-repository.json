@@ -3230,67 +3230,6 @@
             "host": "https://github.com/nightshift-labs-ai/btf2ida",
             "name": "btf2ida",
             "versions": {
-                "0.1.0": [
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "nightshiftlabs-api@agentmail.to",
-                                        "name": "Nightshift Labs (AI agent)"
-                                    }
-                                ],
-                                "categories": [
-                                    "file-parsers-and-loaders"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Apply a Linux kernel's own BTF in IDA with no debug package: finds BTF in vmlinux, a kernel module or a memory image, imports all types and applies function prototypes by name.",
-                                "entryPoint": "btf2ida_entry.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "linux",
-                                    "kernel",
-                                    "btf",
-                                    "types",
-                                    "memory-forensics"
-                                ],
-                                "license": "MIT",
-                                "logoPath": "assets/logo.png",
-                                "maintainers": [],
-                                "name": "btf2ida",
-                                "platforms": [
-                                    "linux-aarch64",
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "macos-x86_64",
-                                    "windows-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
-                                },
-                                "version": "0.1.0"
-                            }
-                        },
-                        "sha256": "07da0537772ecf77509d98c690aac7028c794bca47e95ccef414c845c3761a7b",
-                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/2e5ebdddbef132f701ba1f193a14a7966d50a72c"
-                    }
-                ],
                 "0.1.1": [
                     {
                         "metadata": {
@@ -4324,6 +4263,66 @@
                         },
                         "sha256": "4821ad0f0a7c64ec538c6f23c8b091475d32e2b5b41b8b516ff6e3ff113ca4e1",
                         "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/8c34adb69329ee83178fd661bff23b7a3782f8e1"
+                    }
+                ],
+                "0.1.24": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Linux kernel types and function prototypes from the kernel's own BTF (vmlinux, modules, memory images), no debug package needed; not yet run in real IDA.",
+                                "entryPoint": "btf2ida_entry.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "kernel",
+                                    "btf",
+                                    "types",
+                                    "memory-forensics"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "btf2ida",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/btf2ida"
+                                },
+                                "version": "0.1.24"
+                            }
+                        },
+                        "sha256": "a396a6d2678abbd53a3e2a159107a0757a64b68b7ce0ed05bdbd84b99bb0ce6d",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/btf2ida/legacy.zip/4e1f2d6275c89a7bea2f627ae04b2842d88b0a49"
                     }
                 ],
                 "0.1.3": [
@@ -6039,6 +6038,68 @@
                         },
                         "sha256": "fe8205def1f911c54e521cd9c9be60972e42f47ac195e589929b86f3dff53e00",
                         "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/c208e6c17a7da2a5f18284c9c33bc246d5f59bd2"
+                    }
+                ],
+                "0.1.21": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates. Also reads the older Linux 5.x jump-table CFI on aarch64 (Android 12/13 GKI). Not yet run in real IDA.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.21"
+                            }
+                        },
+                        "sha256": "846d367c9fcacb34540274659c4dc976e8aff4a4907c9299dcfade0728040e38",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/719c36824d9b734b12bbdbe215ef211dc806414b"
                     }
                 ],
                 "0.1.3": [
@@ -19487,60 +19548,6 @@
                         },
                         "sha256": "30fc4abe30d07d8f9550e745dfe0076e14ee0723cc99478ca1502da3c598113b",
                         "url": "https://codeload.github.com/HexRaysSA/ida-bochs-binaries/legacy.zip/9844cf670f2baccf53edcf75535cf5c6f36955f9"
-                    },
-                    {
-                        "metadata": {
-                            "IDAMetadataDescriptorVersion": 1,
-                            "plugin": {
-                                "authors": [
-                                    {
-                                        "email": "wballenthin@hex-rays.com",
-                                        "name": "Willi Ballenthin"
-                                    }
-                                ],
-                                "categories": [
-                                    "debugging-and-tracing"
-                                ],
-                                "components": [],
-                                "dependencies": [],
-                                "description": "Bundles pre-built Bochs binaries and Windows DLL stubs so that IDA's Bochs debugger works out of the box with no manual Bochs installation.",
-                                "entryPoint": "bochs_binaries_entry.py",
-                                "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
-                                    "9.1",
-                                    "9.2",
-                                    "9.3",
-                                    "9.4",
-                                    "9.5",
-                                    "10.0"
-                                ],
-                                "keywords": [
-                                    "bochs",
-                                    "debugger",
-                                    "emulator"
-                                ],
-                                "license": "LGPL-2.1-or-later",
-                                "logoPath": null,
-                                "maintainers": [],
-                                "name": "ida-bochs-binaries",
-                                "platforms": [
-                                    "linux-x86_64",
-                                    "macos-aarch64",
-                                    "windows-x86_64"
-                                ],
-                                "pythonDependencies": [],
-                                "requiresPython": null,
-                                "settings": [],
-                                "urls": {
-                                    "homepage": null,
-                                    "repository": "https://github.com/HexRaysSA/ida-bochs-binaries"
-                                },
-                                "version": "1.0.0"
-                            }
-                        },
-                        "sha256": "19acbea98edc402caccfbd52a0c486a0cb752787ae43b1adc30a7550919ff494",
-                        "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.0/ida-bochs-binaries.zip"
                     }
                 ],
                 "1.0.1": [
@@ -19827,6 +19834,62 @@
                         "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.6/ida-bochs-binaries.zip"
                     }
                 ],
+                "1.0.7": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Bundles pre-built Bochs binaries and Windows DLL stubs so that IDA's Bochs debugger works out of the box with no manual Bochs installation.",
+                                "entryPoint": "bochs_binaries_entry.py",
+                                "idaVersions": [
+                                    "9.0",
+                                    "9.0sp1",
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4"
+                                ],
+                                "keywords": [
+                                    "bochs",
+                                    "debugger",
+                                    "emulator"
+                                ],
+                                "license": "LGPL-2.1-or-later",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-bochs-binaries",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-bochs-binaries"
+                                },
+                                "version": "1.0.7"
+                            }
+                        },
+                        "sha256": "feac19be0a206640782a2e292bc9376b16242a4cda494c4b617162ceb2578b3f",
+                        "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v1.0.7/ida-bochs-binaries.zip"
+                    }
+                ],
                 "2.0.0": [
                     {
                         "metadata": {
@@ -19929,6 +19992,58 @@
                         },
                         "sha256": "edac17eae92ae8007ec941cfa205b9077b957eb9f1f49be38640f4e015787fb9",
                         "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v2.0.1/ida-bochs-binaries.zip"
+                    }
+                ],
+                "2.0.2": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "wballenthin@hex-rays.com",
+                                        "name": "Willi Ballenthin"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Bundles pre-built Bochs binaries and Windows DLL stubs so that IDA's Bochs debugger works out of the box with no manual Bochs installation.",
+                                "entryPoint": "bochs_binaries_entry.py",
+                                "idaVersions": [
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "bochs",
+                                    "debugger",
+                                    "emulator"
+                                ],
+                                "license": "LGPL-2.1-or-later",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-bochs-binaries",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HexRaysSA/ida-bochs-binaries"
+                                },
+                                "version": "2.0.2"
+                            }
+                        },
+                        "sha256": "a192c266626a012f47293cba3306de6449581e2fb0220d8a70a157e376979442",
+                        "url": "https://github.com/HexRaysSA/ida-bochs-binaries/releases/download/v2.0.2/ida-bochs-binaries.zip"
                     }
                 ]
             }
@@ -41475,7 +41590,7 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/e24c3d41bf403eacc173faa2c1ae184935e882b8"
                     }
                 ],
-                "0.3.4": [
+                "0.3.29": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -41491,7 +41606,7 @@
                                 ],
                                 "components": [],
                                 "dependencies": [],
-                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code. Not yet run in real IDA.",
                                 "entryPoint": "memlens_entry.py",
                                 "idaVersions": [
                                     "9.0",
@@ -41507,8 +41622,7 @@
                                     "linux",
                                     "kernel",
                                     "memory-forensics",
-                                    "volatility",
-                                    "rootkit"
+                                    "volatility"
                                 ],
                                 "license": "MIT",
                                 "logoPath": "assets/logo.png",
@@ -41529,11 +41643,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/nightshift-labs-ai/memlens"
                                 },
-                                "version": "0.3.4"
+                                "version": "0.3.29"
                             }
                         },
-                        "sha256": "80d69e0a3c7da5b2eb7b5a90ff4cce53edaada41f03a7cc67f48295fb17468e1",
-                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/0c3423df10959bacdf86ec2f0e32d25f700d7a46"
+                        "sha256": "dd9696d6a2d834f5e7d2ac15ad5756e82bad2b2871cab5441c666ec784f6514e",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/e8a06ce4e7ac1328c7a9d13ed734ea630b7d7ff0"
                     }
                 ],
                 "0.3.5": [

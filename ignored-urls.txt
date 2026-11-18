@@ -1085,3 +1085,10 @@ https://github.com/RevEngAI/plugin-ida/releases/download/v3.29.0/reveng_ida_plug
 https://github.com/RevEngAI/plugin-ida/releases/download/v3.29.0/reveng_ida_plugin_windows_x86_64_py3.12.zip
 https://github.com/RevEngAI/plugin-ida/releases/download/v3.29.0/reveng_ida_plugin_windows_x86_64_py3.13.zip
 https://github.com/RevEngAI/plugin-ida/releases/download/v3.29.0/reveng_ida_plugin_windows_x86_64_py3.14.zip
+
+# Discovered on 2026-11-18 08:39:15
+https://codeload.github.com/HexRaysSA/ida-bochs-binaries/legacy.zip/0ac393bea2e044298d1006a7cb0521abc97fd060
+https://codeload.github.com/HexRaysSA/ida-bochs-binaries/legacy.zip/fb37e2cc07ee463cb8b75eca3e4bf6d7169c909c
+https://codeload.github.com/ShadowStrike-Labs/CryptoLens/legacy.zip/1b3d6e12e235550c9f7b91277a23036116d68e40
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/5ee90cd4f188737ced6e7e7a9958727f03e60c70
+https://github.com/ShadowStrike-Labs/CryptoLens/releases/download/v.0.3/CryptoLens-v0.3.0.zip
