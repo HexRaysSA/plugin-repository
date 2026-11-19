@@ -6232,6 +6232,66 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/4dd40d942efac847901d494ad3c6620d1c9f7cda"
                     }
                 ],
+                "0.1.23": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "api-scripting-and-automation"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Resolve indirect calls in Linux and Android kernels built with kCFI: matches the type hash at each call site to the hash in front of every function, then comments, cross-references and lists the candidates. Also reads the older Linux 5.x jump-table CFI on aarch64 (Android 12/13 GKI). Not yet run in real IDA.",
+                                "entryPoint": "cfiscope_entry.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "kcfi",
+                                    "indirect-calls",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "cfiscope",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/cfiscope"
+                                },
+                                "version": "0.1.23"
+                            }
+                        },
+                        "sha256": "3cddf49c97573ffee5f71a6fea9ef4f922038e8ab69700679100ed3602e06435",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/cfiscope/legacy.zip/b093b3df147fd6279fe5f2a9d98532060c6b32e5"
+                    }
+                ],
                 "0.1.3": [
                     {
                         "metadata": {
@@ -38774,6 +38834,67 @@
                         "sha256": "c8cabfe38bbf03f88ea26a235b49b955bac04805bc3d29fbee9d1c530ae9036c",
                         "url": "https://codeload.github.com/nightshift-labs-ai/kflow/legacy.zip/982b92e3b0a6737da5d920ecfaa197468ccde7ae"
                     }
+                ],
+                "0.0.8": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "nightshiftlabs-api@agentmail.to",
+                                        "name": "Nightshift Labs (AI agent)"
+                                    }
+                                ],
+                                "categories": [
+                                    "vulnerability-research-and-exploit-development",
+                                    "disassembly-and-processor-modules"
+                                ],
+                                "components": [],
+                                "dependencies": [],
+                                "description": "Reads a Linux kernel's own __bug_table, __jump_table and __ex_table (64-bit x86_64 and arm64): comments BUG/WARN traps with their source file:line (WARN = execution continues), static-key sites with their key and branch target, and faulting instructions with their fixup, and adds the missing jump references. Tested on seven kernels outside IDA. Not yet run in real IDA.",
+                                "entryPoint": "kflow_entry.py",
+                                "idaVersions": [
+                                    "9.1",
+                                    "9.2",
+                                    "9.3",
+                                    "9.4",
+                                    "9.5",
+                                    "10.0"
+                                ],
+                                "keywords": [
+                                    "linux",
+                                    "android",
+                                    "kernel",
+                                    "static-keys",
+                                    "exception-table",
+                                    "xrefs"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "assets/logo.png",
+                                "maintainers": [],
+                                "name": "kflow",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/nightshift-labs-ai/kflow"
+                                },
+                                "version": "0.0.8"
+                            }
+                        },
+                        "sha256": "b77ebcdcdf67124fe8e916e351f65106be633da48076c7120297af32aa1eb901",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/kflow/legacy.zip/e467dd052b42a5d4ef4435c8990c6b46741d614e"
+                    }
                 ]
             }
         },
@@ -41899,7 +42020,7 @@
                         "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/55dea4b3746fde7bbdbe0c9c3686a1497e78cefa"
                     }
                 ],
-                "0.3.6": [
+                "0.3.31": [
                     {
                         "metadata": {
                             "IDAMetadataDescriptorVersion": 1,
@@ -41915,11 +42036,9 @@
                                 ],
                                 "components": [],
                                 "dependencies": [],
-                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists patched kernel functions with their hook code.",
+                                "description": "Reverse engineer a Linux kernel from a memory image: exports kernel and modules as a symbolled ELF at their live addresses, imports every kernel type from a Volatility ISF, and lists hooked kernel functions and who hooked them (ftrace or module callback, BPF program or kprobe). IDA layer tested with fake IDA modules only, not yet run in a real IDA.",
                                 "entryPoint": "memlens_entry.py",
                                 "idaVersions": [
-                                    "9.0",
-                                    "9.0sp1",
                                     "9.1",
                                     "9.2",
                                     "9.3",
@@ -41953,11 +42072,11 @@
                                     "homepage": null,
                                     "repository": "https://github.com/nightshift-labs-ai/memlens"
                                 },
-                                "version": "0.3.6"
+                                "version": "0.3.31"
                             }
                         },
-                        "sha256": "73bf7dac0804985055b5f0d87059eeeeea57f7918becac780cbb6d1953fe6fc8",
-                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/3664131a4b4a5d8fc891233b2545d9c14a42aac0"
+                        "sha256": "aa221b32d393ff6342335e31f93b5ea56c6e4e60204d484c9edd304152b11b1b",
+                        "url": "https://codeload.github.com/nightshift-labs-ai/memlens/legacy.zip/9cfa6b8b4ab7e642b67f729653638c661a89001a"
                     }
                 ],
                 "0.3.7": [
