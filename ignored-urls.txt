@@ -1101,3 +1101,6 @@ https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/d169ff0d2f0778e2696
 https://codeload.github.com/westme1anon/ScyllaHide-IDA9/legacy.zip/4dbe0c2df49f3a686cb606563a85489886996d10
 https://github.com/westme1anon/ScyllaHide-IDA9/releases/download/v1.4-ida9/ScyllaHide_IDA9.0.zip
 https://github.com/westme1anon/ScyllaHide-IDA9/releases/download/v1.4-ida9/ScyllaHide_IDA9.4.zip
+
+# Discovered on 2026-11-21 12:35:19
+https://codeload.github.com/HullaBrian/ida-ttd/legacy.zip/d6ae5d0b5df12a253b4a05e8f35fa0208c7d4396

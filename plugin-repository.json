@@ -34040,6 +34040,325 @@
             }
         },
         {
+            "host": "https://github.com/hullabrian/ida-ttd",
+            "name": "ida-ttd",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "git@beierle.win",
+                                        "name": "HullaBrian"
+                                    }
+                                ],
+                                "categories": [
+                                    "debugging-and-tracing",
+                                    "malware-analysis",
+                                    "file-parsers-and-loaders"
+                                ],
+                                "components": [
+                                    {
+                                        "IDAMetadataDescriptorVersion": 1,
+                                        "plugin": {
+                                            "authors": [
+                                                {
+                                                    "email": "git@beierle.win",
+                                                    "name": "HullaBrian"
+                                                }
+                                            ],
+                                            "categories": [
+                                                "file-parsers-and-loaders"
+                                            ],
+                                            "components": [],
+                                            "dependencies": [],
+                                            "description": "Installs the ida-ttd trace loader into IDA's loaders folder, so File > Open recognizes recordings.",
+                                            "entryPoint": "ida-ttd-loader-setup",
+                                            "idaVersions": [
+                                                "9.5"
+                                            ],
+                                            "keywords": [
+                                                "ttd",
+                                                "loader"
+                                            ],
+                                            "license": "Apache-2.0 OR GPL-2.0-only",
+                                            "logoPath": null,
+                                            "maintainers": [],
+                                            "name": "ida-ttd-loader-setup",
+                                            "platforms": [
+                                                "windows-x86_64"
+                                            ],
+                                            "pythonDependencies": [],
+                                            "requiresPython": null,
+                                            "settings": [],
+                                            "urls": {
+                                                "homepage": null,
+                                                "repository": "https://github.com/HullaBrian/ida-ttd"
+                                            },
+                                            "version": "1.0.0"
+                                        }
+                                    }
+                                ],
+                                "dependencies": [],
+                                "description": "Replay Microsoft Time Travel Debugging (.run) and Sogen (.sogttd) recordings as an IDA debugger session: step forwards and backwards, and query the whole recording for calls, coverage, memory accesses, syscalls and strings.",
+                                "entryPoint": "ida-ttd",
+                                "idaVersions": [
+                                    "9.5"
+                                ],
+                                "keywords": [
+                                    "ttd",
+                                    "time travel debugging",
+                                    "windbg",
+                                    "trace",
+                                    "reverse debugging",
+                                    "shellcode",
+                                    "unpacking"
+                                ],
+                                "license": "Apache-2.0 OR GPL-2.0-only",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-ttd",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-settings>=3.5"
+                                ],
+                                "requiresPython": null,
+                                "settings": [
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Start the replay as soon as a database made from a recording opens. Off: start it with Debugger > Start process (F9).",
+                                        "key": "replay_on_open",
+                                        "name": "Replay: start when a recording's database opens",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Download the PDBs of a recording's modules from the symbol server, in the background, so system DLLs get their function names. Off: only PDBs already in the local store are used.",
+                                        "key": "symbol_downloads",
+                                        "name": "Symbols: download PDBs",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "https://msdl.microsoft.com/download/symbols",
+                                        "documentation": "The symbol server PDBs are downloaded from (an HTTP or HTTPS URL laid out like Microsoft's).",
+                                        "key": "symbol_server",
+                                        "name": "Symbols: symbol server",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "^https?://[^\\s/]+(/\\S*)?$"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Measure and color each function the first time the replay stops in it.",
+                                        "key": "auto_coverage",
+                                        "name": "Analysis: highlight functions automatically",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Comment the indirect calls of each function the first time the replay stops in it with where they went (one replay per module).",
+                                        "key": "auto_callsites",
+                                        "name": "Analysis: resolve indirect calls automatically",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "In the Memory map, color the executable regions no loaded module covers: code the program allocated or mapped itself, such as unpacked or injected code.",
+                                        "key": "memmap_flag_code",
+                                        "name": "Memory map: highlight executable memory outside modules",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "1000000",
+                                        "documentation": "How many instructions the Fork dialog offers to record by default (decimal; 0 records to the end of the program).",
+                                        "key": "fork_instructions",
+                                        "name": "Sogen: default fork length",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "^[0-9]{1,19}$"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "Another folder to look for a Sogen recording's registry hives in, after the folder beside the recording and before ida-ttd\\registry in the IDA user directory. Empty: none.",
+                                        "key": "registry_folder",
+                                        "name": "Sogen: registry hives folder",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "",
+                                        "documentation": "The emulation root (the folder holding filesys and registry) the Record dialog starts with, and the one a recording made in an emulation root is replayed in when the root it was made in is not on this machine. Empty: the Record dialog starts without one, running programs against this machine's own files.",
+                                        "key": "sogen_emulation_root",
+                                        "name": "Sogen: default emulation root",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Let the emulated program reach the real network: a fork from its position on (the replay up to it stays offline), a new recording from its start. Off: a loopback-only network, where no host name resolves. The Fork and Record dialogs start from this and can change it.",
+                                        "key": "sogen_network",
+                                        "name": "Sogen: give forks and new recordings network access",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": "500000",
+                                        "documentation": "How many instructions apart a new recording or fork takes its full checkpoints (decimal; 0: Sogen's default, 500,000). Fewer checkpoints make a smaller file and slower travel.",
+                                        "key": "sogen_checkpoint_interval",
+                                        "name": "Sogen: checkpoint interval",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "string",
+                                        "validation_pattern": "^[0-9]{1,19}$"
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Keep every memory read in new recordings and forks. Off makes the file much smaller, but read breakpoints, read accesses and \"where did this value come from\" then find nothing.",
+                                        "key": "sogen_record_reads",
+                                        "name": "Sogen: record memory reads",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Keep every memory write in new recordings and forks. Off: write breakpoints, write accesses, strings, buffers and self-modifying code find nothing, and memory is known only at checkpoints.",
+                                        "key": "sogen_record_writes",
+                                        "name": "Sogen: record memory writes",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Keep every executed instruction's fetch in new recordings and forks. Off: coverage, execute breakpoints and self-modifying code find nothing.",
+                                        "key": "sogen_record_executes",
+                                        "name": "Sogen: record instruction fetches",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Record programs (TTD > Backends > Record a program with Sogen...) with an administrator's token: the program sees itself as elevated (high integrity, in Administrators). What it does to this machine's files and registry still has only IDA's own rights. Forks keep the token of the recording they come from.",
+                                        "key": "sogen_elevated",
+                                        "name": "Sogen: record programs as administrator",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Record programs (TTD > Backends > Record a program with Sogen...) starting at the date and time recording begins, so the program sees a real date (certificate validity, a kill date). Off: they start at 1 January 1970. Either way the clock then advances with the instructions run, and replays and forks see the same dates as the recording.",
+                                        "key": "sogen_start_now",
+                                        "name": "Sogen: start recordings at the current date",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": false,
+                                        "documentation": "Print Sogen's emulator log and the program's console output in the Output window while a fork, a replay scan or a new recording runs. Useful when one fails or diverges. The window a fork or a new recording runs behind shows the log either way; the Record dialogs start from this setting.",
+                                        "key": "sogen_log",
+                                        "name": "Sogen: the emulator's log in the Output window",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    },
+                                    {
+                                        "choices": null,
+                                        "default": true,
+                                        "documentation": "Write slow operations and session events to %TEMP%\\ida-ttd-diag.log, which is what explains a hang after the fact.",
+                                        "key": "diagnostics_log",
+                                        "name": "Diagnostics: write the log",
+                                        "prompt": false,
+                                        "required": false,
+                                        "secret": false,
+                                        "type": "boolean",
+                                        "validation_pattern": null
+                                    }
+                                ],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/HullaBrian/ida-ttd"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "27f705171e8f0da9841be48ac2d0ca71cd02fc21bf6848312698820127c9b862",
+                        "url": "https://github.com/HullaBrian/ida-ttd/releases/download/v1.0.0/ida-ttd.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/baiguqing/idaproautotheme",
             "name": "IDAAutoTheme",
             "versions": {
