@@ -1096,3 +1096,8 @@ https://github.com/ShadowStrike-Labs/CryptoLens/releases/download/v.0.3/CryptoLe
 # Discovered on 2026-11-18 16:54:43
 https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/8c8c2e534cd884913cb73cff29844c2c7fa35fcb
 https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/d169ff0d2f0778e269692a41d7fae1d6cc55705e
+
+# Discovered on 2026-11-21 00:49:42
+https://codeload.github.com/westme1anon/ScyllaHide-IDA9/legacy.zip/4dbe0c2df49f3a686cb606563a85489886996d10
+https://github.com/westme1anon/ScyllaHide-IDA9/releases/download/v1.4-ida9/ScyllaHide_IDA9.0.zip
+https://github.com/westme1anon/ScyllaHide-IDA9/releases/download/v1.4-ida9/ScyllaHide_IDA9.4.zip
