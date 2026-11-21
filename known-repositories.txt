@@ -396,3 +396,4 @@ baiguqing/idaproautotheme
 
 # Discovered on 2026-11-18 16:54:43
 danielplohmann/apiscout
+HullaBrian/ida-ttd
