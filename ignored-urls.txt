@@ -1104,3 +1104,6 @@ https://github.com/westme1anon/ScyllaHide-IDA9/releases/download/v1.4-ida9/Scyll
 
 # Discovered on 2026-11-21 12:35:19
 https://codeload.github.com/HullaBrian/ida-ttd/legacy.zip/d6ae5d0b5df12a253b4a05e8f35fa0208c7d4396
+
+# Discovered on 2026-11-22 00:52:33
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/47ea1e7f230a681f7b7a318fca6b6eecbd951549
