@@ -556,7 +556,9 @@ title: "{metadata.name}"
         plugin_content += "\n## Available Versions\n\n"
         for version, locations in plugin.versions.items():
             plugin_content += f"### Version {version}\n\n"
-            ida_versions = locations[0].metadata.plugin.ida_versions
+            plugin_metadata = locations[0].metadata.plugin
+            # ida_version_spec is the idaVersions spec string, in hcli models that have it
+            ida_versions = getattr(plugin_metadata, "ida_version_spec", None) or plugin_metadata.ida_versions
             if ida_versions:
                 if isinstance(ida_versions, str):
                     plugin_content += f"**IDA Versions:** {ida_versions}\n\n"
