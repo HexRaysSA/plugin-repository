@@ -162,8 +162,8 @@ def prettify_ida_versions(ida_versions: list[str]) -> list[str]:
 # There is no machine-readable "latest released IDA" feed to derive this from
 # (Hex-Rays only publishes HTML release notes), so it's a reviewed default that
 # CI can override without a code change when a new IDA ships:
-#   LATEST_RELEASED_IDA=9.5 just merge-plugins
-_DEFAULT_LATEST_RELEASED_IDA = "9.4"
+#   LATEST_RELEASED_IDA=9.6 just merge-plugins
+_DEFAULT_LATEST_RELEASED_IDA = "9.5"
 LATEST_RELEASED_IDA = os.environ.get("LATEST_RELEASED_IDA", _DEFAULT_LATEST_RELEASED_IDA)
 
 # Released IDA versions that a spec string such as ">=9.0" expands to for
