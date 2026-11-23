@@ -28,6 +28,7 @@
 #     "pydantic>=2",
 #     "requests",
 #     "rich",
+#     "semantic-version>=2.10.0",
 # ]
 # ///
 
@@ -44,6 +45,7 @@ from pathlib import Path
 import requests
 import rich.console
 import rich.progress
+import semantic_version
 from pydantic import BaseModel
 from rich.logging import RichHandler
 
@@ -154,10 +156,8 @@ def prettify_ida_versions(ida_versions: list[str]) -> list[str]:
     return [f"{first} to {last}"]
 
 
-# The latest publicly released IDA version. The upstream HCLI index expands
-# open-ended specs like ">=9.0" into a concrete list that includes forward-
-# looking placeholders (e.g. "10.0") not yet released (EA-762). cap_ida_versions
-# trims the list here so plugin pages never advertise an unreleased IDA.
+# The latest publicly released IDA version. Plugin pages never advertise an IDA
+# newer than this (EA-762).
 #
 # There is no machine-readable "latest released IDA" feed to derive this from
 # (Hex-Rays only publishes HTML release notes), so it's a reviewed default that
@@ -166,6 +166,18 @@ def prettify_ida_versions(ida_versions: list[str]) -> list[str]:
 _DEFAULT_LATEST_RELEASED_IDA = "9.4"
 LATEST_RELEASED_IDA = os.environ.get("LATEST_RELEASED_IDA", _DEFAULT_LATEST_RELEASED_IDA)
 
+# Released IDA versions that a spec string such as ">=9.0" expands to for
+# display. LATEST_RELEASED_IDA is always added, so a new IDA release shows up
+# without a change here.
+RELEASED_IDA_VERSIONS = (
+    "3.0", "4.0", "4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.7", "4.8", "4.9",
+    "4.9sp1", "5.0", "5.1", "5.2", "5.3", "5.4", "5.5", "5.6", "5.7", "6.0", "6.1",
+    "6.2", "6.3", "6.4", "6.5", "6.6", "6.7", "6.8", "6.9", "6.95", "7.0", "7.0sp1",
+    "7.1", "7.2", "7.3", "7.4", "7.4sp1", "7.5", "7.5sp1", "7.5sp2", "7.5sp3", "7.6",
+    "7.6sp1", "7.7", "7.7sp1", "8.0", "8.0sp1", "8.1", "8.2", "8.2sp1", "8.3", "8.4",
+    "8.4sp1", "8.4sp2", "8.5", "9.0", "9.0sp1", "9.1", "9.2", "9.3", "9.4", "9.5",
+)
+
 
 def _ida_version_key(version: str) -> tuple[int, int, int, int] | None:
     """Parse "9.0", "9.0sp1", "6.95", "9.0.0" into a sortable key, or None."""
@@ -173,6 +185,43 @@ def _ida_version_key(version: str) -> tuple[int, int, int, int] | None:
     if not m:
         return None
     return int(m.group(1)), int(m.group(2)), int(m.group(3) or 0), int(m.group(4) or 0)
+
+
+def _parse_ida_version(version: str) -> semantic_version.Version:
+    """Same normalization as hcli's parse_ida_version: "9.0sp1" -> 9.0.1, "9.2" -> 9.2.0."""
+    normalized = version.replace("sp", ".")
+    if re.match(r"\d+\.\d+\.\d+", normalized):
+        return semantic_version.Version(normalized)
+    return semantic_version.Version(normalized + (".0.0" if "." not in normalized else ".0"))
+
+
+def validate_ida_version(version: str) -> None:
+    """Check that ``version`` is an IDA version such as "9.5" or "9.0sp1".
+
+    Raises:
+        ValueError: ``version`` is not an IDA version.
+    """
+    if _ida_version_key(version) is None:
+        raise ValueError(f"not an IDA version: {version!r}")
+    _parse_ida_version(version)
+
+
+def parse_ida_version_spec(spec: str) -> semantic_version.SimpleSpec:
+    """Parse an idaVersions spec string with hcli's rules: whitespace removed, "sp" read as a patch number.
+
+    Raises:
+        ValueError: the spec is not valid SimpleSpec syntax (e.g. "9.0 - 9.2").
+    """
+    return semantic_version.SimpleSpec(re.sub(r"\s+", "", spec).replace("sp", "."))
+
+
+def expand_ida_version_spec(spec: semantic_version.SimpleSpec, latest: str = LATEST_RELEASED_IDA) -> list[str]:
+    """Released IDA versions (and ``latest``) that match ``spec``, ascending."""
+    candidates = set(RELEASED_IDA_VERSIONS) | {latest}
+    return sorted(
+        (v for v in candidates if _parse_ida_version(v) in spec),
+        key=lambda v: _ida_version_key(v) or (0, 0, 0, 0),
+    )
 
 
 def cap_ida_versions(ida_versions: list[str], latest: str = LATEST_RELEASED_IDA) -> list[str]:
@@ -184,6 +233,30 @@ def cap_ida_versions(ida_versions: list[str], latest: str = LATEST_RELEASED_IDA)
         v for v in ida_versions
         if (key := _ida_version_key(v)) is None or key <= cap
     ]
+
+
+def get_display_ida_versions(ida_versions: str | list[str] | None, latest: str = LATEST_RELEASED_IDA) -> list[str]:
+    """IDA versions to show for a plugin, ascending, capped at ``latest``.
+
+    Accepts a version spec string (">=9.0"), a list of versions, or None.
+    A spec expands to released major.minor versions, without service packs.
+    A string that is not a valid spec (e.g. "9.0 - 9.2") is returned as is,
+    because the website reads the version numbers in it.
+    """
+    if not ida_versions:
+        return []
+    if isinstance(ida_versions, str):
+        try:
+            spec = parse_ida_version_spec(ida_versions)
+        except ValueError:
+            logger.debug("idaVersions is not a version spec: %r", ida_versions)
+            return [ida_versions]
+        expanded = cap_ida_versions(expand_ida_version_spec(spec, latest), latest)
+        return list(dict.fromkeys(re.sub(r"sp\d+$", "", v) for v in expanded))
+    return cap_ida_versions(
+        sorted(ida_versions, key=lambda v: _ida_version_key(v) or (0, 0, 0, 0)),
+        latest,
+    )
 
 
 # ─── Logo URL resolution ──────────────────────────────────────────────────────
@@ -474,7 +547,7 @@ def transform_hcli_plugin(hcli_plugin: dict, github_meta: dict, tags_map: dict, 
         normalized_authors = [Author(name=owner)]
 
     # Versions
-    ida_versions = cap_ida_versions(plugin_meta.get("idaVersions") or [])
+    ida_versions = get_display_ida_versions(plugin_meta.get("idaVersions"))
     prettified = prettify_ida_versions(ida_versions)
 
     # Tags: from A (metadata.tags) + C (tags.json) + auto-tag plugin_manager_ready
@@ -577,10 +650,7 @@ def transform_legacy_plugin(api_plugin: dict, github_meta: dict, tags_map: dict,
     idaplugin_json: IdaPluginJson | None = None
     if raw_idaplugin_json and isinstance(raw_idaplugin_json.get("plugin"), dict):
         raw_plugin = raw_idaplugin_json["plugin"]
-        raw_ida_versions = raw_plugin.get("idaVersions") or []
-        if isinstance(raw_ida_versions, str):
-            raw_ida_versions = [raw_ida_versions]
-        raw_ida_versions = cap_ida_versions(raw_ida_versions)
+        raw_ida_versions = get_display_ida_versions(raw_plugin.get("idaVersions"))
         idaplugin_json = IdaPluginJson(
             plugin=PluginInfo(
                 name=raw_plugin.get("name") or plugin_name,
@@ -868,6 +938,11 @@ def main() -> None:
         format="%(message)s",
         handlers=[RichHandler(rich_tracebacks=True, console=stderr_console)],
     )
+
+    try:
+        validate_ida_version(LATEST_RELEASED_IDA)
+    except ValueError as e:
+        raise SystemExit(f"error: LATEST_RELEASED_IDA: {e}") from e
 
     for p, name in [
         (args.hcli, "--hcli"),
