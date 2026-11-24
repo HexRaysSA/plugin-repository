@@ -1107,3 +1107,6 @@ https://codeload.github.com/HullaBrian/ida-ttd/legacy.zip/d6ae5d0b5df12a253b4a05
 
 # Discovered on 2026-11-22 00:52:33
 https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/47ea1e7f230a681f7b7a318fca6b6eecbd951549
+
+# Discovered on 2026-11-24 20:39:10
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/a1a37ec3a0230c60d212dc9013bbd6d9590950f4

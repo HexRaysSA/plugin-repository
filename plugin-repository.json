@@ -31175,6 +31175,122 @@
             }
         },
         {
+            "host": "https://github.com/nico-posada/idagba",
+            "name": "IDAGBA",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "posadanico@outlook.com",
+                                        "name": "Nico Posada"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Game Boy Advance ROM and multiboot loader plus a Hex-Rays lifter for BIOS SWI calls.",
+                                "entryPoint": "idagba_plugin.py",
+                                "idaVersions": ">=9.1,<10.0",
+                                "keywords": [
+                                    "gba",
+                                    "game-boy-advance",
+                                    "arm7tdmi",
+                                    "loader",
+                                    "bios"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/icon.png",
+                                "maintainers": [],
+                                "name": "IDAGBA",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.6.0"
+                                ],
+                                "requiresPython": ">=3.11",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Nico-Posada/IDAGBA"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "5f34c23504ba4461590743f6bd9a4227c2d793f6b0cbe88d230e9303ed6a13a4",
+                        "url": "https://codeload.github.com/Nico-Posada/IDAGBA/legacy.zip/b682d41c261675d423a66ab48fcee238c4e6eca3"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "posadanico@outlook.com",
+                                        "name": "Nico Posada"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "decompilation"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Game Boy Advance ROM and multiboot loader plus a Hex-Rays lifter for BIOS SWI calls.",
+                                "entryPoint": "idagba_plugin.py",
+                                "idaVersions": ">=9.1,<10.0",
+                                "keywords": [
+                                    "gba",
+                                    "game-boy-advance",
+                                    "arm7tdmi",
+                                    "loader",
+                                    "bios"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/icon.png",
+                                "maintainers": [],
+                                "name": "IDAGBA",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [
+                                    "ida-domain>=0.6.0"
+                                ],
+                                "requiresPython": ">=3.11",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/Nico-Posada/IDAGBA"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "bdc948eb212c34ed810420d106779ef66e0731a1dcec02a2c12c1a054c1d6a8e",
+                        "url": "https://github.com/Nico-Posada/IDAGBA/releases/download/v1.0.0/idagba-1.0.0.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/libtero/idaguides",
             "name": "IDAGuides",
             "versions": {
