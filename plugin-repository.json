@@ -8900,6 +8900,69 @@
             }
         },
         {
+            "host": "https://github.com/matbrik/dejadump",
+            "name": "dejadump",
+            "versions": {
+                "0.4.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "6418737+matbrik@users.noreply.github.com",
+                                        "name": "Matteo Bricchi"
+                                    }
+                                ],
+                                "categories": [
+                                    "decompilation",
+                                    "debugging-and-tracing",
+                                    "malware-analysis",
+                                    "deobfuscation"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "D\u00e9j\u00e0Dump \u2014 a time axis for the IDA database: versioned code and versioned data (execution epochs / waves) in one IDB, each analysable with full IDA analysis and Hex-Rays pseudocode.",
+                                "entryPoint": "dejadump_plugin.py",
+                                "idaVersions": ">=9.4,<=9.5",
+                                "keywords": [
+                                    "self-modifying-code",
+                                    "unpacking",
+                                    "epochs",
+                                    "waves",
+                                    "tenet",
+                                    "time-travel"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "dejadump",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": ">=3.10",
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/matbrik/dejadump"
+                                },
+                                "version": "0.4.0"
+                            }
+                        },
+                        "sha256": "8833841039e8296ec038747a72745cec089f961c00010054748b8b131e1ebdce",
+                        "url": "https://codeload.github.com/matbrik/dejadump/legacy.zip/bc0d370b2ab7007d5c112fb30845d3a511b7b4cb"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/eset/delphihelper",
             "name": "DelphiHelper",
             "versions": {
