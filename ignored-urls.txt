@@ -1110,3 +1110,6 @@ https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/47ea1e7f230a681f7b7
 
 # Discovered on 2026-11-24 20:39:10
 https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/a1a37ec3a0230c60d212dc9013bbd6d9590950f4
+
+# Discovered on 2026-11-25 20:42:50
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/d140bc9ebaf991008e0e993bb01916cbd61c568e
