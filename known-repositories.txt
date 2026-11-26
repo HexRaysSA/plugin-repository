@@ -403,3 +403,6 @@ nico-posada/idagba
 
 # Added manually 2026-11-25
 matbrik/dejadump
+
+# Added manually 2026-11-26
+AbrahamPaulJ/tensorlens
