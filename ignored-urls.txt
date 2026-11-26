@@ -1113,3 +1113,9 @@ https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/a1a37ec3a0230c60d21
 
 # Discovered on 2026-11-25 20:42:50
 https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/d140bc9ebaf991008e0e993bb01916cbd61c568e
+
+# Discovered on 2026-11-26 08:36:50
+https://codeload.github.com/AbrahamPaulJ/tensorlens/legacy.zip/3d78e44efa9cba3398933419ff485649baa70520
+https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.0/tensorlens-scan-v0.1.0-Linux.zip
+https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.0/tensorlens-scan-v0.1.0-Windows.zip
+https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.0/tensorlens-scan-v0.1.0-macOS.zip

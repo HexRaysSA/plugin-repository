@@ -44778,6 +44778,70 @@
             }
         },
         {
+            "host": "https://github.com/abrahampaulj/tensorlens",
+            "name": "tensorlens",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "108326901+AbrahamPaulJ@users.noreply.github.com",
+                                        "name": "Abraham Paul Jaison"
+                                    }
+                                ],
+                                "categories": [
+                                    "file-parsers-and-loaders",
+                                    "ui-ux-and-visualization",
+                                    "vulnerability-research-and-exploit-development"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Finds TFLite, ONNX, ncnn and ExecuTorch models embedded in binaries (also inside gzip and tar), shows their graphs in IDA, and recovers the TFLite runtime that runs them: names and types every kernel's Init/Prepare/Eval and links each graph node to its code.",
+                                "entryPoint": "tensorlens",
+                                "idaVersions": ">=9.5",
+                                "keywords": [
+                                    "machine learning",
+                                    "tflite",
+                                    "tensorflow lite",
+                                    "onnx",
+                                    "ncnn",
+                                    "executorch",
+                                    "model extraction",
+                                    "android",
+                                    "neural network",
+                                    "kernel recovery"
+                                ],
+                                "license": "MIT",
+                                "logoPath": "docs/logo.png",
+                                "maintainers": [],
+                                "name": "tensorlens",
+                                "platforms": [
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/AbrahamPaulJ/tensorlens"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "e88b2daef92c1e67c9b9a69b6a9dcdd374c6b65f9dae6660ca606f210417c9c5",
+                        "url": "https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.0/tensorlens-v0.1.0.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/threatray/plugin-ida",
             "name": "threatray",
             "versions": {
