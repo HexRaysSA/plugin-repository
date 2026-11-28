@@ -19535,6 +19535,1076 @@
             }
         },
         {
+            "host": "https://github.com/19h/ida-feeds-native",
+            "name": "ida-feeds-native",
+            "versions": {
+                "1.0.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "2fbedc660980c21c7fe507ed6dbe697c87aa861199b4e23640f5f244d7ed4199",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.0.0/ida-feeds-linux-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "1bab622866eeff51bd2ccc9020d719a2d7ded97f7f03f6818b289274b5097972",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.0.0/ida-feeds-macos-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "4c8e59e670f2c768929dfa503d1d6933cb677c7dfca083c58794c5f4ae6f62ad",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.0.0/ida-feeds-linux-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "740acc9b722b63b4a00162b5a0f53282e15664496ec58a7c9466ca5be91edeb4",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.0.0/ida-feeds-windows-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "180f04b49016c21ce9bda20fba198b66a3f4880784c7ac5135cc7700a8b3f2e5",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.0.0/ida-feeds-macos-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.0.0"
+                            }
+                        },
+                        "sha256": "f52328320627edb278400b1893b1d4d1ea6903a07df7ffc8275869fd3ec5479c",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.0.0/ida-feeds-windows-x64.zip"
+                    }
+                ],
+                "1.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "3054a5625b7728d0a6a85212e54ca8497fd93e0dc7c04bcd55ce9d0e3701a944",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.1.0/ida-feeds-macos-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "a6789992f5e67bada698ea0377db0f4ebdba28aa2938b1cb9243833bb6a56f35",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.1.0/ida-feeds-linux-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "8594e423d75391bc544b3a41bd587827d589ac80c3722133551f449977f427cd",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.1.0/ida-feeds-macos-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "ad7a73f739f96616bc2358657a543e79e8652178cda1f03e04516325aa23ca99",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.1.0/ida-feeds-windows-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "fe91a82d6bcfcf97b64ff76c10f9e820d106fc4369931c665e8dba2034e6813c",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.1.0/ida-feeds-linux-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.1.0"
+                            }
+                        },
+                        "sha256": "0a32e994a711a3676c18bc5974ba414ee54b88f2fd36e406bd13270d6984ff42",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.1.0/ida-feeds-windows-x64.zip"
+                    }
+                ],
+                "1.2.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "84c58b333c105f6b199b5c3dd3437c07592ffea9bcaa78d473973f69fe3e8ecd",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.0/ida-feeds-linux-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "723564352315ba0dd9e1664eb0e3849bc647862b3e80e0aa56d0b4b93a26f3c6",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.0/ida-feeds-macos-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "b8256109f59b3671b2fe5ebc19a8b0aab2c6010928e8bbf2577410575db99b01",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.0/ida-feeds-macos-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "56a2444c1b1ad685f77944284d7b57d33ad479a1a4ac8f0eea65e2b31954da6c",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.0/ida-feeds-linux-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "1e8f07bef762dddc2ebd8de66e6adb2f7837833e6ea261741b0168fab9ef99f0",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.0/ida-feeds-windows-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.0"
+                            }
+                        },
+                        "sha256": "12bcd580e4f136293d9f317b300f81df0bf19348bc444378abdb50283ede3304",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.0/ida-feeds-windows-x64.zip"
+                    }
+                ],
+                "1.2.1": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "f3a630c1701bb119b9946b052670b4a9f00f517ee485b5b3f69ed7b2f97fbd0f",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.1/ida-feeds-linux-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "linux-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "b06ce16bac9abaf94888d931b479e77a316e587a4a2b9f8377e881109dfaa954",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.1/ida-feeds-linux-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "9f3290f010611bd3f707cb5e074dabbf58e572d551eb59862089c991ebf10acf",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.1/ida-feeds-macos-x64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "ed8cbed1ba148134137e8098ce7cf0a78f66c754d6836a8536191c9363fa06ea",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.1/ida-feeds-windows-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "macos-aarch64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "b40e9f0ce99ec932afd0e7ca58dbee043369b9cedc72869af242c01327f3a6a1",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.1/ida-feeds-macos-arm64.zip"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [
+                                    {
+                                        "email": "280212+19h@users.noreply.github.com",
+                                        "name": "19h"
+                                    }
+                                ],
+                                "categories": [
+                                    "ui-ux-and-visualization"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Parallel FLIRT signature discovery, isolated IDALib probing, and Rust signature generation.",
+                                "entryPoint": "ida_feeds_native",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "FLIRT",
+                                    "signatures",
+                                    "Rust"
+                                ],
+                                "license": null,
+                                "logoPath": null,
+                                "maintainers": [],
+                                "name": "ida-feeds-native",
+                                "platforms": [
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/19h/ida-feeds-native"
+                                },
+                                "version": "1.2.1"
+                            }
+                        },
+                        "sha256": "77ff80e9a3fd3f074590a7dfe7dbf12f97b0e914b43b56a44739e84c9fa4e4c6",
+                        "url": "https://github.com/19h/ida-feeds-native/releases/download/v1.2.1/ida-feeds-windows-x64.zip"
+                    }
+                ]
+            }
+        },
+        {
             "host": "https://github.com/uky007/ida-func-call-rank",
             "name": "ida-func-call-rank",
             "versions": {
@@ -40184,6 +41254,114 @@
                         },
                         "sha256": "d8d54240c667bf9dee4849ab9cac3bf7001463a88d43149d72315757760749d8",
                         "url": "https://github.com/mahmoudimus/patching-ng/releases/download/v0.5.0/patching.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "host": "https://github.com/bgrubbs1/ida-proofmark",
+            "name": "Proofmark",
+            "versions": {
+                "0.1.0": [
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Capture analyst conclusions with byte anchors and review whether the supporting bytes remain unchanged, moved, ambiguous, or missing.",
+                                "entryPoint": "proofmark.py",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "evidence",
+                                    "reverse-engineering",
+                                    "review",
+                                    "binary-analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "bgrubbs@vt.edu",
+                                        "name": "Bradley Grubbs"
+                                    }
+                                ],
+                                "name": "Proofmark",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/bgrubbs1/ida-proofmark"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "006c7e3d329f07f0fb2ba302a4878905f25849cd70ed6bd74b90c8e0572a3c0b",
+                        "url": "https://codeload.github.com/bgrubbs1/ida-proofmark/legacy.zip/3b5a62fcb39f20cfa77d9f7da2abdb318e1e5209"
+                    },
+                    {
+                        "metadata": {
+                            "IDAMetadataDescriptorVersion": 1,
+                            "plugin": {
+                                "authors": [],
+                                "categories": [
+                                    "collaboration-and-productivity"
+                                ],
+                                "components": [],
+                                "configTemplates": [],
+                                "dependencies": [],
+                                "description": "Capture analyst conclusions with byte anchors and review whether the supporting bytes remain unchanged, moved, ambiguous, or missing.",
+                                "entryPoint": "proofmark.py",
+                                "idaVersions": "==9.5",
+                                "keywords": [
+                                    "evidence",
+                                    "reverse-engineering",
+                                    "review",
+                                    "binary-analysis"
+                                ],
+                                "license": "MIT",
+                                "logoPath": null,
+                                "maintainers": [
+                                    {
+                                        "email": "bgrubbs@vt.edu",
+                                        "name": "Bradley Grubbs"
+                                    }
+                                ],
+                                "name": "Proofmark",
+                                "platforms": [
+                                    "linux-aarch64",
+                                    "linux-x86_64",
+                                    "macos-aarch64",
+                                    "macos-x86_64",
+                                    "windows-aarch64",
+                                    "windows-x86_64"
+                                ],
+                                "pythonDependencies": [],
+                                "requiresPython": null,
+                                "settings": [],
+                                "urls": {
+                                    "homepage": null,
+                                    "repository": "https://github.com/bgrubbs1/ida-proofmark"
+                                },
+                                "version": "0.1.0"
+                            }
+                        },
+                        "sha256": "8e8f6b62aa4e1fc9bc04766636a2540d12a4d4a1d089afe42fc2e8642e617769",
+                        "url": "https://github.com/bgrubbs1/ida-proofmark/releases/download/v0.1.0/proofmark-0.1.0.zip"
                     }
                 ]
             }

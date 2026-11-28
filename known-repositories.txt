@@ -406,3 +406,7 @@ matbrik/dejadump
 
 # Added manually 2026-11-26
 AbrahamPaulJ/tensorlens
+
+# Discovered on 2026-11-28 04:39:49
+19h/ida-feeds-native
+bgrubbs1/ida-proofmark

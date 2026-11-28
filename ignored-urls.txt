@@ -1124,3 +1124,15 @@ https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.0/tensorlens-s
 https://codeload.github.com/buzzer-re/Rikugan/legacy.zip/e01c8f52cb6bc6bc4703bd74b97f5fe67d5ef857
 https://github.com/buzzer-re/Rikugan/releases/download/v2.0.0/rikugan-2.0.0-binja-windows-x86_64.zip
 https://github.com/buzzer-re/Rikugan/releases/download/v2.0.0/rikugan-2.0.0-ida-windows-x86_64.zip
+
+# Discovered on 2026-11-28 04:39:49
+https://codeload.github.com/19h/ida-feeds-native/legacy.zip/2a6c9c11131acbe2f4ca00541f5aba906b7b0f9b
+https://codeload.github.com/19h/ida-feeds-native/legacy.zip/6ffbe3abc6240c65918dc14dc8d15aadfea5eea7
+https://codeload.github.com/19h/ida-feeds-native/legacy.zip/7934f4e18995ec5155e6273abb8c216380dddd46
+https://codeload.github.com/19h/ida-feeds-native/legacy.zip/c8c371af4c7e4433bdb9bbc3341c71207d5deb2b
+https://codeload.github.com/acheron2302/doki-ida/legacy.zip/a87a5e8253d0c1f734c8fad805a6b7b662638739
+https://codeload.github.com/thpoll83/PolyKybdHost/legacy.zip/d34f5d0c8fc75e104978597e61b1a2a1da86236b
+https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.1.0-v9.2.0-sdk.1.zip
+https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.1.0-v9.3.1-sdk.1.zip
+https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.1.0-v9.4.0-sdk.1.zip
+https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.1.0-v9.5.0-release.zip
