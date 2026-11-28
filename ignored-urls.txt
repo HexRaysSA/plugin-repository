@@ -1136,3 +1136,9 @@ https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.
 https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.1.0-v9.3.1-sdk.1.zip
 https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.1.0-v9.4.0-sdk.1.zip
 https://github.com/acheron2302/doki-ida/releases/download/v1.4/doki-theme-ida-0.1.0-v9.5.0-release.zip
+
+# Discovered on 2026-11-28 12:36:59
+https://codeload.github.com/AbrahamPaulJ/tensorlens/legacy.zip/a44078484f059ff9f13a5d978c1070887bed7dae
+https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.1/tensorlens-scan-v0.1.1-Linux.zip
+https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.1/tensorlens-scan-v0.1.1-Windows.zip
+https://github.com/AbrahamPaulJ/tensorlens/releases/download/v0.1.1/tensorlens-scan-v0.1.1-macOS.zip
